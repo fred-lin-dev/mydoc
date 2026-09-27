@@ -35,12 +35,13 @@ Les trois niveaux, et ce qu'ils impliquent :
 
 **Format des lignes : ne pas changer les colonnes** — le script les parse.
 
-## Fiché — 28 titres
+## Fiché — 35 titres
 
 | PDF | Niveau | Domaine |
 |---|---|---|
 | Antifragile | fiché | esprit/stratégie |
 | Atomic_Habits | fiché | esprit/habitudes |
+| Comment_Parler_En_Public | fiché | social/influence |
 | Deep_Work | fiché | esprit/productivité |
 | Digital_Minimalism | fiché | esprit/productivité |
 | Dressing_the_Man_Mastering_the_Art_of_Permanent_Fashion | fiché | social/style |
@@ -54,11 +55,17 @@ Les trois niveaux, et ce qu'ils impliquent :
 | Mindset | fiché | esprit/psychologie |
 | Models | fiché | social/séduction |
 | Never_Split_the_Difference | fiché | social/négociation |
+| Propaganda | fiché | social/influence |
 | So_Good_They_Cant_Ignore_You | fiché | esprit/productivité |
 | Surrounded_by_Idiots | fiché | social/influence |
+| Skin_in_the_Game | fiché | esprit/stratégie |
+| The_33_Strategies_of_War | fiché | esprit/stratégie |
 | The_48_Laws_of_Power | fiché | esprit/stratégie |
+| The_Black_Swan | fiché | esprit/stratégie |
+| The_Body_Keeps_the_Score | fiché | esprit/psychologie |
 | The_Charisma_Myth | fiché | social/charisme |
 | The_Happiness_Advantage | fiché | esprit/psychologie |
+| The_Laws_of_Human_Nature | fiché | esprit/psychologie |
 | The_ONE_Thing | fiché | esprit/productivité |
 | The_Power_of_Habit | fiché | esprit/habitudes |
 | The_Pragmatic_Programmer | fiché | tech/programmation |
@@ -72,7 +79,7 @@ Les trois niveaux, et ce qu'ils impliquent :
 naîtra à sa 5ᵉ note de physiologie (règle des 5). D'ici là, ses notes prennent
 `esprit/psychologie` si elles portent sur la cognition, sinon elles attendent.
 
-## Lu sans fiche — 8 titres
+## Lu sans fiche — 9 titres
 
 *Aucune thèse, aucune « action » à en tirer : exiger une fiche produirait du
 remplissage. Mais ils alimentent des notes atomiques, dont le champ `source`
@@ -85,9 +92,23 @@ pointe le PDF directement.*
 | English_Phrasal_Verbs_in_Use_Advanced | lu-sans-fiche | langues/vocabulaire | cahier d'exercices |
 | Meditations | lu-sans-fiche | esprit/philosophie | texte primaire |
 | Modern_Compiler_Implementation_in_ML | lu-sans-fiche | tech/programmation | manuel de cours |
+| On_War | lu-sans-fiche | esprit/stratégie | texte primaire |
 | Stage_Academy_Workbook_2024 | lu-sans-fiche | social/séduction | cahier d'exercices |
 | The_Art_of_War | lu-sans-fiche | esprit/stratégie | texte primaire |
 | The_Prince | lu-sans-fiche | esprit/stratégie | texte primaire |
+
+## Illustration — 4 titres
+
+*Fiction lue pour sa structure. Fiche `Source-` mince autorisée, **aucun `Concept-`** : ces
+romans sont **cités comme exemples** depuis des notes existantes. Voir
+[[Ref-Lecture_SciFi_Stratégique]].*
+
+| PDF | Niveau | Domaine | Ce qu'il modélise |
+|---|---|---|---|
+| Brave_New_World | illustration | esprit/stratégie | le contrôle par le plaisir plutôt que par la peur |
+| We | illustration | esprit/stratégie | la transparence totale comme mécanisme de contrôle |
+| 1984 | illustration | esprit/stratégie | le contrôle par la langue : rendre une pensée non formulable |
+| Fahrenheit_451 | illustration | esprit/stratégie | la censure par désintérêt, non par interdiction |
 
 ## Dehors — 1 titre
 
@@ -103,10 +124,10 @@ lu pour le plaisir, hors vault, et c'est assumé.
 
 ## Les titres pas encore sur le disque
 
-Ce tableau ne couvre que les PDF présents. Les **8 titres à acquérir** et les
-**30 romans** des deux listes SF portent leur niveau dans leur liste :
+Ce tableau ne couvre que les PDF présents. **Les 34 essais de la liste de priorité sont désormais tous sur le disque.** Restent
+les **30 romans** des deux listes SF, qui portent leur niveau dans leur liste :
 
-* [[Ref-Lecture_Ordre_de_Priorité]] — 34 essais, dont 26 possédés
+* [[Ref-Lecture_Ordre_de_Priorité]] — 34 essais, **tous possédés**
 * [[Ref-Lecture_SciFi_Stratégique]] — 18 romans, niveau `illustration`, 0 possédé
 * [[Ref-Lecture_SciFi_plaisir]] — 12 romans, niveau `dehors`, 0 possédé
 

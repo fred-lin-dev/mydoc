@@ -65,6 +65,7 @@ qui porte l'information qu'un dossier ne peut pas donner.
 | `social/` | `influence` `négociation` `séduction` `style` `charisme` |
 | `tech/` | `programmation` `outils` |
 | `langues/` | `anglais` `vocabulaire` |
+| `corps/` | `sommeil` `santé` |
 | `meta/` | `source` `moc` `ref` `guide` |
 
 ```yaml
@@ -75,9 +76,12 @@ tags: [meta/moc, social/séduction]             # un index
 
 **Gouvernance — la règle des 5.** Un nouveau sous-tag ne se crée qu'à partir du
 moment où **cinq notes** le justifient. En dessous, un tag existant plus large
-fait l'affaire. Vaut aussi pour les domaines de premier niveau : `corps/`
-(entraînement, nutrition, sommeil) naîtra à la 5ᵉ note de physiologie — d'ici là
-`Why_We_Sleep` reste non fiché.
+fait l'affaire.
+
+> ✅ **La règle a fonctionné une fois, et c'est son premier test réel.** `corps/`
+> était annoncé et vide depuis le premier jour. Il est né à la phase 5, quand
+> *Why We Sleep* et *The Body Keeps the Score* ont produit **exactement cinq** notes
+> de physiologie — pas avant, et sans qu'on ait eu à décider.
 
 **Interdit :** tout tag terminé par `/` — c'est un placeholder de template oublié.
 Contrôle d'audit obligatoire, parce que l'erreur est invisible à la lecture.
@@ -303,7 +307,7 @@ qui crie pour rien cesse d'être lancé.
 cohabitent dans le domaine : le préfixe suffit à les distinguer.
 
 ```
-Esprit/  Social/  Tech/  Langues/   le savoir
+Esprit/  Social/  Tech/  Langues/  Corps/   le savoir
 Meta/                               MOC-Audit, Ref-Périmètre_Bibliothèque
 Templates/                          les 5 modèles — exclus de l'audit
 Scripts/                            audit.py
@@ -314,6 +318,21 @@ Guide-Méthode_Zettelkasten.md       ↲ visible en premier
 
 `Template-` est un sixième préfixe, réservé à `Templates/`. Ce n'est pas un type
 de note : ces fichiers ne sont ni indexés ni audités.
+
+> ⚠️ **`Extras/Books/` est plat, et doit le rester.** Aucun sous-dossier par domaine,
+> par thème ou par statut de lecture.
+>
+> * Le domaine de chaque PDF est déjà dans [[Ref-Périmètre_Bibliothèque]], **source
+>   autoritaire unique**. Une arborescence serait une seconde copie de la même
+>   décision, et deux copies divergent — voir [[Concept-DRY]].
+> * Aucune boîte de réception n'est nécessaire : un PDF sans niveau de périmètre est
+>   **signalé en alerte par l'audit**. L'alerte est la boîte de réception, et elle ne
+>   peut pas être oubliée.
+> * Les liens des fiches sont par **nom** — `pdf: "[[Deep_Work.pdf]]"` — jamais par
+>   chemin. Déplacer un PDF ne casse rien ; le **renommer** casse la fiche.
+>
+> *Le sous-dossier `Soft/` d'origine a été supprimé : il encodait la taxonomie
+> fourre-tout que la décision 03a a écartée.*
 
 **Langue : concepts en français, fiches de source en anglais.**
 

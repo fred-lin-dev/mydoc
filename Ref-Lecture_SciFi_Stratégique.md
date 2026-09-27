@@ -25,7 +25,7 @@ illustre**.
 | | |
 |---|---|
 | titres | **18** en 6 familles |
-| sur le disque | **0** — tout reste à acquérir |
+| sur le disque | **4** — **toute la famille A**, les dystopies du contrôle |
 | réellement *Lindy* | **9 sur 18** |
 
 ---
@@ -57,10 +57,10 @@ d'ici. D'où la colonne ⏳ partout, définie une seule fois dans
 
 | Roman | Année | ⏳ | Le mécanisme |
 |---|---|---|---|
-| **We** — Zamiatine | 1924 | ⏳ | la **transparence totale** : plus de vie privée, donc plus de pensée privée. L'ancêtre des trois suivants, et le plus radical |
-| **Brave New World** — Huxley | 1932 | ⏳ | le **plaisir** plutôt que la peur. Le plus efficace des quatre, parce que personne ne se révolte contre son propre confort |
-| **1984** — Orwell | 1949 | ⏳ | la **langue** : la novlangue rend une pensée non formulable, donc impensable. À lire en binôme avec *Propaganda* |
-| **Fahrenheit 451** — Bradbury | 1953 | ⏳ | le **désintérêt** : personne n'interdit les livres, plus personne ne les lit. Le plus proche de ce qui arrive réellement |
+| **We** — Zamiatine ✅ | 1924 | ⏳ | la **transparence totale** : plus de vie privée, donc plus de pensée privée. L'ancêtre des trois suivants, et le plus radical |
+| **Brave New World** — Huxley ✅ | 1932 | ⏳ | le **plaisir** plutôt que la peur. Le plus efficace des quatre, parce que personne ne se révolte contre son propre confort |
+| **1984** — Orwell ✅ | 1949 | ⏳ | la **langue** : la novlangue rend une pensée non formulable, donc impensable. À lire en binôme avec *Propaganda* |
+| **Fahrenheit 451** — Bradbury ✅ | 1953 | ⏳ | le **désintérêt** : personne n'interdit les livres, plus personne ne les lit. Le plus proche de ce qui arrive réellement |
 
 **Si tu n'en lis que deux :** *Brave New World* et *1984* — le plaisir contre la
 contrainte, les deux pôles.

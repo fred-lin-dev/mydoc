@@ -14,6 +14,7 @@ Niveaux de périmètre lus dans Meta/Ref-Périmètre_Bibliothèque.md (décision
     le relire de temps en temps sur un échantillon lu à la main.
 """
 
+import json
 import re
 import sys
 import unicodedata
@@ -96,7 +97,7 @@ def perimetre():
         return niveaux
     for ligne in ref.read_text(encoding="utf-8").split("\n"):
         cellules = [c.strip() for c in ligne.split("|")[1:-1]]
-        if len(cellules) >= 2 and cellules[1] in {"fiché", "lu-sans-fiche", "dehors"}:
+        if len(cellules) >= 2 and cellules[1] in {"fiché", "lu-sans-fiche", "illustration", "dehors"}:
             niveaux[cellules[0]] = cellules[1]
     return niveaux
 
@@ -198,6 +199,25 @@ def main():
     for doublon, chemins in sorted(noms.items()):
         if len(chemins) > 1:
             erreurs.append((chemins[0], f"doublon de nom : {', '.join(map(str, chemins))}"))
+
+    # Tout dossier de domaine doit être connu du plugin Anki, sinon ses cartes
+    # tombent dans le deck par défaut sans que rien ne le signale.
+    conf = RACINE / ".obsidian/plugins/obsidian-to-anki-plugin/data.json"
+    if conf.exists():
+        try:
+            decks = json.loads(conf.read_text(encoding="utf-8"))["settings"]["FOLDER_DECKS"]
+        except (ValueError, KeyError):
+            erreurs.append((Path(conf.name), "configuration du plugin Anki illisible"))
+        else:
+            domaines = {d.name for d in RACINE.iterdir()
+                        if d.is_dir() and not d.name.startswith(".")
+                        and d.name not in EXCLUS and any(d.glob("Concept-*.md"))}
+            for d in sorted(domaines - {k for k, v in decks.items() if v}):
+                erreurs.append(
+                    (Path(".obsidian/plugins/obsidian-to-anki-plugin/data.json"),
+                     f"domaine `{d}/` absent de FOLDER_DECKS — ses cartes iront "
+                     f"dans le deck par défaut")
+                )
 
     pdfs = {p.stem for p in RACINE.rglob("*.pdf")}
     for absent in sorted(pdfs - set(niveaux)):

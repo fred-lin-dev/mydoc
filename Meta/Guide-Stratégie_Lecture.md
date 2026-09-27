@@ -22,7 +22,8 @@ simplement pas la même chose.
 ## Le filtre Lindy — ⏳
 
 **L'effet Lindy :** pour une chose non périssable, l'espérance de vie restante est
-proportionnelle à l'âge déjà atteint. Un livre lu depuis cinquante ans le sera
+proportionnelle à l'âge déjà atteint. Note complète, avec sa limite décisive —
+*la survie n'est pas la vérité* — dans [[Concept-Effet_Lindy]]. Un livre lu depuis cinquante ans le sera
 probablement cinquante ans encore ; un livre de l'an dernier ne dit rien.
 
 **Le seuil retenu ici : publié il y a plus de cinquante ans et toujours lu.**

@@ -15,8 +15,8 @@ le **Socle** (ce qui juge tout le reste).
 | | |
 |---|---|
 | titres | **34** |
-| sur le disque | **26** |
-| à acquérir | **8** |
+| sur le disque | **34** — tous |
+| à acquérir | **0** |
 | fichés | **0** ← le seul chiffre qui compte |
 
 **Colonnes :** 💾 = PDF dans `Extras/` · ⏳ = *Lindy*, publié il y a plus de
@@ -51,17 +51,19 @@ sans rien perdre.
 > rien — ni chez les autres, ni chez toi. C'est aussi la phase la plus immédiatement
 > rentable des cinq.
 
-| Titre | 💾 | ⏳ | Pourquoi celui-là |
-|---|---|---|---|
-| **Le Pouvoir Rhétorique** — Viktorovitch | ✅ | | Le plus technique de la phase et le seul en français : figures, sophismes et procédés de débat nommés un par un. Sert autant à se défendre qu'à convaincre. |
-| **The Charisma Myth** — Cabane | ✅ | | Décompose le charisme en comportements observables — présence, puissance, chaleur — au lieu d'en faire un don. Fragile sur les études, utile sur les exercices. |
-| **How to Win Friends** — Carnegie | ✅ | ⏳ | Quatre-vingt-dix ans, et presque tout ce qui s'est écrit depuis en est une reformulation. À lire pour être à la source, pas pour la surprise. |
-| **How to Speak in Public** ⚠️ — Carnegie | ❌ | ⏳ | L'oral en public : la seule compétence que les trois autres de la phase ne couvrent pas. Écrire et convaincre en tête-à-tête ne prépare pas à tenir une salle. |
+| Titre                                    | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                               |
+| ---------------------------------------- | --- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Le Pouvoir Rhétorique** — Viktorovitch | ✅   |     | Le plus technique de la phase et le seul en français : figures, sophismes et procédés de débat nommés un par un. Sert autant à se défendre qu'à convaincre.     |
+| **The Charisma Myth** — Cabane           | ✅   |     | Décompose le charisme en comportements observables — présence, puissance, chaleur — au lieu d'en faire un don. Fragile sur les études, utile sur les exercices. |
+| **How to Win Friends** — Carnegie        | ✅   | ⏳   | Quatre-vingt-dix ans, et presque tout ce qui s'est écrit depuis en est une reformulation. À lire pour être à la source, pas pour la surprise.                   |
+| **Comment parler en public** — Carnegie | ✅   | ⏳   | L'oral en public : la seule compétence que les trois autres de la phase ne couvrent pas. Écrire et convaincre en tête-à-tête ne prépare pas à tenir une salle.  |
 
-> ⚠️ **Ce n'est pas un titre de Carnegie.** Tu cherches probablement *Public
-> Speaking and Influencing Men in Business* (1926) ou sa réédition moderne *The
-> Quick and Easy Way to Effective Speaking* (1962). En l'état, la recherche ne
-> donnera rien.
+> ✅ **Question du titre résolue.** Le fichier acquis est l'édition française,
+> *Comment parler en public* — la traduction du cours de prise de parole de Carnegie
+> (*Public Speaking and Influencing Men in Business*, 1926, réédité sous le titre *The
+> Quick and Easy Way to Effective Speaking*). C'est le seul titre du corpus lu en
+> français alors que l'original est en anglais : la fiche prendra le nom du PDF,
+> `Source-Comment_Parler_En_Public`.
 
 ## Phase 3 · La Navigation — les autres
 
@@ -87,16 +89,16 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 > intention.** Lire n'est pas appliquer. La valeur principale de ces huit titres est
 > **défensive** — reconnaître une manœuvre quand on la subit.
 
-| Titre | 💾 | ⏳ | Pourquoi celui-là |
-|---|---|---|---|
-| **The 48 Laws of Power** — Greene | ✅ | | Un catalogue de manœuvres illustrées par l'histoire. Zéro donnée : verdict `⬜ non applicable`, valeur descriptive. Si tu ne lis qu'un Greene, prends *The Laws of Human Nature*. |
-| **Never Split the Difference** — Voss | ✅ | | La négociation réduite à des gestes exécutables : étiquetage, reformulation, questions calibrées. Le plus pratique de la phase, utilisable dès la première lecture. |
-| **The Art of War** — Sun Tzu | ✅ | ⏳ | Deux mille cinq cents ans en quelques dizaines de pages : la position avant l'affrontement, gagner sans combattre. À lire d'une traite, puis à garder en `Ref-`. |
-| **The Prince** — Machiavel | ✅ | ⏳ | Sépare pour la première fois ce qui est juste de ce qui fonctionne. L'ancêtre direct des *48 Laws*, et plus honnête que lui sur ses intentions. |
-| **The Laws of Human Nature** — Greene | ❌ | | Le Greene le plus proche de la psychologie et le mieux sourcé des trois. C'est celui-là qu'il faut lire, pas *The 48 Laws of Power*. |
-| **The 33 Strategies of War** — Greene | ❌ | | Recouvre largement *The Art of War* et *De la guerre* sans rien ajouter de propre. **Le candidat évident à la suppression** si tu lis Clausewitz. |
-| **De la guerre** — Clausewitz | ❌ | ⏳ | Les concepts qui manquent à Sun Tzu : la friction, le brouillard, et la guerre comme continuation de la politique. Le plus exigeant de la liste. |
-| **Propaganda** — Bernays | ❌ | ⏳ | Écrit par l'inventeur des relations publiques, qui explique sans gêne comment fabriquer un consentement. À lire juste après *Le Pouvoir Rhétorique* : l'un donne les procédés, l'autre l'échelle industrielle. |
+| Titre                                 | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                                                                              |
+| ------------------------------------- | --- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **The 48 Laws of Power** — Greene     | ✅   |     | Un catalogue de manœuvres illustrées par l'histoire. Zéro donnée : verdict `⬜ non applicable`, valeur descriptive. Si tu ne lis qu'un Greene, prends *The Laws of Human Nature*.                               |
+| **Never Split the Difference** — Voss | ✅   |     | La négociation réduite à des gestes exécutables : étiquetage, reformulation, questions calibrées. Le plus pratique de la phase, utilisable dès la première lecture.                                            |
+| **The Art of War** — Sun Tzu          | ✅   | ⏳   | Deux mille cinq cents ans en quelques dizaines de pages : la position avant l'affrontement, gagner sans combattre. À lire d'une traite, puis à garder en `Ref-`.                                               |
+| **The Prince** — Machiavel            | ✅   | ⏳   | Sépare pour la première fois ce qui est juste de ce qui fonctionne. L'ancêtre direct des *48 Laws*, et plus honnête que lui sur ses intentions.                                                                |
+| **The Laws of Human Nature** — Greene | ✅   |     | Le Greene le plus proche de la psychologie et le mieux sourcé des trois. C'est celui-là qu'il faut lire, pas *The 48 Laws of Power*.                                                                           |
+| **The 33 Strategies of War** — Greene | ✅   |     | ⚠️ **Jugement révisé après lecture** : recouvre effectivement Sun Tzu et Clausewitz à ~80 %, mais apporte deux choses absentes des deux — la logique du plus faible, et le terrain de mort. À lire vite, et en dernier des livres de stratégie.                                                              |
+| **De la guerre** — Clausewitz         | ✅   | ⏳   | Les concepts qui manquent à Sun Tzu : la friction, le brouillard, et la guerre comme continuation de la politique. Le plus exigeant de la liste.                                                               |
+| **Propaganda** — Bernays              | ✅   | ⏳   | Écrit par l'inventeur des relations publiques, qui explique sans gêne comment fabriquer un consentement. À lire juste après *Le Pouvoir Rhétorique* : l'un donne les procédés, l'autre l'échelle industrielle. |
 
 ## Phase 5 · Le Socle — ce qui juge le reste
 
@@ -105,17 +107,17 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 > n'existait pas dans ta liste — ces neuf titres n'ont rien à voir avec le pouvoir,
 > ils servent à l'évaluer.
 
-| Titre | 💾 | ⏳ | Pourquoi celui-là |
-|---|---|---|---|
-| **Thinking, Fast and Slow** — Kahneman | ✅ | | Le catalogue des biais par celui qui les a mesurés. **À remonter en phase 1** : c'est l'outil qui permet de lire tout le reste avec du recul. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
-| **The Black Swan** — Taleb | ❌ | | L'événement rare qui produit l'essentiel du résultat, et pourquoi aucun modèle ne le voit venir. **Prérequis d'*Antifragile* : à lire avant lui.** |
-| **Antifragile** — Taleb | ✅ | | La catégorie qui manquait : ce qui **gagne** au désordre, pas seulement ce qui y résiste. Et la source du filtre ⏳ utilisé dans ces trois listes. |
-| **Skin in the Game** — Taleb | ❌ | | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-trois autres. |
-| **Meditations** — Marc Aurèle | ✅ | ⏳ | Le journal privé d'un homme qui n'écrivait pas pour être lu — d'où sa valeur. La dichotomie du contrôle : ce qui dépend de toi, ce qui n'en dépend pas. |
-| **Why We Sleep** — Walker | ✅ | | Le sommeil comme variable en amont de la concentration de *Deep Work*. Livre le plus critiqué de la liste sur l'exactitude : garde les mécanismes, jette les chiffres. |
-| **The Body Keeps the Score** — van der Kolk | ❌ | | Ce que le stress prolongé fait au corps, et pourquoi la volonté n'y suffit pas. Le contrepoids nécessaire à la phase 1, qui suppose un moteur en état de marche. |
-| **Beyond Good and Evil** — Nietzsche | ✅ | ⏳ | Interroge ce que la phase Stratégie prend pour acquis : d'où viennent les valeurs au nom desquelles on juge une manœuvre. Le plus difficile, et le seul qui l'attaque de front. |
-| **Man's Search for Meaning** — Frankl | ✅ | ⏳ | La réponse à la question que les trente-trois autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles. |
+| Titre                                       | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                                                                              |
+| ------------------------------------------- | --- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Thinking, Fast and Slow** — Kahneman      | ✅   |     | Le catalogue des biais par celui qui les a mesurés. **À remonter en phase 1** : c'est l'outil qui permet de lire tout le reste avec du recul. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
+| **The Black Swan** — Taleb                  | ✅   |     | L'événement rare qui produit l'essentiel du résultat, et pourquoi aucun modèle ne le voit venir. **Prérequis d'*Antifragile* : à lire avant lui.**                                                             |
+| **Antifragile** — Taleb                     | ✅   |     | La catégorie qui manquait : ce qui **gagne** au désordre, pas seulement ce qui y résiste. Et la source du filtre ⏳ utilisé dans ces trois listes.                                                              |
+| **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-trois autres.                                                          |
+| **Meditations** — Marc Aurèle               | ✅   | ⏳   | Le journal privé d'un homme qui n'écrivait pas pour être lu — d'où sa valeur. La dichotomie du contrôle : ce qui dépend de toi, ce qui n'en dépend pas.                                                        |
+| **Why We Sleep** — Walker                   | ✅   |     | Le sommeil comme variable en amont de la concentration de *Deep Work*. Livre le plus critiqué de la liste sur l'exactitude : garde les mécanismes, jette les chiffres.                                         |
+| **The Body Keeps the Score** — van der Kolk | ✅   |     | Ce que le stress prolongé fait au corps, et pourquoi la volonté n'y suffit pas. Le contrepoids nécessaire à la phase 1, qui suppose un moteur en état de marche.                                               |
+| **Beyond Good and Evil** — Nietzsche        | ✅   | ⏳   | Interroge ce que la phase Stratégie prend pour acquis : d'où viennent les valeurs au nom desquelles on juge une manœuvre. Le plus difficile, et le seul qui l'attaque de front.                                |
+| **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-trois autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
 
 *Les trois Taleb sont désormais dans leur ordre de dépendance, et non dans l'ordre
 de ta liste d'origine.*
@@ -169,7 +171,7 @@ jamais « prouvé » sans la référence à côté.**
 | Le Pouvoir Rhétorique | Clément Viktorovitch | ✅ | | `social/influence` | fiché |
 | The Charisma Myth | Olivia Fox Cabane | ✅ | | `social/charisme` | fiché |
 | How to Win Friends and Influence People | Dale Carnegie | ✅ | ⏳ | `social/influence` | fiché |
-| *(titre à corriger — Carnegie, prise de parole)* | Dale Carnegie | ❌ | ⏳ | `social/influence` | — |
+| Comment parler en public | Dale Carnegie | ✅ | ⏳ | `social/influence` | fiché |
 | Models | Mark Manson | ✅ | | `social/séduction` | fiché |
 | What Every Body Is Saying | Joe Navarro | ✅ | | `social/influence` | fiché |
 | Dressing the Man | Alan Flusser | ✅ | | `social/style` | fiché |
@@ -179,21 +181,21 @@ jamais « prouvé » sans la référence à côté.**
 | Never Split the Difference | Chris Voss | ✅ | | `social/négociation` | fiché |
 | The Art of War | Sun Tzu | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
 | The Prince | Machiavel | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
-| The Laws of Human Nature | Robert Greene | ❌ | | `esprit/psychologie` | — |
-| The 33 Strategies of War | Robert Greene | ❌ | | `esprit/stratégie` | — |
-| De la guerre | Clausewitz | ❌ | ⏳ | `esprit/stratégie` | — |
-| Propaganda | Edward Bernays | ❌ | ⏳ | `social/influence` | — |
+| The Laws of Human Nature | Robert Greene | ✅ | | `esprit/psychologie` | fiché |
+| The 33 Strategies of War | Robert Greene | ✅ | | `esprit/stratégie` | fiché |
+| De la guerre | Clausewitz | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
+| Propaganda | Edward Bernays | ✅ | ⏳ | `social/influence` | fiché |
 | Thinking, Fast and Slow | Daniel Kahneman | ✅ | | `esprit/biais` | fiché |
-| The Black Swan | Nassim Taleb | ❌ | | `esprit/stratégie` | — |
+| The Black Swan | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
 | Antifragile | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
-| Skin in the Game | Nassim Taleb | ❌ | | `esprit/stratégie` | — |
+| Skin in the Game | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
 | Meditations | Marc Aurèle | ✅ | ⏳ | `esprit/philosophie` | lu-sans-fiche |
 | Why We Sleep | Matthew Walker | ✅ | | `corps/sommeil` | fiché |
-| The Body Keeps the Score | van der Kolk | ❌ | | `esprit/psychologie` | — |
+| The Body Keeps the Score | van der Kolk | ✅ | | `esprit/psychologie` | fiché |
 | Beyond Good and Evil | Nietzsche | ✅ | ⏳ | `esprit/philosophie` | lu-sans-fiche |
 | Man's Search for Meaning | Viktor Frankl | ✅ | ⏳ | `esprit/philosophie` | fiché |
 
-**9 titres Lindy sur 34.** Les 8 sans périmètre ne sont pas encore sur le disque.
+**9 titres Lindy sur 34.** Tous les titres sont désormais sur le disque, et tous ont un niveau de périmètre.
 
 ---
 
