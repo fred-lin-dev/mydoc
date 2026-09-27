@@ -142,7 +142,7 @@ vérification**. Voilà où ça va faire mal, avec la raison précise.*
 | Titre | Ce qui est fragile |
 |---|---|
 | **Mindset** | l'effet des interventions « growth mindset » sur les résultats scolaires est très faible en méta-analyse — Sisk et al. 2018, *Psychological Science* 29(4) |
-| **Atomic Habits** | le « 21 jours pour une habitude » est un mythe : Lally 2010 donne une médiane de 66 jours, IC 18-254 |
+| **Atomic Habits** | la loi « rendre facile » repose sur la littérature du *nudge*, dont l'effet global disparaît après correction du biais de publication (Maier et al. 2022, PNAS 119(31)). ⚠️ **Correction :** contrairement à sa réputation, ce livre **ne dit pas** « 21 jours » — il rejette le cadrage temporel et cite Lally et al. 2010 correctement |
 | **Thinking, Fast and Slow** | Kahneman a reconnu en 2017 que le chapitre sur l'amorçage social reposait sur des études sous-puissantes |
 | **Why We Sleep** | erreurs factuelles documentées et affirmations causales surjouées — critique de Guzey 2019 |
 | **The 48 Laws of Power** | anecdote historique, pas données : `⬜ non applicable` plutôt que `🟢 solide` |

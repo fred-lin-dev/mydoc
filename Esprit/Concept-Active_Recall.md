@@ -40,9 +40,15 @@ relecture déguisée.
 
 Q: Qu'est-ce qui consolide une information : la réexposition ou la récupération ?
 A: L'effort pour la ressortir de mémoire. Se tester est un acte d'apprentissage, pas une mesure de l'apprentissage.
+<!--ID: 1790533410963-->
+
 
 Q: Pourquoi la relecture semble-t-elle plus efficace que l'auto-test, alors qu'elle l'est moins ?
 A: L'avantage de la récupération n'apparaît qu'aux intervalles longs. À court terme, relire donne une illusion de fluidité — familiarité confondue avec capacité à produire.
+<!--ID: 1790533410966-->
+
 
 Q: À quelle condition se tester ne sert à rien ?
 A: Si la réponse est visible pendant la tentative. La récupération doit précéder la réexposition, sinon c'est de la relecture déguisée.
+<!--ID: 1790533410969-->
+

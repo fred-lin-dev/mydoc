@@ -44,9 +44,15 @@ mesure rien.
 
 Q: Quelles sont les trois propriétés d'un Zettelkasten ?
 A: Atomicité — une note, une idée. Liens explicites et justifiés. Aucune hiérarchie imposée : les structures se lisent après coup.
+<!--ID: 1790533410669-->
+
 
 Q: Quelle est la différence entre un Zettelkasten et un système de rangement ?
 A: Un classement répond à « où l'ai-je mis ». Un Zettelkasten répond à « qu'est-ce que ça rejoint ». La valeur est dans les liens, pas dans le rangement.
+<!--ID: 1790533410673-->
+
 
 Q: Pourquoi les 90 000 fiches de Luhmann ne prouvent-elles pas l'efficacité de la méthode ?
 A: C'est un cas unique. On ne sait pas ce que le même homme aurait produit autrement — un cas ne mesure rien.
+<!--ID: 1790533410676-->
+

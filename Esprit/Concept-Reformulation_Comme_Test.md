@@ -32,6 +32,11 @@ sa rédaction.
 mémoriser des faits isolés sans structure. Pour du vocabulaire ou une liste, la
 récupération répétée bat la reformulation.
 
+**La variante orale, et c'est la même chose :** le « canard en plastique » des
+programmeurs — expliquer son problème à voix haute à un objet — fonctionne par ce
+mécanisme exact. Formuler impose de rendre explicite ce qu'on tenait pour acquis, et
+c'est là que le trou apparaît. Voir [[Source-The_Pragmatic_Programmer]].
+
 ### 🔗 Connexions
 * [[Concept-Écriture_Comme_Medium]] — *l'idée générale dont ceci est le mécanisme testable.*
 * [[Concept-Active_Recall]] — *le dispositif à utilité élevée, là où l'élaboration n'est que modérée.*
@@ -40,9 +45,15 @@ récupération répétée bat la reformulation.
 
 Q: Pourquoi reformuler dans ses propres mots teste-t-il la compréhension, alors que recopier ne la teste pas ?
 A: On peut recopier intégralement sans avoir compris. Reformuler échoue visiblement quand l'idée n'est pas nette — l'échec est le signal.
+<!--ID: 1790533410770-->
+
 
 Q: Ahrens appelle l'élaboration la méthode d'apprentissage la mieux étudiée et la plus efficace. Que corrige la littérature ?
 A: Dunlosky et al. 2013 la classent en utilité modérée. L'utilité élevée est réservée à la pratique de récupération et à la répétition espacée.
+<!--ID: 1790533410774-->
+
 
 Q: Quand la reformulation est-elle le mauvais outil ?
 A: Pour des faits isolés sans structure — vocabulaire, listes. Là, la récupération répétée est supérieure.
+<!--ID: 1790533410778-->
+

@@ -38,9 +38,15 @@ donc l'impression d'y arriver n'est pas une preuve.
 
 Q: Qu'est-ce que le multitâche, mécaniquement ?
 A: Pas une attention partagée — une alternance rapide entre tâches, où chaque bascule coûte du temps de retour à la tâche.
+<!--ID: 1790533410687-->
+
 
 Q: Pourquoi l'impression de bien multitâcher n'est-elle pas une preuve ?
 A: L'auto-évaluation est anti-corrélée à la performance mesurée : ceux qui multitâchent le plus se croient les meilleurs et testent le plus mal.
+<!--ID: 1790533410690-->
+
 
 Q: Quelle règle de travail en découle ?
 A: Une tâche qui demande un type d'attention différent occupe un créneau différent. Lire, noter, relier et corriger sont quatre tâches, pas une séance.
+<!--ID: 1790533410694-->
+

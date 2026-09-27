@@ -1,0 +1,166 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "Basic": "^Q: ((?:.|\\n)*?)\\nA: ((?:.|\\n)*?)$",
+      "Basic (and reversed card)": "",
+      "Basic (optional reversed card)": "",
+      "Basic (type in the answer)": "",
+      "Cloze": "^(\\[.+?\\] .+\\{\\{c\\d+::.+\\}\\}.+)$",
+      "Vocabulaire_Elite": "^(\\*\\*.*?\\*\\*) :: (.*?)(?: \\*Ex\\s?: (.*?)\\*)?$"
+    },
+    "FILE_LINK_FIELDS": {
+      "Basic": "Source",
+      "Basic (and reversed card)": "Front",
+      "Basic (optional reversed card)": "Front",
+      "Basic (type in the answer)": "Front",
+      "Cloze": "Text",
+      "Image Occlusion": "Occlusion",
+      "Vocabulaire_Elite": "Source"
+    },
+    "CONTEXT_FIELDS": {
+      "Basic": "Source",
+      "Vocabulaire_Elite": "Source"
+    },
+    "FOLDER_DECKS": {
+      "Esprit": "Zettelkasten::Esprit",
+      "Social": "Zettelkasten::Social",
+      "Tech": "Zettelkasten::Tech",
+      "Langues": "Zettelkasten::Langues",
+      "Meta": "",
+      "Templates": "",
+      "Scripts": "",
+      "Extras": ""
+    },
+    "FOLDER_TAGS": {
+      "Esprit": "esprit",
+      "Social": "social",
+      "Tech": "tech",
+      "Langues": "langues",
+      "Meta": "",
+      "Templates": "",
+      "Scripts": "",
+      "Extras": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Zettelkasten",
+      "Scheduling Interval": 0,
+      "Add File Link": true,
+      "Add Context": true,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md",
+      "Templates/**",
+      "Scripts/**",
+      "Extras/**",
+      "Meta/**",
+      "Guide-*.md",
+      "Ref-Lecture_*.md"
+    ]
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "Tech/Source-The_Pragmatic_Programmer.md": "720528769d12ab835867ac647f051e01",
+    "Tech/MOC-Tech.md": "49356c95d4a164deffe9b62e3e723608",
+    "Tech/Concept-Orthogonalité.md": "42ea0c83b0b0fb5771896ec75b00fe43",
+    "Tech/Concept-Fenêtre_Brisée.md": "e4ee1363b9cdc4f4b0c83d27b04f86a2",
+    "Tech/Concept-DRY.md": "f5c28fae2b4790034ba4d3b70784757c",
+    "Tech/Concept-Balle_Traçante.md": "17d561c7b49fd37f34c545cf3085ff97",
+    "Esprit/Source-Thinking_in_Systems.md": "8d344c304116dd52771834d38c6208b8",
+    "Esprit/Source-So_Good_They_Cant_Ignore_You.md": "2f1a8160d7b282a61f09746ab1e46216",
+    "Esprit/Source-Mindset.md": "d3a52591ac984bbd9705509329c34fe0",
+    "Esprit/Source-How_to_Take_Smart_Notes.md": "ad1c46cd03d40f62927c26ea242bba12",
+    "Esprit/Source-Essentialism.md": "d39ec0fa6da01cd4b16fb93e1554b8e8",
+    "Esprit/Source-Deep_Work.md": "7082d8a11fd5bac197981e7c1a98281a",
+    "Esprit/Source-Atomic_Habits.md": "de9cac20e9cef0717d3a040048888515",
+    "Esprit/Ref-Quatre_Rythmes_Travail_Profond.md": "19743de5d3f4c993a493cf59fc1ddcfc",
+    "Esprit/Ref-Quatre_Lois_Changement_Comportement.md": "6bf76280f263eefa10038f8945585ec3",
+    "Esprit/Ref-Douze_Points_De_Levier.md": "8c7d41007ffe26222ad31c430382cfdc",
+    "Esprit/MOC-Esprit.md": "eece0674bd1710eadd59d9d99d197618",
+    "Esprit/Concept-État_D_Esprit_De_Développement.md": "52f38af0458ecadca62ffc4034436f66",
+    "Esprit/Concept-Éloge_De_L_Effort.md": "3fc7a582fab0a9b10b9bf46dd594075a",
+    "Esprit/Concept-Écriture_Comme_Medium.md": "e647d5f42f4eea2c269b5e3442451c47",
+    "Esprit/Concept-Zettelkasten.md": "11727a90c0141dc995b74aefc239bef5",
+    "Esprit/Concept-Volonté_Comme_Ressource.md": "7b6c4a02ac70be8077e814cf82a28d85",
+    "Esprit/Concept-Tâches_Verrouillées.md": "0710b16c37fd4289d738f371b02273c8",
+    "Esprit/Concept-Tâche_Ouverte_Occupe_L_Attention.md": "8af3d5185e0c5d860c70738639ca0cc2",
+    "Esprit/Concept-Structure_Ascendante.md": "36615d1f0a5fd6726aced71c0e9405e9",
+    "Esprit/Concept-Stock_Et_Flux.md": "472a70a654849fd97a9081c9996a45a6",
+    "Esprit/Concept-Résistance_Aux_Politiques.md": "d7c831fee45a6bdbacdc18f7ace6b341",
+    "Esprit/Concept-Résidu_Attentionnel.md": "6559391aaec0c033692e2539c9a4ba5f",
+    "Esprit/Concept-Répétition_Espacée.md": "621d0c77b8d7d7248a5e8ec48087aeef",
+    "Esprit/Concept-Règle_Des_90_Pour_Cent.md": "e488b6e884f07c8b315ec97e37e458b1",
+    "Esprit/Concept-Reformulation_Comme_Test.md": "e76fcd0233226b9ed367290464b049ea",
+    "Esprit/Concept-Rationalité_Limitée.md": "345819748c59d73a3683679506c954dc",
+    "Esprit/Concept-Rareté_Comme_Valeur.md": "b21ea2b7f321a3c406ce16fc9ea286de",
+    "Esprit/Concept-Productivité_À_Horaire_Fixe.md": "fd829719b242af58417d3305d1fecaf8",
+    "Esprit/Concept-Pratique_Délibérée.md": "9fae7cbb41765c10b65d1af9b29cf54f",
+    "Esprit/Concept-Paradoxe_Du_Succès.md": "1d062915c9e5a678c5c0692d4fb7577b",
+    "Esprit/Concept-Mentalité_D_Artisan.md": "873f628f067d119ffcfee38bd4ec534c",
+    "Esprit/Concept-Menace_Sur_L_Image_De_Soi.md": "6fafcb5bc5e0eb063ffacc02bacb8e6b",
+    "Esprit/Concept-Loi_De_Viabilité_Financière.md": "181ca728d5d7a3c32d55aa723610f2e6",
+    "Esprit/Concept-Intention_De_Mise_En_Œuvre.md": "523751009e1a5cfe9c1426e664a7d1ee",
+    "Esprit/Concept-Identité_Précède_Comportement.md": "07f7a8b43f20e912551cc147849e3501",
+    "Esprit/Concept-Hypothèse_De_La_Passion.md": "3583270d222c9a28e029eaa33a09b4e0",
+    "Esprit/Concept-Friction_Détermine_Le_Comportement.md": "9cbb39605afde7192f766b0311164bf5",
+    "Esprit/Concept-Délai_Systémique.md": "514866f38d27e6750f39ac57f634a207",
+    "Esprit/Concept-Capital_Avant_Autonomie.md": "99c11ea5faf7bdd025af32ea6351bf60",
+    "Esprit/Concept-Boucle_Habitude.md": "ace5838a77f93b368ff1188a7995989c",
+    "Esprit/Concept-Boucle_De_Rétroaction.md": "0fe1a9ce09d17ed03707d2497b983d0c",
+    "Esprit/Concept-Autodétermination.md": "cf792e60a7232dc129e105c497b11404",
+    "Esprit/Concept-Arbitrage_Inévitable.md": "061ec907c9506c112e85250db0fd6fce",
+    "Esprit/Concept-Active_Recall.md": "1ccbeabca13ec83eb2c9efcb5fdae986"
+  },
+  "fields_dict": {
+    "Basic": [
+      "Front",
+      "Back",
+      "Source"
+    ],
+    "Basic (and reversed card)": [
+      "Front",
+      "Back"
+    ],
+    "Basic (optional reversed card)": [
+      "Front",
+      "Back",
+      "Add Reverse"
+    ],
+    "Basic (type in the answer)": [
+      "Front",
+      "Back"
+    ],
+    "Cloze": [
+      "Text",
+      "Back Extra"
+    ],
+    "Image Occlusion": [
+      "Occlusion",
+      "Image",
+      "Header",
+      "Back Extra",
+      "Comments"
+    ],
+    "Vocabulaire_Elite": [
+      "Front",
+      "Back",
+      "Exemple",
+      "Source"
+    ]
+  }
+}

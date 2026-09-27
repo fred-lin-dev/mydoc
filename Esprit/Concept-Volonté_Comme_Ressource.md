@@ -43,6 +43,10 @@ décider prend du temps et de l'attention.
 
 Q: Quel est le statut empirique de l'ego depletion — la volonté comme ressource épuisable ?
 A: Réfuté. Réplication pré-enregistrée sur 23 laboratoires, N=2141 : effet proche de zéro. La littérature d'origine souffrait d'un biais de publication massif.
+<!--ID: 1790533410680-->
+
 
 Q: Si l'ego depletion est réfuté, pourquoi la méthode de How to Take Smart Notes tient-elle quand même ?
 A: Elle ne dépendait pas de la théorie, elle en était justifiée après coup. Réduire le nombre de décisions reste utile parce que décider prend du temps et de l'attention.
+<!--ID: 1790533410683-->
+

@@ -38,9 +38,15 @@ algorithme de répétition espacée. L'intérêt d'Anki n'est pas de stocker des
 
 Q: À temps total de révision égal, qu'est-ce qui change la rétention ?
 A: La distribution du temps, pas sa quantité. Espacer bat masser, pour le même nombre d'heures.
+<!--ID: 1790533410747-->
+
 
 Q: Pourquoi l'oubli partiel entre deux révisions est-il nécessaire ?
 A: C'est lui qui rend la récupération coûteuse, donc efficace. Réviser quand tout est encore présent ne fait presque rien travailler.
+<!--ID: 1790533410750-->
+
 
 Q: De quoi dépend l'intervalle optimal entre deux révisions ?
 A: De la durée pendant laquelle on veut retenir — environ 10 à 20 % de cette durée. Un an de rétention ≈ révision mensuelle.
+<!--ID: 1790533410753-->
+

@@ -41,9 +41,15 @@ ne marcherait pas. Les deux usages ne peuvent pas être vrais au même degré.
 
 Q: Que faut-il faire pour qu'une tâche non finie cesse d'occuper l'attention ?
 A: La noter dans un endroit qu'on croit fiable — la confiance dans le système, pas l'achèvement. Attention : c'est la partie contestée du résultat.
+<!--ID: 1790533410697-->
+
 
 Q: Quelle est la partie solide de l'effet Zeigarnik, et quelle est la partie fragile ?
 A: Solide : les tâches interrompues sont mieux rappelées que les achevées. Fragile : que noter produise le même relâchement que finir.
+<!--ID: 1790533410702-->
+
 
 Q: Quelle contradiction interne Ahrens laisse-t-il sur ce point ?
 A: Il recommande aussi de laisser des questions ouvertes exprès pour y penser en marchant. Si noter refermait la boucle, cette technique ne marcherait pas.
+<!--ID: 1790533410707-->
+

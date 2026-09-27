@@ -331,16 +331,22 @@ Accents conservés dans les noms de fichiers.
 
 ---
 
-## Plugins requis
+## Plugins — en place
 
-| Plugin | Rôle | Sans lui |
+| Plugin | Version | Rôle |
 |---|---|---|
-| **Templates** *(cœur, déjà activé)* | insérer les 5 modèles — dossier réglé sur `Templates/` | à copier-coller à la main |
-| **Dataview** *(communautaire)* | les six tableaux de `MOC-Audit` | le script reste, mais la dette n'est plus visible pendant le travail |
-| **Obsidian_to_Anki** *(communautaire)* | synchroniser `## 🎴 Cartes` vers Anki | les cartes restent du texte mort |
+| **Templates** *(cœur)* | — | insère les 5 modèles ; dossier réglé sur `Templates/` |
+| **Dataview** | récupéré de l'ancien vault | les six tableaux de [[MOC-Audit]] |
+| **Obsidian_to_Anki** | 3.6.0, récupéré de l'ancien vault | synchronise `## 🎴 Cartes` vers Anki |
 
-À configurer dans Obsidian_to_Anki : la regex de carte sur `Q:` / `A:`, et le
-mapping domaine → sous-deck `Zettelkasten::…`.
+Obsidian_to_Anki n'est plus distribué dans le navigateur de plugins : il a été
+copié depuis `~/olddy`, avec sa configuration **réécrite** pour la syntaxe `Q:`/`A:`
+et les decks `Zettelkasten::<Domaine>`. Procédure complète et pièges :
+[[Guide-Anki_Workflow]].
+
+> ⚠️ **Reste à faire au premier lancement :** activer les deux plugins dans Obsidian
+> (*Paramètres → Modules tiers*), ouvrir Anki, puis `Scan Vault`. La liste de
+> contrôle du premier scan est dans [[Guide-Anki_Workflow]].
 
 ---
 

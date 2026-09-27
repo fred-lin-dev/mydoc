@@ -37,6 +37,10 @@ support extérieur qui résiste » que comme « la pensée a besoin d'écriture 
 
 Q: Quel est le rapport entre écrire et penser, selon Ahrens ?
 A: L'écriture n'est pas la trace d'une pensée déjà faite : c'est le medium dans lequel elle se fait. Pas d'étape « penser » séparée d'une étape « rédiger ».
+<!--ID: 1790533410662-->
+
 
 Q: Pourquoi une idée non écrite ne se corrige-t-elle pas ?
 A: Elle ne rencontre aucune résistance extérieure. Écrite, elle devient critiquable par soi-même plus tard.
+<!--ID: 1790533410666-->
+

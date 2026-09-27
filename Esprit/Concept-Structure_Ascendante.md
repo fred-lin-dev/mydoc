@@ -39,6 +39,10 @@ cinq notes avant de créer un sous-tag est exactement cette limite, chiffrée.
 
 Q: Quelle est la différence de nature entre un plan écrit d'avance et une structure qui émerge ?
 A: Le plan est une hypothèse sur ce qu'on va trouver ; la structure émergente est un constat sur ce qu'on a trouvé. La première résiste aux faits.
+<!--ID: 1790533410712-->
+
 
 Q: Pourquoi l'exemple de Luhmann ne prouve-t-il pas l'efficacité de la méthode ascendante ?
 A: C'est un cas unique. Un cas ne mesure rien : on ne sait pas ce que le même homme aurait produit autrement.
+<!--ID: 1790533410715-->
+
