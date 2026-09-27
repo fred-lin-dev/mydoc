@@ -35,6 +35,12 @@ levier nul.
 quoi. Rationalité limitée n'est pas synonyme d'irresponsabilité — certains acteurs
 *choisissent* de ne pas s'informer, ce qui est une décision, pas une contrainte.
 
+## Exemples
+
+* ***I, Robot*** (Asimov 1950) — dix nouvelles où chaque robot applique **correctement** des règles
+  **correctes**, et où le résultat est absurde. Aucun acteur ne se comporte mal, jamais. C'est le
+  même énoncé que cette note, démontré dix fois. → [[Source-I_Robot]]
+
 ### 🔗 Connexions
 * [[Concept-Résistance_Aux_Politiques]] — *ce que produit la rationalité limitée quand les acteurs ont des buts divergents.*
 * [[Ref-Douze_Points_De_Levier]] — *pourquoi les flux d'information sont un levier haut.*

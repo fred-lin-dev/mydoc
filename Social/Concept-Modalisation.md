@@ -42,6 +42,12 @@ niveau ; la littérature ne les soutient pas au même degré.
 le champ. C'est un cas où découper en deux notes serait tentant — mais elles ne se
 citeraient jamais séparément : c'est leur **opposition** qui est l'idée.
 
+## Exemples
+
+* ***Brave New World*** (Huxley 1932) — un contrôle qui ne contraint **jamais** ne déclenche rien
+  à combattre. Le *soma* est désiré, pas imposé — et c'est pourquoi ce monde est plus stable que
+  celui d'Orwell. La réactance n'a pas de prise là où il n'y a pas de pression. → [[Source-Brave_New_World]]
+
 ### 🔗 Connexions
 * [[Concept-Ce_Qu_On_Précise_Ne_Va_Pas_De_Soi]] — *l'autre versant du même chapitre : ce que la formulation trahit.*
 * [[Concept-Autodétermination]] — *pourquoi la pression échoue : elle attaque directement le besoin d'autonomie.*

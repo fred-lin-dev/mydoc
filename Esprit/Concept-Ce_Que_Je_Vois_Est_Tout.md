@@ -44,6 +44,11 @@ le seul livre — cohérent, convaincant, et faux. Les cinq `🔴` de ce vault s
 **La limite honnête :** le principe n'aide pas à trouver ce qui manque. Il dit seulement de
 le chercher. Le reste est du travail.
 
+## Exemples
+
+* ***Fahrenheit 451*** (Bradbury 1953) — ce qui a disparu ne se signale pas. Personne ne remarque
+  l'absence des livres, parce qu'une absence n'est pas dans le champ. → [[Source-Fahrenheit_451]]
+
 ### 🔗 Connexions
 * [[Concept-Système_1_Et_2]] — *le cadre dans lequel ce principe s'énonce.*
 * [[Concept-Négligence_Du_Taux_De_Base]] · [[Concept-Erreur_De_Planification]] · [[Concept-Régression_Vers_La_Moyenne]] — *trois conséquences directes.*

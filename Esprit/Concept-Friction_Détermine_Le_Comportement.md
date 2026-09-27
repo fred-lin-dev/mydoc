@@ -35,6 +35,14 @@ anecdotique, et donc toujours « confirmée ». Une intuition qui ne peut pas é
 n'est pas une preuve — c'est exactement le type d'affirmation qui traverse ce genre
 de livres sans être testée.
 
+## Exemples
+
+* ***Fahrenheit 451*** (Bradbury 1953) — **personne n'interdit les livres : plus personne ne les
+  lisait avant.** L'autodafé formalise un abandon déjà consommé. Le mécanisme où aucune décision
+  n'est prise, et où le résultat égale celui d'une interdiction. → [[Source-Fahrenheit_451]]
+* ***Brave New World*** (Huxley 1932) — la dissidence n'est pas supprimée, elle est rendue **plus
+  coûteuse que le confort**. → [[Source-Brave_New_World]]
+
 ### 🔗 Connexions
 * [[Concept-Intention_De_Mise_En_Œuvre]] — *l'autre levier, lui bien étayé : à privilégier si l'on doit choisir.*
 * [[Concept-Volonté_Comme_Ressource]] — *la théorie que ce principe permet de contourner.*

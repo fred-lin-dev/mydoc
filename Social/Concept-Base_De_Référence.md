@@ -40,6 +40,12 @@ son usage pratique.
 historique. Un chiffre isolé ne dit rien ; un écart à la tendance dit quelque chose.
 Voir [[Concept-Stock_Et_Flux]] pour la version systémique.
 
+## Exemples
+
+* ***1984*** (Orwell 1949) — le ministère de la Vérité ne censure pas, il **réécrit l'archive**.
+  Sans point de comparaison stable, aucune affirmation n'est évaluable : c'est l'exigence de base
+  de référence attaquée à la racine. → [[Source-1984]]
+
 ### 🔗 Connexions
 * [[Concept-Signal_D_Inconfort]] — *ce que la base de référence permet, et seulement elle.*
 * [[Concept-Détection_Du_Mensonge]] — *pourquoi même cette précaution ne suffit pas.*

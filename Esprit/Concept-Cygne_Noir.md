@@ -43,6 +43,13 @@ risques connus, mal gérés.
 disponibles, ou seulement des miennes ? Dans le second cas, ce n'est pas un cygne noir, c'est
 une négligence.
 
+## Exemples
+
+* ***Foundation and Empire*** (Asimov 1952) — le Mulet réunit les **trois** propriétés, y compris
+  la troisième, qui est la plus difficile à mettre en scène : après coup les personnages
+  comprennent parfaitement ce qui s'est passé, **et cette compréhension ne leur sert à rien**.
+  → [[Source-Foundation_and_Empire]]
+
 ### 🔗 Connexions
 * [[Concept-Mediocristan_Et_Extremistan]] — *le régime qui rend les cygnes noirs possibles.*
 * [[Concept-Erreur_Narrative]] — *la troisième propriété, et son mécanisme.*

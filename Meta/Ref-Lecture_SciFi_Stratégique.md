@@ -25,7 +25,7 @@ illustre**.
 | | |
 |---|---|
 | titres | **18** en 6 familles |
-| sur le disque | **4** — **toute la famille A**, les dystopies du contrôle |
+| sur le disque | **7** — toute la famille A, plus *Foundation*, *Foundation and Empire* et *I, Robot* |
 | réellement *Lindy* | **9 sur 18** |
 
 ---
@@ -73,7 +73,7 @@ contrainte, les deux pôles.
 
 | Roman | Année | ⏳ | Ce qu'il modélise |
 |---|---|---|---|
-| **Foundation** — Asimov | 1951 | ⏳ | la prédiction statistique des masses — **et sa rupture** face à un individu hors modèle. La limite d'un modèle, racontée de l'intérieur |
+| **Foundation** — Asimov ✅ | 1951 | ⏳ | la prédiction statistique des masses — **et sa rupture** face à un individu hors modèle. La limite d'un modèle, racontée de l'intérieur. ⚠️ **Le Mulet est dans le tome 2**, *Foundation and Empire* ✅ : l'illustration complète demande les deux |
 | **The Three-Body Problem** — Liu | 2008 | | la théorie des jeux sous **incertitude radicale** : la « forêt sombre », où le silence est la seule stratégie dominante |
 | **The Player of Games** — Banks | 1988 | | un jeu comme **isomorphe** d'une société : la structure du pouvoir entièrement encodée dans des règles |
 | **Ender's Game** — Card | 1985 | | la **simulation comme instrument de manipulation** : le talent exploité à son insu, et le prix qu'il paie |
@@ -96,7 +96,7 @@ contrainte, les deux pôles.
 
 | Roman | Année | ⏳ | Ce qu'il modélise |
 |---|---|---|---|
-| **I, Robot** — Asimov | 1950 | ⏳ | **la spécification incomplète** : trois règles limpides, des comportements conformes aux règles et absurdes au regard de l'intention. Le meilleur exemple possible pour *The Pragmatic Programmer* |
+| **I, Robot** — Asimov ✅ | 1950 | ⏳ | **la spécification incomplète** : trois règles limpides, des comportements conformes aux règles et absurdes au regard de l'intention. Le meilleur exemple possible pour *The Pragmatic Programmer* |
 | **Neuromancer** — Gibson | 1984 | | l'information comme **territoire**, et des agents autonomes qui dépassent leur mandat sans jamais le violer |
 | **Snow Crash** — Stephenson | 1992 | | le **langage comme vecteur d'infection**, et la souveraineté découpée en concessions privées |
 

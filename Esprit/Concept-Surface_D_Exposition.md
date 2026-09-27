@@ -41,6 +41,12 @@ monde en adversaire, ce qui est faux et coûteux.
 raisonnement que [[Concept-Orthogonalité]] — limiter les points de contact borne les
 conséquences d'une défaillance. Dans un système comme dans une position sociale.
 
+## Exemples
+
+* ***We*** (Zamiatine 1924) — une cité de murs de verre où **rien ne peut être invisible** : la
+  réduction de surface devient architecturalement impossible, donc toute intention est une prise.
+  Le concept poussé à sa limite. → [[Source-We]]
+
 ### 🔗 Connexions
 * [[Concept-Orthogonalité]] — *le même principe appliqué à un système technique.*
 * [[Concept-Vulnérabilité_Comme_Signal]] — *l'argument exactement inverse, et les deux tiennent : l'exposition coûte, donc elle informe.*

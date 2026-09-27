@@ -97,7 +97,7 @@ pointe le PDF directement.*
 | The_Art_of_War | lu-sans-fiche | esprit/stratégie | texte primaire |
 | The_Prince | lu-sans-fiche | esprit/stratégie | texte primaire |
 
-## Illustration — 4 titres
+## Illustration — 7 titres
 
 *Fiction lue pour sa structure. Fiche `Source-` mince autorisée, **aucun `Concept-`** : ces
 romans sont **cités comme exemples** depuis des notes existantes. Voir
@@ -109,15 +109,27 @@ romans sont **cités comme exemples** depuis des notes existantes. Voir
 | We | illustration | esprit/stratégie | la transparence totale comme mécanisme de contrôle |
 | 1984 | illustration | esprit/stratégie | le contrôle par la langue : rendre une pensée non formulable |
 | Fahrenheit_451 | illustration | esprit/stratégie | la censure par désintérêt, non par interdiction |
+| Foundation | illustration | esprit/stratégie | la prédiction statistique des masses |
+| Foundation_and_Empire | illustration | esprit/stratégie | sa rupture sur un individu hors modèle — le Mulet |
+| I_Robot | illustration | tech/programmation | des règles claires, des comportements imprévus |
 
-## Dehors — 1 titre
+## Dehors — 6 titres
 
 | PDF | Niveau | Pourquoi |
 |---|---|---|
 | To_Kill_A_Mockingbird | dehors | fiction de loisir |
+| Second_Foundation | dehors | suite — mécanisme établi aux tomes 1 et 2 |
+| Foundations_Edge | dehors | suite |
+| Foundation_and_Earth | dehors | suite |
+| Forward_the_Foundation | dehors | suite |
+| The_Rest_of_the_Robots | dehors | second recueil, même mécanisme que *I, Robot* |
 
 *Tout livre **explicitement écarté** après examen vient ici : le ficher
 contredirait la décision de l'écarter.*
+
+> **Les cinq suites du cycle Fondation sont lues par curiosité, hors vault** — décision prise
+> le 2026-09-28. Elles ne produisent ni fiche ni note, et l'audit n'a rien à en dire. C'est
+> exactement le rôle de cette liste.
 
 `To_Kill_A_Mockingbird` relève du même régime que [[Ref-Lecture_SciFi_plaisir]] :
 lu pour le plaisir, hors vault, et c'est assumé.

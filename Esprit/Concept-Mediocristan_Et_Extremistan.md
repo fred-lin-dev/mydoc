@@ -47,6 +47,14 @@ outils habituels n'y marchent pas. La réponse de Taleb viendra dans
 [[Source-Antifragile]] — travailler sur l'asymétrie des conséquences plutôt que sur la
 prévision.
 
+## Exemples
+
+* ***Foundation*** (Asimov 1951) — la psychohistoire prédit les masses **parce qu'elle ne prédit
+  aucun individu** : elle traite les populations comme un gaz, dont la pression est prévisible et
+  les molécules non. Le régime d'agrégat, énoncé de l'intérieur. → [[Source-Foundation]]
+* ***Foundation and Empire*** (Asimov 1952) — le Mulet fait **basculer le régime** : ce qui était
+  un agrégat devient dominé par une observation unique. → [[Source-Foundation_and_Empire]]
+
 ### 🔗 Connexions
 * [[Concept-Cygne_Noir]] — *ce que l'Extremistan rend possible.*
 * [[Concept-Rareté_Comme_Valeur]] — *la concentration de valeur, propre à ce régime.*

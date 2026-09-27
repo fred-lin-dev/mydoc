@@ -6,6 +6,9 @@ tags: [meta/guide, meta/ref]
 *Le contrat. Toute note créée dans ce vault s'y conforme, sans exception.
 Référence de la méthode et du raisonnement : [[Guide-Méthode_Zettelkasten]].*
 
+> 🧭 **Tu reprends le travail après une interruption ?** Lis
+> [[Guide-Reprise]] d'abord : état, constats et pièges rencontrés.
+
 État : **Parties I à III tranchées** — les quatre décisions irréversibles (02, 03,
 05, 08) sont figées. Reste la Partie IV (périmètre), modifiable à tout moment.
 
@@ -307,14 +310,28 @@ qui crie pour rien cesse d'être lancé.
 cohabitent dans le domaine : le préfixe suffit à les distinguer.
 
 ```
-Esprit/  Social/  Tech/  Langues/  Corps/   le savoir
-Meta/                               MOC-Audit, Ref-Périmètre_Bibliothèque
-Templates/                          les 5 modèles — exclus de l'audit
-Scripts/                            audit.py
-Extras/Books/                       les PDF
-Guide-Conventions.md                ↰ la constitution reste à la racine,
-Guide-Méthode_Zettelkasten.md       ↲ visible en premier
+Esprit/  Social/  Tech/  Corps/  Langues/     le savoir
+Meta/        tout ce qui n'est pas du savoir :
+             Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki_Workflow
+             MOC-Audit · Ref-Périmètre_Bibliothèque · les 3 Ref-Lecture_*
+Templates/   les 5 modèles — exclus de l'audit et du scan Anki
+Scripts/     audit.py
+Extras/Books/  les PDF, à plat
+
+Guide-Conventions.md            ↰ la racine n'accueille QUE la constitution.
+Guide-Méthode_Zettelkasten.md   ↲ Deux fichiers, visibles en premier.
 ```
+
+> ⚠️ **Rien d'autre à la racine.** Tout `Ref-`, `MOC-` ou `Guide-` qui n'est pas la
+> constitution va dans `Meta/`. Les trois listes de lecture y ont été déplacées le
+> 2026-09-28 : elles étaient restées à la racine par inadvertance, à côté de
+> `Ref-Périmètre_Bibliothèque` qui est le même genre d'objet et se trouvait déjà dans
+> `Meta/`. Une incohérence de rangement est une fenêtre brisée au sens de
+> [[Concept-Fenêtre_Brisée]].
+>
+> **Et pas de dossier hors domaine.** Un `Lecture/` serait tentant et faux : les dossiers
+> reflètent le premier niveau de tag, `Meta/` étant l'unique exception assumée. En ajouter un
+> troisième mécanisme de rangement viole [[Concept-Orthogonalité]] et défait la décision 03.
 
 `Template-` est un sixième préfixe, réservé à `Templates/`. Ce n'est pas un type
 de note : ces fichiers ne sont ni indexés ni audités.

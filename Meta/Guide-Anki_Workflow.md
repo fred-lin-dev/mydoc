@@ -51,6 +51,41 @@ est écrite par le plugin après création.
 d'autres fichiers. **Conservés :** les types de note `Cloze` et `Vocabulaire_Elite`
 avec leurs regex, inutilisés pour l'instant mais sans conflit possible avec `Q:`/`A:`.
 
+## ⚠️ Ne jamais éditer `data.json` pendant qu'Obsidian tourne
+
+**Le plugin garde ses réglages en mémoire et réécrit son fichier de configuration à chaque
+scan.** Une modification faite sur le disque pendant qu'Obsidian est ouvert est donc **écrasée
+au scan suivant**, sans aucun message.
+
+*Constaté le 2026-09-28 : l'ajout du domaine `Corps/` au mapping des decks a disparu au premier
+scan qui a suivi. Preuve au passage — le fichier était revenu avec ses 174 empreintes de
+fichiers, là où je l'avais vidé.*
+
+**Les deux façons correctes de changer un réglage :**
+
+| Méthode | Quand |
+|---|---|
+| **Le panneau de réglages du plugin**, dans Obsidian | c'est la bonne méthode par défaut. Section *Folder Decks* pour le mapping |
+| **Éditer `data.json` avec Obsidian fermé** | pour un changement en masse, ou depuis un script |
+
+> ✅ **L'audit contrôle ce point.** `Scripts/audit.py` vérifie que **tout dossier de domaine
+> contenant des `Concept-` figure dans `FOLDER_DECKS`**. Si la configuration a été écrasée, le
+> prochain audit le dira — c'est ce qui a permis de le détecter.
+
+## Créer un nouveau domaine : la liste complète
+
+Ajouter un dossier de domaine ne suffit pas. Il faut, dans cet ordre :
+
+1. Créer le dossier — `Corps/` par exemple.
+2. Déclarer le domaine dans la table des tags de [[Guide-Conventions]].
+3. **Ajouter le mapping dans le panneau de réglages du plugin** : `Corps` → `Zettelkasten::Corps`,
+   et le tag de dossier `corps`.
+4. Lancer l'audit : s'il ne dit rien, l'étape 3 a bien été enregistrée.
+
+**Si l'étape 3 est oubliée**, les cartes tombent dans le deck par défaut `Zettelkasten` — ce qui
+est un filet volontaire, et non `Default`. Rien n'est perdu, mais rien ne le signale non plus
+côté Anki.
+
 ## La procédure
 
 1. **Ouvrir Anki.** Le laisser ouvert.

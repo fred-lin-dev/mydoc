@@ -43,6 +43,12 @@ selon laquelle l'individu en masse régresse et devient suggestible. La recherch
 les comportements collectifs ne soutient pas ce modèle. Son argument de capacité survit ;
 son argument d'irrationalité ne survit pas.
 
+## Exemples
+
+* ***1984*** (Orwell 1949) — la version totalitaire de l'argument de Bernays : si l'opinion est de
+  toute façon fabriquée, voilà ce que ça donne quand le fabricant ne rencontre aucune contrainte.
+  La « nouvelangue » restreint le formulable pour restreindre le pensable. → [[Source-1984]]
+
 ### 🔗 Connexions
 * [[Concept-Levier_Des_Minorités_Organisées]] — *le moyen concret qu'il décrit.*
 * [[Concept-Émotion_Vecteur_Ou_Saturation]] — *le critère qui distingue informer de saturer, appliqué à l'échelle.*
