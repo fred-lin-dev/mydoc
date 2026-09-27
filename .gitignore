@@ -1,0 +1,9 @@
+# Obsidian — état local de l'interface, sans intérêt en versionné
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Les PDF : 267 Mo, immuables, et git ne sait pas les diffuser utilement.
+# Le savoir est dans les notes ; les sources se sauvegardent à part.
+Extras/**/*.pdf
