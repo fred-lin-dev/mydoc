@@ -63,7 +63,7 @@ A: On connaît ce qui disparaît ; on ne connaît pas ce qu'un élément nouveau
 <!--ID: 1790547090005-->
 
 
-Q: Quel critère manque à l'argument de Taleb ?
+Q: **Iatrogénie** — quel critère manque à l'argument de Taleb ?
 A: L'iatrogénie plaide contre l'intervention seulement quand le système se corrige seul. Sinon l'abstention ne fait que laisser le dommage suivre son cours.
 <!--ID: 1790547090007-->
 

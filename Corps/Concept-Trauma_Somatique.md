@@ -53,7 +53,7 @@ mieux établie.
 
 ## 🎴 Cartes
 
-Q: Quelles trois affirmations le livre présente-t-il ensemble, et laquelle ne suit pas ?
+Q: **Trauma somatique** — van der Kolk réunit trois affirmations : lesquelles, et laquelle ne suit pas ?
 A: Effets physiologiques durables (soutenu), contribution au maintien des symptômes (plausible), nécessité des thérapies corporelles (inférence, pas résultat).
 <!--ID: 1790547089798-->
 

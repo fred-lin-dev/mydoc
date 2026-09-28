@@ -51,12 +51,12 @@ A: Choisir son attitude dans une situation donnée — non ce qui arrive, ni ce 
 <!--ID: 1790547089923-->
 
 
-Q: Quelle phrase précède la citation célèbre, et que change-t-elle ?
+Q: **Liberté résiduelle** — quelle phrase précède la citation célèbre de Frankl, et que change-t-elle ?
 A: « They may have been few in number ». Frankl établit une possibilité, pas une facilité ni une norme.
 <!--ID: 1790547089926-->
 
 
-Q: Quel est le mauvais usage sérieux de cette idée ?
+Q: **Liberté résiduelle** — quel est le mauvais usage sérieux de cette idée ?
 A: Confondre le possible et l'exigible : en faire une injonction adressée à qui subit, ce qui lui impute la responsabilité de son état.
 <!--ID: 1790547089928-->
 

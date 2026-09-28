@@ -49,12 +49,12 @@ A: Pas par vertu : parce que maintenir une façade coûte un effort continu et �
 <!--ID: 1790537395738-->
 
 
-Q: Quelle est la partie contestée de cette idée ?
+Q: **L'état interne fuit** — quelle est la partie contestée de cette idée ?
 A: Que les micro-expressions révèlent un état émotionnel précis. Barrett et al. 2019 : les configurations faciales ne correspondent pas de façon fiable à des catégories d'émotion.
 <!--ID: 1790537395740-->
 
 
-Q: Quelle méfiance symétrique le livre oublie-t-il ?
+Q: **L'état interne fuit** — quelle méfiance symétrique le livre de Cabane omet-il ?
 A: Ne pas croire qu'on lit les autres. Si la lecture des visages n'est pas fiable, elle ne l'est pas non plus dans ce sens.
 <!--ID: 1790537395743-->
 

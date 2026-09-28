@@ -60,7 +60,7 @@ A: Public, actif — écrit plutôt qu'oral — et ressenti comme librement choi
 <!--ID: 1790537395579-->
 
 
-Q: Quelle est la défense contre ce levier ?
+Q: **Engagement et cohérence** — quelle est la défense contre ce levier ?
 A: Repérer la demande minuscule qui précède la vraie, et se rappeler que rien n'oblige à être cohérent avec un engagement obtenu par surprise.
 <!--ID: 1790537395582-->
 

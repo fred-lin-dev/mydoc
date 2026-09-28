@@ -50,7 +50,7 @@ A: Énoncer soi-même, d'avance et plus fortement que l'autre ne le ferait, la p
 <!--ID: 1790547089871-->
 
 
-Q: Pourquoi cela désarme-t-il l'objection ?
+Q: **Audit d'accusation** — pourquoi cela désarme-t-il l'objection ?
 A: Ça supprime l'asymétrie d'information. Une objection tacite pèse tant que chacun ignore si l'autre y pense ; dite, elle cesse de travailler en silence.
 <!--ID: 1790547089874-->
 

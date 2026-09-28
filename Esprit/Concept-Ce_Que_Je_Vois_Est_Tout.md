@@ -66,7 +66,7 @@ A: Parce qu'un petit nombre d'éléments se contredisent moins : le récit est p
 <!--ID: 1790547090097-->
 
 
-Q: Quelle question unique ce principe fournit-il ?
+Q: **Ce que je vois est tout (WYSIATI)** — quelle question unique ce principe fournit-il ?
 A: « Qu'est-ce qui n'est pas sous mes yeux ? » — plus précisément : quelle information une personne mieux informée aurait-elle que je n'ai pas.
 <!--ID: 1790547090100-->
 

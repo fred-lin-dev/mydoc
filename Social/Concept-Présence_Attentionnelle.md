@@ -59,7 +59,7 @@ A: Ce n'est pas exécutable. Ramener l'attention sur une sensation physique — 
 <!--ID: 1790537395732-->
 
 
-Q: Quelle reformulation rend cette idée plus solide que dans le livre ?
+Q: **Présence attentionnelle** — quelle reformulation rend l'idée plus solide que chez Cabane ?
 A: Une conversation est une tâche : l'absence est un coût de commutation et un résidu attentionnel, phénomènes établis, plutôt qu'un manque de charisme.
 <!--ID: 1790537395735-->
 

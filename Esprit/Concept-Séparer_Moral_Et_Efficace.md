@@ -56,12 +56,12 @@ A: Traiter « ce qui est juste » et « ce qui fonctionne » comme deux question
 <!--ID: 1790547090210-->
 
 
-Q: En quoi cette séparation est-elle utile même à qui refuse les conclusions de Machiavel ?
+Q: **Séparer moral et efficace** — en quoi cette séparation est-elle utile même à qui refuse les conclusions de Machiavel ?
 A: On peut constater qu'un procédé fonctionne et refuser de l'employer. Sans la séparation, refuser oblige à nier l'efficacité — donc à se tromper sur le monde pour rester honnête.
 <!--ID: 1790547090212-->
 
 
-Q: Quel est le danger réel de la séparation ?
+Q: **Séparer moral et efficace** — quel est le danger réel de la séparation ?
 A: Une fois les deux questions séparées, rien n'oblige à revenir poser la première.
 <!--ID: 1790547090215-->
 

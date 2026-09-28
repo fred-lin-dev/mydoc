@@ -63,12 +63,12 @@ A: Qu'est-ce que cette personne perd si je la suis et que ça échoue ? Si elle 
 <!--ID: 1790547089994-->
 
 
-Q: Quel est le problème central que ce critère détecte ?
+Q: **Peau dans le jeu** — quel est le problème central que ce critère détecte ?
 A: Le transfert de risque : celui qui décide et celui qui paie ne sont pas la même personne, et le système ne le signale pas.
 <!--ID: 1790547089996-->
 
 
-Q: Pourquoi ce critère ne peut-il pas être un filtre binaire ?
+Q: **Peau dans le jeu** — pourquoi ce critère ne peut-il pas être un filtre binaire ?
 A: Chercheurs, professeurs et médecins conseillent sans exposition directe, et parfois le mieux. Il vaut comme pondération, pas comme élimination.
 <!--ID: 1790547089999-->
 

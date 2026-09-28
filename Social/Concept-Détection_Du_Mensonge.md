@@ -60,7 +60,7 @@ A: Les professionnels — policiers, douaniers, juges — ne font pas mieux que 
 <!--ID: 1790537395654-->
 
 
-Q: Pourquoi l'expérience ne corrige-t-elle pas cette incompétence ?
+Q: **Détection du mensonge** — pourquoi l'expérience ne corrige-t-elle pas cette incompétence ?
 A: On n'obtient presque jamais le retour d'information : on apprend rarement qu'on s'est trompé. La confiance augmente, la précision non.
 <!--ID: 1790537395656-->
 

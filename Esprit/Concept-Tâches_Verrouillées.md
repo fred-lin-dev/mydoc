@@ -46,7 +46,7 @@ A: L'auto-évaluation est anti-corrélée à la performance mesurée : ceux qui 
 <!--ID: 1790533410690-->
 
 
-Q: Quelle règle de travail en découle ?
+Q: **Tâches verrouillées** — quelle règle de travail en découle ?
 A: Une tâche qui demande un type d'attention différent occupe un créneau différent. Lire, noter, relier et corriger sont quatre tâches, pas une séance.
 <!--ID: 1790533410694-->
 

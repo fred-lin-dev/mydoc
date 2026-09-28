@@ -49,7 +49,7 @@ coût.
 
 ## 🎴 Cartes
 
-Q: Quelle asymétrie fonde ce principe, et quel déplacement d'effort impose-t-elle ?
+Q: **Intérêt sincère** — quelle asymétrie fonde ce principe, et quel déplacement d'effort impose-t-elle ?
 A: Les gens s'intéressent à eux, pas à vous. Donc l'effort consacré à se rendre intéressant est du gaspillage — il faut le déplacer vers l'intérêt porté à l'autre.
 <!--ID: 1790537395712-->
 

@@ -56,7 +56,7 @@ A: L'ensemble des conditions qu'on ne peut pas modifier pendant l'action mais qu
 <!--ID: 1790547090220-->
 
 
-Q: Que le précepte n'aide-t-il pas à faire ?
+Q: **Terrain avant force** — que le précepte n'aide-t-il pas à faire ?
 A: Identifier le terrain. Dans un conflit social il est fait de règles implicites, et le rendre visible est le vrai travail — le traité n'en dit rien.
 <!--ID: 1790547090223-->
 

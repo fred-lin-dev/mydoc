@@ -50,7 +50,7 @@ A: Elle supprime une décision au moment critique : la situation déclenche l'ac
 <!--ID: 1790533410873-->
 
 
-Q: Sur quoi cet effet ne porte-t-il pas ?
+Q: **Intention de mise en œuvre** — sur quoi cet effet ne porte-t-il pas ?
 A: Sur la poursuite dans la durée. Il résout l'oubli et l'hésitation au démarrage, pas l'abandon au bout de quelques semaines.
 <!--ID: 1790533410877-->
 

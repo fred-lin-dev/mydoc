@@ -67,7 +67,7 @@ A: La survie n'est pas la vérité. L'astrologie est très Lindy, la saignée a 
 <!--ID: 1790547090029-->
 
 
-Q: Comment s'en servir face à deux livres qui se contredisent ?
+Q: **Effet Lindy** — comment s'en servir face à deux livres qui se contredisent ?
 A: C'est au récent de fournir la preuve. L'ancien a déjà passé un filtre — faible, mais réel.
 <!--ID: 1790547090032-->
 

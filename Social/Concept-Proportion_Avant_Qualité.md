@@ -53,12 +53,12 @@ A: Le rapport — longueurs, largeurs, proportions — parce qu'il se lit à dis
 <!--ID: 1790537395613-->
 
 
-Q: Quel est le bon ordre des dépenses qui en découle ?
+Q: **Proportion avant qualité** — quel est le bon ordre des dépenses qui en découle ?
 A: Ajuster ce qu'on a, puis chercher la bonne coupe, et seulement ensuite la matière — du plus visible au moins visible.
 <!--ID: 1790537395617-->
 
 
-Q: Comment ce principe se généralise-t-il hors du vêtement ?
+Q: **Proportion avant qualité** — comment ce principe se généralise-t-il hors du vêtement ?
 A: Partout où quelque chose est perçu avant d'être examiné : le rapport se lit avant le contenu. Il s'inverse pour un objet manipulé longtemps.
 <!--ID: 1790537395620-->
 

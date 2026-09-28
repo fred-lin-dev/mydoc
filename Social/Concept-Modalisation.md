@@ -60,12 +60,12 @@ A: S'affirmer lève les réticences ; faire pression les crée. On les croit à 
 <!--ID: 1790537395775-->
 
 
-Q: Quelle est la partie solide de cette idée, et quelle est la partie faible ?
+Q: **Modalisation** — quelle est la partie solide de cette idée, et quelle est la partie faible ?
 A: Solide : la réactance — contraindre produit un mouvement inverse. Faible : que l'assurance affichée lève les réticences, très dépendant de la crédibilité.
 <!--ID: 1790537395778-->
 
 
-Q: Comment cumuler les deux avantages dans une demande ?
+Q: **Modalisation** — comment cumuler les deux avantages dans une demande ?
 A: Dire clairement ce qu'on pense, puis laisser l'autre conclure. Affirmer sans mettre en demeure.
 <!--ID: 1790537395782-->
 

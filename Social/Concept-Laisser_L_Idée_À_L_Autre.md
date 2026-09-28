@@ -52,12 +52,12 @@ A: Le contenu est identique mais le statut change : la première est une décisi
 <!--ID: 1790537395695-->
 
 
-Q: Quel est le coût réel de ce principe, et pourquoi ne l'applique-t-on pas ?
+Q: **Laisser l'idée à l'autre** — quel est le coût réel de ce principe, et pourquoi ne l'applique-t-on pas ?
 A: Renoncer au crédit de l'idée. On préfère souvent avoir raison visiblement qu'obtenir le résultat.
 <!--ID: 1790537395699-->
 
 
-Q: Quand le procédé devient-il malhonnête ?
+Q: **Laisser l'idée à l'autre** — quand le procédé devient-il malhonnête ?
 A: Quand la conclusion est déjà arrêtée et qu'aucune autre n'est possible. La délibération est alors simulée, pas offerte.
 <!--ID: 1790537395701-->
 

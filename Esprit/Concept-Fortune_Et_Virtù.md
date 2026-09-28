@@ -51,7 +51,7 @@ A: Ce qui ne dépend pas de l'agent, et sa capacité à agir. On ne contrôle pa
 <!--ID: 1790547090193-->
 
 
-Q: Quel critère d'évaluation découle de cette partition ?
+Q: **Fortune et virtù** — quel critère d'évaluation découle de cette partition ?
 A: Juger la décision, pas le résultat. Le résultat mêle les deux parts de façon indémêlable ; seule la décision était sous contrôle.
 <!--ID: 1790547090196-->
 

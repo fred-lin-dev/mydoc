@@ -48,7 +48,7 @@ A: Il coûte deux minutes plus le temps de dissipation du résidu, pendant leque
 <!--ID: 1790533410740-->
 
 
-Q: Quelle est la faiblesse empirique de cet effet ?
+Q: **Résidu attentionnel** — quelle est la faiblesse empirique de cet effet ?
 A: Il repose surtout sur les expériences de son autrice, sans réplication indépendante large. Cohérent avec les coûts de commutation, donc plausible, pas établi.
 <!--ID: 1790533410743-->
 

@@ -22,5 +22,7 @@ fiabilite_note: ""
 
 ## 🎴 Cartes
 
+<!-- la question doit nommer son sujet : elle sera lue seule, sans cette note. Préfixe `**Titre** — ` si elle ne se suffit pas. Supprimer cette ligne. -->
+
 Q: 
 A: 

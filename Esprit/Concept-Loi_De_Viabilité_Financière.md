@@ -51,7 +51,7 @@ A: Un avis ne coûte rien à donner, donc ne discrimine rien. Payer est coûteux
 <!--ID: 1790533410853-->
 
 
-Q: Où cette loi cesse-t-elle d'être valide ?
+Q: **Loi de viabilité financière** — où cette loi cesse-t-elle d'être valide ?
 A: Hors des projets de carrière : recherche fondamentale, soin, apprentissage. Elle sélectionne ce qui est solvable, pas ce qui a de la valeur.
 <!--ID: 1790533410857-->
 

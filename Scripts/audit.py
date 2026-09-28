@@ -29,10 +29,31 @@ VERDICTS_AVEC_REFERENCE = {"solide", "contesté", "réfuté"}
 
 # Marqueurs de template oublié. Volontairement peu nombreux : chaque motif ici
 # doit être impossible à produire volontairement, sinon il génère du faux positif.
-RESTES_TEMPLATE = ["[[]]", "{{title}}", "{{date}}", "[[Concept-]]", "[[Source-]]"]
+RESTES_TEMPLATE = ["[[]]", "{{title}}", "{{date}}", "[[Concept-]]",
+                   "[[Source-]]", "<!-- la question doit nommer"]
 
 LIEN = re.compile(r"\[\[([^\]\[|#^]+)")
 CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
+
+# Décision 08, règle d'autonomie : en révision la note n'est pas là, donc une
+# question qui désigne son sujet sans le nommer est irrécupérable. Le repérage
+# est heuristique — d'où une alerte et non une erreur : seule la lecture tranche.
+CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
+CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
+CITATION = re.compile(r"«[^»]*»")
+# Les noms génériques qui désignent « ce dont parle la note ». La liste vient des
+# 92 cartes réellement cassées : un démonstratif accolé à l'un d'eux n'a jamais
+# de référent dans la carte. Chercher le démonstratif seul produit des faux
+# positifs en cascade — « qu'est-ce que », « n'est-ce pas », « ce qu'elle veut ».
+GENERIQUES = (
+    r"littérature|résultat|score|modèle|principe|concept|procédé|règle|partition"
+    r"|livre|idée|loi|distinction|thèse|précepte|critère|analyse|effet|cadre"
+    r"|argument|diagnostic|conseil|point|réfutation|exigence|technique|séparation"
+    r"|prescription|mécanisme|levier|note|vault"
+)
+ANAPHORE = re.compile(rf"\b(ce|cet|cette|ces)\s+({GENERIQUES})\b", re.IGNORECASE)
+NON_NOMME = re.compile(r"\b(les? livres?|l'auteur|l'ouvrage|cette note|ce vault)\b(?! de )",
+                       re.IGNORECASE)
 CODE_INLINE = re.compile(r"`[^`]*`")
 
 
@@ -143,6 +164,16 @@ def main():
                 alertes.append((rel, f"reste de template : `{reste}`"))
 
         nb_cartes = len(CARTE_Q.findall(contenu))
+
+        for question in CARTE_LIGNE.findall(contenu):
+            nu = CITATION.sub("", question)
+            motif = (NON_NOMME.search(nu) if CARTE_PREFIXEE.match(nu)
+                     else ANAPHORE.search(nu) or NON_NOMME.search(nu))
+            if motif:
+                alertes.append(
+                    (rel, f"carte sans contexte — « {motif.group(0)} » sans référent : "
+                          f"`{question[:60]}…` (règle d'autonomie, décision 08)")
+                )
 
         if prefixe == "Concept":
             verdict = sans_emoji(champs.get("fiabilite", ""))

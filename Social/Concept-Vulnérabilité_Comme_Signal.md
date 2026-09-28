@@ -50,7 +50,7 @@ A: Un comportement coûteux ne peut pas être imité à bas prix. Ce qui disting
 <!--ID: 1790537395670-->
 
 
-Q: Pourquoi se ménager une porte de sortie annule-t-il l'effet ?
+Q: **Vulnérabilité comme signal** — pourquoi se ménager une porte de sortie annule-t-il l'effet ?
 A: La protection retire le coût, donc l'information. Une blague qui permet de dire qu'on plaisantait rend le geste gratuit.
 <!--ID: 1790537395672-->
 

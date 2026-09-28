@@ -62,7 +62,7 @@ A: Les cas intermédiaires sont la majorité : le résultat ne dépend pas de mo
 <!--ID: 1790547089978-->
 
 
-Q: Quel outil moderne rend cette partition calculable ?
+Q: **Dichotomie du contrôle** — quel outil moderne rend cette partition calculable ?
 A: L'optionalité : on ne contrôle pas le résultat, mais on contrôle la forme de l'exposition — perte bornée, gain non borné.
 <!--ID: 1790547089981-->
 

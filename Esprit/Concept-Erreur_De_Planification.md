@@ -52,7 +52,7 @@ A: On estime en imaginant le déroulement prévu, qui est sous les yeux, au lieu
 <!--ID: 1790547090070-->
 
 
-Q: Quel est le remède, et pourquoi est-il procédural ?
+Q: **Erreur de planification** — quel est le remède, et pourquoi est-il procédural ?
 A: La prévision par classe de référence : « combien de temps ont pris les dix dernières tâches de ce type ». On remplace l'introspection par une statistique.
 <!--ID: 1790547090072-->
 

@@ -61,7 +61,7 @@ A: Sur la variance, pas la morale : l'affection dépend de la volonté de l'autr
 <!--ID: 1790547090204-->
 
 
-Q: Quel est le contresens moderne le plus coûteux ?
+Q: **Craint plutôt qu'aimé** — quel est le contresens moderne le plus coûteux ?
 A: Vouloir être craint sans capacité crédible de nuire. Ça produit du ridicule puis de la haine — le seul état que Machiavel interdit.
 <!--ID: 1790547090207-->
 

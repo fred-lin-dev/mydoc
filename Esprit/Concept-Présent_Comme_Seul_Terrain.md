@@ -52,12 +52,12 @@ A: Préparer — décider maintenant ce qu'on fera si — est une action au pré
 <!--ID: 1790547089957-->
 
 
-Q: Quel dispositif moderne mesure exactement cette distinction ?
+Q: **Le présent comme seul terrain** — quel dispositif moderne mesure exactement cette distinction ?
 A: Les intentions de mise en œuvre : « après X, je ferai Y », d ≈ 0,65 sur 94 études. Se demander « et si ça se passe mal » n'a aucun effet mesuré.
 <!--ID: 1790547089961-->
 
 
-Q: Quelle est la limite de portée de ce précepte ?
+Q: **Le présent comme seul terrain** — quelle est la limite de portée de ce précepte ?
 A: Il vise la sérénité, pas la performance. Le lire comme un manuel de productivité escamote son objet.
 <!--ID: 1790547089964-->
 

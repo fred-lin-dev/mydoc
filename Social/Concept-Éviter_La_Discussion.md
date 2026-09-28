@@ -54,7 +54,7 @@ A: « Est-ce que je peux encore changer d'avis ? » Si non, l'échange ne produi
 <!--ID: 1790537395707-->
 
 
-Q: Quand ce principe devient-il nuisible ?
+Q: **Éviter la discussion** — quand ce principe devient-il nuisible ?
 A: Pris comme règle absolue, il justifie de ne jamais contredire personne. Il dit ce que coûte la contradiction, pas qu'il ne faut jamais la payer.
 <!--ID: 1790537395710-->
 

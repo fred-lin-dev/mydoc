@@ -53,12 +53,12 @@ A: La situation présente, obstacle inclus, est la seule sur laquelle on puisse 
 <!--ID: 1790547089967-->
 
 
-Q: Quelle différence entre ce précepte et « tout obstacle est une opportunité » ?
+Q: **Obstacle comme matière** — quelle différence entre ce précepte et « tout obstacle est une opportunité » ?
 A: Le précepte porte sur le choix de l'objet d'action, pas sur l'interprétation de l'événement. La seconde formule justifie de ne jamais retirer l'obstacle.
 <!--ID: 1790547089969-->
 
 
-Q: Quelle est sa descendance moderne, et quelle en est la différence ?
+Q: **Obstacle comme matière** — quelle est sa descendance moderne, et quelle en est la différence ?
 A: L'antifragilité. Marc Aurèle décrit une disposition intérieure, Taleb une propriété structurelle — et seule la seconde est évaluable avant l'événement.
 <!--ID: 1790547089972-->
 

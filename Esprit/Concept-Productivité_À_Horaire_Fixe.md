@@ -44,12 +44,12 @@ A: Une journée sans fin n'oblige à renoncer à rien : tout entre, rien n'est p
 <!--ID: 1790533410802-->
 
 
-Q: Quelle est l'affirmation non démontrée de ce principe ?
+Q: **Productivité à horaire fixe** — quelle est l'affirmation non démontrée de ce principe ?
 A: Que la production totale augmente. La limite peut améliorer la sélection sans augmenter le volume — utile, mais pas la même affirmation.
 <!--ID: 1790533410805-->
 
 
-Q: Quand ce principe s'inverse-t-il ?
+Q: **Productivité à horaire fixe** — quand ce principe s'inverse-t-il ?
 A: Quand on ne contrôle pas son calendrier : la limite produit alors du travail non fait, pas du travail mieux choisi.
 <!--ID: 1790533410809-->
 

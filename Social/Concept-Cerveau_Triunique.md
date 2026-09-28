@@ -57,12 +57,12 @@ A: Trois couches empilées — reptilien, limbique, néocortex. Réfuté : les s
 <!--ID: 1790537395640-->
 
 
-Q: Pourquoi cette réfutation dépasse-t-elle le livre qui l'utilise ?
+Q: **Cerveau triunique** — pourquoi la réfutation du modèle dépasse-t-elle le livre de Navarro qui l'utilise ?
 A: Ce modèle soutient une masse de vulgarisation : « cerveau reptilien », « détourner l'amygdale », « court-circuiter le cortex ». Tous ces arguments tombent avec lui.
 <!--ID: 1790537395643-->
 
 
-Q: Qu'est-ce qui survit à la réfutation du modèle ?
+Q: **Cerveau triunique** — qu'est-ce qui survit à la réfutation du modèle ?
 A: Le fait qu'une partie des réactions corporelles soit difficile à contrôler volontairement. C'est observable sans aucun modèle évolutif — garder le geste, jeter le mécanisme.
 <!--ID: 1790537395646-->
 

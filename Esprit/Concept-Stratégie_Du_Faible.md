@@ -61,7 +61,7 @@ A: La victoire du fort exige une décision, celle du faible seulement la durée.
 <!--ID: 1790547090130-->
 
 
-Q: Quelle condition Greene n'explicite pas ?
+Q: **Stratégie du faible** — quelle condition Greene n'explicite pas ?
 A: Que le temps travaille pour soi. Si les ressources s'épuisent plus vite de son côté, durer est une défaite lente.
 <!--ID: 1790547090133-->
 

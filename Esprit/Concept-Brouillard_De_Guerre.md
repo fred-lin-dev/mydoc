@@ -50,7 +50,7 @@ A: Que l'information soit partiellement fausse. L'information manquante se sait 
 <!--ID: 1790547090177-->
 
 
-Q: Que faut-il en conclure, selon Clausewitz ?
+Q: **Brouillard de guerre** — que faut-il en conclure, selon Clausewitz ?
 A: Non pas chercher plus de renseignement, mais concevoir des plans qui tolèrent l'erreur et prévoient d'être révisés.
 <!--ID: 1790547090179-->
 

@@ -54,12 +54,12 @@ A: Pas sur la demande, mais sur ce que l'accepter dirait de soi.
 <!--ID: 1790547090145-->
 
 
-Q: Quelle différence entre ce procédé et la flatterie ?
+Q: **Confirmer l'image de soi** — quelle différence entre ce procédé et la flatterie ?
 A: La flatterie invente une qualité et se fait détecter. Ce procédé utilise l'image que l'autre a déjà et défend — elle est simplement admise.
 <!--ID: 1790547090147-->
 
 
-Q: Quelle convergence rend cette note crédible malgré l'absence de mesure ?
+Q: **Confirmer l'image de soi** — quelle convergence rend l'idée crédible malgré l'absence de mesure ?
 A: Carnegie, Cialdini et Greene, à un siècle d'écart, arrivent au même levier : l'image de soi gouverne l'acceptation, pas le contenu.
 <!--ID: 1790547090150-->
 

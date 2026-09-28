@@ -58,7 +58,7 @@ A: En U : sommeil court ET sommeil long sont associés à une mortalité plus é
 <!--ID: 1790547089821-->
 
 
-Q: Quelle explication concurrente rend la causalité douteuse ?
+Q: **Sommeil et mortalité** — quelle explication concurrente rend la causalité douteuse ?
 A: La causalité inverse : une maladie non diagnostiquée allonge le sommeil et raccourcit la vie. Elle explique la branche droite du U, que l'hypothèse causale n'explique pas.
 <!--ID: 1790547089823-->
 

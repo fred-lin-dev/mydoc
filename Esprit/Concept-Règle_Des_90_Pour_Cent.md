@@ -46,7 +46,7 @@ A: Son antériorité. Un seuil fixé après avoir vu l'option se règle toujours
 <!--ID: 1790533410759-->
 
 
-Q: Pourquoi une option à 70 est-elle plus dangereuse qu'une mauvaise option ?
+Q: **Règle des 90 pour cent** — pourquoi une option à 70 est-elle plus dangereuse qu'une mauvaise option ?
 A: Elle se défend, donc elle est acceptée — et elle occupe la place d'une option à 95 qui n'est pas encore arrivée.
 <!--ID: 1790533410762-->
 

@@ -53,7 +53,7 @@ A: Lâcher — ce qui libère l'énergie de tous — ou réaligner les buts des 
 <!--ID: 1790533410729-->
 
 
-Q: À quelle condition ce diagnostic est-il valide et pas une excuse ?
+Q: **Résistance aux politiques** — à quelle condition ce diagnostic est-il valide et pas une excuse ?
 A: Il faut pouvoir nommer qui tire vers quelle cible. Sans ça, c'est juste un mot savant pour « ça ne marche pas ».
 <!--ID: 1790533410733-->
 

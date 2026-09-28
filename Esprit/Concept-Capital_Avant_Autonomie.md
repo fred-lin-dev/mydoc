@@ -55,7 +55,7 @@ A: C'est la confirmation que le capital existe : on ne retient pas quelqu'un don
 <!--ID: 1790533410918-->
 
 
-Q: Dans quel contexte ce modèle décrit-il mal la réalité ?
+Q: **Capital avant autonomie** — dans quel contexte ce modèle décrit-il mal la réalité ?
 A: Là où la promotion dépend de l'ancienneté ou du réseau plutôt que de la compétence : le capital rare ne s'y échange contre rien.
 <!--ID: 1790533410921-->
 

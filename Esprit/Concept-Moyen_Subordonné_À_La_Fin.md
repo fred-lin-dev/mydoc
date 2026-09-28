@@ -59,7 +59,7 @@ A: Que la guerre est un instrument au service d'un objectif politique, et n'a au
 <!--ID: 1790547090169-->
 
 
-Q: Quel critère d'arrêt cette thèse fournit-elle ?
+Q: **Moyen subordonné à la fin** — quel critère d'arrêt cette thèse fournit-elle ?
 A: Dès que l'objectif est atteint ou devenu inatteignable, la poursuite n'a plus de justification — quel que soit l'investissement déjà consenti.
 <!--ID: 1790547090171-->
 

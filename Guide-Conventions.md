@@ -188,6 +188,40 @@ Pourquoi cette forme : `grep -c '^Q:'` donne le nombre de cartes, donc le
 **signal de découpe de la décision 01 est mécanisable**. Plus de trois cartes sur
 des angles différents → note candidate à la scission.
 
+### Règle d'autonomie — une carte se révise sans sa note
+
+**La question doit nommer son sujet.** En révision, Anki tire les cartes dans le
+désordre : la note n'est pas là, la carte précédente non plus. Tout ce que la
+question désigne sans le nommer n'a plus de référent.
+
+Deux formes sont donc interdites :
+
+| Interdit | Pourquoi |
+|---|---|
+| **démonstratif sans référent** — « ce principe », « cette règle », « cet effet » | rien dans la carte ne dit de quoi il s'agit |
+| **« le livre », « l'auteur », « cette note »** | l'ouvrage se nomme ; et une carte ne parle jamais du vault, elle parle du monde |
+
+Le champ `Source` du plugin **ne répare rien** : il est au dos de la carte, donc
+visible seulement après la réponse.
+
+**Le correctif est un préfixe**, repris mot pour mot du titre H1 de la note :
+
+```markdown
+Q: **Engagement et cohérence** — quelle est la défense contre ce levier ?
+A: Repérer la demande minuscule qui précède la vraie, et se rappeler que rien
+   n'oblige à être cohérent avec un engagement obtenu par surprise.
+```
+
+**Le préfixe ne se met pas partout.** Une question qui nomme déjà son sujet n'en
+a pas besoin, et l'ajouter serait nuisible : sur une carte de définition, le titre
+**souffle la réponse**. `**Active recall** — qu'est-ce qui consolide une
+information : la réexposition ou la récupération ?` donne le résultat avant la
+question. Donc : *préfixe si et seulement si la question ne se suffit pas.*
+
+Le test est une lecture à voix haute de la seule ligne `Q:`, sans rien d'autre
+sous les yeux. L'audit signale les démonstratifs sans référent, mais il ne
+remplace pas ce test — il ne sait pas lire une question.
+
 > ⚠️ **Les identifiants sont écrits par le plugin. Jamais à la main.**
 > Un ID inventé fait échouer la synchronisation **en silence** : le plugin tente
 > de mettre à jour une carte qui n'existe pas, échoue, et n'enregistre jamais le

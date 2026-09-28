@@ -59,7 +59,7 @@ A: C'est une information sur laquelle un autre peut agir. Réduire ce qu'on expo
 <!--ID: 1790547090237-->
 
 
-Q: Quel coût Greene passe-t-il sous silence ?
+Q: **Surface d'exposition** — quel coût Greene passe-t-il sous silence ?
 A: Une surface réduite réduit la coopération : on ne peut pas être aidé sur un projet qu'on n'a pas énoncé. La dissimulation échange de la protection contre de l'opportunité.
 <!--ID: 1790547090239-->
 

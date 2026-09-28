@@ -34,6 +34,26 @@ est écrite par le plugin après création.
 > carte peut rester bloquée des mois sans aucun signal. C'est le piège le plus coûteux
 > du dispositif.
 
+## La question doit nommer son sujet
+
+En révision, Anki tire les cartes dans le désordre : **la note n'est pas là**. Un
+démonstratif sans référent — « ce principe », « cette règle », « cet effet » —
+devient alors impossible à résoudre, et « le livre » ne désigne rien.
+
+Le champ `Source` **ne rattrape pas** ce défaut : il est au dos de la carte.
+
+```markdown
+Q: **Engagement et cohérence** — quelle est la défense contre ce levier ?
+```
+
+Le préfixe reprend le titre H1 de la note, et **seulement là où la question ne se
+suffit pas** : sur une carte de définition, il souffle la réponse. Le test tient
+en une lecture de la seule ligne `Q:`. Règle complète : décision 08 des
+[[Guide-Conventions]].
+
+**92 cartes sur 350 ont été corrigées ainsi le 2026-09-28** — elles avaient été
+rédigées la note sous les yeux, ce qui rend le défaut invisible à l'écriture.
+
 ## La configuration appliquée
 
 | Réglage | Valeur | Pourquoi |
@@ -116,6 +136,7 @@ côté Anki.
 | **Templates scannés** | cartes vides qui reviennent à chaque scan | globs ignorés mal configurés |
 | **Renommage depuis le terminal** | cartes orphelines, liens *Source* morts | voir décision 10 : toujours F2 dans Obsidian |
 | **Cartes dans un `MOC-`** | doublons de questions aux réponses divergentes | décision 04 ; indiagnostiquable après mille cartes |
+| **Question écrite la note sous les yeux** | la carte est illisible en révision, jamais au moment de l'écrire | le rédacteur a le référent sous les yeux, pas le réviseur |
 
 ## Combien de cartes sont en jeu aujourd'hui
 

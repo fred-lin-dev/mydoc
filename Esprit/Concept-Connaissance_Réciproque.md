@@ -55,7 +55,7 @@ A: Connaître les deux : issue non douteuse. Soi seulement : victoire incertaine
 <!--ID: 1790547090226-->
 
 
-Q: Quel est le cas le plus instructif, et pourquoi ?
+Q: **Connaissance réciproque** — parmi les quatre états, quel est le cas le plus instructif, et pourquoi ?
 A: Connaître l'autre sans se connaître soi-même est perdant : le renseignement sur l'adversaire ne compense pas l'ignorance de ses propres limites.
 <!--ID: 1790547090228-->
 

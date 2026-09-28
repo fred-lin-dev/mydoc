@@ -53,12 +53,12 @@ A: Parce qu'elle dégrade la position relative de ceux qui la constatent. Si le 
 <!--ID: 1790547090245-->
 
 
-Q: Quel critère manque à la règle de Greene ?
+Q: **Coût de la supériorité visible** — quel critère manque à la règle de Greene ?
 A: Le public. La supériorité visible coûte auprès des pairs et des supérieurs, et rapporte auprès de ceux qui décident de vous sans vous connaître.
 <!--ID: 1790547090247-->
 
 
-Q: Quel est le défaut symétrique de cette règle ?
+Q: **Coût de la supériorité visible** — quel est le défaut symétrique de cette règle ?
 A: Poussée à bout, elle interdit de faire valoir son travail — défaut inverse, aussi coûteux, et plus fréquent chez les lecteurs de ce genre de livre.
 <!--ID: 1790547090250-->
 

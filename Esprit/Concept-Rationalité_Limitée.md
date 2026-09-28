@@ -58,7 +58,7 @@ A: Mis à la même place avec la même information, le remplaçant décidera par
 <!--ID: 1790533410785-->
 
 
-Q: Quelle est la limite de cet argument ?
+Q: **Rationalité limitée** — quelle est la limite de cet argument ?
 A: Il peut excuser n'importe quoi. Certains acteurs choisissent de ne pas s'informer — c'est une décision, pas une contrainte.
 <!--ID: 1790533410789-->
 

@@ -59,7 +59,7 @@ A: Une méta-analyse 2022 donnait d ≈ 0,43 ; une réanalyse la même année, a
 <!--ID: 1790533410902-->
 
 
-Q: Quelle partie du principe résiste à la controverse ?
+Q: **Friction détermine le comportement** — quelle partie du principe résiste à la controverse ?
 A: Les grosses frictions — supprimer l'accès — pas les manipulations subtiles de contexte, qui sont l'objet du débat.
 <!--ID: 1790533410905-->
 

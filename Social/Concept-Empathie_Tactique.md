@@ -61,7 +61,7 @@ A: Reconnaître n'est pas accepter. L'autre réclame rarement qu'on lui donne ra
 <!--ID: 1790547089890-->
 
 
-Q: Quelle situation ce cadre présuppose-t-il ?
+Q: **Empathie tactique** — quelle situation ce cadre présuppose-t-il ?
 A: Un jeu à somme non nulle. Face à quelqu'un dont l'objectif est ma perte, comprendre sa position ne crée aucune zone d'accord.
 <!--ID: 1790547089893-->
 

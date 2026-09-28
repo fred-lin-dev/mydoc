@@ -59,7 +59,7 @@ A: Le texte a un seul chemin : chaque oubli devient une faute. Une réserve a pl
 <!--ID: 1790537972143-->
 
 
-Q: Quand le texte écrit reste-t-il le bon choix ?
+Q: **Réserve de matière** — quand le texte écrit reste-t-il le bon choix ?
 A: Pour une intervention unique, courte, sans questions. La réserve devient supérieure dès que le sujet revient ou qu'il faut répondre.
 <!--ID: 1790537972144-->
 

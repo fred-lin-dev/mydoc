@@ -30,7 +30,7 @@ tags: [meta/guide]
 ## 2 · L'état, en chiffres
 
 ```
-183 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
+184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
 0 erreur · 0 alerte · 37 dettes ⚪
 350 cartes, toutes synchronisées vers Anki
 57 PDF, tous avec un niveau de périmètre
@@ -68,6 +68,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **4ᵉ niveau de périmètre : `illustration`** | la fiction lue pour sa structure n'est ni un manuel ni du loisir. **Règle associée : une fiction ne crée jamais de `Concept-`** — elle est citée comme exemple depuis une note existante |
 | **Règle des 3 cartes** (décision 01) | le signal de découpe est mécanisable par `grep -c '^Q:'`, donc gratuit |
 | **`corps/`** | né à la règle des 5, sans qu'on ait eu à décider. Premier test réel de cette règle |
+| **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
 
 ---
 
@@ -142,6 +143,7 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Un filigrane injecté** | `Why_We_Sleep.pdf` porte une URL **381 fois**, une par page, au milieu du texte | filtrer à l'extraction, sinon il entre dans les citations |
 | **Un lien de catégorie impossible** | j'ai écrit `[[Source-Beyond_Good_and_Evil]]` pour un livre `lu-sans-fiche`, qui n'aura jamais de fiche | l'audit l'a détecté. Les notes de ces livres pointent le **PDF** |
 | **Noms de fichiers non conformes** | 12 PDF arrivés avec espaces, tirets, casse basse, slugs d'URL | renommés. **Déplacer un PDF ne casse rien, le renommer casse la fiche qui le cite** |
+| **Cartes écrites la note sous les yeux** | 92 questions sur 350 renvoyaient à « ce principe », « cette règle », « le livre » — lisibles à l'écriture, illisibles en révision, où Anki tire dans le désordre | préfixe `**Titre** — `, règle inscrite en décision 08, contrôle ajouté à l'audit. **Le défaut est invisible au rédacteur par construction** : c'est le seul du lot qu'aucune relecture de la note ne révèle |
 
 ---
 

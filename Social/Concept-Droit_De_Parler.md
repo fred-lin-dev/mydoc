@@ -51,7 +51,7 @@ A: Pouvoir en parler autrement que par lecture. Si tout vient d'un livre, on rap
 <!--ID: 1790537972146-->
 
 
-Q: Pourquoi la règle prise littéralement est-elle fausse ?
+Q: **Droit de parler** — pourquoi la règle prise littéralement est-elle fausse ?
 A: Elle interdirait de parler de ce qu'on n'a pas vécu, ce qui exclut l'essentiel du savoir transmis. Ce n'est pas le vécu qui donne le droit mais le travail sérieux.
 <!--ID: 1790537972148-->
 

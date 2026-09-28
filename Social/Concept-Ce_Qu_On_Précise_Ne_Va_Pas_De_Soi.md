@@ -50,7 +50,7 @@ A: Que la chose pouvait être mise en doute. L'information est dans la nécessit
 <!--ID: 1790537395785-->
 
 
-Q: Comment se servir de ce principe en lecture ?
+Q: **Ce qu'on précise ne va pas de soi** — comment se servir de ce principe en lecture ?
 A: L'inventaire de ce qu'un texte précise est l'inventaire de ses points faibles — le texte se dénonce lui-même.
 <!--ID: 1790537395788-->
 

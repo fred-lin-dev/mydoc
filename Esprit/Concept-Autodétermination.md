@@ -48,7 +48,7 @@ A: Autonomie — prise sur son temps ; compétence — se sentir bon ; relation 
 <!--ID: 1790533410946-->
 
 
-Q: Comment s'en servir comme diagnostic quand un travail démotive ?
+Q: **Autodétermination** — comment s'en servir comme diagnostic quand un travail démotive ?
 A: Ne pas demander « est-ce que ça me passionne » mais « lequel des trois manque ». Trois causes possibles, trois remèdes différents.
 <!--ID: 1790533410949-->
 

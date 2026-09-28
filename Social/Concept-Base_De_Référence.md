@@ -58,12 +58,12 @@ A: Ce qui s'interprète est un écart au comportement habituel de la personne, j
 <!--ID: 1790537395624-->
 
 
-Q: Qu'est-ce que cette exigence invalide d'un seul coup ?
+Q: **Base de référence** — qu'est-ce que cette exigence invalide d'un seul coup ?
 A: Tous les conseils de lecture corporelle absolus — bras croisés = fermeture, regard fuyant = mensonge. Aucun indice absolu ne peut fonctionner.
 <!--ID: 1790537395626-->
 
 
-Q: Quelle limite pratique le livre ne mentionne pas ?
+Q: **Base de référence** — quelle limite pratique est absente du livre de Navarro ?
 A: On n'a presque jamais de base de référence pour les personnes qui comptent — inconnu, recruteur, adversaire. La condition est remplie là où on en a le moins besoin.
 <!--ID: 1790537395629-->
 

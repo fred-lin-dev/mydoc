@@ -58,7 +58,7 @@ A: Elle agit de façon coordonnée sur des points de passage identifiés, là o�
 <!--ID: 1790547089856-->
 
 
-Q: Quelle protection structurelle découle de ce mécanisme ?
+Q: **Levier des minorités organisées** — quelle protection structurelle découle de ce mécanisme ?
 A: La diversité de ses appartenances. Quelqu'un dont tous les groupes se recoupent reçoit le même message par toutes ses entrées et le prend pour un consensus.
 <!--ID: 1790547089859-->
 

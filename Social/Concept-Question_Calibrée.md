@@ -53,12 +53,12 @@ A: Une question ouverte en « comment » ou « quoi » qui transfère le problè
 <!--ID: 1790547089879-->
 
 
-Q: Pourquoi éviter « pourquoi » ?
+Q: **Question calibrée** — pourquoi éviter « pourquoi » ?
 A: Il se lit comme une accusation et met en demeure de se justifier.
 <!--ID: 1790547089882-->
 
 
-Q: Quelle est la limite d'usage de cette technique ?
+Q: **Question calibrée** — quelle est la limite d'usage de cette technique ?
 A: Répétée, elle devient visible et se retourne : l'autre entend qu'on refuse en évitant de le dire. Le budget par conversation est petit.
 <!--ID: 1790547089885-->
 

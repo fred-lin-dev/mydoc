@@ -48,7 +48,7 @@ A: Le stock est ce qui s'accumule, le flux ce qui le fait varier. Un stock ne pe
 <!--ID: 1790533410718-->
 
 
-Q: Pourquoi tant de mesures semblent-elles « n'avoir rien changé » ?
+Q: **Stock et flux** — pourquoi tant de mesures semblent-elles « n'avoir rien changé » ?
 A: Elles ont changé un flux, dont l'effet sur le stock est différé. Baisser un flux entrant ne vide pas le stock, il le fait grossir moins vite.
 <!--ID: 1790533410722-->
 

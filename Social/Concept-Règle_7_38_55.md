@@ -57,7 +57,7 @@ A: Si les mots comptaient pour 7 %, on comprendrait 93 % d'un discours dans une 
 <!--ID: 1790547089907-->
 
 
-Q: Que faut-il garder du résultat d'origine ?
+Q: **Règle 7-38-55** — que faut-il garder du résultat d'origine ?
 A: En cas de contradiction entre les mots et le ton, c'est le ton qui l'emporte dans le jugement porté sur l'intention. La forme prime sur le sens quand ils divergent — pas en général.
 <!--ID: 1790547089910-->
 

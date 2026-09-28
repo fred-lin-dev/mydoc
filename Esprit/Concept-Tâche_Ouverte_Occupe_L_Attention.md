@@ -49,7 +49,7 @@ A: Solide : les tâches interrompues sont mieux rappelées que les achevées. Fr
 <!--ID: 1790533410702-->
 
 
-Q: Quelle contradiction interne Ahrens laisse-t-il sur ce point ?
+Q: **Tâche ouverte occupe l'attention** — quelle contradiction interne Ahrens laisse-t-il sur ce point ?
 A: Il recommande aussi de laisser des questions ouvertes exprès pour y penser en marchant. Si noter refermait la boucle, cette technique ne marcherait pas.
 <!--ID: 1790533410707-->
 

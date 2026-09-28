@@ -56,7 +56,7 @@ A: Dès qu'une mesure comporte du hasard, un extrême est suivi d'une valeur plu
 <!--ID: 1790547090111-->
 
 
-Q: Pourquoi produit-elle l'illusion que la réprimande marche et que la félicitation nuit ?
+Q: **Régression vers la moyenne** — pourquoi produit-elle l'illusion que la réprimande marche et que la félicitation nuit ?
 A: On intervient toujours après un extrême. Le retour vers la moyenne se lit comme l'effet de l'intervention — et l'illusion est symétrique.
 <!--ID: 1790547090114-->
 

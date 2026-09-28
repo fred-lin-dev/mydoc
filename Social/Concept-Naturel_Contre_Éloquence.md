@@ -47,7 +47,7 @@ A: Seulement le quantitatif : volume, pauses, articulation. Ni le vocabulaire, n
 <!--ID: 1790537972129-->
 
 
-Q: Pourquoi cette prescription est-elle plus facile à appliquer que « travailler son charisme » ?
+Q: **Naturel contre éloquence** — pourquoi cette prescription est-elle plus facile à appliquer que « travailler son charisme » ?
 A: Elle est soustractive : il s'agit d'arrêter de simuler une compétence, pas d'en acquérir une.
 <!--ID: 1790537972137-->
 

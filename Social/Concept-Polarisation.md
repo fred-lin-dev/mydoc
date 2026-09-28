@@ -52,7 +52,7 @@ A: L'attirance est un écart par rapport à la moyenne des réactions. Lisser le
 <!--ID: 1790537395678-->
 
 
-Q: Quel est le seul résultat réellement mauvais, selon cet argument ?
+Q: **Polarisation** — quel est le seul résultat réellement mauvais, selon cet argument ?
 A: L'absence totale de rejet. Un rejet marqué prouve au moins que la variance existe.
 <!--ID: 1790537395681-->
 

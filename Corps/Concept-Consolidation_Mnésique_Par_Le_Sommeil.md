@@ -56,7 +56,7 @@ A: L'intervalle doit contenir du sommeil pour que la consolidation opère. C'est
 <!--ID: 1790547089839-->
 
 
-Q: Que reste-t-il débattu dans cette littérature ?
+Q: **Consolidation mnésique par le sommeil** — que reste-t-il débattu dans cette littérature ?
 A: La répartition des fonctions entre sommeil lent et paradoxal. L'existence de la consolidation, non.
 <!--ID: 1790547089842-->
 

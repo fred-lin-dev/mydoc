@@ -55,7 +55,7 @@ A: Parce qu'il concentre tout l'effort au mauvais endroit : il transforme une di
 <!--ID: 1790547090163-->
 
 
-Q: Quelle est la version défensive du concept ?
+Q: **Centre de gravité** — quelle est la version défensive du concept ?
 A: Ne pas en avoir. Un système dont aucune partie n'est indispensable aux autres — orthogonal — n'a pas de point d'effondrement unique.
 <!--ID: 1790547090166-->
 

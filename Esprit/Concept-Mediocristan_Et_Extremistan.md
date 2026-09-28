@@ -72,7 +72,7 @@ A: Ils donnent une réponse confiante et fausse. Moyenne, écart-type et extrapo
 <!--ID: 1790547090055-->
 
 
-Q: Pourquoi cette distinction concerne-t-elle les domaines de ce vault ?
+Q: **Mediocristan et Extremistan** — dans lequel des deux se jouent la carrière, l'influence et la réputation, et qu'est-ce que ça implique ?
 A: Carrière, influence, réputation sont scalables — donc en Extremistan. Les conseils moyens y valent peu, et la valeur se concentre.
 <!--ID: 1790547090058-->
 

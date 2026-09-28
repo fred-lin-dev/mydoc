@@ -63,7 +63,7 @@ A: Le type de problème. Supprimer si le problème est l'exécution — je sais 
 <!--ID: 1790547090122-->
 
 
-Q: Pourquoi ce conseil est-il dangereux tel que Greene le donne ?
+Q: **Terrain de mort** — pourquoi ce conseil est-il dangereux tel que Greene le donne ?
 A: Sans le critère de partage, appliqué à une situation d'incertitude, il transforme une hésitation raisonnable en engagement irréversible sur une mauvaise voie.
 <!--ID: 1790547090125-->
 

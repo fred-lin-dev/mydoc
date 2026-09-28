@@ -62,7 +62,7 @@ A: Puissance sans chaleur : de la crainte. Chaleur sans puissance : de la sympat
 <!--ID: 1790537395722-->
 
 
-Q: Pourquoi la partie la plus solide de ce livre est-elle celle qui n'invoque aucune étude ?
+Q: **Présence, puissance, chaleur** — pourquoi la partie la plus solide du livre de Cabane est-elle celle qui n'invoque aucune étude ?
 A: Une grille d'observation ne prétend rien, donc ne peut pas être réfutée. Tout ce que Cabane appuie sur des études — posture, micro-expressions, ocytocine — ne tient pas.
 <!--ID: 1790537395725-->
 

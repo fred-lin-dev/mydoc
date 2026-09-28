@@ -56,12 +56,12 @@ A: La rhétorique agit sur le discours, ceci sur le contexte. La cible ne sait p
 <!--ID: 1790547089845-->
 
 
-Q: Pourquoi les défenses rhétoriques ne fonctionnent-elles pas contre ce procédé ?
+Q: **Créer la circonstance** — pourquoi les défenses rhétoriques ne fonctionnent-elles pas contre ce procédé ?
 A: Elles supposent de reconnaître une tentative de persuasion. Ici il n'y a que des faits réels, dont l'agencement est l'argument.
 <!--ID: 1790547089848-->
 
 
-Q: Quelle est la seule défense, et pourquoi est-elle coûteuse ?
+Q: **Créer la circonstance** — quelle est la seule défense, et pourquoi est-elle coûteuse ?
 A: Demander qui a produit la circonstance et à quel bénéfice. Ça ne se fait qu'après coup — c'est pourquoi le procédé marche.
 <!--ID: 1790547089850-->
 

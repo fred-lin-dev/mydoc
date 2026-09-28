@@ -54,12 +54,12 @@ A: Une relation dose-effet : c'est le nombre d'adversités cumulées qui compte,
 <!--ID: 1790547089813-->
 
 
-Q: Qu'est-ce qui reste confondu dans ce résultat ?
+Q: **Expériences adverses précoces** — qu'est-ce qui reste confondu dans ce résultat ?
 A: C'est de l'épidémiologie observationnelle. Les adversités se concentrent avec la pauvreté et l'instabilité ; une part de l'effet revient à ce qui les accompagne.
 <!--ID: 1790547089815-->
 
 
-Q: Pourquoi ce score ne peut-il pas servir de diagnostic individuel ?
+Q: **Expériences adverses précoces** — pourquoi le score ACE ne peut-il pas servir de diagnostic individuel ?
 A: Une relation valable au niveau d'une population ne dit rien de fiable sur une personne. C'est une erreur de niveau.
 <!--ID: 1790547089818-->
 

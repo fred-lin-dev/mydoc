@@ -56,7 +56,7 @@ A: Un effet réel mais petit — environ 0,10 point de moyenne — concentré su
 <!--ID: 1790533410647-->
 
 
-Q: Quel usage de ce cadre reste défendable malgré la faiblesse de l'effet ?
+Q: **État d'esprit de développement** — quel usage de ce cadre reste défendable malgré la faiblesse de l'effet ?
 A: Comme grille d'observation de ses propres évitements. Pas comme promesse de performance.
 <!--ID: 1790533410650-->
 

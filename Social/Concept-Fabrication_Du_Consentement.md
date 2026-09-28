@@ -66,7 +66,7 @@ A: Entre « il faut simplifier » et « il faut un gouvernement invisible ». Il
 <!--ID: 1790547089865-->
 
 
-Q: Quelle partie de son raisonnement s'effondre avec Le Bon ?
+Q: **Fabrication du consentement** — quelle partie du raisonnement de Bernays s'effondre avec Le Bon ?
 A: L'argument d'irrationalité — l'individu en masse qui régresse et devient suggestible. L'argument de capacité, lui, survit.
 <!--ID: 1790547089868-->
 

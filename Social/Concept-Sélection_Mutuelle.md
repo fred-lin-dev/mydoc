@@ -60,7 +60,7 @@ A: Il faut avoir des critères. Le cadre de la conquête dispense d'en avoir : o
 <!--ID: 1790537395597-->
 
 
-Q: Comment ce cadre est-il couramment détourné ?
+Q: **Sélection mutuelle** — comment ce cadre est-il couramment détourné ?
 A: En l'invoquant après un refus — « ça ne me convenait pas de toute façon ». Il ne vaut que si les critères étaient posés avant.
 <!--ID: 1790537395600-->
 

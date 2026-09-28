@@ -56,7 +56,7 @@ A: Des « fictions utiles » — un psychodrame à deux personnages. Pas des str
 <!--ID: 1790547090103-->
 
 
-Q: D'où viennent les biais, dans ce cadre ?
+Q: **Système 1 et Système 2** — d'où viennent les biais, dans ce cadre ?
 A: Pas d'une défaillance de la raison, mais du fait qu'elle n'est presque jamais convoquée : le Système 2 est coûteux, donc il valide ce que le Système 1 propose.
 <!--ID: 1790547090105-->
 

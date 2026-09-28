@@ -57,7 +57,7 @@ A: Perte bornée, gain non borné. Pas parce que l'imprévu est plus souvent bon
 <!--ID: 1790547090010-->
 
 
-Q: Pourquoi la fréquence de succès ne dit-elle rien ?
+Q: **Optionalité** — pourquoi la fréquence de succès ne dit-elle rien ?
 A: On peut avoir raison rarement et gagner, si les rares fois rapportent sans limite — ou avoir raison presque toujours et être ruiné une fois. C'est la forme qui décide.
 <!--ID: 1790547090013-->
 

@@ -53,7 +53,7 @@ A: Un effet subjectif : se sentir plus puissant. Rien sur les hormones, la prise
 <!--ID: 1790537395759-->
 
 
-Q: Pourquoi garder une note sur une thèse réfutée ?
+Q: **Posture de pouvoir** — pourquoi garder une note sur une thèse réfutée ?
 A: Elle sert d'étalon du cycle complet — petit échantillon, résultat spectaculaire, diffusion, réplication ratée, désaveu — et elle empêche l'argument de rentrer par un autre livre.
 <!--ID: 1790537395762-->
 
