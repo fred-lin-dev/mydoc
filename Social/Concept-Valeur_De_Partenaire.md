@@ -3,6 +3,7 @@ tags: [social/séduction, esprit/stratégie]
 source: "[[Source-Mate_Become_the_Man_Women_Want]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Le cadre comparatif — l'attirance est une position relative dans un ensemble d'alternatives — est difficile à contester : c'est de l'économie du choix. Ce qui est contesté est le construit lui-même : « valeur de partenaire » comme grandeur unidimensionnelle, comparable entre individus, et dérivable de critères évolutionnistes stables. Les critères invoqués (symétrie, testostérone, préférences cycliques) ont des appuis faibles ou contradictoires."
+fiabilite_date: 2026-09-28
 ---
 # Valeur de partenaire
 

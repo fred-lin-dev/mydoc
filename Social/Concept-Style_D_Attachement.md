@@ -3,6 +3,7 @@ tags: [social/séduction]
 source: "[[Source-Attached]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Les deux dimensions — anxiété et évitement — sont un acquis de la littérature sur l'attachement adulte, depuis Hazan & Shaver 1987. Ce qui est contesté est la **partition en types**, que le livre pose comme exhaustive : Fraley, Waller & Brennan, « An Item Response Theory Analysis of Self-Report Measures of Adult Attachment », JPSP 78 (2000), 350-65, montrent que ces mesures se modélisent en dimensions continues, sans point de coupure naturel — référence qui figure dans la bibliographie du livre lui-même. Le livre concède par ailleurs que 25 à 30 % des adultes changent de catégorie au cours de leur vie, ce qui défait sa propre formule « we are programmed to act in a predetermined manner »."
+fiabilite_date: 2026-09-29
 ---
 # Le style d'attachement
 

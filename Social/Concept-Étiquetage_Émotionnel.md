@@ -3,6 +3,7 @@ tags: [social/négociation, esprit/psychologie]
 source: "[[Source-Never_Split_the_Difference]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'effet établi porte sur l'étiquetage de SES PROPRES affects : Lieberman et al. 2007, Psychological Science 18(5), 421-428 — mettre un sentiment en mots diminue la réponse de l'amygdale ; revue : Torre & Lieberman 2018, Emotion Review 10(2), 116-124. Voss applique le procédé aux affects D'AUTRUI, ce qui est une affirmation différente et non testée sous cette forme. Le mécanisme est plausible par transitivité — nommer l'émotion de l'autre l'amène à la reconnaître, donc à l'étiqueter lui-même — mais cette chaîne n'est pas établie."
+fiabilite_date: 2026-09-28
 ---
 # Étiquetage émotionnel
 

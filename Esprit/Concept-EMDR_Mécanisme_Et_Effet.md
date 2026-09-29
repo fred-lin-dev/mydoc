@@ -3,6 +3,7 @@ tags: [esprit/psychologie]
 source: "[[Source-The_Body_Keeps_the_Score]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'EFFET thérapeutique de l'EMDR sur le stress post-traumatique est réel et reconnu par plusieurs recommandations cliniques. Le MÉCANISME proposé — les mouvements oculaires — n'est pas soutenu : les méta-analyses en composantes démantelées ne trouvent pas d'apport mesurable du mouvement oculaire par rapport au même protocole sans lui (Davidson & Parker 2001, Journal of Consulting and Clinical Psychology 69(2), 305-316). L'explication la plus parcimonieuse : c'est de l'exposition prolongée avec un rituel autour."
+fiabilite_date: 2026-09-28
 ---
 # EMDR : mécanisme et effet
 

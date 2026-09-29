@@ -3,6 +3,7 @@ tags: [esprit/biais, esprit/stratégie]
 source: "[[Source-Thinking_Fast_And_Slow]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Ce n'est pas un résultat empirique mais un THÉORÈME : dès qu'une mesure comporte une part d'aléa, les valeurs extrêmes sont suivies de valeurs plus proches de la moyenne. Établi par Galton au XIXᵉ siècle. Rien à réfuter — ce qui est empirique, c'est seulement la fréquence avec laquelle on l'attribue à tort à une intervention."
+fiabilite_date: 2026-09-28
 ---
 # Régression vers la moyenne
 

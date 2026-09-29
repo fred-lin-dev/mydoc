@@ -3,6 +3,7 @@ tags: [esprit/biais, esprit/stratégie]
 source: "[[Source-The_Black_Swan]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Ce n'est pas un résultat empirique mais un EFFET DE SÉLECTION : dans un échantillon constitué a posteriori sur le résultat, les cas qui ont échoué sont absents par construction. Aucune réplication nécessaire — comme [[Concept-Régression_Vers_La_Moyenne]], c'est une propriété des échantillons non aléatoires, établie bien avant Taleb (biais du survivant)."
+fiabilite_date: 2026-09-28
 ---
 # Preuve silencieuse
 

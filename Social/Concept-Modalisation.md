@@ -3,6 +3,7 @@ tags: [social/influence, social/négociation]
 source: "[[Source-Le_Pouvoir_Rhétorique]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Deux affirmations de statut inégal. « Plus on fait pression, plus on suscite de résistance » correspond à la réactance psychologique (Brehm 1966 ; revue méta-analytique : Rains 2013, Human Communication Research 39(1), 47-73) — bien étayée. « Plus on s'affirme, plus on lève les réticences » est beaucoup plus faible : l'effet de la confiance affichée sur la persuasion dépend fortement du contexte et de la compétence réelle perçue. Verdict global : contesté, avec asymétrie entre les deux moitiés."
+fiabilite_date: 2026-09-28
 ---
 # Modalisation
 

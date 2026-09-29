@@ -3,6 +3,7 @@ tags: [esprit/psychologie]
 source: "[[Source-Mindset]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Sisk et al. 2018, Psychological Science 29(4) : méta-analyse — corrélation faible entre état d'esprit et résultats, effets d'intervention proches de zéro en moyenne. Yeager et al. 2019, Nature 573(7774), 364-369 : expérimentation nationale, N ≈ 12 500 élèves, effet réel mais petit (≈ 0,10 point de moyenne), concentré sur les élèves en difficulté et conditionné aux normes de l'établissement. Effet non nul, très inférieur à ce que le livre annonce."
+fiabilite_date: 2026-09-27
 ---
 # État d'esprit de développement
 

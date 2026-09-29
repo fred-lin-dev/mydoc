@@ -3,6 +3,7 @@ tags: [esprit/psychologie]
 source: "[[Source-So_Good_They_Cant_Ignore_You]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Ryan & Deci 2000, American Psychologist 55(1), 68-78. Corpus très large, soutien méta-analytique en contexte professionnel (Van den Broeck et al. 2016, Journal of Management). Ce qui reste débattu n'est pas l'existence de l'effet mais la taxonomie exacte : trois besoins, ou davantage."
+fiabilite_date: 2026-09-27
 ---
 # Autodétermination
 

@@ -3,6 +3,7 @@ tags: [social/charisme, esprit/psychologie]
 source: "[[Source-The_Charisma_Myth]]"
 fiabilite: 🔴 réfuté
 fiabilite_note: "Étude d'origine : Carney, Cuddy & Yap 2010, Psychological Science 21(10), 1363-1368 — N=42. Réplication : Ranehill et al. 2015, Psychological Science 26(5), 653-656, N=200 : aucun effet hormonal ni comportemental. Dana Carney, première autrice, a publiquement déclaré en 2016 ne plus croire à l'effet. Cuddy, Schultz & Fosse 2018 soutiennent qu'un effet subjectif de « sentiment de puissance » subsiste — c'est la seule partie encore défendue, et elle ne concerne ni les hormones ni la prise de risque."
+fiabilite_date: 2026-09-28
 ---
 # Posture de pouvoir
 

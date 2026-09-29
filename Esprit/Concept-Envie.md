@@ -3,6 +3,7 @@ tags: [esprit/psychologie, social/influence]
 source: "[[Source-The_Laws_of_Human_Nature]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'envie est un construit étudié, avec une distinction empiriquement soutenue entre envie bénigne — qui pousse à s'améliorer — et envie malveillante — qui pousse à dégrader l'autre : van de Ven, Zeelenberg & Pieters 2009, Emotion 9(3), 419-429. Ce qui n'est pas établi, c'est l'ampleur que Greene lui donne : moteur dominant du comportement social, et cause d'une large part des hostilités. Il l'affirme par portraits."
+fiabilite_date: 2026-09-28
 ---
 # Envie
 

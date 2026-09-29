@@ -29,7 +29,7 @@ TABLE WITHOUT ID
   file.link AS "Note",
   length(file.inlinks) AS "Cité par",
   source AS "Source"
-FROM "Esprit" OR "Social" OR "Tech" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-") AND contains(fiabilite, "non évalué")
 SORT length(file.inlinks) DESC
 ```
@@ -40,7 +40,7 @@ SORT length(file.inlinks) DESC
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict"
-FROM "Esprit" OR "Social" OR "Tech" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-")
   AND (contains(fiabilite, "solide") OR contains(fiabilite, "contesté")
        OR contains(fiabilite, "réfuté"))
@@ -54,7 +54,7 @@ note sans en tirer de question, c'est faire du surlignage sophistiqué.*
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict"
-FROM "Esprit" OR "Social" OR "Tech" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-") AND !contains(file.content, "## 🎴 Cartes")
 ```
 
@@ -76,18 +76,32 @@ n'a jamais servi — et son idée n'était peut-être pas citable (décision 01)
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", file.folder AS "Domaine"
-FROM "Esprit" OR "Social" OR "Tech" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE length(file.inlinks) = 0
 SORT file.mtime ASC
 ```
 
-## 6 · Répartition des verdicts
+## 6 · Âge des verdicts — les plus anciens d'abord
+
+*Un verdict empirique dépend d'un état de la littérature, et cet état a une date
+(décision 05). Horizon : 24 mois.*
+
+```dataview
+TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict",
+      fiabilite_date AS "Établi le"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+WHERE startswith(file.name, "Concept-") AND fiabilite_date
+SORT fiabilite_date ASC
+LIMIT 15
+```
+
+## 7 · Répartition des verdicts
 
 *Si tout est vert, le vert ne signale plus rien.*
 
 ```dataview
 TABLE WITHOUT ID fiabilite AS "Verdict", length(rows) AS "Notes"
-FROM "Esprit" OR "Social" OR "Tech" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-")
 GROUP BY fiabilite
 SORT length(rows) DESC

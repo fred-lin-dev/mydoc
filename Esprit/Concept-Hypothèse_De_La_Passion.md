@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "[[Source-So_Good_They_Cant_Ignore_You]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Wrzesniewski 1997, « Jobs, Careers, and Callings », Journal of Research in Personality 31(1), 21-33 : à poste identique, le meilleur prédicteur de vivre son travail comme une vocation est l'ancienneté. Résultat réel mais CORRÉLATIONNEL — l'attrition (celles qui n'aimaient pas sont parties) explique aussi bien les données, et Newport ne l'évoque pas."
+fiabilite_date: 2026-09-27
 ---
 # Hypothèse de la passion
 

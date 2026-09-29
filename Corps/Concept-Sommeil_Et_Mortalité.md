@@ -3,6 +3,7 @@ tags: [corps/sommeil, esprit/biais]
 source: "[[Source-Why_We_Sleep]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'association est réelle et bien documentée, mais elle est en U : sommeil court ET sommeil long sont associés à une mortalité plus élevée — méta-analyse Cappuccio et al. 2010, Sleep 33(5), 585-592. La CAUSALITÉ n'est pas établie : la causalité inverse est une explication concurrente sérieuse (une maladie non diagnostiquée allonge le sommeil et raccourcit la vie). Walker écrit « a proven link » ; ce n'est pas le cas."
+fiabilite_date: 2026-09-28
 ---
 # Sommeil et mortalité
 

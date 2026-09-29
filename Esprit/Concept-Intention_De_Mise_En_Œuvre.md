@@ -3,6 +3,7 @@ tags: [esprit/habitudes, esprit/psychologie]
 source: "[[Source-Atomic_Habits]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Gollwitzer & Sheeran 2006, « Implementation Intentions and Goal Achievement: A Meta-Analysis of Effects and Processes », Advances in Experimental Social Psychology 38, 69-119 : 94 études, d ≈ 0,65 — effet moyen à fort, rare dans ce domaine. Clear la rebaptise « habit stacking » sans citer la littérature d'origine."
+fiabilite_date: 2026-09-27
 ---
 # Intention de mise en œuvre
 

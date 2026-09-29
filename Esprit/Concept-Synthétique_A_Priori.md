@@ -3,6 +3,7 @@ tags: [esprit/philosophie]
 source: "[[Critique_of_Pure_Reason.pdf]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "La **question** (B 19) est formelle et ne se réfute pas. Ce qui est tombé, ce sont les exemples que Kant donne comme acquis. Son cas de science naturelle — « in all changes in the corporeal world the quantity of matter remains unchanged » (B 17-18) — est faux depuis l'équivalence masse-énergie : c'est l'énergie totale qui se conserve, pas la quantité de matière. Son cas mathématique, la géométrie euclidienne comme vraie a priori de l'espace de l'expérience, est défait par les géométries non euclidiennes (Gauss, Lobatchevski, Riemann) puis par la relativité générale, où la courbure de l'espace-temps est une grandeur mesurée. Des positions affaiblies restent défendues — l'a priori relativisé de Reichenbach — d'où `🟠` et non `🔴` : c'est la portée qui s'effondre, pas la question."
+fiabilite_date: 2026-09-29
 ---
 # Le jugement synthétique a priori
 

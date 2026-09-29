@@ -3,6 +3,7 @@ tags: [social/influence, esprit/psychologie]
 source: "[[Source-Never_Split_the_Difference]]"
 fiabilite: 🔴 réfuté
 fiabilite_note: "Origine : Mehrabian & Wiener 1967 et Mehrabian & Ferris 1967. Le dispositif était très étroit — des participants jugeaient le SENTIMENT d'un locuteur à partir d'un MOT ISOLÉ enregistré, dont le ton contredisait le contenu. Les proportions 7/38/55 décrivent la résolution de cette contradiction dans ce dispositif précis. Mehrabian a lui-même publiquement désavoué l'extension à la communication en général. Réfuté comme règle générale ; le résultat d'origine, lui, n'est pas en cause."
+fiabilite_date: 2026-09-28
 ---
 # Règle 7-38-55
 

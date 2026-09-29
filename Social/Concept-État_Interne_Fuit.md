@@ -3,6 +3,7 @@ tags: [social/charisme, social/influence]
 source: "[[Source-The_Charisma_Myth]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'affirmation faible — une incongruence entre le dit et le comportement est souvent perçue — est plausible et cohérente avec la littérature sur la communication non verbale. L'affirmation forte du livre — les micro-expressions révèlent de façon fiable un état émotionnel précis (tradition Ekman) — est contestée : Barrett et al. 2019, Psychological Science in the Public Interest 20(1), 1-68, concluent que les configurations faciales ne correspondent pas de façon fiable à des catégories d'émotion, ni entre individus ni entre cultures."
+fiabilite_date: 2026-09-28
 ---
 # L'état interne fuit
 

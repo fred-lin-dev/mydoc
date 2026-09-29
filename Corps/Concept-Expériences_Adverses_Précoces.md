@@ -3,6 +3,7 @@ tags: [corps/santé, esprit/psychologie]
 source: "[[Source-The_Body_Keeps_the_Score]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Étude ACE — Felitti et al. 1998, American Journal of Preventive Medicine 14(4), 245-258 : plus de 17 000 participants, relation dose-effet entre nombre d'expériences adverses et résultats de santé à l'âge adulte. Répliquée dans de nombreux pays et populations. C'est de l'épidémiologie observationnelle : l'association est solide, l'attribution causale reste partiellement confondue par les facteurs socio-économiques."
+fiabilite_date: 2026-09-28
 ---
 # Expériences adverses précoces
 

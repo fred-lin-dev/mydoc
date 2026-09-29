@@ -3,6 +3,7 @@ tags: [esprit/biais, esprit/productivité, tech/programmation]
 source: "[[Source-Thinking_Fast_And_Slow]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Buehler, Griffin & Ross 1994, Journal of Personality and Social Psychology 67(3), 366-381 : les estimations de durée sont systématiquement optimistes, et le biais résiste à l'expérience du même type de tâche. Le remède — la prévision par classe de référence — a un appui empirique dans les grands projets d'infrastructure (travaux de Flyvbjerg). Effet robuste et directement mesurable, contrairement à la plupart des biais."
+fiabilite_date: 2026-09-28
 ---
 # Erreur de planification
 

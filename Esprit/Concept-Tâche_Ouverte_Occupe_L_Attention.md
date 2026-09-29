@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "[[Source-How_to_Take_Smart_Notes]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Effet Zeigarnik : original Zeigarnik 1927, réplications inégales depuis. La version forte — « noter la tâche suffit à libérer l'attention » — vient de Masicampo & Baumeister 2011, JPSP 101(4), 667-683, donc du laboratoire dont l'ego depletion a été réfuté (cf. [[Concept-Volonté_Comme_Ressource]]). Ahrens attribue ce point à des « travaux de suivi » sans citer l'étude."
+fiabilite_date: 2026-09-27
 ---
 # Tâche ouverte occupe l'attention
 

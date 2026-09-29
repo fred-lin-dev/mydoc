@@ -3,6 +3,7 @@ tags: [esprit/habitudes, esprit/psychologie]
 source: "[[Source-Atomic_Habits]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Mertens et al. 2022, PNAS 119(1), e2107346118 : méta-analyse des interventions d'architecture du choix, d ≈ 0,43. Maier et al. 2022, PNAS 119(31), e2200300119 : après correction du biais de publication, l'effet global n'est plus distinguable de zéro. Les deux ont paru la même année dans la même revue — le débat est vif et non tranché."
+fiabilite_date: 2026-09-27
 ---
 # Friction détermine le comportement
 

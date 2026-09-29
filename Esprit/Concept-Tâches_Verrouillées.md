@@ -3,6 +3,7 @@ tags: [esprit/productivité, esprit/psychologie]
 source: "[[Source-How_to_Take_Smart_Notes]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Coûts de commutation établis — Rubinstein, Meyer & Evans 2001, J Exp Psychol HPP 27(4), 763-797. Le volet « multitâches lourds moins performants » (Ophir, Nass & Wagner 2009, PNAS 106(37), 15583-87) est plus faible : réplications inégales."
+fiabilite_date: 2026-09-27
 ---
 # Tâches verrouillées
 

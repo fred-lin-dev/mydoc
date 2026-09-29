@@ -3,6 +3,7 @@ tags: [social/influence, esprit/psychologie]
 source: "[[Source-The_Psychology_of_Persuasion]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Le « pied dans la porte » est un effet réel mais PETIT : Beaman, Cole, Preston, Klentz & Steblay 1983, Personality and Social Psychology Bulletin 9(2), 181-196 — méta-analyse sur quinze ans de recherche, effet fiable et de faible ampleur, très dépendant des conditions. Le mécanisme explicatif invoqué (modification de l'image de soi) est plausible mais mal testé séparément de l'effet lui-même."
+fiabilite_date: 2026-09-28
 ---
 # Engagement et cohérence
 

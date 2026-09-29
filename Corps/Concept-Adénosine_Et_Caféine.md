@@ -3,6 +3,7 @@ tags: [corps/sommeil]
 source: "[[Source-Why_We_Sleep]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Pharmacologie établie : l'adénosine s'accumule pendant l'éveil et signale la pression de sommeil ; la caféine est un antagoniste des récepteurs à l'adénosine. Demi-vie de la caféine chez l'adulte : environ 5 à 6 heures en moyenne, avec une variabilité interindividuelle importante d'origine génétique (métabolisme par le CYP1A2). Rien de contesté dans ce mécanisme."
+fiabilite_date: 2026-09-28
 ---
 # Adénosine et caféine
 

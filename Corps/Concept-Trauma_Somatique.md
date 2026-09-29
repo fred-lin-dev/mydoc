@@ -3,6 +3,7 @@ tags: [corps/santé, esprit/psychologie]
 source: "[[Source-The_Body_Keeps_the_Score]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'observation de base — le trauma s'accompagne de dérèglements physiologiques durables et mesurables — est bien soutenue. La thèse forte — le trauma est « stocké » dans le corps, donc les approches corporelles sont nécessaires — mélange une observation solide et une inférence thérapeutique qui ne l'est pas. Les essais sur les thérapies corporelles sont de faible effectif, et plusieurs viennent de l'équipe de l'auteur : à ne pas compter comme réplications indépendantes."
+fiabilite_date: 2026-09-28
 ---
 # Trauma somatique
 

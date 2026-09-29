@@ -3,6 +3,7 @@ tags: [esprit/biais]
 source: "[[Source-Thinking_Fast_And_Slow]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Tversky & Kahneman 1983, Psychological Review 90(4), 293-315 (erreur de conjonction, « problème de Linda »). Parmi les effets les plus répliqués de la psychologie du jugement, y compris chez des experts et des statisticiens. Les critiques ont porté sur l'interprétation — la formulation des questions peut induire une lecture conversationnelle plutôt que logique — pas sur la réalité du phénomène."
+fiabilite_date: 2026-09-28
 ---
 # Négligence du taux de base
 

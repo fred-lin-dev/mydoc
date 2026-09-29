@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "[[Source-Deep_Work]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Leroy 2009, « Why Is It So Hard to Do My Work? », Organizational Behavior and Human Decision Processes 109(2), 168-181. Effet réel et bien cité, mais qui repose principalement sur les expériences de son autrice : peu de réplications indépendantes à ce jour. Distinct du coût de commutation, qui lui est solide — voir [[Concept-Tâches_Verrouillées]]."
+fiabilite_date: 2026-09-27
 ---
 # Résidu attentionnel
 

@@ -3,6 +3,7 @@ tags: [esprit/psychologie, social/influence]
 source: "[[Source-Mindset]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Étude d'origine : Mueller & Dweck 1998, Journal of Personality and Social Psychology 75(1), 33-52 — petits effectifs, époque antérieure aux standards actuels de puissance. Réplications inégales, et les interventions dérivées ont des effets proches de zéro en méta-analyse (Sisk et al. 2018). Le mécanisme est plausible, l'ampleur ne l'est pas."
+fiabilite_date: 2026-09-27
 ---
 # Éloge de l'effort
 

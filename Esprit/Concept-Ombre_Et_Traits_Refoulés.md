@@ -3,6 +3,7 @@ tags: [esprit/psychologie]
 source: "[[Source-The_Laws_of_Human_Nature]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'appareil jungien — l'ombre, l'anima/animus — n'a AUCUN statut empirique établi : ce sont des constructions théoriques du début du XXᵉ siècle, jamais opérationnalisées de façon testable. Le noyau défendable est l'effet de rebond de la suppression de pensée (Wegner 1994, Psychological Review 101(1), 34-52) : réel, mais d'ampleur modeste et aux réplications inégales. Le vocabulaire est à écarter, le phénomène partiellement à garder."
+fiabilite_date: 2026-09-28
 ---
 # Ombre et traits refoulés
 

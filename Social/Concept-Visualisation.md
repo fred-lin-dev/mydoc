@@ -3,6 +3,7 @@ tags: [social/charisme, esprit/psychologie]
 source: "[[Source-The_Charisma_Myth]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Deux effets opposés selon l'objet. Visualiser le RÉSULTAT : Oettingen & Mayer 2002, JPSP 83(5), 1198-1212 — les fantasmes positifs sur l'issue prédisent une performance PLUS FAIBLE. Répéter mentalement le PROCESSUS : Driskell, Copper & Moran 1994, Journal of Applied Psychology 79(4), 481-492 — méta-analyse, effet réel mais modeste, surtout sur les tâches cognitives. Cabane ne distingue pas les deux."
+fiabilite_date: 2026-09-28
 ---
 # Visualisation
 

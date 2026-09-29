@@ -157,6 +157,7 @@ source: "[[Source-Atomic_Habits]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Lally 2010, Eur J Soc Psychol 40(6), N=96, médiane 66j,
   IC 18-254j — le « 21 jours » est un mythe de vulgarisation"
+fiabilite_date: 2026-09-28
 ```
 
 **Le barème — cinq valeurs, écrites exactement comme suit :**
@@ -168,6 +169,34 @@ fiabilite_note: "Lally 2010, Eur J Soc Psychol 40(6), N=96, médiane 66j,
 | `🔴 réfuté` | réfuté par réplication ou méta-analyse | **obligatoire** — la réfutation |
 | `⚪ non évalué` | dette assumée, pas encore vérifié | vide |
 | `⬜ non applicable` | la note n'affirme rien d'empirique | la vraie source (doc, définition) |
+
+### `fiabilite_date` — un verdict se périme, ajouté le 2026-09-30
+
+**Obligatoire sur les trois verdicts tranchés, absent des deux autres.** L'audit
+refuse un `🟢`, `🟠` ou `🔴` sans date, au même titre qu'il refuse un verdict sans
+référence.
+
+**Pourquoi seulement ces trois :** une définition `⬜` ne devient pas fausse avec le
+temps, et un `⚪` est déjà une dette. **Seul un verdict empirique vieillit** — parce
+qu'il dépend d'un état de la littérature, et que cet état a une date.
+
+**Horizon : 24 mois.** L'ordre de grandeur auquel une méta-analyse ou une
+réplication large peut renverser une conclusion. Au-delà, l'audit remet le verdict
+en dette — il ne le supprime pas, il le rouvre.
+
+L'en-tête du rapport porte toujours l'âge du verdict le plus ancien et le nombre de
+verdicts à moins de six mois de l'échéance, **pour que le contrôle ne soit jamais
+muet** avant de se déclencher.
+
+> ⚠️ **Ce qui distingue ce délai d'un quota.** La règle des 3 cartes ne pouvait pas
+> se déclencher, parce qu'elle mesurait la discipline de celui qui écrivait
+> (décision 01). Celle-ci **se déclenchera toute seule, par le passage du temps**,
+> sans dépendre de personne. C'est le seul contrôle du vault dont le déclenchement
+> ne soit pas conditionné à un comportement.
+
+**Les 45 verdicts existants ont été datés depuis l'historique git** — date de
+première apparition du fichier, pas une date inventée : 15 au 2026-09-27, 27 au
+2026-09-28, 3 au 2026-09-29.
 
 **La règle qui va avec.** Jamais « prouvé », « démontré » ou « validé
 scientifiquement » sans référence à côté. Si on ne peut pas vérifier, on écrit

@@ -3,6 +3,7 @@ tags: [social/séduction]
 source: "[[Source-Attached]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Repose sur le programme de recherche de Brooke Feeney, correctement cité par le livre : « A Secure Base: Responsive Support of Goal Strivings and Exploration in Adult Intimate Relationships », JPSP 87 (2004), 631-48, et avec R. L. Thrush, « Relationship Influences on Exploration in Adulthood », JPSP 98 (2010), 57-76 — dispositifs observationnels et expérimentaux convergents, prolongeant la littérature sur la base de sécurité. Deux limites honnêtes : c'est un effet **de groupe**, pas une prédiction individuelle, et ce travail précède la généralisation du pré-enregistrement en psychologie sociale. `🟢` relativement à ce corpus, pas au-delà."
+fiabilite_date: 2026-09-29
 ---
 # Le paradoxe de la dépendance
 

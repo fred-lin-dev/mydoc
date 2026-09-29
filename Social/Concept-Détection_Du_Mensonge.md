@@ -3,6 +3,7 @@ tags: [social/influence, esprit/psychologie]
 source: "[[Source-What_Every_Body_Is_Saying]]"
 fiabilite: 🔴 réfuté
 fiabilite_note: "Bond & DePaulo 2006, Personality and Social Psychology Review 10(3), 214-234 : méta-analyse, précision moyenne de 54 % là où le hasard donne 50 %. DePaulo et al. 2003, Psychological Bulletin 129(1), 74-118 : revue de 158 indices comportementaux, tailles d'effet très faibles et aucun indice fiable. Bond & DePaulo 2008, Psychological Bulletin 134(4), 477-492 : pas de différence significative entre professionnels — policiers, douaniers, juges — et profanes."
+fiabilite_date: 2026-09-28
 ---
 # Détection du mensonge
 

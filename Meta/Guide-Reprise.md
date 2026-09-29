@@ -44,7 +44,9 @@ tags: [meta/guide]
 | `Tech/` | 4 | 2 | 0 |
 | `Langues/` | **0** | 0 | 0 |
 
-**Verdicts de fiabilité :** ⬜ 43 · ⚪ 37 · 🟠 21 · 🟢 16 · 🔴 5
+**Verdicts de fiabilité :** ⬜ 52 · ⚪ 41 · 🟠 23 · 🟢 17 · 🔴 5
+**Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
+pas inventés. Le plus ancien a 0 mois ; horizon 24.
 **Inventaire :** 84 titres, 60 sur le disque — 37 fichés · 10 lu-sans-fiche · 19 illustration · 18 dehors
 **15 titres du disque ne sont sur aucune liste de lecture** — en attente de décision,
 garder ou jeter. Et **8 livres sont `fiché` sans avoir de fiche**, sur la liste ou non
@@ -74,6 +76,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **`corps/`** | né à la règle des 5, sans qu'on ait eu à décider. Premier test réel de cette règle |
 | **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
 | **Signal d'atomicité** (décision 01) | 2026-09-30 : le signal d'origine ne pouvait pas se déclencher. Le nouveau mesure la section `## L'idée` seule — une longue vérification est un bon signe, une longue idée non — et se présente comme un échantillon, jamais comme un verdict |
+| **`fiabilite_date`** (décision 05) | 2026-09-30 : un verdict empirique dépend d'un état de la littérature, et cet état a une date. Obligatoire sur `🟢🟠🔴`, absent de `⚪⬜` — une définition ne vieillit pas. Horizon **24 mois**, au-delà l'audit rouvre la dette. **Le seul contrôle du vault dont le déclenchement ne dépende de la discipline de personne** |
 | **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu [[Ref-Bibliothèque]], l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
 
 ---
@@ -154,6 +157,7 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Un garde-fou borgne** | le garde-fou 11 vérifiait qu'une fiche produit une note, jamais qu'un livre fiché a une fiche. **Huit livres attendaient en silence**, six depuis la construction du vault | contrôle ajouté, comptés en dette. Un garde-fou qui ne teste qu'un sens laisse passer l'autre |
 | **Un instrument mort qui avait l'air vivant** | la règle des 3 cartes devait signaler les notes non atomiques : `grep -c '^Q:' > 3`. Mesure sur 137 notes — **118 en ont exactement 3, 19 en ont 2, aucune n'en a 4**. Le nombre de cartes est un choix du rédacteur, pas une propriété de la note : la règle mesurait sa propre observance | remplacée par la longueur de prose de la seule section `## L'idée`, au 9ᵉ décile, et **présentée comme un échantillon de relecture, pas comme un verdict**. Vérifiée dans les deux sens le jour même : une note gardée, une scindée |
 | **Le plugin Anki ne supprime jamais** | retirer un `Q:`/`A:` d'une note, ou déplacer une idée d'une note à l'autre, laisse dans Anki une carte figée que plus aucun fichier ne référence — **sans aucun signal** | `Scripts/orphelines.py`, à lancer après tout scan qui a retiré ou déplacé une carte. L'audit ne peut pas le voir : il est hors réseau et Anki n'est pas toujours ouvert |
+| **Le tableau de bord était aveugle à un domaine entier** | les 5 requêtes Dataview de [[MOC-Audit]] listaient `Esprit Social Tech Langues` et **pas `Corps`**, né après leur rédaction. Cinq notes, dont trois verdicts `🟢`, invisibles depuis la création du domaine | `Corps` réintégré aux cinq, et **contrôle ajouté** : l'audit compare les `FROM` aux dossiers réels. Même angle mort que `FOLDER_DECKS` côté Anki, et il a fallu le chercher pour le voir |
 
 ---
 

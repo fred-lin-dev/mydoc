@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "Dunlosky et al. 2013, Psychological Science in the Public Interest 14(1), 4-58"
 fiabilite: 🟢 solide
 fiabilite_note: "Dunlosky et al. 2013 classent la pratique de récupération en utilité ÉLEVÉE — l'un des deux seuls dispositifs à ce niveau. Effet princeps : Roediger & Karpicke 2006, Psychological Science 17(3), 249-255. Source hors bibliothèque : article, pas livre."
+fiabilite_date: 2026-09-27
 ---
 # Active recall
 

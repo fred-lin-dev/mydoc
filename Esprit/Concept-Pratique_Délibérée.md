@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "[[Source-Deep_Work]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Cadre d'origine : Ericsson, Krampe & Tesch-Römer 1993, Psychological Review 100(3), 363-406. Contesté par méta-analyse : Macnamara, Hambrick & Oswald 2014, Psychological Science 25(8), 1608-1618 — variance expliquée 26 % (jeux), 21 % (musique), 18 % (sport), 4 % (éducation), <1 % (professions). Ericsson a contesté la méthode de cette méta-analyse : le débat est ouvert, d'où « contesté » et non « réfuté »."
+fiabilite_date: 2026-09-27
 ---
 # Pratique délibérée
 

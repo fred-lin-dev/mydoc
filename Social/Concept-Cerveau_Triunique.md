@@ -3,6 +3,7 @@ tags: [esprit/psychologie, social/influence]
 source: "[[Source-What_Every_Body_Is_Saying]]"
 fiabilite: 🔴 réfuté
 fiabilite_note: "Modèle de Paul MacLean (années 1960-1990), rejeté par la neuroanatomie comparée : les structures dites « reptiliennes » ne sont pas plus anciennes ni plus primitives, et les reptiles possèdent des équivalents de structures dites « limbiques ». Synthèse accessible : Cesario, Johnson & Eisthen 2020, « Your Brain Is Not an Onion With a Tiny Reptile Inside », Current Directions in Psychological Science 29(3), 255-260."
+fiabilite_date: 2026-09-28
 ---
 # Cerveau triunique
 

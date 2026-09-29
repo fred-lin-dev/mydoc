@@ -3,6 +3,7 @@ tags: [esprit/productivité, esprit/psychologie]
 source: "[[Source-How_to_Take_Smart_Notes]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Élaboration et auto-explication : soutien convergent, mais classées « utilité MODÉRÉE » par Dunlosky et al. 2013, Psychological Science in the Public Interest 14(1), 4-58 — pas « élevée », contrairement à ce que laisse entendre Ahrens. L'utilité élevée est réservée à la pratique de récupération et à la répétition espacée."
+fiabilite_date: 2026-09-27
 ---
 # Reformulation comme test
 

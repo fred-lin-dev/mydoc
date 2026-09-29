@@ -3,6 +3,7 @@ tags: [esprit/stratégie, social/influence]
 source: "[[Source-Skin_in_the_Game]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Taleb avance « 3 or 4 percent of the total population », par argument probabiliste et non par mesure. L'expérimentation de Centola, Becker, Brackbill & Baronchelli 2018, Science 360(6393), 1116-1119, trouve un point de bascule autour de 25 % pour renverser une convention établie. Les deux sont réconciliables — les régimes diffèrent — mais Taleb présente son chiffre comme général, ce qu'il n'est pas."
+fiabilite_date: 2026-09-28
 ---
 # Minorité intransigeante
 

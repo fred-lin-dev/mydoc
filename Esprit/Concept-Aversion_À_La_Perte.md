@@ -3,6 +3,7 @@ tags: [esprit/biais, social/négociation]
 source: "[[Source-Thinking_Fast_And_Slow]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Théorie des perspectives : Kahneman & Tversky 1979, Econometrica 47(2), 263-291 — travail qui a valu le prix Nobel d'économie 2002. Répliqué dans de nombreux domaines et cultures. Nuance importante : Gal & Rucker 2018, Journal of Consumer Psychology 28(3), 497-516, contestent la GÉNÉRALITÉ de l'effet — il dépend fortement du cadrage et n'apparaît pas dans toutes les conditions. C'est l'existence qui est solide, pas l'universalité."
+fiabilite_date: 2026-09-28
 ---
 # Aversion à la perte
 

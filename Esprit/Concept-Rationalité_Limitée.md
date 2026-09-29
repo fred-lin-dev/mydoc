@@ -3,6 +3,7 @@ tags: [esprit/stratégie, esprit/psychologie]
 source: "[[Source-Thinking_in_Systems]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Concept de Herbert Simon (prix Nobel d'économie 1978), pas de Meadows : les acteurs optimisent sous contrainte d'information et de capacité de calcul, pas en connaissance parfaite. Corpus très large en économie comportementale et en théorie de la décision. Ce qui est débattu est l'ampleur des écarts à la rationalité, pas leur existence."
+fiabilite_date: 2026-09-27
 ---
 # Rationalité limitée
 

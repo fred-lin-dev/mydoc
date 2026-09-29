@@ -3,6 +3,7 @@ tags: [corps/sommeil, esprit/psychologie]
 source: "[[Source-Why_We_Sleep]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Le rôle du sommeil dans la consolidation mnésique est l'un des résultats les mieux établis des neurosciences du sommeil : synthèse de référence — Rasch & Born 2013, « About Sleep's Role in Memory », Physiological Reviews 93(2), 681-766. Ce qui reste débattu est la répartition des fonctions entre sommeil lent et sommeil paradoxal, pas l'existence de la consolidation."
+fiabilite_date: 2026-09-28
 ---
 # Consolidation mnésique par le sommeil
 

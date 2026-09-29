@@ -3,6 +3,7 @@ tags: [social/influence]
 source: "[[Source-What_Every_Body_Is_Saying]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "L'affirmation faible — un inconfort se manifeste souvent corporellement et s'observe — est plausible et cohérente avec la littérature. L'affirmation forte — des gestes précis correspondent à des états précis — ne l'est pas : DePaulo et al. 2003 ne trouvent aucun indice comportemental fiable, et Barrett et al. 2019 aboutissent à la même conclusion pour les expressions faciales. L'inconfort est détectable ; sa cause ne l'est pas."
+fiabilite_date: 2026-09-28
 ---
 # Signal d'inconfort
 

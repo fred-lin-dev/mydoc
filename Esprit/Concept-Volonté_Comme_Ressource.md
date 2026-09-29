@@ -3,6 +3,7 @@ tags: [esprit/psychologie]
 source: "[[Source-How_to_Take_Smart_Notes]]"
 fiabilite: 🔴 réfuté
 fiabilite_note: "Hagger et al. 2016, Perspectives on Psychological Science 11(4), 546-573 : réplication multi-labos pré-enregistrée, 23 laboratoires, N=2141, d ≈ 0,04, intervalle de confiance incluant zéro. Carter & McCullough 2014, Frontiers in Psychology 5:823 : biais de publication massif dans la littérature d'origine (Baumeister et al. 1998, J Pers Soc Psychol 74(5), 1252-65)."
+fiabilite_date: 2026-09-27
 ---
 # Volonté comme ressource
 

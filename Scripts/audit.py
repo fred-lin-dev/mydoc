@@ -14,6 +14,7 @@ Niveaux de périmètre lus dans Meta/Ref-Périmètre_Bibliothèque.md (décision
     le relire de temps en temps sur un échantillon lu à la main.
 """
 
+import datetime
 import json
 import re
 import sys
@@ -28,6 +29,16 @@ BAREME_PERIMETRE = {"fiché", "lu-sans-fiche", "illustration", "dehors"}
 
 BAREME = {"solide", "contesté", "réfuté", "non évalué", "non applicable"}
 VERDICTS_AVEC_REFERENCE = {"solide", "contesté", "réfuté"}
+
+# Horizon de péremption d'un verdict empirique. Seuls les verdicts tranchés
+# vieillissent : une définition `⬜` ne devient pas fausse avec le temps, et un `⚪`
+# est déjà une dette. Vingt-quatre mois est l'ordre de grandeur auquel une
+# méta-analyse ou une réplication large peut renverser une conclusion.
+#
+# ⚠️  Contrairement à l'ancienne règle des 3 cartes, ce contrôle **se déclenchera
+#     tout seul**, par le passage du temps, sans dépendre de la discipline de
+#     personne. C'est ce qui distingue un délai d'un quota.
+HORIZON_MOIS = 24
 
 # Marqueurs de template oublié. Volontairement peu nombreux : chaque motif ici
 # doit être impossible à produire volontairement, sinon il génère du faux positif.
@@ -163,6 +174,7 @@ def main():
     cibles = set(noms) | {p.name for p in RACINE.rglob("*") if p.is_file()}
     entrants = defaultdict(set)
     niveaux, possedes, NOM_REF = perimetre()
+    ages = {}
 
     for f, contenu in contenus.items():
         rel, nom = f.relative_to(RACINE), f.stem
@@ -212,6 +224,25 @@ def main():
                         (rel, f"`{verdict}` sans `fiabilite_note` — un verdict "
                               "sans référence est un avis")
                     )
+                brut = champs.get("fiabilite_date", "").strip(' "')
+                if not brut:
+                    erreurs.append(
+                        (rel, f"`{verdict}` sans `fiabilite_date` — un verdict "
+                              "sans date ne peut pas se périmer")
+                    )
+                else:
+                    try:
+                        etabli = datetime.date.fromisoformat(brut)
+                    except ValueError:
+                        erreurs.append((rel, f"`fiabilite_date: {brut}` illisible "
+                                             "— format attendu AAAA-MM-JJ"))
+                    else:
+                        ages[rel] = (datetime.date.today() - etabli).days
+                        if ages[rel] > HORIZON_MOIS * 30:
+                            infos.append(
+                                (rel, f"dette : verdict `{verdict}` établi le {brut}, "
+                                      f"soit il y a {ages[rel] // 30} mois — à revérifier")
+                            )
             if verdict == "non évalué":
                 infos.append((rel, "dette : non évalué"))
             if not champs.get("source", "").strip(' "'):
@@ -295,6 +326,24 @@ def main():
                               f"à relire pour l'atomicité : {n} mots d'idée, "
                               f"dernier décile (seuil {seuil})"))
 
+    # Le tableau de bord Dataview doit interroger tous les domaines. Il a été
+    # aveugle à `Corps/` depuis la naissance de ce domaine, sans que rien le dise :
+    # même angle mort que FOLDER_DECKS côté Anki, et même correctif.
+    tableau = RACINE / "Meta" / "MOC-Audit.md"
+    if tableau.exists():
+        contenu_tb = tableau.read_text(encoding="utf-8")
+        domaines_reels = {d.name for d in RACINE.iterdir()
+                          if d.is_dir() and not d.name.startswith(".")
+                          and d.name not in EXCLUS and d.name != "Meta"}
+        for i, ligne in enumerate(contenu_tb.split("\n"), 1):
+            if not ligne.startswith("FROM "):
+                continue
+            cites = set(re.findall(r'"([^"]+)"', ligne))
+            for absent in sorted(domaines_reels - cites):
+                erreurs.append((Path("Meta/MOC-Audit.md"),
+                                f"ligne {i} : le domaine `{absent}/` est absent du "
+                                f"`FROM` — ses notes sont invisibles au tableau de bord"))
+
     pdfs = {p.stem for p in RACINE.rglob("*.pdf")}
     for absent in sorted(pdfs - set(niveaux)):
         alertes.append((Path(NOM_REF),
@@ -327,6 +376,12 @@ def main():
     print(f"- PDF dans `Extras/` : **{len(pdfs)}**")
     print(f"- fiches `Source-` : **{fiches}**")
     print(f"- fiches ayant produit au moins une note : **{converties}**")
+    if ages:
+        vieux = max(ages.values())
+        bientot = sum(1 for j in ages.values() if HORIZON_MOIS * 30 - 180 < j <= HORIZON_MOIS * 30)
+        print(f"- verdicts tranchés : **{len(ages)}**, le plus ancien a "
+              f"**{vieux // 30} mois** · horizon {HORIZON_MOIS} mois"
+              + (f" · **{bientot}** à moins de 6 mois de l'échéance" if bientot else ""))
     print(f"\n→ **{len(erreurs)} erreurs · {len(alertes)} alertes · {len(infos)} infos**\n")
 
     sections = [("🔴 Erreurs", erreurs)]

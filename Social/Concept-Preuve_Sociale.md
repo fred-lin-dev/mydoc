@@ -3,6 +3,7 @@ tags: [social/influence, esprit/psychologie]
 source: "[[Source-The_Psychology_of_Persuasion]]"
 fiabilite: 🟢 solide
 fiabilite_note: "Conformité : l'un des effets les plus robustes de la psychologie sociale — Asch 1951/1956, et méta-analyse interculturelle Bond & Smith 1996, Psychological Bulletin 119(1), 111-137 (ampleur variable selon les cultures, existence non contestée). Normes descriptives en situation réelle : Goldstein, Cialdini & Griskevicius 2008, Journal of Consumer Research 35(3), 472-482 — expérience de terrain, répliquée. Distinguer la NORME DESCRIPTIVE (ce que les gens font) de la norme prescriptive (ce qu'il faudrait faire) : c'est la première qui agit."
+fiabilite_date: 2026-09-28
 ---
 # Preuve sociale
 

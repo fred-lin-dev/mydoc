@@ -3,6 +3,7 @@ tags: [esprit/psychologie, esprit/productivité]
 source: "Dunlosky et al. 2013, Psychological Science in the Public Interest 14(1), 4-58"
 fiabilite: 🟢 solide
 fiabilite_note: "Utilité ÉLEVÉE chez Dunlosky et al. 2013. Méta-analyse : Cepeda et al. 2006, Psychological Bulletin 132(3), 354-380 (254 études). Intervalle optimal : Cepeda et al. 2008, Psychological Science 19(11), 1095-1102. Source hors bibliothèque : articles, pas livre."
+fiabilite_date: 2026-09-27
 ---
 # Répétition espacée
 

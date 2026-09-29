@@ -3,6 +3,7 @@ tags: [social/influence, social/négociation]
 source: "[[Source-The_Psychology_of_Persuasion]]"
 fiabilite: 🟠 contesté
 fiabilite_note: "Deux versions de statut inégal. L'ANCRAGE NUMÉRIQUE est solide : c'est l'un des effets qui a été répliqué avec succès dans les grandes réplications multi-laboratoires des années 2010. La version PERCEPTIVE GÉNÉRALE de Cialdini — un objet paraît différent selon ce qui le précède, hors contexte numérique — est beaucoup moins testée en tant que telle, même si elle est ancienne et intuitive."
+fiabilite_date: 2026-09-28
 ---
 # Contraste perceptif
 
