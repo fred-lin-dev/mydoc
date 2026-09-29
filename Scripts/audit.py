@@ -41,6 +41,7 @@ CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
 # question qui désigne son sujet sans le nommer est irrécupérable. Le repérage
 # est heuristique — d'où une alerte et non une erreur : seule la lecture tranche.
 CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
+IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
 CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
 CITATION = re.compile(r"«[^»]*»")
 # Les noms génériques qui désignent « ce dont parle la note ». La liste vient des
@@ -104,6 +105,23 @@ def frontmatter(contenu):
 def tags_de(champs):
     brut = champs.get("tags", "")
     return [t.strip() for t in brut.strip("[]").split(",") if t.strip()]
+
+
+def longueur_idee(contenu):
+    """Le nombre de mots de prose de la section « L'idée ».
+
+    Pourquoi cette section et pas la note entière : une longue section de
+    vérification est un bon signe, une longue idée en est un mauvais. Les lignes
+    de tableau, de citation et de code sont retirées — sinon on mesure la mise en
+    forme. Le titre tolère un complément (« L'idée — telle qu'elle circule »), qui
+    est une bonne pratique et non un écart.
+    """
+    m = IDEE.search(contenu)
+    if not m:
+        return None
+    prose = [l for l in m.group(1).split("\n")
+             if not l.lstrip().startswith(("|", ">", "```"))]
+    return len(" ".join(prose).split())
 
 
 def notes():
@@ -256,6 +274,26 @@ def main():
                      f"domaine `{d}/` absent de FOLDER_DECKS — ses cartes iront "
                      f"dans le deck par défaut")
                 )
+
+    # Échantillon de relecture pour l'atomicité (décision 01). Ce n'est **pas** un
+    # verdict : aucun compteur ne sait dire si une note porte deux idées. Le seuil
+    # est le 9ᵉ décile de la distribution courante, donc le contrôle renvoie
+    # toujours environ un dixième des notes — c'est son objet. Il choisit
+    # l'échantillon que la décision 09 demande de relire à la main, au lieu de le
+    # tirer au hasard.
+    longueurs = {}
+    for f in fichiers:
+        if f.stem.startswith("Concept-"):
+            n = longueur_idee(f.read_text(encoding="utf-8"))
+            if n:
+                longueurs[f] = n
+    if len(longueurs) >= 20:
+        seuil = sorted(longueurs.values())[int(0.90 * (len(longueurs) - 1))]
+        for f, n in sorted(longueurs.items(), key=lambda x: -x[1]):
+            if n > seuil:
+                infos.append((f.relative_to(RACINE),
+                              f"à relire pour l'atomicité : {n} mots d'idée, "
+                              f"dernier décile (seuil {seuil})"))
 
     pdfs = {p.stem for p in RACINE.rglob("*.pdf")}
     for absent in sorted(pdfs - set(niveaux)):

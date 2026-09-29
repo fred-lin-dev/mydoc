@@ -6,7 +6,7 @@ tags: [meta/moc, esprit/productivité]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir propre,
 > aucune carte. Verdict de fiabilité en préfixe.
 
-**78 notes atomiques · 22 fiches de source · 6 références**
+**79 notes atomiques · 22 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
@@ -14,7 +14,7 @@ tags: [meta/moc, esprit/productivité]
 | 🟠 contesté | 12 |
 | 🔴 réfuté | 1 |
 | ⬜ non applicable | **35** — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 18 |
+| ⚪ non évalué | 19 |
 
 ---
 
@@ -106,6 +106,7 @@ du vault entier.*
 * ⬜ [[Concept-Système_1_Et_2]] — *« fictions utiles », et Kahneman le dit lui-même.*
 * ⬜ [[Concept-Ce_Que_Je_Vois_Est_Tout]] — *le mécanisme qui engendre presque tous les autres.*
 * ⬜ [[Concept-Erreur_Narrative]] — *une histoire cohérente n'est pas une explication.*
+* ⚪ [[Concept-Signal_Par_L_Absence]] — *un manque non déclaré n'est pas discret, il est imperceptible.*
 
 ## Incertitude et exposition — `esprit/stratégie`
 

@@ -137,6 +137,36 @@ côté Anki.
 | **Renommage depuis le terminal** | cartes orphelines, liens *Source* morts | voir décision 10 : toujours F2 dans Obsidian |
 | **Cartes dans un `MOC-`** | doublons de questions aux réponses divergentes | décision 04 ; indiagnostiquable après mille cartes |
 | **Question écrite la note sous les yeux** | la carte est illisible en révision, jamais au moment de l'écrire | le rédacteur a le référent sous les yeux, pas le réviseur |
+| **Carte retirée ou déplacée** | une carte reste dans Anki, figée, que plus aucun fichier ne référence | **le plugin crée et met à jour, il ne supprime pas** |
+
+## ⚠️ Le plugin ne supprime jamais rien
+
+**Obsidian_to_Anki crée et met à jour. Il ne supprime pas.** Retirer un bloc `Q:`/`A:`
+d'une note, ou **déplacer une idée d'une note vers une autre**, laisse dans Anki une carte
+que plus aucun fichier ne référence. Elle ne sera plus jamais mise à jour ni effacée, et
+**rien ne le signale** — ni Obsidian, ni le plugin, ni `audit.py`.
+
+L'audit ne peut pas le voir : il est en lecture seule, hors réseau, et Anki n'est pas
+toujours ouvert. Le seul contrôle possible compare les deux ensembles d'identifiants :
+
+```bash
+python3 Scripts/orphelines.py
+```
+
+Il est en lecture seule lui aussi : il **imprime** la commande de suppression, il ne la
+lance pas — et il marque `⚠️ DÉJÀ RÉVISÉE` toute carte qui porte un historique, parce que
+la supprimer le perdrait. Il détecte les deux sens :
+
+| Symptôme | Cause | Conséquence |
+|---|---|---|
+| carte dans Anki, absente du vault | un `Q:`/`A:` retiré, ou une idée déplacée | figée pour toujours dans la collection |
+| identifiant du vault absent d'Anki | un identifiant écrit à la main, ou une note supprimée dans Anki | **le scan échoue en silence** sur ces cartes |
+
+**À lancer après tout scan qui a retiré ou déplacé une carte.** Constaté le 2026-09-30 en
+détachant [[Concept-Signal_Par_L_Absence]] de `Concept-Apparences_Normales` : une carte a
+suivi son idée dans la nouvelle note, et l'ancienne est restée dans Anki. Elle n'avait
+aucune révision, elle a été supprimée — mais **c'est la comparaison manuelle qui l'a
+trouvée, pas un contrôle automatique.**
 
 ## Combien de cartes sont en jeu aujourd'hui
 

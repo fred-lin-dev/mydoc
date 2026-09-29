@@ -7,3 +7,6 @@
 # Les PDF : 267 Mo, immuables, et git ne sait pas les diffuser utilement.
 # Le savoir est dans les notes ; les sources se sauvegardent à part.
 Extras/**/*.pdf
+
+# Sous-produit de l'import des scripts pour les tester.
+__pycache__/

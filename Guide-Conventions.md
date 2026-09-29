@@ -19,9 +19,52 @@ Référence de la méthode et du raisonnement : [[Guide-Méthode_Zettelkasten]].
 **Critère d'entrée : la citabilité.** Une idée mérite sa note si elle peut être
 citée depuis un *autre domaine* que celui où elle a été rencontrée.
 
-**Signal de découpe : la règle des 3 cartes.** Si une note réclame plus de trois
-cartes de révision *sur des angles différents*, elle contient plus d'une idée →
-la scinder. Le test ne coûte rien : il se déclenche sur un travail déjà fait (08).
+**Signal de découpe.** Une note qui porte plus d'une idée doit être scindée. Reste
+à savoir comment on s'en aperçoit — et la première réponse était fausse.
+
+### ⚠️ La règle des 3 cartes était un instrument mort — corrigé le 2026-09-30
+
+Le signal d'origine était `grep -c '^Q:' > 3` : plus de trois cartes sur des angles
+différents → scinder. Mesuré sur 137 notes :
+
+```
+cartes par note :   3 → 118 notes     2 → 19 notes     4 ou plus → 0
+```
+
+**Il ne s'est jamais déclenché et ne pouvait pas se déclencher.** Le nombre de
+cartes est un **choix du rédacteur**, pas une propriété de la note : celui qui les
+écrit s'arrête à trois parce que la règle dit trois. La règle mesurait sa propre
+observance. C'est le pire état pour un contrôle — il a l'air vivant.
+
+La règle reste en place comme **contrôle secondaire** : elle deviendrait informative
+si des cartes étaient ajoutées à la main sans penser à la scission. Mais elle n'est
+plus le signal.
+
+### Le signal réel : la longueur de la section `## L'idée`
+
+`audit.py` mesure les **mots de prose de la seule section `## L'idée`** — tableaux,
+citations et blocs de code retirés, sinon on mesure la mise en forme.
+
+**Pourquoi cette section et pas la note entière :** une longue section
+« Ce qui la rend vraie, ou fragile » est un **bon** signe, c'est de la vérification.
+Une longue idée en est un mauvais. Mélanger les deux annulait le signal.
+
+**Le titre tolère un complément** — `## L'idée — telle qu'elle circule`,
+`— telle que le livre la présente`. Sept notes l'emploient pour marquer qu'elles
+exposent une thèse avant de la réfuter. Un contrôle strict aurait puni la rigueur.
+
+**Ce n'est pas un verdict, c'est un échantillon.** Le seuil est le 9ᵉ décile de la
+distribution courante, donc le contrôle renvoie toujours environ un dixième des
+notes — c'est son objet. Il choisit l'échantillon que la **décision 09** demande de
+relire à la main, au lieu de le tirer au hasard. Aucun compteur ne sait dire si une
+note porte deux idées ; celui-ci sait dire lesquelles valent d'être relues d'abord.
+
+**Vérifié dans les deux sens le jour de son ajout :** sur deux notes signalées,
+`Concept-Terrain_Avant_Force` a été **gardée** après relecture — une seule thèse, sa
+preuve textuelle et sa généralisation — et `Concept-Apparences_Normales` a été
+**scindée**, un mécanisme général y étant enterré sous un cas particulier
+([[Concept-Signal_Par_L_Absence]]). Un contrôle qui ne produirait que des scissions
+serait aussi faux que celui qui n'en produit aucune.
 
 ---
 
@@ -367,7 +410,7 @@ Meta/        tout ce qui n'est pas du savoir :
              MOC-Audit · Ref-Bibliothèque · les 3 Ref-Lecture_*
              ↑ l'inventaire des livres : niveau, domaine, possession — une seule fois
 Templates/   les 5 modèles — exclus de l'audit et du scan Anki
-Scripts/     audit.py
+Scripts/     audit.py · orphelines.py — les deux en lecture seule
 Extras/Books/  les PDF, à plat
 
 Guide-Conventions.md            ↰ la racine n'accueille QUE la constitution.

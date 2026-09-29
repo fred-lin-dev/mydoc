@@ -73,6 +73,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **Règle des 3 cartes** (décision 01) | le signal de découpe est mécanisable par `grep -c '^Q:'`, donc gratuit |
 | **`corps/`** | né à la règle des 5, sans qu'on ait eu à décider. Premier test réel de cette règle |
 | **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
+| **Signal d'atomicité** (décision 01) | 2026-09-30 : le signal d'origine ne pouvait pas se déclencher. Le nouveau mesure la section `## L'idée` seule — une longue vérification est un bon signe, une longue idée non — et se présente comme un échantillon, jamais comme un verdict |
 | **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu [[Ref-Bibliothèque]], l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
 
 ---
@@ -151,6 +152,8 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Cartes écrites la note sous les yeux** | 92 questions sur 350 renvoyaient à « ce principe », « cette règle », « le livre » — lisibles à l'écriture, illisibles en révision, où Anki tire dans le désordre | préfixe `**Titre** — `, règle inscrite en décision 08, contrôle ajouté à l'audit. **Le défaut est invisible au rédacteur par construction** : c'est le seul du lot qu'aucune relecture de la note ne révèle |
 | **Une duplication qui avait commencé à divarier** | le domaine et le niveau de chaque livre vivaient dans deux fichiers. Pas encore de divergence sur les niveaux, mais déjà sur les noms : *De la guerre* dans la liste, `On_War` au périmètre — donc irréconciliable par script | inventaire unique, et les listes n'en parlent plus. **Le signal d'alarme n'était pas une erreur mais un nom qui ne s'apparie pas** |
 | **Un garde-fou borgne** | le garde-fou 11 vérifiait qu'une fiche produit une note, jamais qu'un livre fiché a une fiche. **Huit livres attendaient en silence**, six depuis la construction du vault | contrôle ajouté, comptés en dette. Un garde-fou qui ne teste qu'un sens laisse passer l'autre |
+| **Un instrument mort qui avait l'air vivant** | la règle des 3 cartes devait signaler les notes non atomiques : `grep -c '^Q:' > 3`. Mesure sur 137 notes — **118 en ont exactement 3, 19 en ont 2, aucune n'en a 4**. Le nombre de cartes est un choix du rédacteur, pas une propriété de la note : la règle mesurait sa propre observance | remplacée par la longueur de prose de la seule section `## L'idée`, au 9ᵉ décile, et **présentée comme un échantillon de relecture, pas comme un verdict**. Vérifiée dans les deux sens le jour même : une note gardée, une scindée |
+| **Le plugin Anki ne supprime jamais** | retirer un `Q:`/`A:` d'une note, ou déplacer une idée d'une note à l'autre, laisse dans Anki une carte figée que plus aucun fichier ne référence — **sans aucun signal** | `Scripts/orphelines.py`, à lancer après tout scan qui a retiré ou déplacé une carte. L'audit ne peut pas le voir : il est hors réseau et Anki n'est pas toujours ouvert |
 
 ---
 
@@ -199,6 +202,8 @@ avait été tranchée.
 1. **Lancer `python3 Scripts/audit.py` avant et après chaque séance.** Il ne modifie rien.
 2. **Jamais de `mv` ni de `rm` sur un `.md`** — F2 ou glisser-déposer dans Obsidian, décision 10.
 3. **Ne jamais écrire un identifiant de carte à la main.** Échec silencieux garanti.
+   Et **lancer `python3 Scripts/orphelines.py` après tout scan qui a retiré ou déplacé
+   une carte** : le plugin ne supprime pas, il laisse des orphelines sans le dire.
 4. **Vérifier dans le PDF avant d'écrire.** Sur 36 livres, six étaient en traduction sans que
    rien ne l'annonce, un était un scan, un portait un filigrane, et *Propaganda* s'est révélé
    français alors que je le cherchais en anglais.
