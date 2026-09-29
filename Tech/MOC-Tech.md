@@ -35,6 +35,6 @@ exiger un verdict empirique ici produirait des faux positifs en série.
 - **Aucune note d'outillage.** `tech/outils` est déclaré et vide.
 - **Le pont vers `esprit/`** existe déjà et mérite d'être suivi :
   [[Concept-Orthogonalité]] justifie la décision 03 de ce vault, [[Concept-DRY]] la
-  source unique de [[Ref-Périmètre_Bibliothèque]], et [[Concept-Fenêtre_Brisée]]
+  source unique de [[Ref-Bibliothèque]], et [[Concept-Fenêtre_Brisée]]
   l'existence de l'audit. Les meilleures notes techniques de ce vault ne parlent pas
   de code.

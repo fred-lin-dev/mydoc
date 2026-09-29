@@ -50,7 +50,7 @@ et l'audit recoupe cette colonne avec le disque.
 |---|---|---|---|---|
 | Antifragile | ✅ | fiché | esprit/stratégie | priorité |
 | Atomic_Habits | ✅ | fiché | esprit/habitudes | priorité |
-| Attached | ✅ | fiché | social/séduction | — |
+| Attached | ✅ | fiché | social/séduction | priorité |
 | Comment_Parler_En_Public | ✅ | fiché | social/influence | priorité |
 | Deep_Work | ✅ | fiché | esprit/productivité | priorité |
 | Digital_Minimalism | ✅ | fiché | esprit/productivité | — |
@@ -79,7 +79,7 @@ et l'audit recoupe cette colonne avec le disque.
 | The_ONE_Thing | ✅ | fiché | esprit/productivité | — |
 | The_Power_of_Habit | ✅ | fiché | esprit/habitudes | — |
 | The_Pragmatic_Programmer | ✅ | fiché | tech/programmation | priorité |
-| The_Presentation_of_Self_in_Everyday_Life | ✅ | fiché | social/influence | — |
+| The_Presentation_of_Self_in_Everyday_Life | ✅ | fiché | social/influence | priorité |
 | The_Psychology_of_Persuasion | ✅ | fiché | social/influence | priorité |
 | Thinking_Fast_And_Slow | ✅ | fiché | esprit/biais | priorité |
 | Thinking_in_Systems | ✅ | fiché | esprit/stratégie | priorité |
@@ -98,7 +98,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Meditations | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
 | Modern_Compiler_Implementation_in_ML | ✅ | lu-sans-fiche | tech/programmation | — |
 | On_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
-| Relations_in_Public | ✅ | lu-sans-fiche | social/influence | — |
+| Relations_in_Public | ✅ | lu-sans-fiche | social/influence | priorité |
 | Stage_Academy_Workbook_2024 | ✅ | lu-sans-fiche | social/séduction | — |
 | The_Art_of_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
 | The_Prince | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
@@ -156,11 +156,12 @@ et l'audit recoupe cette colonne avec le disque.
 
 ## Ce que cet inventaire fait apparaître
 
-**19 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
+**16 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
 C'est la raison pour laquelle l'inventaire ne pouvait pas être fondu dans les
 trois `Ref-Lecture_*` : ils y seraient devenus sans domicile.
 
-Huit d'entre eux sont `fiché` **sans avoir de fiche** — ils attendent en silence :
+Par ailleurs **huit livres sont `fiché` sans avoir de fiche** — sur la liste ou non,
+ils attendent en silence :
 
 | Titre | Depuis |
 |---|---|

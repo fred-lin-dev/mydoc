@@ -54,7 +54,7 @@ que ce soit. C'est le seul point où les trois listes pourraient se contaminer.
 
 ## La procédure, par livre
 
-1. **Vérifier le niveau** dans [[Ref-Périmètre_Bibliothèque]]. `dehors` → on lit,
+1. **Vérifier le niveau** dans [[Ref-Bibliothèque]]. `dehors` → on lit,
    on ne produit rien, on s'arrête là.
 2. **`fiché` → créer la fiche** depuis `Template-Source`, nommée sur le **titre
    exact du PDF** : `Source-Deep_Work` ↔ `Deep_Work.pdf`. Elle reste mince.

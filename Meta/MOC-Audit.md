@@ -95,4 +95,4 @@ SORT length(rows) DESC
 
 ### 🔗 Connexions
 * [[Guide-Conventions]] — *les règles que ce tableau contrôle.*
-* [[Ref-Périmètre_Bibliothèque]] — *les niveaux que lit le script.*
+* [[Ref-Bibliothèque]] — *les niveaux que lit le script.*

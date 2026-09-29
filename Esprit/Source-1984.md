@@ -9,7 +9,7 @@ lu: en cours
 
 > **Fiche mince — niveau `illustration`.** Ce roman **ne produit aucun `Concept-`** : une
 > fiction n'est pas une affirmation sur le monde. Son rôle est d'être **cité comme exemple**
-> depuis des notes existantes. Voir [[Ref-Périmètre_Bibliothèque]] et
+> depuis des notes existantes. Voir [[Ref-Bibliothèque]] et
 > [[Ref-Lecture_SciFi_Stratégique]].
 
 **Ce qu'il modélise.** Le contrôle par la **langue** : restreindre ce qui est formulable

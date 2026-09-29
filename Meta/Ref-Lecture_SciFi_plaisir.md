@@ -4,7 +4,7 @@ tags: [meta/ref]
 # 🛋️ Liste 3 — SciFi plaisir *(dehors, et c'est volontaire)*
 
 > **Référence stable.** Tous ces romans sont déclarés `dehors` dans
-> [[Ref-Périmètre_Bibliothèque]], qui en est la source unique. Ils ne produisent
+> [[Ref-Bibliothèque]], qui en est la source unique. Ils ne produisent
 > **ni fiche, ni note, ni carte**. Cette liste existe précisément pour que l'audit
 > sache qu'ils n'ont rien à produire.
 
@@ -62,4 +62,4 @@ pas seulement un souvenir, il passe en [[Ref-Lecture_SciFi_Stratégique]].*
 
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *pourquoi cette liste vaut une note entière.*
-* [[Ref-Périmètre_Bibliothèque]] — *le niveau `dehors`.*
+* [[Ref-Bibliothèque]] — *le niveau `dehors`.*

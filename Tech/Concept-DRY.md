@@ -30,7 +30,7 @@ n'est pas « est-ce que ça se ressemble » mais **« est-ce que ça doit change
 ensemble »**.
 
 **Où elle s'applique hors du code :** partout où une décision est écrite.
-[[Ref-Périmètre_Bibliothèque]] est la seule source des niveaux de périmètre de ce
+[[Ref-Bibliothèque]] est la seule source des niveaux de périmètre de ce
 vault ; le script d'audit la lit au lieu de contenir sa propre copie de la liste.
 Si les deux existaient, elles divergeraient.
 

@@ -52,7 +52,8 @@ tags: [meta/guide]
 
 ## 3 · Ce qui a été fait
 
-**Les 34 titres de [[Ref-Lecture_Ordre_de_Priorité]] sont traités**, en cinq phases :
+**Les 34 titres de [[Ref-Lecture_Ordre_de_Priorité]] étaient traités** ; trois s'y sont
+ajoutés le 2026-09-29 — *Attached* et les deux Goffman — qui restent à lire, en cinq phases :
 Moteur, Véhicule, Navigation, Stratégie, Socle. Plus **7 romans** au niveau `illustration` —
 les quatre dystopies du contrôle, deux tomes de *Fondation*, *I, Robot*.
 
@@ -70,7 +71,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **Règle des 3 cartes** (décision 01) | le signal de découpe est mécanisable par `grep -c '^Q:'`, donc gratuit |
 | **`corps/`** | né à la règle des 5, sans qu'on ait eu à décider. Premier test réel de cette règle |
 | **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
-| **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
+| **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu [[Ref-Bibliothèque]], l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
 
 ---
 

@@ -38,7 +38,7 @@ ses principes se citent depuis n'importe quel domaine.*
 
 ## Actions
 
-- [ ] Appliquer DRY au vault lui-même : un fait, un endroit. `Ref-Périmètre_Bibliothèque` est la seule source de vérité des niveaux
+- [ ] Appliquer DRY au vault lui-même : un fait, un endroit. [[Ref-Bibliothèque]] est la seule source de vérité des niveaux
 - [ ] Traiter toute incohérence de convention comme une fenêtre brisée : la réparer le jour où on la voit
 
 ### 🔗 Notes atomiques issues de ce livre

@@ -274,6 +274,23 @@ se détecte qu'au prochain audit — quand on ne sait plus ce qui a été renomm
 C'est la seule règle absolue du vault. Elle s'applique aussi à moi, Claude : je ne
 renomme ni ne déplace jamais un `.md` par le shell.
 
+### L'exception, ajoutée le 2026-09-29
+
+**Je peux `mv` ou `rm` un `.md` si, et seulement si, aucun fichier ne pointe vers
+lui.** Sans lien entrant, il n'y a rien à casser, donc rien que F2 sache faire de
+mieux. Le contrôle est mécanique et se fait **avant** l'opération :
+
+```bash
+grep -rc 'Nom_Du_Fichier' --include='*.md' . | grep -v ':0'
+```
+
+Une seule ligne attendue : le fichier lui-même. **Dès qu'il y en a une autre, je
+n'agis pas et je demande** — c'est alors une décision de rangement, pas une
+manipulation de fichier, et le cas du 2026-09-29 montre pourquoi : au renommage de
+`Ref-Périmètre_Bibliothèque` en [[Ref-Bibliothèque]], Obsidian a réécrit les 13
+liens `[[…]]` et **laissé les 4 mentions en texte brut** — dans un bloc de code, une
+phrase, une case de tableau, une tâche. Même F2 ne fait pas tout.
+
 ---
 
 ## 11 · Point d'entrée et garde-fou ✅
@@ -347,7 +364,7 @@ cohabitent dans le domaine : le préfixe suffit à les distinguer.
 Esprit/  Social/  Tech/  Corps/  Langues/     le savoir
 Meta/        tout ce qui n'est pas du savoir :
              Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki_Workflow
-             MOC-Audit · Ref-Périmètre_Bibliothèque · les 3 Ref-Lecture_*
+             MOC-Audit · Ref-Bibliothèque · les 3 Ref-Lecture_*
              ↑ l'inventaire des livres : niveau, domaine, possession — une seule fois
 Templates/   les 5 modèles — exclus de l'audit et du scan Anki
 Scripts/     audit.py
@@ -360,7 +377,7 @@ Guide-Méthode_Zettelkasten.md   ↲ Deux fichiers, visibles en premier.
 > ⚠️ **Rien d'autre à la racine.** Tout `Ref-`, `MOC-` ou `Guide-` qui n'est pas la
 > constitution va dans `Meta/`. Les trois listes de lecture y ont été déplacées le
 > 2026-09-28 : elles étaient restées à la racine par inadvertance, à côté de
-> `Ref-Périmètre_Bibliothèque` qui est le même genre d'objet et se trouvait déjà dans
+> `Ref-Bibliothèque` qui est le même genre d'objet et se trouvait déjà dans
 > `Meta/`. Une incohérence de rangement est une fenêtre brisée au sens de
 > [[Concept-Fenêtre_Brisée]].
 >
@@ -374,7 +391,7 @@ de note : ces fichiers ne sont ni indexés ni audités.
 > ⚠️ **`Extras/Books/` est plat, et doit le rester.** Aucun sous-dossier par domaine,
 > par thème ou par statut de lecture.
 >
-> * Le domaine de chaque PDF est déjà dans [[Ref-Périmètre_Bibliothèque]], **source
+> * Le domaine de chaque PDF est déjà dans [[Ref-Bibliothèque]], **source
 >   autoritaire unique**. Une arborescence serait une seconde copie de la même
 >   décision, et deux copies divergent — voir [[Concept-DRY]].
 > * Aucune boîte de réception n'est nécessaire : un PDF sans niveau de périmètre est
@@ -424,5 +441,5 @@ et les decks `Zettelkasten::<Domaine>`. Procédure complète et pièges :
 ### 🔗 Connexions
 * [[Guide-Méthode_Zettelkasten]] — *le raisonnement derrière chaque décision.*
 * [[MOC-Audit]] — *le tableau de bord qui contrôle ces règles.*
-* [[Ref-Périmètre_Bibliothèque]] — *l'inventaire : 84 titres, leur niveau, leur domaine,
+* [[Ref-Bibliothèque]] — *l'inventaire : 84 titres, leur niveau, leur domaine,
   et s'ils sont sur le disque. Les `Ref-Lecture_*` n'en redisent rien.*

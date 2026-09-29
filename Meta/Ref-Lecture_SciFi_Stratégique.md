@@ -4,7 +4,7 @@ tags: [meta/ref]
 # 🚀 Liste 2 — SciFi stratégique *(les exemples)*
 
 > **Référence stable.** Tous ces romans sont déclarés `illustration` dans
-> [[Ref-Périmètre_Bibliothèque]], qui en est la source unique — ici on dit *ce qu'ils
+> [[Ref-Bibliothèque]], qui en est la source unique — ici on dit *ce qu'ils
 > modélisent*, pas leur niveau. Ces romans ne sont pas
 > des histoires : ce sont des **analyses systémiques** du pouvoir, de la
 > technologie et du futur, sous forme narrative.
@@ -147,4 +147,4 @@ fallacy, version fiction.
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *le rôle de cette liste et la définition de Lindy.*
 * [[Ref-Lecture_Ordre_de_Priorité]] — *les concepts que ces romans illustrent.*
-* [[Ref-Périmètre_Bibliothèque]] — *le niveau `illustration`.*
+* [[Ref-Bibliothèque]] — *le niveau `illustration`.*

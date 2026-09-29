@@ -116,13 +116,9 @@ def perimetre():
     """(niveaux, possedes, nom_du_fichier) depuis l'inventaire de la bibliothèque.
 
     Colonnes attendues : Fichier | 💾 | Niveau | Domaine | Liste.
-    Les deux noms de fichier sont acceptés, le temps d'un éventuel renommage.
     """
-    for nom in ("Ref-Bibliothèque.md", "Ref-Périmètre_Bibliothèque.md"):
-        ref = RACINE / "Meta" / nom
-        if ref.exists():
-            break
-    else:
+    ref = RACINE / "Meta" / "Ref-Bibliothèque.md"
+    if not ref.exists():
         return {}, {}, "Meta/Ref-Bibliothèque.md"
     niveaux, possedes = {}, {}
     for ligne in ref.read_text(encoding="utf-8").split("\n"):
