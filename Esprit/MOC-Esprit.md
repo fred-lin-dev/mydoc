@@ -6,15 +6,15 @@ tags: [meta/moc, esprit/productivité]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir propre,
 > aucune carte. Verdict de fiabilité en préfixe.
 
-**75 notes atomiques · 16 fiches de source · 6 références**
+**78 notes atomiques · 22 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | **13** |
-| 🟠 contesté | 10 |
+| 🟢 solide | **12** |
+| 🟠 contesté | 12 |
 | 🔴 réfuté | 1 |
-| ⬜ non applicable | **31** — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 20 |
+| ⬜ non applicable | **35** — traités de stratégie, Taleb, philosophie |
+| ⚪ non évalué | 18 |
 
 ---
 
@@ -129,6 +129,9 @@ du vault entier.*
 * ⬜ [[Concept-Généalogie_Des_Valeurs]] — *le seul livre du corpus qui attaque les autres par le bas.*
 * ⬜ [[Concept-Liberté_Résiduelle]] — *ce qui reste possible, jamais ce qui est exigible.*
 * ⚪ [[Concept-Sens_Comme_Ressource]] — *supporter, pas survivre : la distinction que les vulgarisations effacent.*
+* ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
+* ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*
+* 🟠 [[Concept-Synthétique_A_Priori]] — *la question tient, ses réponses-phares sont tombées.*
 
 ## Psychologie clinique — `esprit/psychologie`
 
@@ -155,9 +158,16 @@ du vault entier.*
 * [[Source-The_Body_Keeps_the_Score]] — *van der Kolk 2014 · épidémiologie solide, thérapies inégales.*
 * [[Source-Mans_Search_For_Meaning]] — *Frankl 1946 · ⏳ un témoignage, et une inférence structurellement limitée.*
 
-**Cinq textes primaires sans fiche** — niveau `lu-sans-fiche`, leurs notes pointent le PDF :
-*The Art of War*, *The Prince*, *On War*, *Meditations*, *Beyond Good and Evil*. Ils ont produit
-seize notes, presque toutes `⬜` — ce sont les plus portables du vault.
+**Six textes primaires sans fiche** — niveau `lu-sans-fiche`, leurs notes pointent le PDF :
+*The Art of War* (3), *The Prince* (3), *On War* (4), *Meditations* (3),
+*Beyond Good and Evil* (2), *Critique of Pure Reason* (3). **Dix-huit notes**, presque toutes
+`⬜` — ce sont les plus portables du vault.
+
+**Six fictions au niveau `illustration`** — fiche mince, **aucun `Concept-`** : elles sont
+citées en exemple depuis des notes existantes (décision 12).
+
+* [[Source-We]] · [[Source-Brave_New_World]] · [[Source-1984]] · [[Source-Fahrenheit_451]] — *les quatre dystopies du contrôle.*
+* [[Source-Foundation]] · [[Source-Foundation_and_Empire]] — *un modèle qui prédit l'agrégat, et sa rupture sur un individu.*
 
 ## Les références
 

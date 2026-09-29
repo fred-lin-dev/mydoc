@@ -6,15 +6,15 @@ tags: [meta/moc, social/influence]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir
 > propre, aucune carte. Verdict de fiabilité en préfixe.
 
-**30 notes atomiques · 9 fiches de source · 5 références**
+**50 notes atomiques · 13 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | **1** — et elle vient du dernier livre lu |
-| 🟠 contesté | 7 |
-| 🔴 réfuté | **3** sur les 4 du vault entier |
-| ⬜ non applicable | 6 — les taxonomies, qui tiennent parce qu'elles n'affirment rien |
-| ⚪ non évalué | 13 |
+| 🟢 solide | **2** sur 50 |
+| 🟠 contesté | 9 |
+| 🔴 réfuté | **4** — soit tous ceux du vault |
+| ⬜ non applicable | 13 — définitions et cadres, qui tiennent parce qu'ils n'affirment rien |
+| ⚪ non évalué | 22 |
 
 > ⚠️ **Le domaine le plus fragile du vault, et le constat s'est confirmé livre après
 > livre.** Une seule note solide sur trente, et trois des quatre `🔴` du vault. La
@@ -23,6 +23,22 @@ tags: [meta/moc, social/influence]
 > tient ici, ce sont les taxonomies** — elles n'affirment rien, donc rien ne les réfute.
 
 ---
+
+## Interaction et mise en scène — `social/influence`
+
+*La couche primaire du domaine : Goffman, dont plusieurs sections ci-dessous sont des
+reformulations de seconde main qui ne le citent pas. Les trois dernières viennent de
+`Relations_in_Public.pdf` (1971), lu sans fiche — leur champ `source` pointe le PDF.*
+
+* ⬜ [[Concept-Expression_Donnée_Et_Échappée]] — *ce qu'on donne à lire et ce qui échappe ; aucun des deux n'est fiable.*
+* ⬜ [[Concept-Façade]] — *décor, apparence, manière — dont un élément n'est pas dans la personne.*
+* ⬜ [[Concept-Région_Antérieure_Et_Postérieure]] — *les coulisses sont relatives à une scène, donc jamais « le vrai soi ».*
+* ⬜ [[Concept-Équipe_Comme_Unité]] — *le seul concept du domaine qui ne porte pas sur un individu.*
+* ⬜ [[Concept-Soi_Comme_Effet_Dramatique]] — *le soi comme produit de la scène, pas comme sa cause.*
+* ⚪ [[Concept-Façade_Choisie_Non_Créée]] — *on prend dans un jeu fini, on n'invente pas.*
+* ⬜ [[Concept-Territoires_Du_Moi]] — *huit réserves situationnelles, et aucune n'est une propriété.*
+* ⬜ [[Concept-Échange_Réparateur]] — *la pire lecture possible, et les trois façons de la désamorcer.*
+* ⚪ [[Concept-Apparences_Normales]] — *la vigilance en tâche secondaire ; une absence peut alarmer.*
 
 ## Rhétorique et argumentation — `social/influence`
 
@@ -64,6 +80,9 @@ tags: [meta/moc, social/influence]
 * ⚪ [[Concept-Vulnérabilité_Comme_Signal]] — *seul ce qui est coûteux informe.*
 * ⚪ [[Concept-Rejet_Comme_Filtre]] — *information de compatibilité, sauf en cas de répétition.*
 * ⚪ [[Concept-Sélection_Mutuelle]] — *les deux côtés filtrent ; encore faut-il avoir des critères.*
+* 🟢 [[Concept-Paradoxe_De_La_Dépendance]] — *accepter la dépendance rend plus autonome, pas moins.*
+* 🟠 [[Concept-Style_D_Attachement]] — *deux dimensions réelles, trois cases qui ne le sont pas.*
+* ⚪ [[Concept-Piège_Anxieux_Évitant]] — *une boucle de renforcement, pas un malentendu.*
 
 ## Prise de parole — `social/influence`
 
@@ -88,6 +107,10 @@ tags: [meta/moc, social/influence]
 * [[Source-Mate_Become_the_Man_Women_Want]] — *Max & Miller 2015 · le plus contesté ; deux notes pour un livre entier.*
 * [[Source-The_Psychology_of_Persuasion]] — *Cialdini 1984 · le mieux étayé du domaine.*
 * [[Source-Comment_Parler_En_Public]] — *Carnegie 1926 · la performance, là où Viktorovitch traite le contenu.*
+* [[Source-Never_Split_the_Difference]] — *Voss 2016 · des gestes exécutables, des cas choisis.*
+* [[Source-Propaganda]] — *Bernays 1928 · ⏳ Lindy · l'inventeur des relations publiques, sans gêne.*
+* [[Source-The_Presentation_of_Self_in_Everyday_Life]] — *Goffman 1959 · ⏳ Lindy · **la source primaire des cinq premières**, et la seule qui déclare son cadre non testé.*
+* [[Source-Attached]] — *Levine & Heller 2010 · le résultat est réel, l'emballage ne l'est pas — et la réfutation du tri est dans sa propre bibliographie.*
 
 ## Les références
 

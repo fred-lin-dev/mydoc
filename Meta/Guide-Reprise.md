@@ -177,7 +177,9 @@ attendu le plus faible.
 - **Une note manquante que rien ne peut combler par la fiction :** la **spécification
   incomplète**, qu'illustre parfaitement *I, Robot* — mais une fiction ne crée pas de
   `Concept-`. Elle devra venir de littérature technique. Voir [[Source-I_Robot]].
-- **`Ref-Lecture_SciFi_Stratégique`** : 11 romans sur 18 pas encore acquis.
+- **[[Ref-Lecture_SciFi_Stratégique]]** : **12 romans sur 18 pas encore acquis.**
+  L'ordre d'acquisition suit désormais une règle — d'abord celui dont la note cible
+  existe déjà. *The Traitor Baru Cormorant* est le seul apparié qui manque.
 - **Deux déplacements de lecture recommandés et non appliqués** dans
   [[Ref-Lecture_Ordre_de_Priorité]] : *Thinking, Fast and Slow* en phase 1, *Thinking in
   Systems* en phase 4.

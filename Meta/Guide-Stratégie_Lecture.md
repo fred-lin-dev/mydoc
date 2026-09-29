@@ -77,15 +77,50 @@ que ce soit. C'est le seul point où les trois listes pourraient se contaminer.
 n'illustre rien tant que le concept n'existe pas dans le vault. Lire *Foundation* avant
 *Thinking in Systems*, c'est avoir un exemple sans rien à illustrer.
 
-Prochain livre : **How to Take Smart Notes** — Ahrens, sur le disque, niveau
-`fiché`. C'est la méthode dont ce vault descend : la lire en premier rend tous les
-suivants capitalisables.
+Restent quatre titres non lus sur la liste 1, tous acquis le 2026-09-29 :
+*Attached*, *The Presentation of Self*, *Relations in Public*, *Critique of Pure
+Reason*. Les trente-quatre autres sont convertis.
+
+## Les instruments passent avant, hors phase
+
+**Un livre qui sert à *juger* les autres ne se range pas par thème.** Le thème lui
+donne une place dans la file, et cette place est toujours trop tard.
+
+C'est la seule erreur de structure identifiée dans la liste 1, et elle est étroite :
+« Le Socle » a été construit comme une phase, donc comme un thème, donc en cinquième
+position — alors que son contenu est un **prérequis** des quatre autres.
+
+**Le coût est mesuré, pas supposé.** [[Concept-Preuve_Silencieuse]] vient de
+*The Black Swan*, lu en avant-dernier. Cette note est le défaut structurel de **six
+livres lus avant elle** — Newport, Voss, Greene ×2, Manson, Frankl. La même remarque
+a été écrite six fois à la main avant que le concept existe. Neuf notes la citent
+aujourd'hui.
+
+La liste 1 porte d'ailleurs six dépendances qui traversent ses propres phases, et
+**quatre pointent de la phase 5 vers l'arrière** : *Thinking, Fast and Slow* « à
+remonter en phase 1 », *Why We Sleep* « en amont de *Deep Work* », *The Body Keeps
+the Score* « contrepoids de la phase 1 », *The Presentation of Self* « source
+primaire de toute la phase 3 ».
+
+**La règle, pour tout corpus à venir :**
+
+| | |
+|---|---|
+| **1** | les **instruments** d'abord — ce qui sert à évaluer une affirmation, hors de toute phase |
+| **2** | les **prérequis** ensuite — ce qu'un livre exige d'un autre pour être lisible |
+| **3** | le **thème** en dernier, comme départage |
+
+Le thème garde sa valeur **à l'intérieur d'un niveau** : lire plusieurs livres d'un
+même sujet à la suite est ce qui fait naître les liens entre eux, et c'est ce qu'un
+Zettelkasten cherche. L'erreur n'est pas de grouper — c'est de laisser un thème
+décider de la position d'un instrument.
 
 ## Les pièges
 
-* **Le collector's fallacy.** 37 PDF, 0 fiche, 0 note : l'écart entre ces trois
-  chiffres est le seul indicateur honnête. `Scripts/audit.py` les affiche à chaque
-  lancement, en tête de rapport.
+* **Le collector's fallacy.** L'écart entre PDF possédés, fiches écrites et notes
+  produites est le seul indicateur honnête. `Scripts/audit.py` affiche les trois en
+  tête de rapport — et signale désormais les livres `fiché` **sans fiche**, qui
+  étaient huit à dormir sans que rien ne le dise.
 * **Ouvrir le livre suivant avant d'avoir converti le précédent.** C'est
   exactement ce que le garde-fou 11 empêche.
 * **Vider la liste « dehors ».** Chaque reclassement d'un roman de plaisir vers la

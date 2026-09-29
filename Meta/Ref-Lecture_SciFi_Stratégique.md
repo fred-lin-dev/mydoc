@@ -127,6 +127,21 @@ contrainte, les deux pôles.
 
 ---
 
+## Dans quel ordre acquérir les douze qui manquent
+
+> **Un roman n'illustre rien tant que le concept n'existe pas** — et une fiction ne
+> crée jamais de `Concept-`. Donc l'ordre d'acquisition ne suit ni le goût ni la
+> famille : **on acquiert d'abord le roman dont la note cible est déjà écrite.**
+>
+> Le tableau ci-dessous a déjà fait ce travail pour quatre romans. Trois sont
+> acquis ; ***The Traitor Baru Cormorant* est le seul apparié
+> qui manque** — ses deux essais, *The 48 Laws of Power* et *The Prince*, sont lus
+> et convertis. C'est donc lui, en premier.
+>
+> Pour les onze autres, le test avant achat tient en une question : **quelle note
+> existante ce roman illustrerait-il ?** Sans réponse, il ne produira rien, et il
+> vaut mieux l'acheter plus tard.
+
 ## Par où entrer, si tu veux que ça paie tout de suite
 
 Ton ordre d'origine est un bon ordre de *lecture*. Ce n'est pas le bon ordre pour

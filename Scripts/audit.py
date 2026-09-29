@@ -54,7 +54,8 @@ GENERIQUES = (
     r"|prescription|mécanisme|levier|note|vault"
 )
 ANAPHORE = re.compile(rf"\b(ce|cet|cette|ces)\s+({GENERIQUES})\b", re.IGNORECASE)
-NON_NOMME = re.compile(r"\b(les? livres?|l'auteur|l'ouvrage|cette note|ce vault)\b(?! de )",
+NON_NOMME = re.compile(r"\b((?:l[ea]|du|au|des|aux) livres?|l'auteur|l'ouvrage"
+                       r"|cette note|ce vault)\b(?! de )",
                        re.IGNORECASE)
 CODE_INLINE = re.compile(r"`[^`]*`")
 

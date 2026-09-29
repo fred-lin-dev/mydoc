@@ -128,10 +128,31 @@ de ta liste d'origine.*
 
 ---
 
+## Ce que l'ordre par thème a coûté — pour mémoire
+
+> **Le classement par phase est un classement par thème, et un thème donne une
+> position dans la file.** « Le Socle » en a reçu la dernière. Or son contenu est
+> un prérequis des quatre autres phases, pas leur conclusion.
+>
+> **Le coût est mesuré.** [[Concept-Preuve_Silencieuse]] vient de *The Black Swan*,
+> lu en avant-dernier, et c'est le défaut structurel de **six livres lus avant
+> elle** — Newport, Voss, Greene ×2, Manson, Frankl. La même critique a été écrite
+> six fois à la main avant que la note existe.
+>
+> Six dépendances traversent les phases ci-dessus, **quatre pointant de la phase 5
+> vers l'arrière**. Le tableau suivant en recense deux ; les quatre autres sont
+> écrites en note marginale dans les colonnes « Pourquoi celui-là ».
+>
+> **Rien n'est réordonné** : trente-quatre des trente-huit titres sont lus, et
+> déplacer des cases ne relit pas les livres. La règle qui en sort vaut pour la
+> suite, et elle est dans [[Guide-Stratégie_Lecture]] : **les instruments d'abord,
+> hors phase ; les prérequis ensuite ; le thème en dernier, comme départage.**
+
 ## Les deux déplacements qui restent à décider
 
 *Appliqués : **How to Take Smart Notes** en tête de la phase 1, et **The Black
-Swan** avant **Antifragile**. Restent ces deux-là.*
+Swan** avant **Antifragile**. Restent ces deux-là — sans effet rétroactif, ils sont
+gardés comme trace du diagnostic.*
 
 | Titre | Devrait être | Ce que ça coûte de ne pas bouger |
 |---|---|---|
