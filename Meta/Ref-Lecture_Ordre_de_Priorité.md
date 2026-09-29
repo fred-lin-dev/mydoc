@@ -158,42 +158,47 @@ jamais « prouvé » sans la référence à côté.**
 
 ## Fiche technique — à consulter en créant la fiche `Source-`
 
-| Titre | Auteur | 💾 | ⏳ | Domaine | Périmètre |
-|---|---|---|---|---|---|
-| How to Take Smart Notes | Sönke Ahrens | ✅ | | `esprit/productivité` | fiché |
-| Deep Work | Cal Newport | ✅ | | `esprit/productivité` | fiché |
-| So Good They Can't Ignore You | Cal Newport | ✅ | | `esprit/productivité` | fiché |
-| Atomic Habits | James Clear | ✅ | | `esprit/habitudes` | fiché |
-| Mindset | Carol Dweck | ✅ | | `esprit/psychologie` | fiché |
-| The Pragmatic Programmer | Thomas & Hunt | ✅ | | `tech/programmation` | fiché |
-| Thinking in Systems | Donella Meadows | ✅ | | `esprit/stratégie` | fiché |
-| Essentialism | Greg McKeown | ✅ | | `esprit/productivité` | fiché |
-| Le Pouvoir Rhétorique | Clément Viktorovitch | ✅ | | `social/influence` | fiché |
-| The Charisma Myth | Olivia Fox Cabane | ✅ | | `social/charisme` | fiché |
-| How to Win Friends and Influence People | Dale Carnegie | ✅ | ⏳ | `social/influence` | fiché |
-| Comment parler en public | Dale Carnegie | ✅ | ⏳ | `social/influence` | fiché |
-| Models | Mark Manson | ✅ | | `social/séduction` | fiché |
-| What Every Body Is Saying | Joe Navarro | ✅ | | `social/influence` | fiché |
-| Dressing the Man | Alan Flusser | ✅ | | `social/style` | fiché |
-| Mate | Max & Miller | ✅ | | `social/séduction` | fiché |
-| The Psychology of Persuasion | Robert Cialdini | ✅ | | `social/influence` | fiché |
-| The 48 Laws of Power | Robert Greene | ✅ | | `esprit/stratégie` | fiché |
-| Never Split the Difference | Chris Voss | ✅ | | `social/négociation` | fiché |
-| The Art of War | Sun Tzu | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
-| The Prince | Machiavel | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
-| The Laws of Human Nature | Robert Greene | ✅ | | `esprit/psychologie` | fiché |
-| The 33 Strategies of War | Robert Greene | ✅ | | `esprit/stratégie` | fiché |
-| De la guerre | Clausewitz | ✅ | ⏳ | `esprit/stratégie` | lu-sans-fiche |
-| Propaganda | Edward Bernays | ✅ | ⏳ | `social/influence` | fiché |
-| Thinking, Fast and Slow | Daniel Kahneman | ✅ | | `esprit/biais` | fiché |
-| The Black Swan | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
-| Antifragile | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
-| Skin in the Game | Nassim Taleb | ✅ | | `esprit/stratégie` | fiché |
-| Meditations | Marc Aurèle | ✅ | ⏳ | `esprit/philosophie` | lu-sans-fiche |
-| Why We Sleep | Matthew Walker | ✅ | | `corps/sommeil` | fiché |
-| The Body Keeps the Score | van der Kolk | ✅ | | `esprit/psychologie` | fiché |
-| Beyond Good and Evil | Nietzsche | ✅ | ⏳ | `esprit/philosophie` | lu-sans-fiche |
-| Man's Search for Meaning | Viktor Frankl | ✅ | ⏳ | `esprit/philosophie` | fiché |
+> **Le domaine et le niveau de périmètre ne sont plus ici.** Ils sont déclarés une
+> seule fois, dans [[Ref-Périmètre_Bibliothèque]] — cette liste dit l'ordre et le
+> pourquoi, l'inventaire dit le traitement. Les porter aux deux endroits les avait
+> déjà fait divarier sur les noms : *De la guerre* ici, `On_War` là.
+
+| Titre | Auteur | 💾 | ⏳ |
+|---|---|---|---|
+| How to Take Smart Notes | Sönke Ahrens | ✅ |  |
+| Deep Work | Cal Newport | ✅ |  |
+| So Good They Can't Ignore You | Cal Newport | ✅ |  |
+| Atomic Habits | James Clear | ✅ |  |
+| Mindset | Carol Dweck | ✅ |  |
+| The Pragmatic Programmer | Thomas & Hunt | ✅ |  |
+| Thinking in Systems | Donella Meadows | ✅ |  |
+| Essentialism | Greg McKeown | ✅ |  |
+| Le Pouvoir Rhétorique | Clément Viktorovitch | ✅ |  |
+| The Charisma Myth | Olivia Fox Cabane | ✅ |  |
+| How to Win Friends and Influence People | Dale Carnegie | ✅ | ⏳ |
+| Comment parler en public | Dale Carnegie | ✅ | ⏳ |
+| Models | Mark Manson | ✅ |  |
+| What Every Body Is Saying | Joe Navarro | ✅ |  |
+| Dressing the Man | Alan Flusser | ✅ |  |
+| Mate | Max & Miller | ✅ |  |
+| The Psychology of Persuasion | Robert Cialdini | ✅ |  |
+| The 48 Laws of Power | Robert Greene | ✅ |  |
+| Never Split the Difference | Chris Voss | ✅ |  |
+| The Art of War | Sun Tzu | ✅ | ⏳ |
+| The Prince | Machiavel | ✅ | ⏳ |
+| The Laws of Human Nature | Robert Greene | ✅ |  |
+| The 33 Strategies of War | Robert Greene | ✅ |  |
+| De la guerre | Clausewitz | ✅ | ⏳ |
+| Propaganda | Edward Bernays | ✅ | ⏳ |
+| Thinking, Fast and Slow | Daniel Kahneman | ✅ |  |
+| The Black Swan | Nassim Taleb | ✅ |  |
+| Antifragile | Nassim Taleb | ✅ |  |
+| Skin in the Game | Nassim Taleb | ✅ |  |
+| Meditations | Marc Aurèle | ✅ | ⏳ |
+| Why We Sleep | Matthew Walker | ✅ |  |
+| The Body Keeps the Score | van der Kolk | ✅ |  |
+| Beyond Good and Evil | Nietzsche | ✅ | ⏳ |
+| Man's Search for Meaning | Viktor Frankl | ✅ | ⏳ |
 
 **9 titres Lindy sur 34.** Tous les titres sont désormais sur le disque, et tous ont un niveau de périmètre.
 

@@ -348,6 +348,7 @@ Esprit/  Social/  Tech/  Corps/  Langues/     le savoir
 Meta/        tout ce qui n'est pas du savoir :
              Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki_Workflow
              MOC-Audit · Ref-Périmètre_Bibliothèque · les 3 Ref-Lecture_*
+             ↑ l'inventaire des livres : niveau, domaine, possession — une seule fois
 Templates/   les 5 modèles — exclus de l'audit et du scan Anki
 Scripts/     audit.py
 Extras/Books/  les PDF, à plat
@@ -423,4 +424,5 @@ et les decks `Zettelkasten::<Domaine>`. Procédure complète et pièges :
 ### 🔗 Connexions
 * [[Guide-Méthode_Zettelkasten]] — *le raisonnement derrière chaque décision.*
 * [[MOC-Audit]] — *le tableau de bord qui contrôle ces règles.*
-* [[Ref-Périmètre_Bibliothèque]] — *le niveau de périmètre de chaque PDF.*
+* [[Ref-Périmètre_Bibliothèque]] — *l'inventaire : 84 titres, leur niveau, leur domaine,
+  et s'ils sont sur le disque. Les `Ref-Lecture_*` n'en redisent rien.*

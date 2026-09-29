@@ -3,7 +3,9 @@ tags: [meta/ref]
 ---
 # 🚀 Liste 2 — SciFi stratégique *(les exemples)*
 
-> **Référence stable, niveau de périmètre `illustration`.** Ces romans ne sont pas
+> **Référence stable.** Tous ces romans sont déclarés `illustration` dans
+> [[Ref-Périmètre_Bibliothèque]], qui en est la source unique — ici on dit *ce qu'ils
+> modélisent*, pas leur niveau. Ces romans ne sont pas
 > des histoires : ce sont des **analyses systémiques** du pouvoir, de la
 > technologie et du futur, sous forme narrative.
 

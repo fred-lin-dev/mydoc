@@ -3,7 +3,8 @@ tags: [meta/ref]
 ---
 # 🛋️ Liste 3 — SciFi plaisir *(dehors, et c'est volontaire)*
 
-> **Référence stable, niveau de périmètre `dehors`.** Ces romans ne produisent
+> **Référence stable.** Tous ces romans sont déclarés `dehors` dans
+> [[Ref-Périmètre_Bibliothèque]], qui en est la source unique. Ils ne produisent
 > **ni fiche, ni note, ni carte**. Cette liste existe précisément pour que l'audit
 > sache qu'ils n'ont rien à produire.
 

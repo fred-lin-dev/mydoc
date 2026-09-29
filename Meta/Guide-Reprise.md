@@ -31,7 +31,7 @@ tags: [meta/guide]
 
 ```
 184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 37 dettes ⚪
+0 erreur · 0 alerte · 45 dettes ⚪ (37 de vérification + 8 fiches à écrire)
 350 cartes, toutes synchronisées vers Anki
 57 PDF, tous avec un niveau de périmètre
 ```
@@ -45,7 +45,8 @@ tags: [meta/guide]
 | `Langues/` | **0** | 0 | 0 |
 
 **Verdicts de fiabilité :** ⬜ 43 · ⚪ 37 · 🟠 21 · 🟢 16 · 🔴 5
-**Périmètre :** 35 fichés · 9 lu-sans-fiche · 7 illustration · 6 dehors
+**Inventaire :** 84 titres, 60 sur le disque — 37 fichés · 10 lu-sans-fiche · 19 illustration · 18 dehors
+**19 titres du disque ne sont sur aucune liste de lecture**, dont 8 fichés sans fiche
 
 ---
 
@@ -69,6 +70,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **Règle des 3 cartes** (décision 01) | le signal de découpe est mécanisable par `grep -c '^Q:'`, donc gratuit |
 | **`corps/`** | né à la règle des 5, sans qu'on ait eu à décider. Premier test réel de cette règle |
 | **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
+| **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
 
 ---
 
@@ -144,6 +146,8 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Un lien de catégorie impossible** | j'ai écrit `[[Source-Beyond_Good_and_Evil]]` pour un livre `lu-sans-fiche`, qui n'aura jamais de fiche | l'audit l'a détecté. Les notes de ces livres pointent le **PDF** |
 | **Noms de fichiers non conformes** | 12 PDF arrivés avec espaces, tirets, casse basse, slugs d'URL | renommés. **Déplacer un PDF ne casse rien, le renommer casse la fiche qui le cite** |
 | **Cartes écrites la note sous les yeux** | 92 questions sur 350 renvoyaient à « ce principe », « cette règle », « le livre » — lisibles à l'écriture, illisibles en révision, où Anki tire dans le désordre | préfixe `**Titre** — `, règle inscrite en décision 08, contrôle ajouté à l'audit. **Le défaut est invisible au rédacteur par construction** : c'est le seul du lot qu'aucune relecture de la note ne révèle |
+| **Une duplication qui avait commencé à divarier** | le domaine et le niveau de chaque livre vivaient dans deux fichiers. Pas encore de divergence sur les niveaux, mais déjà sur les noms : *De la guerre* dans la liste, `On_War` au périmètre — donc irréconciliable par script | inventaire unique, et les listes n'en parlent plus. **Le signal d'alarme n'était pas une erreur mais un nom qui ne s'apparie pas** |
+| **Un garde-fou borgne** | le garde-fou 11 vérifiait qu'une fiche produit une note, jamais qu'un livre fiché a une fiche. **Huit livres attendaient en silence**, six depuis la construction du vault | contrôle ajouté, comptés en dette. Un garde-fou qui ne teste qu'un sens laisse passer l'autre |
 
 ---
 

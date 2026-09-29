@@ -24,6 +24,8 @@ from pathlib import Path
 RACINE = Path(__file__).resolve().parent.parent
 EXCLUS = {".obsidian", ".git", "Templates", "Scripts", "Extras", ".trash"}
 
+BAREME_PERIMETRE = {"fiché", "lu-sans-fiche", "illustration", "dehors"}
+
 BAREME = {"solide", "contesté", "réfuté", "non évalué", "non applicable"}
 VERDICTS_AVEC_REFERENCE = {"solide", "contesté", "réfuté"}
 
@@ -111,16 +113,24 @@ def notes():
 
 
 def perimetre():
-    """{stem_du_pdf: niveau} depuis la note de référence."""
-    ref = RACINE / "Meta" / "Ref-Périmètre_Bibliothèque.md"
-    niveaux = {}
-    if not ref.exists():
-        return niveaux
+    """(niveaux, possedes, nom_du_fichier) depuis l'inventaire de la bibliothèque.
+
+    Colonnes attendues : Fichier | 💾 | Niveau | Domaine | Liste.
+    Les deux noms de fichier sont acceptés, le temps d'un éventuel renommage.
+    """
+    for nom in ("Ref-Bibliothèque.md", "Ref-Périmètre_Bibliothèque.md"):
+        ref = RACINE / "Meta" / nom
+        if ref.exists():
+            break
+    else:
+        return {}, {}, "Meta/Ref-Bibliothèque.md"
+    niveaux, possedes = {}, {}
     for ligne in ref.read_text(encoding="utf-8").split("\n"):
         cellules = [c.strip() for c in ligne.split("|")[1:-1]]
-        if len(cellules) >= 2 and cellules[1] in {"fiché", "lu-sans-fiche", "illustration", "dehors"}:
-            niveaux[cellules[0]] = cellules[1]
-    return niveaux
+        if len(cellules) >= 3 and cellules[2] in BAREME_PERIMETRE:
+            niveaux[cellules[0]] = cellules[2]
+            possedes[cellules[0]] = cellules[1] == "✅"
+    return niveaux, possedes, f"Meta/{ref.name}"
 
 
 def main():
@@ -137,7 +147,7 @@ def main():
 
     cibles = set(noms) | {p.name for p in RACINE.rglob("*") if p.is_file()}
     entrants = defaultdict(set)
-    niveaux = perimetre()
+    niveaux, possedes, NOM_REF = perimetre()
 
     for f, contenu in contenus.items():
         rel, nom = f.relative_to(RACINE), f.stem
@@ -252,8 +262,24 @@ def main():
 
     pdfs = {p.stem for p in RACINE.rglob("*.pdf")}
     for absent in sorted(pdfs - set(niveaux)):
-        alertes.append((Path("Meta/Ref-Périmètre_Bibliothèque.md"),
-                        f"PDF hors périmètre : `{absent}` n'a aucun niveau"))
+        alertes.append((Path(NOM_REF),
+                        f"PDF hors inventaire : `{absent}` n'a aucun niveau"))
+
+    # La colonne 💾 se recoupe avec le disque, sinon elle dérive en silence.
+    for titre, dit_possede in sorted(possedes.items()):
+        if dit_possede and titre not in pdfs:
+            erreurs.append((Path(NOM_REF),
+                            f"`{titre}` est marqué ✅ mais absent d'`Extras/Books/`"))
+        elif not dit_possede and titre in pdfs:
+            erreurs.append((Path(NOM_REF),
+                            f"`{titre}` est sur le disque mais marqué non possédé"))
+
+    # Le garde-fou 11 ne voyait qu'une fiche sans note. Un livre fiché sans
+    # fiche du tout restait invisible : huit dormaient ainsi.
+    for titre, niveau in sorted(niveaux.items()):
+        if niveau == "fiché" and titre not in {f.stem[len("Source-"):] for f in fichiers
+                                               if f.stem.startswith("Source-")}:
+            infos.append((Path(NOM_REF), f"dette : `{titre}` est fiché, sans fiche `Source-`"))
 
     for f in fichiers:
         if f.stem.split("-")[0] in {"Concept", "Source"} and not entrants.get(f.stem):
