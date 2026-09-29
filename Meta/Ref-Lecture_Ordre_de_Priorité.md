@@ -14,8 +14,8 @@ le **Socle** (ce qui juge tout le reste).
 
 | | |
 |---|---|
-| titres | **37** |
-| sur le disque | **37** — tous |
+| titres | **38** |
+| sur le disque | **38** — tous |
 | à acquérir | **0** |
 | fichés | **0** ← le seul chiffre qui compte |
 
@@ -36,7 +36,7 @@ sans rien perdre.
 
 | Titre | 💾 | ⏳ | Pourquoi celui-là |
 |---|---|---|---|
-| **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-six suivants capitalisables au lieu d'oubliables. |
+| **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-sept suivants capitalisables au lieu d'oubliables. |
 | **Deep Work** — Newport | ✅ | | Le prérequis matériel : sans blocs de concentration protégés, aucune note ne s'écrit. Donne les protocoles, pas seulement le constat. |
 | **So Good They Can't Ignore You** — Newport | ✅ | | Répond à la question que *Deep Work* laisse ouverte : la concentration au service de quoi. Tue « suis ta passion » et la remplace par le capital de compétences rares. |
 | **Atomic Habits** — Clear | ✅ | | La mécanique d'installation : la boucle signal → envie → réponse → récompense, et les quatre leviers pour l'exploiter. C'est ce qui rend tenable ce que les deux Newport prescrivent. |
@@ -105,7 +105,7 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 
 > **Ce que la phase achète : de quoi juger les quatre phases précédentes.** C'est
 > elle qui décide si le reste est du savoir ou de la croyance. Cette phase
-> n'existait pas dans ta liste — ces onze titres n'ont rien à voir avec le pouvoir,
+> n'existait pas dans ta liste — ces douze titres n'ont rien à voir avec le pouvoir,
 > ils servent à l'évaluer.
 
 | Titre                                       | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                                                                              |
@@ -113,14 +113,15 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 | **Thinking, Fast and Slow** — Kahneman      | ✅   |     | Le catalogue des biais par celui qui les a mesurés. **À remonter en phase 1** : c'est l'outil qui permet de lire tout le reste avec du recul. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
 | **The Black Swan** — Taleb                  | ✅   |     | L'événement rare qui produit l'essentiel du résultat, et pourquoi aucun modèle ne le voit venir. **Prérequis d'*Antifragile* : à lire avant lui.**                                                             |
 | **Antifragile** — Taleb                     | ✅   |     | La catégorie qui manquait : ce qui **gagne** au désordre, pas seulement ce qui y résiste. Et la source du filtre ⏳ utilisé dans ces trois listes.                                                              |
-| **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-six autres.                                                          |
+| **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-sept autres.                                                          |
 | **Meditations** — Marc Aurèle               | ✅   | ⏳   | Le journal privé d'un homme qui n'écrivait pas pour être lu — d'où sa valeur. La dichotomie du contrôle : ce qui dépend de toi, ce qui n'en dépend pas.                                                        |
 | **Why We Sleep** — Walker                   | ✅   |     | Le sommeil comme variable en amont de la concentration de *Deep Work*. Livre le plus critiqué de la liste sur l'exactitude : garde les mécanismes, jette les chiffres.                                         |
 | **The Body Keeps the Score** — van der Kolk | ✅   |     | Ce que le stress prolongé fait au corps, et pourquoi la volonté n'y suffit pas. Le contrepoids nécessaire à la phase 1, qui suppose un moteur en état de marche.                                               |
 | **The Presentation of Self in Everyday Life** — Goffman | ✅ | ⏳ | **La source primaire sous toute la phase 3.** La façade, la scène et les coulisses, la gestion d'impression : Cabane, Navarro et Carnegie s'en servent sans le nommer. Il est ici pour la même raison que Marc Aurèle — c'est le texte que les vulgarisations paraphrasent, et `social/` n'a qu'**une seule note 🟢 sur 38**. ⚠️ Édition **Anchor 1959**, la seule dont la pagination soit citable. |
 | **Relations in Public** — Goffman | ✅ | ⏳ | Le prolongement du précédent sur l'espace public : territorialité, échanges réparateurs, ordre de l'interaction. 411 p. nettement plus spécialisées — `lu-sans-fiche`, par chapitres choisis plutôt qu'en entier. |
+| **Critique of Pure Reason** — Kant | ✅ | ⏳ | **Où s'arrête ce qu'on peut savoir.** La question dont tout le champ `fiabilite` de ce vault est une application pratique. Et le **prérequis de la ligne suivante** : *Beyond Good and Evil* §11 attaque Kant nommément sur ce point — *« How are synthetic judgments a priori possible? » Kant asks himself — and what is really his answer? « By means of a means (faculty) »*. Sans Kant, cette page de Nietzsche est illisible. ⚠️ **1089 pages**, traduction Pluhar : `lu-sans-fiche`, lu guidé par l'introduction de Kitcher et par sections, jamais d'un bout à l'autre. |
 | **Beyond Good and Evil** — Nietzsche        | ✅   | ⏳   | Interroge ce que la phase Stratégie prend pour acquis : d'où viennent les valeurs au nom desquelles on juge une manœuvre. Le plus difficile, et le seul qui l'attaque de front.                                |
-| **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-six autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
+| **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-sept autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
 
 *Les trois Taleb sont désormais dans leur ordre de dépendance, et non dans l'ordre
 de ta liste d'origine.*
@@ -205,25 +206,27 @@ jamais « prouvé » sans la référence à côté.**
 | Attached | Levine & Heller | ✅ |  |
 | The Presentation of Self in Everyday Life | Erving Goffman | ✅ | ⏳ |
 | Relations in Public | Erving Goffman | ✅ | ⏳ |
+| Critique of Pure Reason | Emmanuel Kant | ✅ | ⏳ |
 
-**11 titres Lindy sur 37.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
+**12 titres Lindy sur 38.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
 
 ---
 
-## Les 16 PDF que tu possèdes et qui ne sont dans aucune liste
+## Les 15 PDF que tu possèdes et qui ne sont dans aucune liste
 
-| PDF | Disposition proposée |
-|---|---|
-| `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **doublons de domaine** avec *Deep Work* et *Essentialism* : même thèse, rendements décroissants. À ne lire que si les premiers n'ont pas suffi |
-| `The_Power_of_Habit` | doublon d'*Atomic Habits*, mais la partie sur les habitudes **organisationnelles** lui est propre |
-| `Surrounded_by_Idiots` | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Candidat `🔴 réfuté`, à lire comme objet de curiosité |
-| `The_Happiness_Advantage` | psychologie positive, tailles d'effet contestées. Candidat `🟠 contesté` |
-| `Critique_of_Pure_Reason` | Lindy absolu, mais brutal sans lecture guidée. `lu-sans-fiche` |
-| `Modern_Compiler_Implementation_in_ML` · `English_Phrasal_Verbs_in_Use` · `Stage_Academy_Workbook_2024` | **outils de travail**, hors stratégie de lecture. `lu-sans-fiche` |
-| `To_Kill_A_Mockingbird` | fiction de loisir → régime de [[Ref-Lecture_SciFi_plaisir]], `dehors` |
-| les 4 suites de *Fondation* · `The_Rest_of_the_Robots` | lues par curiosité, hors vault — décision du 2026-09-28, `dehors` |
+| PDF                                                                                                     | Disposition proposée                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism`                                       | **doublons de domaine** avec *Deep Work* et *Essentialism* : même thèse, rendements décroissants. À ne lire que si les premiers n'ont pas suffi |
+| `The_Power_of_Habit`                                                                                    | doublon d'*Atomic Habits*, mais la partie sur les habitudes **organisationnelles** lui est propre                                               |
+| `Surrounded_by_Idiots`                                                                                  | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Candidat `🔴 réfuté`, à lire comme objet de curiosité                 |
+| `The_Happiness_Advantage`                                                                               | psychologie positive, tailles d'effet contestées. Candidat `🟠 contesté`                                                                        |
+| `Modern_Compiler_Implementation_in_ML` · `English_Phrasal_Verbs_in_Use_Advanced` · `Stage_Academy_Workbook_2024` | **outils de travail**, hors stratégie de lecture. `lu-sans-fiche`                                                                               |
+| `To_Kill_A_Mockingbird`                                                                                 | fiction de loisir → régime de [[Ref-Lecture_SciFi_plaisir]], `dehors`                                                                           |
+| `Second_Foundation` · `Foundations_Edge` · `Foundation_and_Earth` · `Forward_the_Foundation` · `The_Rest_of_the_Robots` | lues par curiosité, hors vault — décision du 2026-09-28, `dehors`                                                                               |
 
-*`Attached` et les deux Goffman en sont sortis le 2026-09-29 : ils sont entrés dans les phases 3 et 5.*
+*`Attached`, les deux Goffman et `Critique_of_Pure_Reason` en sont sortis le 2026-09-29 :
+ils sont entrés dans les phases 3 et 5. Les quinze restants sont **en attente de décision** —
+garder ou jeter n'est pas tranché, et c'est assumé.*
 
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *comment les trois listes s'articulent.*

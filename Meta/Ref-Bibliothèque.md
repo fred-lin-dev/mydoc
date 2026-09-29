@@ -93,7 +93,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Fichier | 💾 | Niveau | Domaine | Liste |
 |---|---|---|---|---|
 | Beyond_Good_and_Evil | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
-| Critique_of_Pure_Reason | ✅ | lu-sans-fiche | esprit/philosophie | — |
+| Critique_of_Pure_Reason | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
 | English_Phrasal_Verbs_in_Use_Advanced | ✅ | lu-sans-fiche | langues/vocabulaire | — |
 | Meditations | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
 | Modern_Compiler_Implementation_in_ML | ✅ | lu-sans-fiche | tech/programmation | — |
@@ -156,7 +156,7 @@ et l'audit recoupe cette colonne avec le disque.
 
 ## Ce que cet inventaire fait apparaître
 
-**16 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
+**15 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
 C'est la raison pour laquelle l'inventaire ne pouvait pas être fondu dans les
 trois `Ref-Lecture_*` : ils y seraient devenus sans domicile.
 

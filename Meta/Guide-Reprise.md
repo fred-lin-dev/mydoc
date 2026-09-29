@@ -46,14 +46,16 @@ tags: [meta/guide]
 
 **Verdicts de fiabilité :** ⬜ 43 · ⚪ 37 · 🟠 21 · 🟢 16 · 🔴 5
 **Inventaire :** 84 titres, 60 sur le disque — 37 fichés · 10 lu-sans-fiche · 19 illustration · 18 dehors
-**19 titres du disque ne sont sur aucune liste de lecture**, dont 8 fichés sans fiche
+**15 titres du disque ne sont sur aucune liste de lecture** — en attente de décision,
+garder ou jeter. Et **8 livres sont `fiché` sans avoir de fiche**, sur la liste ou non
 
 ---
 
 ## 3 · Ce qui a été fait
 
-**Les 34 titres de [[Ref-Lecture_Ordre_de_Priorité]] étaient traités** ; trois s'y sont
-ajoutés le 2026-09-29 — *Attached* et les deux Goffman — qui restent à lire, en cinq phases :
+**Les 34 titres de [[Ref-Lecture_Ordre_de_Priorité]] étaient traités** ; **quatre s'y sont
+ajoutés le 2026-09-29** et restent à lire — *Attached* (phase 3), *The Presentation of Self*,
+*Relations in Public* et la *Critique de la raison pure* (phase 5). La liste compte donc 38 titres, en cinq phases :
 Moteur, Véhicule, Navigation, Stratégie, Socle. Plus **7 romans** au niveau `illustration` —
 les quatre dystopies du contrôle, deux tomes de *Fondation*, *I, Robot*.
 
