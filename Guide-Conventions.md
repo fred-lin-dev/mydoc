@@ -66,6 +66,31 @@ preuve textuelle et sa généralisation — et `Concept-Apparences_Normales` a �
 ([[Concept-Signal_Par_L_Absence]]). Un contrôle qui ne produirait que des scissions
 serait aussi faux que celui qui n'en produit aucune.
 
+### `atomicite_relue` — pour que la file puisse se vider
+
+Le seuil étant relatif, le contrôle renverrait **toujours** un dixième des notes. Sans
+mémoire, la file ne se viderait jamais et une séance de relecture ne laisserait **aucune
+trace** — la suivante relirait les mêmes notes. C'était le défaut miroir de la règle des
+3 cartes : une file infinie vaut une règle muette.
+
+D'où un champ, sur le modèle de `fiabilite_date` :
+
+```yaml
+atomicite_relue: 2026-10-01
+```
+
+**L'audit ne signale qu'une note du dernier décile qui ne le porte pas.** Le champ
+n'affirme pas que la note est atomique pour toujours — il dit qu'elle a été **jugée
+telle à cette date**, par quelqu'un qui l'a lue en entier.
+
+**Première passe complète le 2026-10-01 :** 14 notes signalées, 14 relues, **16 marquées**
+(les deux notes nées des scissions comprises). Résultat : **12 gardées, 2 scindées** —
+[[Concept-Erreur_Ludique]] détachée de `Concept-Cygne_Noir`, et
+[[Concept-Sens_Par_L_Engagement]] détachée de `Concept-Sens_Comme_Ressource`. Dans les
+deux cas **j'avais signalé la couture en écrivant la note** : « que Taleb range ici », « et
+le second point ». Le signal n'a rien découvert que le texte ne disait pas — il a dit
+**où regarder**.
+
 ---
 
 ## 02 · Nommage ✅

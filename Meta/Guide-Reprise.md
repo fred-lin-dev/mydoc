@@ -31,7 +31,7 @@ tags: [meta/guide]
 
 ```
 184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 45 dettes ⚪ (37 de vérification + 8 fiches à écrire)
+0 erreur · 0 alerte · 42 infos — 42 dettes ⚪ · file d'atomicité vidée le 2026-10-01
 350 cartes, toutes synchronisées vers Anki
 57 PDF, tous avec un niveau de périmètre
 ```
@@ -47,7 +47,7 @@ tags: [meta/guide]
 **Verdicts de fiabilité :** ⬜ 52 · ⚪ 41 · 🟠 23 · 🟢 17 · 🔴 5
 **Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
 pas inventés. Le plus ancien a 0 mois ; horizon 24.
-**Inventaire :** 84 titres, 60 sur le disque — 37 fichés · 10 lu-sans-fiche · 19 illustration · 18 dehors
+**Inventaire :** 84 titres, 60 sur le disque — 31 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors
 **15 titres du disque ne sont sur aucune liste de lecture** — en attente de décision,
 garder ou jeter. Et **8 livres sont `fiché` sans avoir de fiche**, sur la liste ou non
 
@@ -158,12 +158,14 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Un instrument mort qui avait l'air vivant** | la règle des 3 cartes devait signaler les notes non atomiques : `grep -c '^Q:' > 3`. Mesure sur 137 notes — **118 en ont exactement 3, 19 en ont 2, aucune n'en a 4**. Le nombre de cartes est un choix du rédacteur, pas une propriété de la note : la règle mesurait sa propre observance | remplacée par la longueur de prose de la seule section `## L'idée`, au 9ᵉ décile, et **présentée comme un échantillon de relecture, pas comme un verdict**. Vérifiée dans les deux sens le jour même : une note gardée, une scindée |
 | **Le plugin Anki ne supprime jamais** | retirer un `Q:`/`A:` d'une note, ou déplacer une idée d'une note à l'autre, laisse dans Anki une carte figée que plus aucun fichier ne référence — **sans aucun signal** | `Scripts/orphelines.py`, à lancer après tout scan qui a retiré ou déplacé une carte. L'audit ne peut pas le voir : il est hors réseau et Anki n'est pas toujours ouvert |
 | **Le tableau de bord était aveugle à un domaine entier** | les 5 requêtes Dataview de [[MOC-Audit]] listaient `Esprit Social Tech Langues` et **pas `Corps`**, né après leur rédaction. Cinq notes, dont trois verdicts `🟢`, invisibles depuis la création du domaine | `Corps` réintégré aux cinq, et **contrôle ajouté** : l'audit compare les `FROM` aux dossiers réels. Même angle mort que `FOLDER_DECKS` côté Anki, et il a fallu le chercher pour le voir |
+| **Une dette qui n'était pas du travail** | 6 livres étaient `fiché` — le niveau le plus lourd — sans fiche, alors que [[Ref-Lecture_Ordre_de_Priorité]] les jugeait « doublons » ou « candidats `🔴`/`🟠` » **depuis le premier jour**. Le niveau avait été posé par défaut et jamais relu contre le jugement porté ailleurs | reclassés le 2026-10-01 : 3 en `dehors`, 3 en `lu-sans-fiche`. **Une dette n'est pas toujours du travail à faire, c'est parfois un classement à corriger** — et l'audit ne peut pas distinguer les deux : il voit qu'une fiche manque, pas qu'elle n'aurait jamais dû être attendue |
+| **Une file qui ne pouvait pas se vider** | le signal d'atomicité a un seuil **relatif** — le 9ᵉ décile — donc il renvoie toujours un dixième des notes. Une séance de relecture ne laissait aucune trace, et la suivante aurait relu les mêmes | champ `atomicite_relue`, même motif que `fiabilite_date`. L'audit ne signale qu'une note du décile qui ne le porte pas. **Une file infinie vaut une règle muette** |
 
 ---
 
 ## 6 · Ce qui reste à faire
 
-### La seule file de travail : 37 dettes `⚪ non évalué`
+### La file principale : 41 dettes `⚪ non évalué`
 
 À 20 min – 1 h par concept, c'est **12 à 37 heures**. À payer **par ordre d'utilité**, jamais
 d'arrivée : le premier tableau de [[MOC-Audit]] les trie par nombre de liens entrants.

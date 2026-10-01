@@ -3,6 +3,7 @@ tags: [social/séduction]
 source: "[[Source-Attached]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # Le piège anxieux-évitant
 

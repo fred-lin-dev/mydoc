@@ -3,6 +3,7 @@ tags: [social/influence, esprit/stratégie]
 source: "[[Source-Propaganda]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # Fabrication du consentement
 

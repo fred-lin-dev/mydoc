@@ -3,6 +3,7 @@ tags: [esprit/stratégie]
 source: "[[The_Art_of_War.pdf]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: "Précepte stratégique. Le mot « terrain » revient plus de cent fois dans le texte : c'est sa préoccupation dominante, plus que la force ou le courage."
+atomicite_relue: 2026-10-01
 ---
 # Terrain avant force
 

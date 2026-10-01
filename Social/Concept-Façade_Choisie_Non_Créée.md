@@ -3,6 +3,7 @@ tags: [social/influence]
 source: "[[Source-The_Presentation_of_Self_in_Everyday_Life]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # Façade choisie, non créée
 

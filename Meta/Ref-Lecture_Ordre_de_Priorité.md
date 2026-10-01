@@ -118,8 +118,8 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 | **Why We Sleep** — Walker                   | ✅   |     | Le sommeil comme variable en amont de la concentration de *Deep Work*. Livre le plus critiqué de la liste sur l'exactitude : garde les mécanismes, jette les chiffres.                                         |
 | **The Body Keeps the Score** — van der Kolk | ✅   |     | Ce que le stress prolongé fait au corps, et pourquoi la volonté n'y suffit pas. Le contrepoids nécessaire à la phase 1, qui suppose un moteur en état de marche.                                               |
 | **The Presentation of Self in Everyday Life** — Goffman | ✅ | ⏳ | **La source primaire sous toute la phase 3.** La façade, la scène et les coulisses, la gestion d'impression : Cabane, Navarro et Carnegie s'en servent sans le nommer. Il est ici pour la même raison que Marc Aurèle — c'est le texte que les vulgarisations paraphrasent, et `social/` n'a qu'**une seule note 🟢 sur 38**. ⚠️ Édition **Anchor 1959**, la seule dont la pagination soit citable. |
-| **Relations in Public** — Goffman | ✅ | ⏳ | Le prolongement du précédent sur l'espace public : territorialité, échanges réparateurs, ordre de l'interaction. 411 p. nettement plus spécialisées — `lu-sans-fiche`, par chapitres choisis plutôt qu'en entier. |
-| **Critique of Pure Reason** — Kant | ✅ | ⏳ | **Où s'arrête ce qu'on peut savoir.** La question dont tout le champ `fiabilite` de ce vault est une application pratique. Et le **prérequis de la ligne suivante** : *Beyond Good and Evil* §11 attaque Kant nommément sur ce point — *« How are synthetic judgments a priori possible? » Kant asks himself — and what is really his answer? « By means of a means (faculty) »*. Sans Kant, cette page de Nietzsche est illisible. ⚠️ **1089 pages**, traduction Pluhar : `lu-sans-fiche`, lu guidé par l'introduction de Kitcher et par sections, jamais d'un bout à l'autre. |
+| **Relations in Public** — Goffman | ✅ | ⏳ | Le prolongement du précédent sur l'espace public : territorialité, échanges réparateurs, ordre de l'interaction. 411 p. nettement plus spécialisées : par chapitres choisis plutôt qu'en entier, et sans fiche. |
+| **Critique of Pure Reason** — Kant | ✅ | ⏳ | **Où s'arrête ce qu'on peut savoir.** La question dont tout le champ `fiabilite` de ce vault est une application pratique. Et le **prérequis de la ligne suivante** : *Beyond Good and Evil* §11 attaque Kant nommément sur ce point — *« How are synthetic judgments a priori possible? » Kant asks himself — and what is really his answer? « By means of a means (faculty) »*. Sans Kant, cette page de Nietzsche est illisible. ⚠️ **1089 pages**, traduction Pluhar : à lire guidé par l'introduction de Kitcher et par sections, jamais d'un bout à l'autre, et sans fiche. |
 | **Beyond Good and Evil** — Nietzsche        | ✅   | ⏳   | Interroge ce que la phase Stratégie prend pour acquis : d'où viennent les valeurs au nom desquelles on juge une manœuvre. Le plus difficile, et le seul qui l'attaque de front.                                |
 | **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-sept autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
 
@@ -235,19 +235,26 @@ jamais « prouvé » sans la référence à côté.**
 
 ## Les 15 PDF que tu possèdes et qui ne sont dans aucune liste
 
-| PDF                                                                                                     | Disposition proposée                                                                                                                            |
+| PDF                                                                                                     | Disposition                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism`                                       | **doublons de domaine** avec *Deep Work* et *Essentialism* : même thèse, rendements décroissants. À ne lire que si les premiers n'ont pas suffi |
-| `The_Power_of_Habit`                                                                                    | doublon d'*Atomic Habits*, mais la partie sur les habitudes **organisationnelles** lui est propre                                               |
-| `Surrounded_by_Idiots`                                                                                  | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Candidat `🔴 réfuté`, à lire comme objet de curiosité                 |
-| `The_Happiness_Advantage`                                                                               | psychologie positive, tailles d'effet contestées. Candidat `🟠 contesté`                                                                        |
-| `Modern_Compiler_Implementation_in_ML` · `English_Phrasal_Verbs_in_Use_Advanced` · `Stage_Academy_Workbook_2024` | **outils de travail**, hors stratégie de lecture. `lu-sans-fiche`                                                                               |
-| `To_Kill_A_Mockingbird`                                                                                 | fiction de loisir → régime de [[Ref-Lecture_SciFi_plaisir]], `dehors`                                                                           |
-| `Second_Foundation` · `Foundations_Edge` · `Foundation_and_Earth` · `Forward_the_Foundation` · `The_Rest_of_the_Robots` | lues par curiosité, hors vault — décision du 2026-09-28, `dehors`                                                                               |
+| `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **doublons de domaine** avec *Deep Work* et *Essentialism* : même thèse, rendements décroissants. À ne lire que si les premiers n'ont pas suffi **Tranché le 2026-10-01** — niveau dans [[Ref-Bibliothèque]]. |
+| `The_Power_of_Habit` | doublon d'*Atomic Habits*, mais la partie sur les habitudes **organisationnelles** lui est propre **Tranché le 2026-10-01.** |
+| `Surrounded_by_Idiots` | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Candidat `🔴 réfuté`, à lire comme objet de curiosité Gardé **pour** cette note : le modèle circule en entreprise, une réfutation a une valeur défensive. **Tranché le 2026-10-01.** |
+| `The_Happiness_Advantage` | psychologie positive, tailles d'effet contestées. Candidat `🟠 contesté` Gardé **pour** cette note : le vault n'a rien sur les tailles d'effet de la psychologie positive. **Tranché le 2026-10-01.** |
+| `Modern_Compiler_Implementation_in_ML` · `English_Phrasal_Verbs_in_Use_Advanced` · `Stage_Academy_Workbook_2024` | **outils de travail**, hors stratégie de lecture                                                                               |
+| `To_Kill_A_Mockingbird`                                                                                 | fiction de loisir → même régime que [[Ref-Lecture_SciFi_plaisir]]                                                                           |
+| `Second_Foundation` · `Foundations_Edge` · `Foundation_and_Earth` · `Forward_the_Foundation` · `The_Rest_of_the_Robots` | lues par curiosité, hors vault — décision du 2026-09-28                                                                               |
 
 *`Attached`, les deux Goffman et `Critique_of_Pure_Reason` en sont sortis le 2026-09-29 :
-ils sont entrés dans les phases 3 et 5. Les quinze restants sont **en attente de décision** —
-garder ou jeter n'est pas tranché, et c'est assumé.*
+ils sont entrés dans les phases 3 et 5.*
+
+**Les quinze restants ont tous un niveau tranché depuis le 2026-10-01**, et six l'ont
+changé : ils étaient `fiché` — le niveau le plus lourd — alors que ce tableau les jugeait
+« doublons » ou « candidats `🔴`/`🟠` » **depuis le premier jour**. Le niveau avait été posé
+par défaut et jamais relu contre le jugement porté ici.
+
+Ce qui reste ouvert pour eux n'est plus leur traitement mais leur **conservation** : garder
+les fichiers ou les jeter. Un `dehors` n'oblige à rien, donc rien ne presse.
 
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *comment les trois listes s'articulent.*

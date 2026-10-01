@@ -3,6 +3,7 @@ tags: [social/influence]
 source: "[[Relations_in_Public.pdf]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # Les apparences normales
 

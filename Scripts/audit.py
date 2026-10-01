@@ -52,6 +52,7 @@ CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
 # question qui désigne son sujet sans le nommer est irrécupérable. Le repérage
 # est heuristique — d'où une alerte et non une erreur : seule la lecture tranche.
 CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
+RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
 CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
 CITATION = re.compile(r"«[^»]*»")
@@ -321,10 +322,17 @@ def main():
     if len(longueurs) >= 20:
         seuil = sorted(longueurs.values())[int(0.90 * (len(longueurs) - 1))]
         for f, n in sorted(longueurs.items(), key=lambda x: -x[1]):
-            if n > seuil:
-                infos.append((f.relative_to(RACINE),
-                              f"à relire pour l'atomicité : {n} mots d'idée, "
-                              f"dernier décile (seuil {seuil})"))
+            if n <= seuil:
+                continue
+            # Le seuil est relatif, donc il renvoie toujours un dixième des notes :
+            # sans mémoire de ce qui a été relu, la file ne pourrait jamais se vider
+            # et le travail de relecture ne laisserait aucune trace. Le champ
+            # `atomicite_relue` la rend finie — même motif que `fiabilite_date`.
+            if RELUE.search(f.read_text(encoding="utf-8")):
+                continue
+            infos.append((f.relative_to(RACINE),
+                          f"à relire pour l'atomicité : {n} mots d'idée, "
+                          f"dernier décile (seuil {seuil})"))
 
     # Le tableau de bord Dataview doit interroger tous les domaines. Il a été
     # aveugle à `Corps/` depuis la naissance de ce domaine, sans que rien le dise :

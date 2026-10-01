@@ -3,6 +3,7 @@ tags: [esprit/stratégie, esprit/psychologie]
 source: "[[Source-Antifragile]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: "Le terme vient de la médecine, où le phénomène est documenté et quantifié (dommages causés par les soins). L'extension que Taleb en fait à toute intervention — politique, éducative, managériale — est argumentée et non mesurée. Le cas médical est solide, la généralisation ne l'est pas."
+atomicite_relue: 2026-10-01
 ---
 # Iatrogénie
 
@@ -47,6 +48,7 @@ système se corrige seul**. Là où il ne se corrige pas, l'abstention n'a aucun
 laisse simplement le dommage suivre son cours.
 
 ### 🔗 Connexions
+* [[Concept-Peau_Dans_Le_Jeu]] — *pourquoi l'incitation pousse à intervenir : celui qui est crédité n'est pas celui qui paie le dommage diffus.*
 * [[Concept-Résistance_Aux_Politiques]] — *le cas où l'effort est absorbé, formalisé.*
 * [[Ref-Douze_Points_De_Levier]] — *pourquoi on intervient toujours au niveau le plus faible.*
 * [[Concept-Régression_Vers_La_Moyenne]] — *pourquoi une intervention semble marcher alors qu'elle ne fait rien.*

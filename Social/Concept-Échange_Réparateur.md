@@ -3,6 +3,7 @@ tags: [social/influence]
 source: "[[Relations_in_Public.pdf]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # L'échange réparateur
 

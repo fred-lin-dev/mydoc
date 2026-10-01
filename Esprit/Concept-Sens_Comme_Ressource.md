@@ -3,6 +3,7 @@ tags: [esprit/philosophie, esprit/psychologie]
 source: "[[Source-Mans_Search_For_Meaning]]"
 fiabilite: ⚪ non évalué
 fiabilite_note: "Non mesuré. Et la précision de formulation est essentielle : la citation de Nietzsche que Frankl reprend est « He who has a why to live can bear with almost any how » — SUPPORTER, pas survivre. La version forte, où le sens agirait sur la survie via l'immunité, est le seul point réellement faible du livre. L'inférence est de plus structurellement exposée à [[Concept-Preuve_Silencieuse]] : elle est énoncée depuis la position d'un survivant."
+atomicite_relue: 2026-10-01
 ---
 # Le sens comme ressource
 
@@ -15,10 +16,8 @@ compte : *« He who has a why to live can bear with almost any how. »*
 **Supporter, pas obtenir. Pas survivre.** C'est la distinction que les vulgarisations effacent, et
 elle fait toute la différence entre une observation défendable et une promesse fausse.
 
-Et le second point, qui est le plus utile en pratique : **le sens ne se trouve pas par
-introspection.** Il se trouve dans un engagement vers quelque chose d'extérieur — une tâche, une
-personne, une œuvre. Se demander « quel est le sens de ma vie » est la mauvaise question ; elle
-n'a pas de réponse disponible de l'intérieur.
+Le second point du chapitre — **où** se trouve le sens, et pourquoi l'introspection est le
+mauvais instrument — a été détaché le 2026-10-01 : voir [[Concept-Sens_Par_L_Engagement]].
 
 ## Ce qui la rend vraie, ou fragile
 
@@ -53,10 +52,6 @@ Q: Quelle est la formulation exacte reprise de Nietzsche, et pourquoi le mot com
 A: « He who has a why to live can bear with almost any how ». Supporter — pas survivre, pas obtenir. Les vulgarisations effacent la distinction.
 <!--ID: 1790547089913-->
 
-
-Q: Où se trouve le sens, selon Frankl, et quelle est la mauvaise question ?
-A: Dans un engagement vers quelque chose d'extérieur — tâche, personne, œuvre. « Quel est le sens de ma vie » n'a pas de réponse disponible de l'intérieur.
-<!--ID: 1790547089916-->
 
 
 Q: Pourquoi l'inférence de Frankl sur la survie est-elle structurellement limitée ?

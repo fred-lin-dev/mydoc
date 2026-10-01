@@ -3,6 +3,7 @@ tags: [esprit/philosophie]
 source: "[[Critique_of_Pure_Reason.pdf]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: ""
+atomicite_relue: 2026-10-01
 ---
 # L'antinomie
 

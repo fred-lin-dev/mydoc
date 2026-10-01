@@ -3,6 +3,7 @@ tags: [esprit/stratégie, esprit/philosophie]
 source: "[[The_Prince.pdf]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: "Distinction conceptuelle, pas affirmation empirique : elle sépare deux questions, elle n'en résout aucune. Texte primaire lu sans fiche — Machiavel, Le Prince, 1532."
+atomicite_relue: 2026-10-01
 ---
 # Séparer moral et efficace
 

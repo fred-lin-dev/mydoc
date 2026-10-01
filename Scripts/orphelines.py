@@ -27,6 +27,7 @@ RACINE = Path(__file__).resolve().parent.parent
 DOMAINES = ("Esprit", "Social", "Tech", "Corps", "Langues")
 ANKI = "http://localhost:8765"
 ID = re.compile(r"<!--ID: (\d+)-->")
+CARTE = re.compile(r"^Q: ", re.MULTILINE)
 
 
 def ids_du_vault():
@@ -58,7 +59,12 @@ def main():
     orphelines = sorted(cotes_anki - set(vault))
     manquantes = sorted(set(vault) - cotes_anki)
 
-    print(f"vault {len(vault)} cartes · Anki {len(cotes_anki)} notes\n")
+    ecrites = sum(len(CARTE.findall(f.read_text(encoding="utf-8")))
+                  for d in DOMAINES for f in (RACINE / d).glob("*.md"))
+    attente = ecrites - len(vault)
+    print(f"vault : {ecrites} cartes écrites, dont {len(vault)} synchronisées"
+          + (f" · {attente} en attente de scan" if attente else "")
+          + f"\nAnki  : {len(cotes_anki)} notes\n")
 
     if manquantes:
         # Un identifiant écrit à la main, ou une note supprimée dans Anki. Dans les

@@ -3,6 +3,7 @@ tags: [esprit/stratégie]
 source: "[[Source-The_Black_Swan]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: "Définition en trois propriétés, pas hypothèse testable. Ce qui serait empirique — la fréquence de tels événements et leur part dans les résultats observés — dépend du domaine et relève de [[Concept-Mediocristan_Et_Extremistan]]."
+atomicite_relue: 2026-10-01
 ---
 # Cygne noir
 
@@ -19,10 +20,9 @@ pas** : puisque l'événement semble explicable après coup, on conclut qu'on au
 donc qu'il suffit d'être plus attentif la prochaine fois. On sort d'un cygne noir avec une
 leçon fausse — et la même vulnérabilité.
 
-**L'erreur ludique**, que Taleb range ici : confondre le **risque** — jeux de hasard, règles
-et probabilités connues — et l'**incertitude** — le monde, où l'on ne connaît ni les règles ni
-l'espace des possibles. Un modèle de risque appliqué à de l'incertitude produit une fausse
-sécurité, chiffrée.
+L'**erreur ludique** y était rangée aussi, par Taleb puis par moi. Elle en a été détachée le
+2026-10-01 : ce n'est pas une propriété du cygne noir mais une erreur de domaine dont il est
+une conséquence — voir [[Concept-Erreur_Ludique]].
 
 ## Ce qui la rend vraie, ou fragile
 
@@ -61,10 +61,6 @@ Q: Quelles sont les trois propriétés d'un cygne noir, et laquelle est la pire 
 A: Rare, impact majeur, rétrospectivement explicable. La troisième est la pire : elle garantit qu'on en tire une leçon fausse et qu'on reste vulnérable.
 <!--ID: 1790547090035-->
 
-
-Q: Quelle différence entre risque et incertitude ?
-A: Le risque a des règles et des probabilités connues, comme un jeu. L'incertitude n'a ni règles ni espace des possibles connu. Un modèle de risque appliqué à l'incertitude produit une fausse sécurité chiffrée.
-<!--ID: 1790547090038-->
 
 
 Q: Quel test distingue un vrai cygne noir d'une négligence ?

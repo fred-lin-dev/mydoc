@@ -3,6 +3,7 @@ tags: [esprit/productivité]
 source: "[[Source-How_to_Take_Smart_Notes]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: "Description d'une méthode, pas une affirmation sur le monde — rien à vérifier empiriquement. En revanche, toute affirmation sur son EFFICACITÉ serait à évaluer, et ne l'est pas : voir [[Concept-Structure_Ascendante]]."
+atomicite_relue: 2026-10-01
 ---
 # Zettelkasten
 

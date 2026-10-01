@@ -3,6 +3,7 @@ tags: [social/influence]
 source: "[[Source-Le_Pouvoir_Rhétorique]]"
 fiabilite: ⬜ non applicable
 fiabilite_note: "Propriété de l'implicite en pragmatique du langage : préciser une chose présuppose qu'elle pouvait être mise en doute. Se démontre par analyse, ne se mesure pas."
+atomicite_relue: 2026-10-01
 ---
 # Ce qu'on précise ne va pas de soi
 

@@ -6,15 +6,15 @@ tags: [meta/moc, esprit/productivité]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir propre,
 > aucune carte. Verdict de fiabilité en préfixe.
 
-**79 notes atomiques · 22 fiches de source · 6 références**
+**81 notes atomiques · 22 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
 | 🟢 solide | **12** |
 | 🟠 contesté | 12 |
 | 🔴 réfuté | 1 |
-| ⬜ non applicable | **35** — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 19 |
+| ⬜ non applicable | **36** — traités de stratégie, Taleb, philosophie |
+| ⚪ non évalué | 20 |
 
 ---
 
@@ -114,6 +114,7 @@ du vault entier.*
 
 * ⬜ [[Concept-Mediocristan_Et_Extremistan]] — *savoir si une moyenne veut dire quelque chose.*
 * ⬜ [[Concept-Cygne_Noir]] — *trois propriétés, et la troisième garantit qu'on n'apprendra pas.*
+* ⬜ [[Concept-Erreur_Ludique]] — *l'outil est juste, le terrain ne lui convient pas : risque ≠ incertitude.*
 * ⬜ [[Concept-Antifragilité]] — *trois réponses au désordre, pas deux.*
 * ⬜ [[Concept-Optionalité]] — *perte bornée, gain non borné : évaluable avant l'événement.*
 * ⬜ [[Concept-Effet_Lindy]] — *le filtre ⏳ du vault, enfin sourcé — et sa limite : la survie n'est pas la vérité.*
@@ -130,6 +131,7 @@ du vault entier.*
 * ⬜ [[Concept-Généalogie_Des_Valeurs]] — *le seul livre du corpus qui attaque les autres par le bas.*
 * ⬜ [[Concept-Liberté_Résiduelle]] — *ce qui reste possible, jamais ce qui est exigible.*
 * ⚪ [[Concept-Sens_Comme_Ressource]] — *supporter, pas survivre : la distinction que les vulgarisations effacent.*
+* ⚪ [[Concept-Sens_Par_L_Engagement]] — *une question introspective sans réponse accessible de l'intérieur.*
 * ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
 * ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*
 * 🟠 [[Concept-Synthétique_A_Priori]] — *la question tient, ses réponses-phares sont tombées.*
