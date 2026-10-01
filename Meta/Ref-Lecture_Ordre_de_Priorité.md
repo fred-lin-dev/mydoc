@@ -233,7 +233,7 @@ jamais « prouvé » sans la référence à côté.**
 
 ---
 
-## Les 15 PDF que tu possèdes et qui ne sont dans aucune liste
+## Les 15 PDF hors liste — 12 conservés, 3 supprimés
 
 | PDF                                                                                                     | Disposition                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -253,8 +253,20 @@ changé : ils étaient `fiché` — le niveau le plus lourd — alors que ce tab
 « doublons » ou « candidats `🔴`/`🟠` » **depuis le premier jour**. Le niveau avait été posé
 par défaut et jamais relu contre le jugement porté ici.
 
-Ce qui reste ouvert pour eux n'est plus leur traitement mais leur **conservation** : garder
-les fichiers ou les jeter. Un `dehors` n'oblige à rien, donc rien ne presse.
+**La conservation est tranchée depuis le 2026-10-01.** Aucun de ces quinze n'avait produit
+une seule note, donc rien ne dépendait d'eux — l'objection habituelle (« supprimer un PDF
+rend ses citations invérifiables ») ne s'appliquait pas ici, contrairement à *Meditations*,
+*On War* ou Kant.
+
+| | Décision |
+|---|---|
+| `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **supprimés** — 9,3 Mo. *Deep Work* et *Essentialism* couvrent la même thèse et sont fichés |
+| les 3 outils de travail — 95,8 Mo, **80 % du poids** | **gardés.** Un cahier d'exercices ne produit pas de note : « 0 note » ne dit rien contre lui. Et `English_Phrasal_Verbs` est l'unique actif de `langues/`, qui est vide — le supprimer fermerait un domaine avant son ouverture |
+| les 5 suites de *Fondation* · `To_Kill_A_Mockingbird` · `Surrounded_by_Idiots` | **gardés** — tu as dit vouloir les lire |
+| `The_Power_of_Habit` · `The_Happiness_Advantage` | **gardés** — classés `lu-sans-fiche` *pour* produire une note précise |
+
+Les trois supprimés gardent leur ligne dans [[Ref-Bibliothèque]] avec `💾 —` : la décision
+et le raisonnement survivent, les octets non. **Même statut que les 24 romans non acquis.**
 
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *comment les trois listes s'articulent.*

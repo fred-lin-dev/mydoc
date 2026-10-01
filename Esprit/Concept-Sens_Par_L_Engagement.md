@@ -1,8 +1,9 @@
 ---
 tags: [esprit/philosophie, esprit/psychologie]
 source: "[[Source-Mans_Search_For_Meaning]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La moitié « l'introspection est le mauvais instrument » est bien établie :** Nisbett & Wilson 1977, Psychological Review 84(3), 231-59, « Telling More Than We Can Know » — on n'a pas d'accès introspectif aux processus qui déterminent nos jugements, et les explications qu'on en donne sont des reconstructions. Revue : Wilson & Dunn 2004, Annual Review of Psychology 55, 493-518. **La moitié « le sens se trouve dans un engagement extérieur » est au mieux corrélationnelle**, et la convergence avec Newport reste une convergence, pas un test — ce que la note dit déjà."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Le sens par l'engagement
@@ -19,9 +20,17 @@ On peut y passer des années sans que la durée rapproche de quoi que ce soit.
 
 ## Ce qui la rend vraie, ou fragile
 
-`⚪`, hérité de [[Concept-Sens_Comme_Ressource]] dont cette note a été détachée le
-2026-10-01 : c'est une affirmation sur le monde, appuyée sur une clinique et un
-témoignage, jamais mesurée.
+**La thèse se coupe en deux, et les deux moitiés n'ont pas le même statut.**
+
+*« L'introspection est le mauvais instrument »* est **établi**, et pas par Frankl :
+Nisbett & Wilson (1977) ont montré qu'on n'a pas d'accès introspectif aux processus qui
+déterminent nos jugements — les explications qu'on en donne sont des reconstructions
+plausibles, pas des observations. C'est très exactement « la question n'a pas de réponse
+disponible de l'intérieur », démontré sur un tout autre objet.
+
+*« Le sens se trouve dans un engagement extérieur »* est au mieux corrélationnel. Frankl
+l'appuie sur une clinique et un témoignage, et la convergence avec Newport reste une
+convergence.
 
 **Ce qui la rend forte malgré ça, c'est une convergence que ni l'un ni l'autre des deux
 livres ne pouvait voir.** Newport fait exactement le même geste, soixante-dix ans plus
@@ -50,13 +59,15 @@ défaillance le plus fréquent de ce corpus — voir [[Concept-Preuve_Silencieus
 
 Q: Où se trouve le sens, selon Frankl, et quelle est la mauvaise question ?
 A: Dans un engagement vers quelque chose d'extérieur — tâche, personne, œuvre. « Quel est le sens de ma vie » n'a pas de réponse disponible de l'intérieur.
+<!--ID: 1790882165309-->
+
 
 Q: **Le sens par l'engagement** — pourquoi « quel est le sens de ma vie ? » est-elle une mauvaise question ?
 A: Pas parce qu'elle serait futile : parce que **l'instrument ne convient pas à l'objet**. Elle n'a pas de réponse accessible de l'intérieur, donc y passer du temps ne rapproche de rien.
-<!--ID: 1790882165309-->
+<!--ID: 1790882165314-->
 
 
 Q: **Le sens par l'engagement** — quelle convergence, à soixante-dix ans d'écart, renforce cette idée ?
 A: Newport fait le même geste sur la carrière : cesser de demander « qu'est-ce que j'aime » pour construire des compétences rares. Deux corpus sans rapport, la même substitution d'une question introspective par une question tournée vers l'extérieur.
-<!--ID: 1790882165314-->
+<!--ID: 1790894092825-->
 

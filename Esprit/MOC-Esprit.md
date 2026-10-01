@@ -10,11 +10,11 @@ tags: [meta/moc, esprit/productivité]
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | **12** |
-| 🟠 contesté | 12 |
+| 🟢 solide | 12 |
+| 🟠 contesté | 24 |
 | 🔴 réfuté | 1 |
-| ⬜ non applicable | **36** — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 20 |
+| ⬜ non applicable | 38 — traités de stratégie, Taleb, philosophie |
+| ⚪ non évalué | 6 |
 
 ---
 
@@ -25,10 +25,10 @@ tags: [meta/moc, esprit/productivité]
 * 🟠 [[Concept-Résidu_Attentionnel]] — *le coût d'une interruption se paie dans la tâche suivante.*
 * ⬜ [[Concept-Zettelkasten]] — *atomicité, liens explicites, aucune hiérarchie.*
 * ⬜ [[Concept-Arbitrage_Inévitable]] — *« quel problème je veux » plutôt que « comment faire les deux ».*
-* ⚪ [[Concept-Écriture_Comme_Medium]] — *écrire n'est pas ce qui suit la pensée, c'en est le support.*
+* 🟠 [[Concept-Écriture_Comme_Medium]] — *écrire n'est pas ce qui suit la pensée, c'en est le support.*
 * ⚪ [[Concept-Structure_Ascendante]] — *les structures émergent du matériau.*
-* ⚪ [[Concept-Productivité_À_Horaire_Fixe]] — *fixer la fin, puis y faire rentrer le travail.*
-* ⚪ [[Concept-Règle_Des_90_Pour_Cent]] — *un seuil explicite, fixé avant d'évaluer.*
+* 🟠 [[Concept-Productivité_À_Horaire_Fixe]] — *fixer la fin, puis y faire rentrer le travail.*
+* 🟠 [[Concept-Règle_Des_90_Pour_Cent]] — *un seuil explicite, fixé avant d'évaluer.*
 * ⚪ [[Concept-Paradoxe_Du_Succès]] — *le succès produit les options qui détruisent ce qui l'a produit.*
 
 ## Mémoire et apprentissage — `esprit/psychologie`
@@ -42,8 +42,8 @@ tags: [meta/moc, esprit/productivité]
 
 * 🟢 [[Concept-Intention_De_Mise_En_Œuvre]] — *« après X, je ferai Y » ; le mieux étayé du domaine.*
 * 🟠 [[Concept-Friction_Détermine_Le_Comportement]] — *appui empirique en train de s'effondrer.*
-* ⚪ [[Concept-Boucle_Habitude]] — *signal, envie, réponse, récompense.*
-* ⚪ [[Concept-Identité_Précède_Comportement]] — *viser qui on est plutôt qu'un résultat.*
+* ⬜ [[Concept-Boucle_Habitude]] — *signal, envie, réponse, récompense.*
+* 🟠 [[Concept-Identité_Précède_Comportement]] — *viser qui on est plutôt qu'un résultat.*
 
 ## Psychologie de soi — `esprit/psychologie`
 
@@ -54,7 +54,7 @@ tags: [meta/moc, esprit/productivité]
 * 🟠 [[Concept-Éloge_De_L_Effort]] — *à adopter parce que c'est gratuit et informatif.*
 * 🟠 [[Concept-Envie]] — *bénigne ou malveillante selon que l'écart paraît mérité.*
 * 🟠 [[Concept-Ombre_Et_Traits_Refoulés]] — *appareil jungien à écarter, réaction disproportionnée à garder.*
-* ⚪ [[Concept-Menace_Sur_L_Image_De_Soi]] — *on évite précisément ce qui ferait progresser.*
+* 🟠 [[Concept-Menace_Sur_L_Image_De_Soi]] — *on évite précisément ce qui ferait progresser.*
 * ⚪ [[Concept-Confirmer_L_Image_De_Soi]] — *la résistance porte sur ce que céder dirait de soi.*
 
 ## Systèmes — `esprit/stratégie`
@@ -82,16 +82,16 @@ de choses vérifiables — et c'est pour ça qu'ils vieillissent bien.*
 * ⬜ [[Concept-Centre_De_Gravité]] — *le point dont la perte fait tout s'effondrer.* · Clausewitz
 * ⬜ [[Concept-Pouvoir_Conféré]] — *ce qui est prêté peut être retiré.* · Greene
 * ⬜ [[Concept-Surface_D_Exposition]] — *toute intention déclarée devient une prise.* · Greene
-* ⚪ [[Concept-Coût_De_La_Supériorité_Visible]] — *paraître meilleur se paie, selon le public.* · Greene
+* 🟠 [[Concept-Coût_De_La_Supériorité_Visible]] — *paraître meilleur se paie, selon le public.* · Greene
 * ⚪ [[Concept-Stratégie_Du_Faible]] — *gagner en ne perdant pas — si le temps travaille pour soi.* · Greene
-* ⚪ [[Concept-Terrain_De_Mort]] — *supprimer ses options ; **contredit** `Surface_D_Exposition`, et le partage est dans la note.* · Greene
+* 🟠 [[Concept-Terrain_De_Mort]] — *supprimer ses options ; **contredit** `Surface_D_Exposition`, et le partage est dans la note.* · Greene
 
 ## Carrière et valeur — `esprit/stratégie`
 
-* ⚪ [[Concept-Rareté_Comme_Valeur]] — *une compétence vaut par sa rareté, pas sa difficulté.*
-* ⚪ [[Concept-Capital_Avant_Autonomie]] — *l'autonomie s'achète ; les deux pièges du contrôle.*
-* ⚪ [[Concept-Loi_De_Viabilité_Financière]] — *seul un signal coûteux informe.*
-* ⚪ [[Concept-Mentalité_D_Artisan]] — *ce que je peux apporter, pas ce que ça m'apporte.*
+* ⬜ [[Concept-Rareté_Comme_Valeur]] — *une compétence vaut par sa rareté, pas sa difficulté.*
+* 🟠 [[Concept-Capital_Avant_Autonomie]] — *l'autonomie s'achète ; les deux pièges du contrôle.*
+* 🟠 [[Concept-Loi_De_Viabilité_Financière]] — *seul un signal coûteux informe.*
+* 🟠 [[Concept-Mentalité_D_Artisan]] — *ce que je peux apporter, pas ce que ça m'apporte.*
 
 ## Épistémique — `esprit/biais`
 
@@ -120,7 +120,7 @@ du vault entier.*
 * ⬜ [[Concept-Effet_Lindy]] — *le filtre ⏳ du vault, enfin sourcé — et sa limite : la survie n'est pas la vérité.*
 * ⬜ [[Concept-Peau_Dans_Le_Jeu]] — *aucun auteur de cette liste ne paie le prix de se tromper.*
 * 🟠 [[Concept-Minorité_Intransigeante]] — *3 % ou 25 % selon que la majorité est indifférente.*
-* ⚪ [[Concept-Iatrogénie]] — *l'intervention qui nuit, et le remède par soustraction.*
+* 🟠 [[Concept-Iatrogénie]] — *l'intervention qui nuit, et le remède par soustraction.*
 
 ## Philosophie — `esprit/philosophie`
 
@@ -131,7 +131,7 @@ du vault entier.*
 * ⬜ [[Concept-Généalogie_Des_Valeurs]] — *le seul livre du corpus qui attaque les autres par le bas.*
 * ⬜ [[Concept-Liberté_Résiduelle]] — *ce qui reste possible, jamais ce qui est exigible.*
 * ⚪ [[Concept-Sens_Comme_Ressource]] — *supporter, pas survivre : la distinction que les vulgarisations effacent.*
-* ⚪ [[Concept-Sens_Par_L_Engagement]] — *une question introspective sans réponse accessible de l'intérieur.*
+* 🟠 [[Concept-Sens_Par_L_Engagement]] — *une question introspective sans réponse accessible de l'intérieur.*
 * ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
 * ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*
 * 🟠 [[Concept-Synthétique_A_Priori]] — *la question tient, ses réponses-phares sont tombées.*

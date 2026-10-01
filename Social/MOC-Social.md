@@ -10,11 +10,11 @@ tags: [meta/moc, social/influence]
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | **2** sur 50 |
-| 🟠 contesté | 9 |
-| 🔴 réfuté | **4** — soit tous ceux du vault |
+| 🟢 solide | 2 sur 50 |
+| 🟠 contesté | 20 |
+| 🔴 réfuté | 4 — soit tous ceux du vault |
 | ⬜ non applicable | 13 — définitions et cadres, qui tiennent parce qu'ils n'affirment rien |
-| ⚪ non évalué | 22 |
+| ⚪ non évalué | 11 |
 
 > ⚠️ **Le domaine le plus fragile du vault, et le constat s'est confirmé livre après
 > livre.** Une seule note solide sur trente, et trois des quatre `🔴` du vault. La
@@ -54,8 +54,11 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟠 [[Concept-Contraste_Perceptif]] — *l'ancrage résiste à la connaissance qu'on en a.*
 * 🟠 [[Concept-Engagement_Et_Cohérence]] — *petit engagement, image de soi modifiée ; effet réel et faible.*
 * ⚪ [[Concept-Intérêt_Sincère]] — *déplacer l'effort de se rendre intéressant vers s'intéresser.*
-* ⚪ [[Concept-Éviter_La_Discussion]] — *gagner l'argument, perdre la personne.*
-* ⚪ [[Concept-Laisser_L_Idée_À_L_Autre]] — *le principe de Carnegie le mieux ancré : il produit de l'autonomie.*
+* 🟠 [[Concept-Éviter_La_Discussion]] — *gagner l'argument, perdre la personne.*
+* 🟠 [[Concept-Laisser_L_Idée_À_L_Autre]] — *le principe de Carnegie le mieux ancré : il produit de l'autonomie.*
+* ⚪ [[Concept-Créer_La_Circonstance]] — *agencer des faits réels : aucune défense rhétorique n'y mord.*
+* 🟠 [[Concept-Fabrication_Du_Consentement]] — *l'argument de Bernays n'est pas que c'est bien, c'est que c'est inévitable.*
+* 🟠 [[Concept-Levier_Des_Minorités_Organisées]] — *viser les groupes, pas les individus ; la diversité d'appartenances protège.*
 
 ## Lecture des autres — `social/influence`
 
@@ -63,6 +66,17 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟠 [[Concept-Signal_D_Inconfort]] — *le corps signale l'inconfort, jamais sa cause.*
 * 🔴 [[Concept-Détection_Du_Mensonge]] — *54 % de précision, et les professionnels ne font pas mieux.*
 * 🔴 [[Concept-Cerveau_Triunique]] — *le modèle obsolète qui soutient une masse de vulgarisation.*
+* 🔴 [[Concept-Règle_7_38_55]] — *7 % des mots : ce que Mehrabian mesurait n'a rien à voir avec une communication.*
+
+## Négociation — `social/négociation`
+
+*Les quatre notes de Voss. **Cette section manquait entièrement au MOC jusqu'au
+2026-10-01** — quatre notes sur cinquante n'étaient listées nulle part.*
+
+* ⚪ [[Concept-Audit_D_Accusation]] — *nommer l'objection avant qu'elle soit pensée : ça supprime l'asymétrie d'information.*
+* ⚪ [[Concept-Empathie_Tactique]] — *comprendre la position sans la partager ; suppose un jeu à somme non nulle.*
+* ⚪ [[Concept-Question_Calibrée]] — *faire porter le problème à l'autre, et le budget par conversation est petit.*
+* 🟠 [[Concept-Étiquetage_Émotionnel]] — *« il semble que… », jamais « je pense que… », puis le silence.*
 
 ## Charisme — `social/charisme`
 
@@ -70,15 +84,15 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟠 [[Concept-État_Interne_Fuit]] — *l'incongruence se perçoit ; les micro-expressions, beaucoup moins.*
 * 🟠 [[Concept-Visualisation]] — *le processus oui, le résultat non — et l'inverse démobilise.*
 * 🔴 [[Concept-Posture_De_Pouvoir]] — *le cas d'école complet de la crise de réplication.*
-* ⚪ [[Concept-Présence_Attentionnelle]] — *mieux fondé reformulé en coût de commutation.*
+* 🟠 [[Concept-Présence_Attentionnelle]] — *mieux fondé reformulé en coût de commutation.*
 
 ## Séduction — `social/séduction`
 
 * 🟠 [[Concept-Valeur_De_Partenaire]] — *position relative, oui ; grandeur unidimensionnelle, non.*
-* ⚪ [[Concept-Dépendance_Au_Regard]] — *laquelle des deux perceptions tranche en cas de conflit.*
-* ⚪ [[Concept-Polarisation]] — *ne repousser personne, c'est n'attirer personne.*
-* ⚪ [[Concept-Vulnérabilité_Comme_Signal]] — *seul ce qui est coûteux informe.*
-* ⚪ [[Concept-Rejet_Comme_Filtre]] — *information de compatibilité, sauf en cas de répétition.*
+* 🟠 [[Concept-Dépendance_Au_Regard]] — *laquelle des deux perceptions tranche en cas de conflit.*
+* 🟠 [[Concept-Polarisation]] — *ne repousser personne, c'est n'attirer personne.*
+* 🟠 [[Concept-Vulnérabilité_Comme_Signal]] — *seul ce qui est coûteux informe.*
+* 🟠 [[Concept-Rejet_Comme_Filtre]] — *information de compatibilité, sauf en cas de répétition.*
 * ⚪ [[Concept-Sélection_Mutuelle]] — *les deux côtés filtrent ; encore faut-il avoir des critères.*
 * 🟢 [[Concept-Paradoxe_De_La_Dépendance]] — *accepter la dépendance rend plus autonome, pas moins.*
 * 🟠 [[Concept-Style_D_Attachement]] — *deux dimensions réelles, trois cases qui ne le sont pas.*
@@ -88,11 +102,11 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 
 * ⚪ [[Concept-Droit_De_Parler]] — *de quoi ai-je acquis le droit de parler ; le filtre en amont de toute forme.*
 * ⚪ [[Concept-Réserve_De_Matière]] — *savoir dix fois plus que ce qu'on dira ; écrire son texte produit le trac.*
-* ⚪ [[Concept-Naturel_Contre_Éloquence]] — *une conversation amplifiée, pas un registre à part.*
+* 🟠 [[Concept-Naturel_Contre_Éloquence]] — *une conversation amplifiée, pas un registre à part.*
 
 ## Style — `social/style`
 
-* ⚪ [[Concept-Proportion_Avant_Qualité]] — *le rapport se lit avant le contenu.*
+* 🟠 [[Concept-Proportion_Avant_Qualité]] — *le rapport se lit avant le contenu.*
 
 ---
 

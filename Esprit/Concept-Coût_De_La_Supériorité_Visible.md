@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie, social/influence]
 source: "[[Source-The_48_Laws_of_Power]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le mécanisme a un appui que Greene n'invoque pas :** le modèle de maintien de l'auto-évaluation de Tesser (1988) — on prend de la distance avec un proche qui nous surpasse dans un domaine **pertinent pour notre propre identité**. C'est exactement « briller devant ses pairs coûte ». Converge avec la littérature sur l'envie au travail et le sabotage social (Duffy et al. 2012, Academy of Management Journal). **Ce qui ne vaut rien :** la méthode de Greene — l'anecdote historique fournit autant de contre-exemples, non retenus. **Et le critère de public est de moi, non testé.**"
+fiabilite_date: 2026-10-02
 ---
 # Coût de la supériorité visible
 
@@ -23,8 +24,15 @@ nettement meilleur et le laisser découvrir.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et Greene procède par anecdote historique — avec le défaut total de la
-méthode : l'histoire fournit autant de contre-exemples, qui ne sont pas retenus.
+**La méthode de Greene ne vaut rien** — l'anecdote historique fournit autant de
+contre-exemples, qui ne sont pas retenus. **Mais le mécanisme a un appui qu'il n'invoque
+pas :** le modèle de **maintien de l'auto-évaluation** de Tesser. On prend de la distance
+avec un proche qui nous surpasse, et seulement dans les domaines **pertinents pour notre
+propre identité** — ce qui est une version plus précise de la loi de Greene. Converge avec
+la recherche sur l'envie au travail et le sabotage social.
+
+Le raffinement que ça apporte : ce n'est pas « briller » qui coûte, c'est **briller là où
+l'autre se définit**. Un conseil uniforme passe à côté de cette condition.
 
 **Ce qui rend l'idée plausible sans données :** elle se déduit de
 [[Concept-Pouvoir_Conféré]]. Si le pouvoir dépend de la disposition des autres, alors tout

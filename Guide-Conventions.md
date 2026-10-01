@@ -255,13 +255,43 @@ maintenir : la note dit elle-même qu'il n'y a rien à vérifier.
 |---|---|---|
 | `Concept-Fold_Left` | `⬜ non applicable` | définition — vrai ou faux, vérifiable en 3 s |
 | `Concept-Fenêtre_Anabolique` | `⚪ non évalué` | physiologie vulgarisée = dette, **pas** exemption |
-| `Concept-Boucle_Habitude` | `🟢 solide` | affirmation sur le monde, réplications |
+| `Concept-Erreur_De_Planification` | `🟢 solide` | affirmation sur le monde, réplications |
+
+> ⚠️ **Cette dernière ligne citait `Concept-Boucle_Habitude` jusqu'au 2026-10-01**, alors
+> que cette note dit d'elle-même être « une taxonomie descriptive, pas une théorie
+> testable » — soit la définition de `⬜`. **L'exemple de la constitution contredisait la
+> note qu'il citait.** Trouvé en payant la dette, pas par un contrôle : aucun script ne
+> peut vérifier qu'une illustration est bien choisie.
 
 Conséquence : le cas limite du sport que le guide laisse ouvert est réglé sans
 règle supplémentaire — ça ne dépend plus du dossier où la note vit.
 
 **Le principe général qui gouverne l'audit :** quand une règle produit surtout
 des faux positifs, **c'est la règle qu'on corrige, pas les notes**.
+
+### Les index sont contrôlés contre les notes — ajouté le 2026-10-01
+
+Un `MOC-` est un index (décision 04) : **un index qui omet des entrées ne fait pas son
+travail, et un index qui annonce un faux verdict désinforme.** L'audit compare donc chaque
+`Concept-` à la ligne qui le liste dans le `MOC-` de son domaine :
+
+| Écart | Gravité |
+|---|---|
+| note absente de son index | **alerte** |
+| l'index annonce un verdict différent de la note | **erreur** — il affirme quelque chose de faux |
+| les compteurs de l'en-tête ne correspondent pas | **alerte** |
+
+**Le verdict apparaît donc à deux endroits** — dans la note et dans son index — ce qui est
+la duplication que la décision 12 interdit pour les niveaux de périmètre. La différence
+est qu'**ici un contrôle la garde** : les niveaux avaient divergé précisément parce que
+rien ne les comparait. Une duplication gardée n'est pas du même ordre qu'une duplication
+libre, et l'emoji en tête de ligne a une valeur de lecture que Dataview ne remplace pas.
+
+**Pourquoi ce contrôle existe :** trois dérives de ce genre ont été trouvées **à la main**
+avant lui — des compteurs périmés, `Corps/` absent des cinq requêtes Dataview, et
+**une section entière de quatre notes jamais ajoutée à `MOC-Social`**. Un artefact tenu à
+la main dérive de ce qu'il décrit, silencieusement, et c'est la seule classe de défaut qui
+s'est répétée.
 
 ---
 
@@ -318,6 +348,21 @@ question. Donc : *préfixe si et seulement si la question ne se suffit pas.*
 Le test est une lecture à voix haute de la seule ligne `Q:`, sans rien d'autre
 sous les yeux. L'audit signale les démonstratifs sans référent, mais il ne
 remplace pas ce test — il ne sait pas lire une question.
+
+### ⚠️ Une carte neuve se met **en dernier**, jamais au milieu
+
+**Le plugin apparie les identifiants aux cartes par ordre d'apparition, pas par
+adjacence** — le n-ième identifiant du bloc va à la n-ième carte, où que le commentaire
+soit écrit. Une carte sans identifiant placée ailleurs qu'en dernier **vole donc celui de
+sa voisine**, et le scan suivant écrase une note Anki avec le mauvais contenu.
+
+Ça s'est produit le 2026-10-02 et il a fallu trois scans pour le comprendre. **L'audit le
+détecte désormais en erreur**, et hors réseau : un trou dans la suite des identifiants est
+signalé avant qu'un scan puisse faire le dégât.
+
+Si l'ordre logique veut qu'une carte neuve vienne avant les autres : l'écrire en dernier,
+scanner, puis la remonter **avec son identifiant**. Détail et contrôle d'alignement dans
+[[Guide-Anki_Workflow]].
 
 > ⚠️ **Les identifiants sont écrits par le plugin. Jamais à la main.**
 > Un ID inventé fait échouer la synchronisation **en silence** : le plugin tente

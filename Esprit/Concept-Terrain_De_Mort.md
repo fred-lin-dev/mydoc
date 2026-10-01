@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie, esprit/habitudes]
 source: "[[Source-The_33_Strategies_of_War]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "L'évidence de Greene est anecdotique, mais le mécanisme a une littérature : les **dispositifs d'engagement**. Ariely & Wertenbroch 2002, Psychological Science 13(3), 219-24 — des étudiants qui s'imposent eux-mêmes des échéances font mieux que ceux qui en sont libres. Revue : Bryan, Karlan & Nelson 2010, Annual Review of Economics 2, 671-98. **Et cette littérature confirme le critère de partage inventé par la note** : ces dispositifs agissent sur les problèmes de maîtrise de soi, pas sur les problèmes d'information. `🟠` et non `🟢` : effets hétérogènes, taux d'adoption bas, et Ariely & Wertenbroch est une petite étude de 2002."
+fiabilite_date: 2026-10-01
 ---
 # Terrain de mort
 
@@ -18,7 +19,18 @@ coûte, et parfois l'option de sortie gagne. La supprimer supprime la comparaiso
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et l'évidence historique est purement anecdotique.
+**L'évidence de Greene est purement anecdotique** — mais le mécanisme, lui, a été testé
+ailleurs, et le résultat est plus intéressant que prévu.
+
+Les **dispositifs d'engagement** sont une littérature constituée : Ariely & Wertenbroch
+(2002) ont montré que des étudiants s'imposant eux-mêmes des échéances réussissent mieux
+que ceux qui en sont libres. **Et cette littérature confirme le critère de partage que
+cette note invente plus bas** : les dispositifs d'engagement agissent sur les problèmes de
+**maîtrise de soi**, pas sur les problèmes d'**information**. Le partage n'était donc pas
+une commodité de rédaction — c'est là que la recherche trouve l'effet.
+
+`🟠` et non `🟢` pour trois raisons : les effets sont hétérogènes, le taux d'adoption
+spontanée de ces dispositifs est bas, et l'étude fondatrice est petite et de 2002.
 
 **Ce qui rend cette note intéressante, ce n'est pas son appui — c'est qu'elle contredit
 frontalement deux autres notes du vault :**

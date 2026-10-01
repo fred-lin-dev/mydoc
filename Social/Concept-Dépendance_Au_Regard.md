@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction, esprit/psychologie]
 source: "[[Source-Models]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "Manson n'étaye rien, mais la littérature existe et il ne la cite pas : Crocker & Wolfe 2001, Psychological Review 108(3), 593-623, sur les **contingences de l'estime de soi**, et surtout Crocker & Park 2004, Psychological Bulletin 130(3), 392-414, « The Costly Pursuit of Self-Esteem », qui soutient sur revue que poursuivre la validation externe coûte en autonomie, en apprentissage et en qualité de relation — convergent avec la théorie de l'autodétermination. **Reste non testé :** la chaîne causale précise de Manson, et son affirmation que l'inverse *produit* l'attirance."
+fiabilite_date: 2026-10-01
 ---
 # Dépendance au regard
 
@@ -30,9 +31,16 @@ fiable que son propre jugement — donc qu'on se juge soi-même peu fiable.
 **La définition tient sans données :** c'est un critère, pas une hypothèse. Utilisable
 immédiatement comme grille d'observation.
 
-**L'affirmation causale n'est pas mesurée :** que ce soit *le* problème racine, et que
-son inverse produise l'attirance, Manson l'établit par argumentation et anecdote. Rien
-ne le teste.
+**L'affirmation causale a un appui que Manson ignore.** Il l'établit par argumentation et
+anecdote — mais une littérature la recoupe, celle des **contingences de l'estime de soi**.
+Crocker & Park (2004), dans une revue du *Psychological Bulletin*, soutiennent que
+poursuivre la validation externe a un coût mesurable : en autonomie, en apprentissage et en
+qualité de relation. C'est très exactement « la dépendance au regard produit ce qu'elle veut
+éviter », énoncé soixante ans de recherche avant le livre.
+
+**Ce qui reste non testé**, et justifie `🟠` plutôt que `🟢` : la chaîne causale précise que
+Manson décrit, et son affirmation que l'inverse *produit* l'attirance. Le coût est documenté,
+le bénéfice de son renversement ne l'est pas.
 
 **La limite qui rend le concept dangereux mal compris :** son inverse n'est pas
 l'indifférence à autrui. Ne tenir aucun compte de la perception des autres n'est pas

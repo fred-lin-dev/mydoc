@@ -2,7 +2,7 @@
 tags: [social/influence, esprit/productivité]
 source: "[[Source-Comment_Parler_En_Public]]"
 fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite_note: "**Examinée le 2026-10-01, laissée en dette.** L'argument de redondance tient logiquement et n'a pas besoin de données. Mais l'affirmation empirique de Carnegie — qu'écrire son texte mot à mot *produit* le trac — je ne lui ai trouvé aucun appui propre. Le voisinage existe (anxiété de prise de parole, effondrement d'une performance surveillée) sans porter sur ce point précis. Ce qu'il faudrait : comparer deux modes de préparation sur une mesure d'anxiété et de fluidité. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]]."
 ---
 # Réserve de matière
 
@@ -25,7 +25,10 @@ trac**, parce que le texte transforme chaque oubli en faute.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué.** Carnegie l'affirme d'expérience, sans rien mesurer.
+**Carnegie l'affirme d'expérience, sans rien mesurer** — et après examen le 2026-10-01,
+je n'ai pas trouvé mieux. L'argument de redondance tient logiquement ; l'affirmation que
+le texte appris *produit* le trac n'a pas d'appui propre que je connaisse. Ce qu'il
+faudrait : comparer deux modes de préparation sur une mesure d'anxiété et de fluidité.
 
 **Ce qui tient logiquement :** un texte appris a un seul chemin, donc un seul point de
 rupture par phrase. Une réserve de matière a plusieurs chemins — la défaillance de l'un

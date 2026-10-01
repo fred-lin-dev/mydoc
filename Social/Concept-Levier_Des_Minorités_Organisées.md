@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, esprit/stratégie]
 source: "[[Source-Propaganda]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "Le socle est solide — c'est [[Concept-Preuve_Sociale]] à l'échelle. **Mais le modèle des « figures de référence » est directement contesté, et le doute que cette note formulait était le bon :** Watts & Dodds 2007, Journal of Consumer Research 34(4), 441-58, montrent par simulation sur réseaux que les grandes cascades d'opinion ne sont pas portées par des influenceurs mais par une masse critique d'individus facilement influençables. Le modèle à deux étages de Katz & Lazarsfeld 1955, dont Bernays est l'ancêtre, ne tient pas sous cette forme."
+fiabilite_date: 2026-10-01
 ---
 # Levier des minorités organisées
 
@@ -26,9 +27,16 @@ des points de passage identifiés, là où la majorité n'agit pas du tout.
 observant celui des autres — et ce point est bien établi — alors agir sur les quelques
 personnes que les autres observent est effectivement le levier le plus économique.
 
-**Ce qui n'est pas établi :** l'ampleur, et la stabilité des « figures de référence ». Bernays
-suppose des leaders d'opinion identifiables et durables ; les structures d'influence réelles
-sont plus diffuses et plus instables que son modèle, et l'ont probablement toujours été.
+**Ce qui est contesté, et le doute de cette note était le bon :** la stabilité des
+« figures de référence ». Watts & Dodds (2007) ont montré sur réseaux simulés que les
+grandes cascades d'opinion ne sont pas portées par des influenceurs mais par une **masse
+critique d'individus facilement influençables**. Le modèle à deux étages de Katz &
+Lazarsfeld (1955), dont Bernays est l'ancêtre direct, ne tient pas sous cette forme.
+
+Ce qui ne détruit pas le levier — agir là où les autres regardent reste économique — mais
+**déplace la cible** : ce n'est pas « quelques personnes identifiables », c'est la densité
+de l'influençabilité dans le réseau. Et ça rend le modèle de Bernays beaucoup moins
+pilotable qu'il ne le prétend.
 
 **La partie défensive, que Bernays n'écrit pas et qui est l'usage utile ici :** si l'opinion
 arrive par les groupes, alors **la diversité de ses appartenances est une protection**.

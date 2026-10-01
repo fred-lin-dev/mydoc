@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie, esprit/productivité]
 source: "[[Source-So_Good_They_Cant_Ignore_You]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**L'échange d'autonomie contre valeur a un appui que Newport n'invoque pas :** la littérature sur les *i-deals*, les arrangements de travail individualisés — Rousseau, Ho & Greenberg 2006, Academy of Management Review 31(4), 977-94 — qui montre que ces arrangements sont négociés par les salariés dont la contribution est valorisée. **Ce qui reste non mesuré est le séquencement** : que l'accumulation *doive* précéder la demande. Le livre l'établit par portraits choisis sur le résultat, donc sans ceux qui ont accumulé sans rien obtenir — c'est [[Concept-Preuve_Silencieuse]]. Et le modèle présuppose un marché qui reconnaît la compétence."
+fiabilite_date: 2026-10-01
 ---
 # Capital avant autonomie
 
@@ -29,10 +30,15 @@ quelqu'un dont on n'a pas besoin.
 quelque chose à échanger. C'est une tautologie économique, et c'est pour ça que le
 modèle est convaincant.
 
-**Ce qui n'est pas mesuré :** le **séquencement**. Que l'accumulation *doive*
-précéder la demande est plausible, mais le livre l'établit par portraits choisis
-sur le résultat. On n'y voit pas ceux qui ont accumulé longtemps et n'ont jamais
-rien obtenu — et ils existent.
+**Ce qui a un appui, et que Newport n'invoque pas :** l'échange lui-même. La
+littérature sur les *i-deals* — les arrangements de travail individualisés — établit que
+ces arrangements sont négociés par les salariés dont la contribution est **valorisée**.
+L'autonomie s'achète bien, et avec cette monnaie-là.
+
+**Ce qui n'est pas mesuré :** le **séquencement**. Que l'accumulation *doive* précéder la
+demande est plausible, mais le livre l'établit par portraits choisis sur le résultat. On
+n'y voit pas ceux qui ont accumulé longtemps et n'ont jamais rien obtenu — et ils
+existent. C'est [[Concept-Preuve_Silencieuse]], appliquée au livre entier.
 
 **Le point aveugle :** ce modèle suppose un marché qui reconnaît la compétence.
 Là où la promotion dépend de l'ancienneté ou du réseau, le capital rare ne s'échange

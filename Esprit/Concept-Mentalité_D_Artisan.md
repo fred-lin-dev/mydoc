@@ -1,8 +1,9 @@
 ---
 tags: [esprit/productivité, esprit/psychologie]
 source: "[[Source-So_Good_They_Cant_Ignore_You]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**L'orientation a un appui expérimental que Newport ne cite pas :** O'Keefe, Dweck & Walton 2018, Psychological Science 29(10), 1653-64, « Implicit Theories of Interest: Finding Your Passion or Developing It? » — une théorie du *développement* de l'intérêt soutient l'engagement à travers la difficulté mieux qu'une théorie de la *découverte*. C'est exactement la substitution de question. **Ce qui n'est pas mesuré :** que la posture produise plus de satisfaction ou de réussite ; les portraits sont sélectionnés sur le résultat — [[Concept-Preuve_Silencieuse]]. Et la limite tient : appliquée à un travail mauvais, elle produit de l'excellence au service de rien."
+fiabilite_date: 2026-10-01
 ---
 # Mentalité d'artisan
 
@@ -26,9 +27,16 @@ répond en travaillant, et la réponse change au fil du travail.
 **Ce qui tient sans données :** l'asymétrie des deux questions. L'une est une
 boucle fermée, l'autre est ouverte. C'est un argument logique, pas empirique.
 
-**Ce qui n'est pas mesuré :** que cette posture produise plus de satisfaction ou
-de réussite. Newport l'établit par portraits, et les portraits sont sélectionnés
-sur le résultat — on ne voit jamais l'artisan resté médiocre.
+**Ce qui a un appui expérimental, et Newport ne le cite pas :** O'Keefe, Dweck & Walton
+(2018) ont comparé deux théories implicites de l'intérêt — le **découvrir** ou le
+**développer**. Ceux qui tiennent la seconde maintiennent leur engagement à travers la
+difficulté, là où les premiers l'abandonnent dès que la matière résiste. C'est très
+exactement la substitution de question que décrit cette note, testée.
+
+**Ce qui n'est pas mesuré pour autant :** que la posture produise plus de satisfaction ou
+de réussite. Newport l'établit par portraits, et les portraits sont sélectionnés sur le
+résultat — on ne voit jamais l'artisan resté médiocre. C'est
+[[Concept-Preuve_Silencieuse]], encore.
 
 **La limite, qu'il ne discute pas :** la mentalité d'artisan appliquée à un travail
 réellement mauvais produit de l'excellence au service de rien. Elle dit comment

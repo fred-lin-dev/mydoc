@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction, esprit/psychologie]
 source: "[[Source-Models]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "Manson ne mesure rien, et le socle logique tient par construction. **Mais une affirmation de cette note est fausse, et c'est moi qui l'ai écrite** : « le recadrage ne change pas ce qu'on ressent ». La réévaluation cognitive a des effets affectifs mesurés — Webb, Miles & Sheeran 2012, Psychological Bulletin 138(4), 775-808, méta-analyse de la régulation émotionnelle : effets petits à modérés, pas nuls. J'avais surcorrigé dans le sens modeste. Reste non mesuré : le critère de répétition, qui est de moi."
+fiabilite_date: 2026-10-01
 ---
 # Rejet comme filtre
 
@@ -19,17 +20,23 @@ l'indéterminé plutôt que dans le non.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et Manson ne mesure rien.
+**Manson ne mesure rien**, et le socle logique tient par construction. Mais une
+affirmation de cette note était fausse, et elle était de moi — voir plus bas.
 
 **Ce qui tient logiquement :** un refus est un signal binaire, et deux personnes peuvent
 être incompatibles sans qu'aucune ait de défaut. C'est vrai par construction — le
 problème est que ce soit vrai n'empêche pas de le vivre autrement.
 
-**Ce que le recadrage ne peut pas faire, et c'est sa vraie limite :** il ne change pas
-ce qu'on ressent. Savoir qu'un refus est une information de compatibilité ne rend pas
-l'expérience indolore, et présenter ce recadrage comme un remède est malhonnête. Il
-change **ce qu'on en conclut**, pas ce qu'on éprouve — ce qui est déjà beaucoup, mais
-n'est pas la même promesse.
+**⚠️ Correction du 2026-10-01.** Cette note affirmait que le recadrage « ne change pas
+ce qu'on ressent » et ne change que ce qu'on en conclut. **C'est faux, et l'erreur était de
+moi, pas de Manson.** La réévaluation cognitive a des effets affectifs mesurés : la
+méta-analyse de Webb, Miles & Sheeran (2012) trouve des effets petits à modérés sur les
+résultats émotionnels. Recadrer réduit réellement l'affect négatif — modestement.
+
+**Ce qui reste vrai, dans une version affaiblie :** le recadrage n'est pas un anesthésique,
+et le présenter comme un remède serait malhonnête. Il agit sur ce qu'on conclut **et**, plus
+faiblement, sur ce qu'on éprouve. J'avais surcorrigé dans le sens modeste — ce qui est une
+erreur au même titre que surcorriger dans l'autre.
 
 **Le point où l'idée devient fausse :** tous les refus ne sont pas de la compatibilité.
 Certains signalent un défaut réel et corrigible, et le recadrage systématique sert alors

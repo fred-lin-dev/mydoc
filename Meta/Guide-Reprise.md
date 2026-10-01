@@ -47,7 +47,9 @@ tags: [meta/guide]
 **Verdicts de fiabilité :** ⬜ 52 · ⚪ 41 · 🟠 23 · 🟢 17 · 🔴 5
 **Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
 pas inventés. Le plus ancien a 0 mois ; horizon 24.
-**Inventaire :** 84 titres, 60 sur le disque — 31 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors
+**Inventaire :** 84 titres, **57 sur le disque** (352 Mo) — 31 fichés · 13 lu-sans-fiche ·
+19 illustration · 21 dehors. Trois PDF supprimés le 2026-10-01 : redondance avec *Deep Work*
+et *Essentialism*, zéro note produite, rien n'en dépendait.
 **15 titres du disque ne sont sur aucune liste de lecture** — en attente de décision,
 garder ou jeter. Et **8 livres sont `fiché` sans avoir de fiche**, sur la liste ou non
 
@@ -156,16 +158,39 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Une duplication qui avait commencé à divarier** | le domaine et le niveau de chaque livre vivaient dans deux fichiers. Pas encore de divergence sur les niveaux, mais déjà sur les noms : *De la guerre* dans la liste, `On_War` au périmètre — donc irréconciliable par script | inventaire unique, et les listes n'en parlent plus. **Le signal d'alarme n'était pas une erreur mais un nom qui ne s'apparie pas** |
 | **Un garde-fou borgne** | le garde-fou 11 vérifiait qu'une fiche produit une note, jamais qu'un livre fiché a une fiche. **Huit livres attendaient en silence**, six depuis la construction du vault | contrôle ajouté, comptés en dette. Un garde-fou qui ne teste qu'un sens laisse passer l'autre |
 | **Un instrument mort qui avait l'air vivant** | la règle des 3 cartes devait signaler les notes non atomiques : `grep -c '^Q:' > 3`. Mesure sur 137 notes — **118 en ont exactement 3, 19 en ont 2, aucune n'en a 4**. Le nombre de cartes est un choix du rédacteur, pas une propriété de la note : la règle mesurait sa propre observance | remplacée par la longueur de prose de la seule section `## L'idée`, au 9ᵉ décile, et **présentée comme un échantillon de relecture, pas comme un verdict**. Vérifiée dans les deux sens le jour même : une note gardée, une scindée |
-| **Le plugin Anki ne supprime jamais** | retirer un `Q:`/`A:` d'une note, ou déplacer une idée d'une note à l'autre, laisse dans Anki une carte figée que plus aucun fichier ne référence — **sans aucun signal** | `Scripts/orphelines.py`, à lancer après tout scan qui a retiré ou déplacé une carte. L'audit ne peut pas le voir : il est hors réseau et Anki n'est pas toujours ouvert |
+| **Déplacer une carte entre deux notes** | trois échecs en cascade avant même d'arriver au précédent : le plugin ne supprime pas l'ancienne carte → la nouvelle est refusée comme doublon → l'empreinte du fichier est enregistrée malgré l'échec, donc jamais retentée | **ne jamais déplacer une carte.** Supprimer d'un côté, scanner, supprimer l'orpheline, puis écrire dans la cible une carte **neuve, formulée autrement** — un énoncé neuf ne peut pas être un doublon. **`orphelines.py` compare les ensembles, pas le placement** : il ne voit pas le piège suivant, d'où le contrôle d'alignement de [[Guide-Anki_Workflow]] |
+| **🔴 Un trou dans la suite des identifiants** | **le plugin apparie les identifiants aux cartes par ordre d'apparition, pas par adjacence** : le n-ième id va à la n-ième carte, où que le commentaire soit écrit. Une carte sans id placée ailleurs qu'en dernier **vole l'identifiant de la suivante**, et le scan écrase la note Anki voisine avec le mauvais contenu. Vérifié le 2026-10-02 sur deux notes | **une carte sans identifiant doit toujours être la dernière de son bloc** — donc on ajoute une carte **à la fin, jamais au milieu**. Réparation : tasser les identifiants en tête. **Contrôle ajouté à `audit.py`, hors réseau et en erreur** — un trou est signalé avant qu'un scan puisse faire le dégât. ⚠️ ma première tentative de réparation a échoué pour avoir cru à une insertion « un cran trop bas » |
 | **Le tableau de bord était aveugle à un domaine entier** | les 5 requêtes Dataview de [[MOC-Audit]] listaient `Esprit Social Tech Langues` et **pas `Corps`**, né après leur rédaction. Cinq notes, dont trois verdicts `🟢`, invisibles depuis la création du domaine | `Corps` réintégré aux cinq, et **contrôle ajouté** : l'audit compare les `FROM` aux dossiers réels. Même angle mort que `FOLDER_DECKS` côté Anki, et il a fallu le chercher pour le voir |
 | **Une dette qui n'était pas du travail** | 6 livres étaient `fiché` — le niveau le plus lourd — sans fiche, alors que [[Ref-Lecture_Ordre_de_Priorité]] les jugeait « doublons » ou « candidats `🔴`/`🟠` » **depuis le premier jour**. Le niveau avait été posé par défaut et jamais relu contre le jugement porté ailleurs | reclassés le 2026-10-01 : 3 en `dehors`, 3 en `lu-sans-fiche`. **Une dette n'est pas toujours du travail à faire, c'est parfois un classement à corriger** — et l'audit ne peut pas distinguer les deux : il voit qu'une fiche manque, pas qu'elle n'aurait jamais dû être attendue |
 | **Une file qui ne pouvait pas se vider** | le signal d'atomicité a un seuil **relatif** — le 9ᵉ décile — donc il renvoie toujours un dixième des notes. Une séance de relecture ne laissait aucune trace, et la suivante aurait relu les mêmes | champ `atomicite_relue`, même motif que `fiabilite_date`. L'audit ne signale qu'une note du décile qui ne le porte pas. **Une file infinie vaut une règle muette** |
+| **Les index dérivent de ce qu'ils décrivent** | trouvé **trois fois à la main** : compteurs périmés, `Corps/` absent des 5 requêtes Dataview, et **8 notes jamais listées dans `MOC-Social`** — dont `Règle_7_38_55`, une des 5 seules `🔴` du vault, et une section `Négociation` entière | contrôle ajouté : l'audit compare chaque `Concept-` à son index. Omission = alerte, verdict faux = **erreur**. **C'est la seule classe de défaut qui s'est répétée** — tout artefact tenu à la main dérive |
 
 ---
 
 ## 6 · Ce qui reste à faire
 
-### La file principale : 41 dettes `⚪ non évalué`
+### ⚠️ Le barème manque d'une sixième valeur — constat du 2026-10-01
+
+**`⚪` signifie désormais deux choses incompatibles :** « pas encore examiné » et
+« examiné, et jugé invérifiable ». La seconde est écrite en clair dans
+[[Concept-Structure_Ascendante]] et [[Concept-Réserve_De_Matière]], qui ont été examinées
+sans qu'on puisse trancher — et qui resteront donc dans la file, où quelqu'un les
+réexaminera.
+
+Le même trou s'est présenté quatre fois :
+
+| Cas | Ce qui n'a pas de case |
+|---|---|
+| une note tirée de ma pratique | un résultat personnel, n = 1 |
+| `Concept-Rareté_Comme_Valeur` | examiné, le cœur était une définition → reclassé `⬜`, contournement |
+| `Concept-Structure_Ascendante` | examiné, aucune littérature ne compare les deux méthodes |
+| `Concept-Réserve_De_Matière` | examiné, l'affirmation n'a pas d'appui propre |
+
+**Ce serait une valeur du genre `🔵 invérifiable` ou `⚫ examiné sans appui`**, avec sa
+`fiabilite_date` — elle sortirait de la file de dette tout en disant qu'on a cherché. C'est
+une décision de méthode, donc de Yinpi, pas la mienne.
+
+### La file principale : 24 dettes `⚪ non évalué`
 
 À 20 min – 1 h par concept, c'est **12 à 37 heures**. À payer **par ordre d'utilité**, jamais
 d'arrivée : le premier tableau de [[MOC-Audit]] les trie par nombre de liens entrants.

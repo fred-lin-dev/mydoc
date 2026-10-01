@@ -1,8 +1,9 @@
 ---
 tags: [esprit/productivité]
 source: "[[Source-How_to_Take_Smart_Notes]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le mécanisme est bien établi, et pas par Ahrens :** l'**illusion de profondeur explicative** — Rozenblit & Keil 2002, Cognitive Science 26(5), 521-62 — montre qu'on surestime sa propre compréhension jusqu'au moment où l'on doit produire une explication. C'est exactement « une idée gardée en tête ne rencontre aucune résistance ». Converge avec l'effet d'auto-explication. **Ce qui est faible :** l'effet mesuré de l'écriture-pour-apprendre est petit — méta-analyse Bangert-Drowns, Hurley & Wilkinson 2004, Review of Educational Research 74(1), 29-58, d ≈ 0,17. **Et rien n'établit que l'écriture soit le seul support** : un schéma, du code qui tourne, une démonstration jouent le même rôle."
+fiabilite_date: 2026-10-01
 ---
 # Écriture comme medium
 
@@ -20,9 +21,14 @@ a une seule activité, dont l'écrit est la trace et l'instrument à la fois.
 La formulation d'Ahrens est directe : *« Writing is not what follows research,
 learning or studying, it is the medium of all this work »* (introduction).
 
-**Ce qui est solide :** le mécanisme. Une idée écrite devient critiquable — par
-soi-même, plus tard. Une idée gardée en tête ne rencontre aucune résistance, donc
-ne se corrige pas.
+**Ce qui est solide, et mesuré ailleurs :** le mécanisme. Rozenblit & Keil (2002) ont
+établi l'**illusion de profondeur explicative** : on se croit capable d'expliquer un
+mécanisme jusqu'au moment où on doit le faire, et la confiance s'effondre à l'épreuve. Une
+idée gardée en tête ne rencontre aucune résistance — c'est mesuré, pas supposé.
+
+**Ce qui est faible, en revanche :** l'effet de l'écriture *comme intervention* est petit.
+La méta-analyse de Bangert-Drowns et al. (2004) trouve d ≈ 0,17 sur la réussite scolaire.
+Le mécanisme est réel, son rendement en pratique est modeste.
 
 **Ce qui n'est pas établi :** l'idée que l'écriture soit le *seul* medium possible.
 Une démonstration au tableau, un schéma, du code qui tourne jouent le même rôle de

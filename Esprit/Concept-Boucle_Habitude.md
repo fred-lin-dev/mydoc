@@ -1,8 +1,8 @@
 ---
 tags: [esprit/habitudes, esprit/psychologie]
 source: "[[Source-Atomic_Habits]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: ⬜ non applicable
+fiabilite_note: "Reclassée le 2026-10-01 : la note dit d'elle-même être une **taxonomie descriptive**, qui organise sans rien prédire de réfutable — donc `⬜` et non `⚪`. Les deux affirmations empiriques du voisinage sont ailleurs : la durée de formation d'une habitude est dans [[Source-Atomic_Habits]] (Lally 2010), et l'efficacité du levier « rendre facile » dans [[Concept-Friction_Détermine_Le_Comportement]]. Ce qui reste non testé ici est l'**ajout du quatrième temps** par Clear : rien ne montre que le découpage à quatre prédit mieux que celui à trois — mais un découpage ne prédit pas, il découpe."
 ---
 # Boucle d'habitude
 
@@ -24,8 +24,13 @@ ne se répare pas comme une récompense trop lointaine.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Ce que c'est :** une taxonomie descriptive, pas une théorie testable. Elle ne
-prédit rien qu'on puisse réfuter — elle organise.
+**Ce que c'est, et c'est ce qui fixe le verdict :** une taxonomie descriptive, pas une
+théorie testable. Elle ne prédit rien qu'on puisse réfuter — elle organise. D'où `⬜ non
+applicable` depuis le 2026-10-01, après examen : elle était en `⚪` par défaut, ce qui
+l'inscrivait dans une file de vérification où elle n'avait rien à faire.
+
+⚠️ **Les conventions citaient cette note comme exemple de `🟢 solide`** jusqu'à ce
+reclassement. L'illustration de la décision 07 contredisait la note qu'elle citait.
 
 **Ce qui n'est pas établi :** la version à trois temps (signal → routine →
 récompense) est la plus répandue. Clear en ajoute un quatrième, l'envie, entre le

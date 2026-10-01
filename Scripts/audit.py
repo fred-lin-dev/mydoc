@@ -52,7 +52,9 @@ CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
 # question qui désigne son sujet sans le nommer est irrécupérable. Le repérage
 # est heuristique — d'où une alerte et non une erreur : seule la lecture tranche.
 CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
+CARTE_AVEC_ID = re.compile(r"^Q: .+\nA: .+$(?:\n<!--ID: (\d+)-->)?", re.MULTILINE)
 RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
+LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
 IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
 CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
 CITATION = re.compile(r"«[^»]*»")
@@ -203,6 +205,21 @@ def main():
 
         nb_cartes = len(CARTE_Q.findall(contenu))
 
+        # Le plugin apparie les identifiants aux cartes **par ordre d'apparition**,
+        # pas par adjacence : le n-ième identifiant va à la n-ième carte. Une carte
+        # sans identifiant placée ailleurs qu'en dernier vole donc celui de sa
+        # voisine, et le prochain scan écrase une note Anki avec le mauvais contenu.
+        # Ça s'est produit le 2026-10-02. Hors réseau, donc contrôlable ici.
+        if "## 🎴 Cartes" in contenu:
+            suite = [bool(m.group(1)) for m in
+                     CARTE_AVEC_ID.finditer(contenu.split("## 🎴 Cartes")[1])]
+            if any(not suite[i] and any(suite[i + 1:]) for i in range(len(suite))):
+                erreurs.append(
+                    (rel, "carte sans identifiant suivie d'une carte qui en a un — "
+                          "le prochain scan écrasera la mauvaise note Anki. "
+                          "Une carte neuve va **en dernier** (décision 08)")
+                )
+
         for question in CARTE_LIGNE.findall(contenu):
             nu = CITATION.sub("", question)
             motif = (NON_NOMME.search(nu) if CARTE_PREFIXEE.match(nu)
@@ -333,6 +350,47 @@ def main():
             infos.append((f.relative_to(RACINE),
                           f"à relire pour l'atomicité : {n} mots d'idée, "
                           f"dernier décile (seuil {seuil})"))
+
+    # Un MOC est un index (décision 04) : un index qui omet des entrées ne fait pas
+    # son travail, et un index qui annonce un faux verdict désinforme. Trois dérives
+    # de ce genre ont été trouvées à la main avant que ce contrôle existe — dont une
+    # section entière de quatre notes absente de MOC-Social.
+    for domaine in sorted(d.name for d in RACINE.iterdir()
+                          if d.is_dir() and not d.name.startswith(".")
+                          and d.name not in EXCLUS and d.name != "Meta"):
+        moc = RACINE / domaine / f"MOC-{domaine}.md"
+        if not moc.exists():
+            continue
+        listees = {m.group(2): m.group(1) for m in
+                   LIGNE_MOC.finditer(moc.read_text(encoding="utf-8"))}
+        for f in sorted((RACINE / domaine).glob("Concept-*.md")):
+            verdict = frontmatter(f.read_text(encoding="utf-8"))[0].get("fiabilite", "")[:1]
+            if f.stem not in listees:
+                alertes.append((moc.relative_to(RACINE),
+                                f"`{f.stem}` n'est listée nulle part dans cet index"))
+            elif verdict and listees[f.stem] != verdict:
+                erreurs.append((moc.relative_to(RACINE),
+                                f"`{f.stem}` : l'index annonce {listees[f.stem]}, "
+                                f"la note porte {verdict}"))
+
+        # Les compteurs de l'en-tête sont des données dérivées, et ils ont dérivé deux
+        # fois avant ce contrôle.
+        reels = defaultdict(int)
+        for f in (RACINE / domaine).glob("Concept-*.md"):
+            reels[frontmatter(f.read_text(encoding="utf-8"))[0].get("fiabilite", "")[:1]] += 1
+        texte_moc = moc.read_text(encoding="utf-8")
+        total = re.search(r"\*\*(\d+) notes atomiques", texte_moc)
+        if total and int(total.group(1)) != sum(reels.values()):
+            alertes.append((moc.relative_to(RACINE),
+                            f"l'en-tête annonce {total.group(1)} notes, il y en a "
+                            f"{sum(reels.values())}"))
+        for emoji, libelle in (("🟢", "solide"), ("🟠", "contesté"), ("🔴", "réfuté"),
+                               ("⬜", "non applicable"), ("⚪", "non évalué")):
+            m = re.search(rf"^\| {emoji} {libelle} \| \**(\d+)\**", texte_moc, re.M)
+            if m and int(m.group(1)) != reels[emoji]:
+                alertes.append((moc.relative_to(RACINE),
+                                f"le tableau annonce {m.group(1)} notes {emoji}, "
+                                f"il y en a {reels[emoji]}"))
 
     # Le tableau de bord Dataview doit interroger tous les domaines. Il a été
     # aveugle à `Corps/` depuis la naissance de ce domaine, sans que rien le dise :

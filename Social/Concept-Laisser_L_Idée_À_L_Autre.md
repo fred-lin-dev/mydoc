@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, social/négociation]
 source: "[[Source-How_to_Win_Friends_and_Influence_People]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "Non mesuré par Carnegie. Mais c'est le principe des trente qui a le meilleur ancrage théorique moderne : il satisfait le besoin d'autonomie de la théorie de l'autodétermination, elle bien étayée — voir [[Concept-Autodétermination]]. L'ancrage est théorique, pas expérimental : personne n'a testé le principe sous cette forme."
+fiabilite: 🟠 contesté
+fiabilite_note: "**Trois littératures indépendantes soutiennent le mécanisme, aucune ne teste le principe de Carnegie.** L'effet de génération : Slamecka & Graf 1978, J Exp Psychol HLM 4(6), 592-604 — ce qu'on produit soi-même est mieux retenu que ce qu'on lit. L'effet IKEA : Norton, Mochon & Ariely 2012, J Consumer Psychol 22(3), 453-60 — on valorise davantage ce qu'on a contribué à faire. Et le besoin d'autonomie de la théorie de l'autodétermination, voir [[Concept-Autodétermination]]. La convergence rend le mécanisme très plausible ; **le principe sous cette forme reste non testé**, et ses limites — coût en temps, mise en scène malhonnête — sont de moi."
+fiabilite_date: 2026-10-01
 ---
 # Laisser l'idée à l'autre
 
@@ -25,9 +26,16 @@ conditionne la motivation intrinsèque. Une conclusion qu'on a formulée soi-mê
 décision ; la même conclusion reçue est une consigne. Le contenu est identique, le
 statut ne l'est pas.
 
-**Ce qui reste non mesuré :** personne n'a testé le principe sous cette forme.
-L'ancrage est théorique — j'explique pourquoi ça devrait marcher, je ne montre pas que
-ça marche.
+**Trois littératures convergent, et aucune ne porte sur Carnegie.** L'**effet de
+génération** (Slamecka & Graf 1978) : ce qu'on produit soi-même est mieux retenu que ce
+qu'on reçoit. L'**effet IKEA** (Norton, Mochon & Ariely 2012) : on valorise plus ce qu'on a
+contribué à faire. Et le besoin d'**autonomie** de la théorie de l'autodétermination.
+Retenu, valorisé, motivant — trois effets distincts qui vont tous dans le même sens.
+
+**Ce qui reste non mesuré pour autant :** personne n'a testé le principe sous cette forme.
+La convergence rend le mécanisme très plausible, elle ne le vérifie pas — et c'est
+exactement la réserve que [[Concept-Sens_Par_L_Engagement]] formule sur sa propre
+convergence.
 
 **La limite qui compte :** ça prend du temps, et beaucoup plus que d'annoncer la
 conclusion. Dans l'urgence, c'est impraticable, et forcer le procédé sous contrainte de

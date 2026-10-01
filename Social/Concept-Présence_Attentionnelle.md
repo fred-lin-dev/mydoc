@@ -1,8 +1,9 @@
 ---
 tags: [social/charisme, social/influence]
 source: "[[Source-The_Charisma_Myth]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "Ce qui tient ne vient pas du livre : les **coûts de commutation** sont établis — Rubinstein, Meyer & Evans 2001, J Exp Psychol HPP 27(4), 763-97, et la synthèse de Monsell 2003, Trends Cogn Sci 7(3), 134-40. Une conversation est une tâche, donc y traiter autre chose en parallèle coûte, et le coût est perceptible. **Ce qui n'est pas mesuré est l'affirmation de Cabane** : que la présence soit le plus déterminant des trois signaux du charisme. Le classement est une intuition d'expérience. Le résidu attentionnel invoqué par la note est lui-même `🟠` — voir [[Concept-Résidu_Attentionnel]]."
+fiabilite_date: 2026-10-01
 ---
 # Présence attentionnelle
 
@@ -28,10 +29,11 @@ sensation physique — les pieds au sol, la respiration — au lieu d'essayer de
 **Ce qui est solide sans avoir besoin d'être mesuré :** la partie diagnostique. Les
 signes d'absence sont vérifiables sur soi après coup, et ne dépendent d'aucune théorie.
 
-**Ce qui n'est pas mesuré, et c'est l'affirmation principale :** que la présence soit
-le plus déterminant des trois signaux. Cabane l'affirme sans donnée. Le classement des
-trois composantes est une intuition d'expérience, comme l'ordre des points de levier
-de [[Ref-Douze_Points_De_Levier]] — utile, non démontré.
+**Ce qui n'est pas mesuré, et c'est l'affirmation principale de Cabane :** que la
+présence soit le plus déterminant des trois signaux. Elle l'affirme sans donnée. Le
+classement des trois composantes est une intuition d'expérience, comme l'ordre des points
+de levier de [[Ref-Douze_Points_De_Levier]] — utile, non démontré. **C'est ce qui vaut `🟠`
+à la note** : la prescription survit, sa hiérarchie non.
 
 **Le recoupement avec le reste du vault, qui n'est pas dans le livre :** c'est le même
 objet que [[Concept-Tâches_Verrouillées]] et [[Concept-Résidu_Attentionnel]], appliqué

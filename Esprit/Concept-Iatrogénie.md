@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie, esprit/psychologie]
 source: "[[Source-Antifragile]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "Le terme vient de la médecine, où le phénomène est documenté et quantifié (dommages causés par les soins). L'extension que Taleb en fait à toute intervention — politique, éducative, managériale — est argumentée et non mesurée. Le cas médical est solide, la généralisation ne l'est pas."
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le noyau médical est quantifié :** Brennan et al. 1991, NEJM 324(6), 370-76, Harvard Medical Practice Study — événements indésirables dans environ 3,7 % des hospitalisations, dont une part imputable à une négligence. L'iatrogénie n'est pas une intuition, c'est un objet mesuré. **Ce qui n'est pas mesuré est l'extension** : Taleb passe de la médecine à la politique, à l'éducation, au management sans que rien n'établisse une ampleur comparable. Et **l'argument traite l'inaction comme neutre**, ce qu'elle n'est pas : ses dommages sont simplement sans auteur. Le critère manquant — l'iatrogénie n'argumente contre l'intervention que là où le système se corrige seul — est de moi."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Iatrogénie
@@ -24,12 +25,15 @@ prévisibles que ceux d'un ajout : on connaît ce qui disparaît, on ne connaît
 
 ## Ce qui la rend vraie, ou fragile
 
-**Le cas médical est solide et quantifié.** L'iatrogénie hospitalière est un objet d'étude
-établi, avec des chiffres.
+**Le cas médical est solide et quantifié**, et il mérite son chiffre : la Harvard Medical
+Practice Study (Brennan et al. 1991) a relevé des événements indésirables dans environ
+**3,7 % des hospitalisations**. L'iatrogénie n'est pas une intuition de Taleb, c'est un
+objet mesuré depuis trente-cinq ans.
 
-**L'extension à toute intervention est argumentée, pas mesurée.** Taleb passe de la médecine à
-la politique, à l'éducation, au management, sans que rien n'établisse que le phénomène ait la
-même ampleur ailleurs. `⚪` est le bon verdict.
+**L'extension à toute intervention est argumentée, pas mesurée.** Taleb passe de la
+médecine à la politique, à l'éducation, au management sans que rien n'établisse une
+ampleur comparable. C'est ce qui vaut `🟠` à la note plutôt que `🟢` : le noyau est chiffré,
+la généralisation ne l'est pas.
 
 **Ce qui l'appuie tout de même, et c'est dans le vault :**
 [[Concept-Résistance_Aux_Politiques]] décrit exactement une configuration où l'intervention est

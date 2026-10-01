@@ -164,9 +164,106 @@ la supprimer le perdrait. Il détecte les deux sens :
 
 **À lancer après tout scan qui a retiré ou déplacé une carte.** Constaté le 2026-09-30 en
 détachant [[Concept-Signal_Par_L_Absence]] de `Concept-Apparences_Normales` : une carte a
-suivi son idée dans la nouvelle note, et l'ancienne est restée dans Anki. Elle n'avait
-aucune révision, elle a été supprimée — mais **c'est la comparaison manuelle qui l'a
-trouvée, pas un contrôle automatique.**
+suivi son idée dans la nouvelle note, et l'ancienne est restée dans Anki. **C'est la
+comparaison manuelle qui l'a trouvée, pas un contrôle automatique.**
+
+### 🔴 Ne jamais déplacer une carte d'une note à l'autre
+
+**Cette opération n'est pas supportée, et elle échoue de quatre façons différentes.**
+Constaté les 2026-09-30 et 10-02 en détachant deux notes. Les quatre pièges se sont
+déclenchés l'un après l'autre, chacun masquant le suivant :
+
+| | Ce qui se passe | Comment on s'en aperçoit |
+|---|---|---|
+| **1** | le plugin **ne supprime pas** la carte retirée du fichier : elle reste dans Anki, figée | `Scripts/orphelines.py` |
+| **2** | la carte écrite dans la note cible est **refusée comme doublon** de cette orpheline, sans message | le compte `cartes écrites / synchronisées` |
+| **3** | l'empreinte MD5 du fichier est enregistrée **malgré l'échec** : le fichier est sauté aux scans suivants, **la carte n'est jamais retentée** | l'empreinte est égale au md5 du contenu |
+| **4** | un **trou** dans la suite des identifiants décale tous les suivants d'un cran, et le scan **écrase** les notes Anki correspondantes avec le mauvais contenu | contrôle d'alignement, ci-dessous |
+
+### 🔴 Le mécanisme du quatrième, et il dépasse largement le déplacement de cartes
+
+**Le plugin apparie les identifiants aux cartes par ordre d'apparition, pas par
+adjacence.** Le n-ième identifiant du bloc appartient à la n-ième carte, **où que le
+commentaire soit écrit**. Vérifié le 2026-10-02 sur deux notes :
+
+```
+fichier : Q1 <ID …321>   Q2 sans id   Q3 <ID …325>
+Anki    : …321 = Q1      …325 = le texte de Q2      ← le 2ᵉ id est allé à la 2ᵉ carte
+```
+
+**Conséquence, et c'est elle qu'il faut retenir :** une carte sans identifiant placée
+**ailleurs qu'en dernier** vole l'identifiant de la suivante. Le scan écrit alors son
+contenu dans la note Anki de sa voisine, et la dernière carte perd son identifiant.
+
+> ## ✅ La règle, et elle vaut pour tout ajout de carte
+>
+> **Une carte sans identifiant doit toujours être la dernière de son bloc.**
+>
+> Donc : **on ajoute une carte à la fin, jamais au milieu.** Insérer une carte en
+> deuxième position dans une note déjà synchronisée suffit à corrompre toutes les
+> suivantes — *(déduit du comportement d'appariement confirmé ci-dessus, non testé
+> séparément : ne pas l'essayer pour voir)*.
+>
+> Et si l'ordre logique exige qu'une carte neuve vienne avant les autres : l'écrire en
+> dernier, scanner, puis la remonter **avec son identifiant** une fois qu'elle en a un.
+
+> ## ✅ Et la règle pour les trois premiers pièges
+>
+> **On ne déplace pas une carte. On la supprime d'un côté et on en écrit une neuve de
+> l'autre, formulée autrement.**
+>
+> 1. retirer le `Q:`/`A:` **et son identifiant** de la note d'origine
+> 2. scanner → l'orpheline apparaît
+> 3. `python3 Scripts/orphelines.py` → la supprimer
+> 4. écrire dans la note cible une carte **nouvelle**, dont l'énoncé n'existe nulle part
+> 5. scanner
+>
+> Une formulation neuve ne peut pas être un doublon, donc aucun des quatre pièges ne se
+> déclenche. Et c'est de toute façon la bonne pratique : une carte qui change de note
+> change de contexte, donc son énoncé doit changer — c'est la règle d'autonomie de la
+> décision 08.
+
+### Le contrôle d'alignement, après toute opération sur les cartes
+
+`orphelines.py` compare les **ensembles** d'identifiants, pas leur **placement**. Il ne
+voit donc pas le piège 4. Pour le détecter :
+
+```bash
+python3 - <<'EOF'
+import json, re, pathlib, urllib.request
+def anki(a, **p):
+    r = urllib.request.urlopen("http://localhost:8765",
+        json.dumps({"action": a, "version": 6, "params": p}).encode(), timeout=60)
+    return json.load(r)["result"]
+paires = []
+for d in ("Esprit", "Social", "Tech", "Corps", "Langues"):
+    for f in sorted(pathlib.Path(d).glob("Concept-*.md")):
+        t = f.read_text(encoding="utf-8")
+        if "## 🎴 Cartes" not in t:
+            continue
+        for m in re.finditer(r"^Q: (.+)\nA: .+$\n<!--ID: (\d+)-->",
+                             t.split("## 🎴 Cartes")[1], re.M):
+            paires.append((str(f), m.group(1), m.group(2)))
+fronts = {str(n["noteId"]): re.sub(r"<[^>]+>", "", n["fields"]["Front"]["value"])
+          for n in anki("notesInfo", notes=[int(i) for _, _, i in paires])}
+norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())[:45]
+mal = [(f, q, i) for f, q, i in paires if norm(fronts.get(i, "")) != norm(q)]
+print(f"{len(paires)} cartes · {len(mal)} décalée(s)")
+for x in mal:
+    print("  ", x)
+EOF
+```
+
+**Réparation d'un décalage :** **tasser les identifiants en tête du bloc** — le n-ième
+sur la n-ième carte — et laisser sans identifiant les cartes de la fin. Aucun identifiant
+n'est inventé : on les remet là où le plugin les lit déjà. C'est la seule circonstance où
+toucher un identifiant à la main est justifié, et elle demande l'accord explicite de
+Yinpi.
+
+⚠️ **Première tentative fausse, le 2026-10-02 :** j'avais cru à une insertion « un cran
+trop bas » et remonté l'identifiant sur la carte 1 en laissant la 2 sans. Le scan suivant
+a donc donné le 2ᵉ identifiant à la carte 2 — c'est-à-dire **écrasé la carte 3 dans
+Anki**. Le trou au milieu était la cause, pas le symptôme.
 
 ## Combien de cartes sont en jeu aujourd'hui
 

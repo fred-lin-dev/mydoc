@@ -2,7 +2,7 @@
 tags: [esprit/stratégie]
 source: "[[Source-The_Black_Swan]]"
 fiabilite: ⬜ non applicable
-fiabilite_note: ""
+fiabilite_note: "`⬜` parce que c'est une distinction, pas une affirmation : elle ne peut être ni vraie ni fausse, seulement discriminante. La source réelle est *The Black Swan*, où Taleb la nomme « ludic fallacy » et la range parmi les propriétés du cygne noir — classement dont cette note a été détachée le 2026-10-01. La distinction risque/incertitude elle-même est antérieure et standard en économie (Knight 1921, *Risk, Uncertainty and Profit*), ce que Taleb ne signale pas."
 atomicite_relue: 2026-10-01
 ---
 # L'erreur ludique
@@ -52,13 +52,15 @@ dans le calcul n'est faux.
 
 Q: Quelle différence entre risque et incertitude ?
 A: Le **risque** a des règles et un espace des possibles connus, comme un jeu. L'**incertitude** n'a ni l'un ni l'autre.
+<!--ID: 1790882165321-->
+
 
 Q: **Erreur ludique** — pourquoi appliquer un modèle de risque à de l'incertitude est-il pire que n'avoir aucun modèle ?
 A: Parce que ça produit une **fausse sécurité chiffrée**. Un nombre autorise une confiance qu'un aveu d'ignorance n'autoriserait pas, et rien dans le calcul n'est faux.
-<!--ID: 1790882165321-->
+<!--ID: 1790882165325-->
 
 
 Q: **Erreur ludique** — quelle question la rend détectable ?
 A: Quelqu'un a-t-il fixé les règles de ce jeu, ou est-ce que je les suppose ? Si personne ne les a fixées, l'espace des possibles n'est pas connu.
-<!--ID: 1790882165325-->
+<!--ID: 1790894092835-->
 

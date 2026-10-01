@@ -126,7 +126,7 @@ et l'audit recoupe cette colonne avec le disque.
 | The_Traitor_Baru_Cormorant | — | illustration | — | scifi-strat |
 | We | ✅ | illustration | esprit/stratégie | scifi-strat |
 
-## Dehors — 21 titres, 9 sur le disque
+## Dehors — 21 titres, 6 sur le disque
 
 *Rien. Tout livre **explicitement écarté** après examen vient ici : le ficher contredirait la décision de l'écarter.*
 
@@ -134,19 +134,19 @@ et l'audit recoupe cette colonne avec le disque.
 |---|---|---|---|---|
 | Cat_s_Cradle | — | dehors | — | scifi-plaisir |
 | Consider_Phlebas | — | dehors | — | scifi-plaisir |
-| Digital_Minimalism | ✅ | dehors | esprit/productivité | — |
+| Digital_Minimalism | — | dehors | esprit/productivité | — |
 | Do_Androids_Dream_of_Electric_Sheep | — | dehors | — | scifi-plaisir |
 | Forward_the_Foundation | ✅ | dehors | — | — |
 | Foundation_and_Earth | ✅ | dehors | — | — |
 | Foundations_Edge | ✅ | dehors | — | — |
 | Jurassic_Park | — | dehors | — | scifi-plaisir |
-| Make_Time_How_to_Focus | ✅ | dehors | esprit/productivité | — |
+| Make_Time_How_to_Focus | — | dehors | esprit/productivité | — |
 | Old_Man_s_War | — | dehors | — | scifi-plaisir |
 | Rendezvous_with_Rama | — | dehors | — | scifi-plaisir |
 | Second_Foundation | ✅ | dehors | — | — |
 | The_Hitchhiker_s_Guide_to_the_Galaxy | — | dehors | — | scifi-plaisir |
 | The_Moon_is_a_Harsh_Mistress | — | dehors | — | scifi-plaisir |
-| The_ONE_Thing | ✅ | dehors | esprit/productivité | — |
+| The_ONE_Thing | — | dehors | esprit/productivité | — |
 | The_Rest_of_the_Robots | ✅ | dehors | — | — |
 | The_Sirens_of_Titan | — | dehors | — | scifi-plaisir |
 | The_Stars_My_Destination | — | dehors | — | scifi-plaisir |
@@ -156,7 +156,7 @@ et l'audit recoupe cette colonne avec le disque.
 
 ## Ce que cet inventaire fait apparaître
 
-**15 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
+**12 titres du disque n'appartiennent à aucune liste de lecture** (`liste = —`).
 C'est la raison pour laquelle l'inventaire ne pouvait pas être fondu dans les
 trois `Ref-Lecture_*` : ils y seraient devenus sans domicile.
 

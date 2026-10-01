@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction, social/style, esprit/stratégie]
 source: "[[Source-Models]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La prémisse manquante existe et Manson ne la cite pas :** Hönekopp 2006, J Exp Psychol HPP 32(2), 199-209, établit que le goût **privé** explique à peu près autant de variance que le goût partagé dans le jugement d'attirance faciale. Il y a donc bien une dispersion à adresser, ce que l'argument de la variance suppose sans le montrer. **Ce qui n'est pas mesuré :** que polariser volontairement augmente les réactions fortes **positives** plutôt que seulement les négatives. Et l'argument ne dit toujours pas **sur quoi** polariser."
+fiabilite_date: 2026-10-01
 ---
 # Polarisation
 
@@ -25,9 +26,15 @@ la variance existe. L'absence totale de rejet est le seul résultat réellement 
 **La partie structurelle tient sans données :** si l'attirance est un écart, elle
 suppose une dispersion. C'est de l'arithmétique, pas de la psychologie.
 
-**Ce qui n'est pas mesuré :** que polariser volontairement **augmente** le nombre de
-réactions fortes positives, plutôt que de simplement augmenter les négatives. Les deux
-sont compatibles avec l'argument de la variance, et Manson suppose la première sans la
+**La prémisse manquante existe, et Manson ne la cite pas.** Son argument suppose qu'il
+y a une dispersion de goût à adresser — et c'est mesuré : Hönekopp (2006) établit que le
+goût **privé** explique à peu près autant de variance que le goût **partagé** dans le
+jugement d'attirance. La moitié de l'évaluation est idiosyncrasique, donc il y a bien de
+quoi polariser.
+
+**Ce qui n'est pas mesuré pour autant :** que polariser *volontairement* augmente les
+réactions fortes **positives** plutôt que seulement les négatives. Les deux sont
+compatibles avec l'argument de la variance, et Manson suppose la première sans la
 montrer.
 
 **La limite pratique, qui est sérieuse :** la polarisation ne dit pas **sur quoi**

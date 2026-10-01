@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction, social/influence]
 source: "[[Source-Models]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "L'ancrage théorique est réel et ancien — théorie du signal coûteux : Spence 1973 en économie, Zahavi 1975 en biologie évolutive. Mais l'application à l'attirance interpersonnelle n'est pas mesurée, et Manson ne cite ni l'une ni l'autre."
+fiabilite: 🟠 contesté
+fiabilite_note: "Le cadre est solide et formulé **deux fois indépendamment** : Zahavi 1975, J Theor Biol 53(1), 205-14, principe du handicap, formalisé par Grafen 1990, J Theor Biol 144(4), 517-46 ; et Spence 1973, Quarterly Journal of Economics 87(3), 355-74, signalement sur le marché du travail — prix Nobel 2001. Un signal n'est crédible que s'il coûte à qui ne possède pas la qualité signalée. Manson ne cite ni l'un ni l'autre. **Ce qui n'est pas mesuré :** que le mécanisme opère comme décrit dans ce contexte, et à quelle dose. La condition de crédibilité — une vulnérabilité exhibée est gratuite, donc muette — est de moi, pas du livre."
+fiabilite_date: 2026-10-01
 ---
 # Vulnérabilité comme signal
 
@@ -19,10 +20,13 @@ geste ce qui lui donnait sa valeur.
 
 ## Ce qui la rend vraie, ou fragile
 
-**L'ancrage théorique est solide et ne vient pas de ce livre :** c'est la **théorie du
-signal coûteux**, formulée indépendamment en économie et en biologie évolutive. Un
-signal n'est crédible que s'il est coûteux à produire pour qui ne possède pas la qualité
-signalée. Manson ne la cite pas, mais son argument est exactement celui-là.
+**L'ancrage théorique est solide et ne vient pas de ce livre.** La **théorie du signal
+coûteux** a été formulée **deux fois indépendamment** : par Zahavi en biologie évolutive
+(1975, le principe du handicap, formalisé par Grafen en 1990) et par Spence en économie
+(1973, le signalement sur le marché du travail, prix Nobel 2001). Un signal n'est crédible
+que s'il coûte à qui ne possède pas la qualité signalée. Manson ne cite ni l'un ni l'autre
+— son argument est pourtant exactement celui-là, et cette convergence vaut mieux que son
+anecdote.
 
 **Ce qui n'est pas établi :** que ça fonctionne comme il le décrit dans ce contexte
 précis. Le cadre théorique explique *pourquoi* ça devrait marcher ; personne n'a mesuré

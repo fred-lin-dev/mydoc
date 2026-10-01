@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, social/négociation]
 source: "[[Source-How_to_Win_Friends_and_Influence_People]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "Non mesuré par Carnegie. Cohérent avec la réactance psychologique, elle bien étayée — voir [[Concept-Modalisation]] — mais la formulation forte « on ne gagne jamais » est un aphorisme, pas un résultat."
+fiabilite: 🟠 contesté
+fiabilite_note: "Non mesuré par Carnegie. Le mécanisme invoqué est solide : la **réactance psychologique** — Brehm 1966, *A Theory of Psychological Reactance* — confirmée par la méta-analyse de Rains 2013, Human Communication Research 39(1), 47-73, qui valide la chaîne menace sur la liberté → colère et cognitions négatives → effet boomerang. Voir [[Concept-Modalisation]]. **Ce qui est faux est l'aphorisme** : on gagne parfois une discussion, y compris en convainquant. Le principe mesure un coût, il n'énonce pas une impossibilité."
+fiabilite_date: 2026-10-01
 ---
 # Éviter la discussion
 
@@ -23,13 +24,16 @@ Si non, ce n'est plus un débat, et continuer ne peut rien rapporter.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et l'aphorisme est trop fort pour être vrai littéralement. On gagne
-parfois des discussions, y compris en convainquant.
+**L'aphorisme est faux littéralement**, et c'est pourquoi le verdict est `🟠` et non
+`🟢` : on gagne parfois une discussion, y compris en convainquant. Le principe mesure un
+**coût**, il n'énonce pas une impossibilité.
 
-**Ce qui l'appuie indirectement :** la réactance. Mettre quelqu'un en demeure de
-reconnaître son erreur attaque sa liberté de juger, et produit un mouvement en sens
-inverse. C'est le mécanisme documenté derrière l'intuition de Carnegie, et il rend
-compte du principe 2 — « ne jamais dire : vous avez tort ».
+**Le mécanisme, en revanche, tient.** C'est la **réactance** : mettre quelqu'un en demeure
+de reconnaître son erreur attaque sa liberté de juger et produit un mouvement en sens
+inverse. Brehm l'a formalisée en 1966, et la méta-analyse de Rains (2013) valide la chaîne
+complète — menace sur la liberté → colère et cognitions négatives → effet boomerang. C'est
+ce qui rend compte du principe 2 de Carnegie, « ne jamais dire : vous avez tort », sans
+avoir besoin de son aphorisme.
 
 **Là où le principe devient nuisible :** appliqué sans la distinction ci-dessus, il
 justifie de ne jamais contredire personne, ce qui est une façon de laisser circuler

@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, esprit/stratégie]
 source: "[[Source-Propaganda]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**L'argument de capacité tient** — le volume de décisions collectives excède ce qu'un individu peut instruire, c'est arithmétique. **Mais le socle psychologique est réfuté, et par une méta-analyse :** Postmes & Spears 1998, Psychological Bulletin 123(3), 238-59, ne trouvent que peu de soutien à la désindividuation — le modèle de Le Bon dont Bernays hérite. Le modèle alternatif est celui de l'identité sociale (Reicher, Spears & Postmes 1995) : une foule agit selon une identité partagée, elle ne régresse pas. **Et le saut vers l'opacité reste injustifié** : rien chez Bernays ne fonde l'invisibilité, qui est pourtant tout ce qui distingue sa position d'une position démocratique banale."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Fabrication du consentement
@@ -39,10 +40,15 @@ de « il faut simplifier » à « il faut un gouvernement invisible » sans just
 l'invisibilité, qui est pourtant tout ce qui distingue sa position d'une position
 démocratique banale.
 
-**Le socle théorique est faux :** Bernays s'appuie sur la psychologie des foules de Le Bon,
-selon laquelle l'individu en masse régresse et devient suggestible. La recherche moderne sur
-les comportements collectifs ne soutient pas ce modèle. Son argument de capacité survit ;
-son argument d'irrationalité ne survit pas.
+**Le socle théorique est réfuté, et par une méta-analyse.** Bernays s'appuie sur la
+psychologie des foules de Le Bon : l'individu en masse régresserait et deviendrait
+suggestible. Postmes & Spears (1998) ont méta-analysé la littérature sur la
+**désindividuation** et n'y trouvent que peu de soutien. Le modèle qui a remplacé celui de
+Le Bon est celui de l'identité sociale : une foule agit selon une identité **partagée**,
+avec ses propres normes — elle ne régresse pas, elle change de référentiel.
+
+**Son argument de capacité survit ; son argument d'irrationalité ne survit pas.** Et c'est
+le second qui justifiait l'opacité.
 
 ## Exemples
 

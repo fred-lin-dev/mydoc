@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, social/charisme]
 source: "[[Source-Comment_Parler_En_Public]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La direction a un appui direct :** Oppenheimer 2006, Applied Cognitive Psychology 20(2), 139-56, « Consequences of Erudite Vernacular Utilized Irrespective of Necessity » — un registre inutilement complexe fait juger son auteur **moins** intelligent, pas plus. Converge avec la littérature sur la fluence (Alter & Oppenheimer 2009). **Les réserves :** ces travaux portent sur l'écrit et non sur la prise de parole, les effets sont modestes, et la limite de la note tient — certains registres sont attendus par l'auditoire, et les ignorer se lit comme de la maladresse."
+fiabilite_date: 2026-10-02
 ---
 # Naturel contre éloquence
 
@@ -19,9 +20,15 @@ personne.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, mais cohérent avec quelque chose de mieux établi : un registre emprunté
-crée une **incongruence**, et l'incongruence est perçue même quand on ne sait pas dire à
-quoi — voir [[Concept-État_Interne_Fuit]], dont c'est l'application directe.
+**Carnegie ne mesure rien, mais la direction est mesurée ailleurs.** Oppenheimer (2006)
+a montré qu'un registre inutilement complexe fait juger son auteur **moins** intelligent —
+l'inverse de l'effet recherché. Le titre de l'article dit tout : *« Consequences of Erudite
+Vernacular Utilized Irrespective of Necessity »*. Ça converge avec la littérature sur la
+fluence : ce qui se traite facilement est jugé plus favorablement.
+
+**Les réserves sont réelles :** ces travaux portent sur l'**écrit**, pas sur la prise de
+parole, et les effets sont modestes. Le mécanisme d'incongruence invoqué par cette note
+relève par ailleurs de [[Concept-État_Interne_Fuit]], qui est lui-même `🟠`.
 
 **Ce qui rend la prescription utilisable :** elle est **soustractive**. Elle ne demande
 pas d'acquérir une compétence mais d'arrêter d'en simuler une. C'est actionnable

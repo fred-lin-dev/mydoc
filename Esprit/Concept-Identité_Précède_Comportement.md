@@ -1,8 +1,9 @@
 ---
 tags: [esprit/habitudes, esprit/psychologie]
 source: "[[Source-Atomic_Habits]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le cadrage identitaire a été testé directement :** Bryan, Walton, Rogers & Dweck 2011, PNAS 108(31), 12653-56 — se désigner par un **nom** (« être un votant ») plutôt que par un **verbe** (« voter ») augmentait la participation électorale. ⚠️ **Réserve que je ne peux pas lever de mémoire :** les effets de cadrage issus d'une étude unique sont précisément la classe la plus touchée par les échecs de réplication, et je ne connais pas avec certitude le statut actuel de celui-ci — à vérifier avant de s'y appuyer. **Ce qui n'est pas testé :** l'affirmation de Clear, que le cadrage identitaire produise plus de **maintien** qu'un cadrage par objectif."
+fiabilite_date: 2026-10-02
 ---
 # Identité précède comportement
 
@@ -24,9 +25,16 @@ change la question posée. « Est-ce que j'ai atteint mon objectif ? » est bina
 décourageant ; « est-ce que c'est ce que ferait quelqu'un comme moi ? » est
 disponible à chaque décision.
 
-**Ce qui n'est pas mesuré :** que le cadrage identitaire produise plus de maintien
-que le cadrage par objectif. La comparaison serait faisable, elle n'est pas faite —
-Clear l'avance par argumentation et exemples.
+**Le cadrage identitaire a été testé, mais pas sur ce que Clear en fait.** Bryan, Walton,
+Rogers & Dweck (2011) ont comparé le **nom** au **verbe** — « être un votant » contre
+« voter » — et trouvé un effet sur la participation électorale. ⚠️ **Avec une réserve que je
+ne peux pas lever :** les effets de cadrage tirés d'une étude unique sont la classe la plus
+touchée par la crise de réplication, et je ne connais pas avec certitude le statut actuel de
+celui-ci. À vérifier avant de s'y appuyer.
+
+**Et ce n'est pas l'affirmation de Clear :** que le cadrage identitaire produise plus de
+**maintien dans la durée** qu'un cadrage par objectif. La comparaison serait faisable, elle
+n'est pas faite.
 
 **Le risque symétrique, qu'il ne discute pas :** une identité est plus dure à
 abandonner qu'un objectif. C'est exactement ce qui la rend efficace *et* ce qui la

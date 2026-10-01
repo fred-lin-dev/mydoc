@@ -1,8 +1,9 @@
 ---
 tags: [esprit/productivité, esprit/stratégie]
 source: "[[Source-Essentialism]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Ce qui tient est l'antériorité du critère**, et il a un appui : le raisonnement motivé — Kunda 1990, Psychological Bulletin 108(3), 480-98 — établit qu'on ajuste ses critères pour justifier la conclusion souhaitée. Converge avec la supériorité des décisions structurées sur les décisions libres, ⚠️ dont les tailles d'effet historiques (Schmidt & Hunter 1998) ont été **révisées à la baisse** par Sackett, Zhang, Berry & Lievens 2022, J Appl Psychol — corrections de restriction d'étendue erronées. **Ce qui n'est pas mesuré :** que la règle améliore les décisions, et le seuil de 90 lui-même, que McKeown assume arbitraire."
+fiabilite_date: 2026-10-01
 ---
 # Règle des 90 pour cent
 
@@ -23,8 +24,15 @@ l'existence d'un seuil **explicite et antérieur** à l'évaluation. Un seuil fi
 avoir vu l'option se règle toujours juste en dessous d'elle.
 
 **Ce qui n'est pas mesuré :** que cette règle améliore les décisions. Aucune
-comparaison n'est faite ; le livre procède par anecdotes. Verdict `⚪ non évalué`, et
-probablement difficile à évaluer autrement que par étude de terrain.
+comparaison n'est faite ; le livre procède par anecdotes. Probablement difficile à évaluer
+autrement que par étude de terrain.
+
+**Ce qui appuie l'antériorité, et que le livre n'invoque pas :** le **raisonnement
+motivé**. Kunda (1990) établit qu'on ajuste ses critères pour justifier la conclusion
+qu'on souhaite — c'est le mécanisme exact du seuil « qui se règle juste en dessous ». Ça
+converge avec la supériorité des décisions structurées sur les décisions libres, ⚠️ dont
+les tailles d'effet historiques ont toutefois été **révisées à la baisse en 2022** : un
+rappel que même l'appui qu'on va chercher demande une date.
 
 **Là où elle échoue clairement :** quand le flux d'options est faible. Un seuil à 90
 suppose qu'il en arrivera d'autres. Si trois options se présentent par an, refuser
