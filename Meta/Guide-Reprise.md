@@ -236,9 +236,12 @@ attendu le plus faible.
 - **[[Ref-Lecture_SciFi_Stratégique]]** : **12 romans sur 18 pas encore acquis.**
   L'ordre d'acquisition suit désormais une règle — d'abord celui dont la note cible
   existe déjà. *The Traitor Baru Cormorant* est le seul apparié qui manque.
-- **Deux déplacements de lecture recommandés et non appliqués** dans
-  [[Ref-Lecture_Ordre_de_Priorité]] : *Thinking, Fast and Slow* en phase 1, *Thinking in
-  Systems* en phase 4.
+- ✅ **Les quatre déplacements de lecture sont appliqués** — les deux derniers le
+  2026-10-02 : *Thinking, Fast and Slow* de la phase 5 à la **phase 1**, *Thinking in
+  Systems* de la phase 1 à la **phase 4**. Sans effet rétroactif, les 39 titres étant
+  lus : la liste dit désormais ce qu'il **aurait fallu** faire. Il reste deux dépendances
+  inter-phases que le déplacement ne résout pas — *Why We Sleep* et *The Body Keeps the
+  Score* sont au Socle à juste titre, mais lus trop tard pour ce qu'ils conditionnent.
 
 ### Une contradiction assumée, à ne pas « corriger »
 

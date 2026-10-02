@@ -37,13 +37,13 @@ sans rien perdre.
 | Titre | 💾 | ⏳ | Pourquoi celui-là |
 |---|---|---|---|
 | **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-huit suivants capitalisables au lieu d'oubliables. |
+| **Thinking, Fast and Slow** — Kahneman | ✅ | | **Déplacé de la phase 5 à la phase 1 le 2026-10-02.** Le catalogue des biais par celui qui les a mesurés — c'est l'instrument qui permet de lire tout le reste avec du recul, donc il ne peut pas venir après. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
 | **Make It Stick** — Brown, Roediger & McDaniel | ✅ | | **La seule science dans la phase, et elle est de première main** : Roediger est le chercheur de l'effet de test. Acquis le 2026-10-02 pour une raison précise — [[Concept-Active_Recall]] et [[Concept-Répétition_Espacée]] citaient directement une méta-analyse, sans livre derrière. Ce qu'il doit apporter et que le vault n'a pas : les **difficultés désirables** et l'**entrelacement**. |
 | **Deep Work** — Newport | ✅ | | Le prérequis matériel : sans blocs de concentration protégés, aucune note ne s'écrit. Donne les protocoles, pas seulement le constat. |
 | **So Good They Can't Ignore You** — Newport | ✅ | | Répond à la question que *Deep Work* laisse ouverte : la concentration au service de quoi. Tue « suis ta passion » et la remplace par le capital de compétences rares. |
 | **Atomic Habits** — Clear | ✅ | | La mécanique d'installation : la boucle signal → envie → réponse → récompense, et les quatre leviers pour l'exploiter. C'est ce qui rend tenable ce que les deux Newport prescrivent. |
 | **Mindset** — Dweck | ✅ | | La variable en amont de l'effort : ce que tu crois de ta propre malléabilité. À lire en sachant que l'effet mesuré est bien plus petit que le livre ne le laisse croire. |
 | **The Pragmatic Programmer** — Thomas & Hunt | ✅ | | Le seul livre technique de la phase, et il y est pour sa **méthode** : orthogonalité, DRY, balles traçantes. Des principes de conception citables depuis n'importe quel domaine. |
-| **Thinking in Systems** — Meadows | ✅ | | Le vocabulaire des boucles de rétroaction, des stocks et des points de levier. C'est l'outil qui fera lire la phase Stratégie comme des systèmes et non comme des recettes. |
 | **Essentialism** — McKeown | ✅ | | Le tri en amont : *Deep Work* protège le temps, celui-ci décide ce qui mérite d'y entrer. Le recouvre à 60 % — lecture rapide, deux notes suffiront. |
 
 ## Phase 2 · Le Véhicule — communication
@@ -88,11 +88,12 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 ## Phase 4 · La Stratégie — le pouvoir
 
 > **Ce que la phase achète : comprendre le pouvoir comme un système, pas comme une
-> intention.** Lire n'est pas appliquer. La valeur principale de ces huit titres est
+> intention.** Lire n'est pas appliquer. La valeur principale de ces neuf titres est
 > **défensive** — reconnaître une manœuvre quand on la subit.
 
 | Titre                                 | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                                                                              |
 | ------------------------------------- | --- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Thinking in Systems** — Meadows | ✅ | | **Déplacé de la phase 1 à la phase 4 le 2026-10-02.** Le vocabulaire des boucles de rétroaction, des stocks et des points de levier — il outille cette phase-ci, et n'avait rien à faire au Moteur, qui n'en a pas besoin. À lire **avant** les trois Greene : il fait lire les manœuvres comme des systèmes et non comme des recettes. |
 | **The 48 Laws of Power** — Greene     | ✅   |     | Un catalogue de manœuvres illustrées par l'histoire. Zéro donnée : verdict `⬜ non applicable`, valeur descriptive. Si tu ne lis qu'un Greene, prends *The Laws of Human Nature*.                               |
 | **Never Split the Difference** — Voss | ✅   |     | La négociation réduite à des gestes exécutables : étiquetage, reformulation, questions calibrées. Le plus pratique de la phase, utilisable dès la première lecture.                                            |
 | **The Art of War** — Sun Tzu          | ✅   | ⏳   | Deux mille cinq cents ans en quelques dizaines de pages : la position avant l'affrontement, gagner sans combattre. À lire d'une traite, puis à garder en `Ref-`.                                               |
@@ -106,12 +107,11 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 
 > **Ce que la phase achète : de quoi juger les quatre phases précédentes.** C'est
 > elle qui décide si le reste est du savoir ou de la croyance. Cette phase
-> n'existait pas dans ta liste — ces douze titres n'ont rien à voir avec le pouvoir,
+> n'existait pas dans ta liste — ces onze titres n'ont rien à voir avec le pouvoir,
 > ils servent à l'évaluer.
 
 | Titre                                       | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                                                                              |
 | ------------------------------------------- | --- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Thinking, Fast and Slow** — Kahneman      | ✅   |     | Le catalogue des biais par celui qui les a mesurés. **À remonter en phase 1** : c'est l'outil qui permet de lire tout le reste avec du recul. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
 | **The Black Swan** — Taleb                  | ✅   |     | L'événement rare qui produit l'essentiel du résultat, et pourquoi aucun modèle ne le voit venir. **Prérequis d'*Antifragile* : à lire avant lui.**                                                             |
 | **Antifragile** — Taleb                     | ✅   |     | La catégorie qui manquait : ce qui **gagne** au désordre, pas seulement ce qui y résiste. Et la source du filtre ⏳ utilisé dans ces trois listes.                                                              |
 | **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-huit autres.                                                          |
@@ -140,25 +140,37 @@ de ta liste d'origine.*
 > elle** — Newport, Voss, Greene ×2, Manson, Frankl. La même critique a été écrite
 > six fois à la main avant que la note existe.
 >
-> Six dépendances traversent les phases ci-dessus, **quatre pointant de la phase 5
-> vers l'arrière**. Le tableau suivant en recense deux ; les quatre autres sont
-> écrites en note marginale dans les colonnes « Pourquoi celui-là ».
+> Six dépendances traversaient les phases ci-dessus, **quatre pointant de la phase 5
+> vers l'arrière**. **Deux ont été résolues le 2026-10-02** en déplaçant les livres
+> concernés — voir la section suivante. Les deux qui restent ne se résolvent pas comme
+> ça : *Why We Sleep* et *The Body Keeps the Score* appartiennent bien au Socle, ils y
+> sont seulement **lus trop tard pour ce qu'ils conditionnent**.
 >
-> **Rien n'est réordonné** : trente-quatre des trente-huit titres sont lus, et
-> déplacer des cases ne relit pas les livres. La règle qui en sort vaut pour la
-> suite, et elle est dans [[Guide-Stratégie_Lecture]] : **les instruments d'abord,
-> hors phase ; les prérequis ensuite ; le thème en dernier, comme départage.**
+> **Les déplacements sont sans effet rétroactif** — les trente-neuf titres sont lus, et
+> changer des cases ne relit pas les livres. Ils sont appliqués pour que la liste dise
+> **ce qu'il aurait fallu faire**. La règle qui en sort vaut pour la suite, et elle est
+> dans [[Guide-Stratégie_Lecture]] : **les instruments d'abord, hors phase ; les
+> prérequis ensuite ; le thème en dernier, comme départage.**
 
-## Les deux déplacements qui restent à décider
+## ✅ Les quatre déplacements sont appliqués
 
-*Appliqués : **How to Take Smart Notes** en tête de la phase 1, et **The Black
-Swan** avant **Antifragile**. Restent ces deux-là — sans effet rétroactif, ils sont
-gardés comme trace du diagnostic.*
+| Titre | De | Vers | Appliqué |
+|---|---|---|---|
+| **How to Take Smart Notes** | milieu de phase 1 | tête de phase 1 | 2026-09-28 |
+| **The Black Swan** | après *Antifragile* | avant | 2026-09-28 |
+| **Thinking, Fast and Slow** | phase 5 | **phase 1** | 2026-10-02 |
+| **Thinking in Systems** | phase 1 | **phase 4** | 2026-10-02 |
 
-| Titre | Devrait être | Ce que ça coûte de ne pas bouger |
-|---|---|---|
-| **Thinking, Fast and Slow** | phase 1 | Les biais servent à lire les vingt-cinq premiers *avec du recul*. En fin de liste, il arrive après la bataille. |
-| **Thinking in Systems** | phase 4 | Placé en Moteur, il outille une phase qui n'en a pas besoin, et manque à celle qui en a besoin. |
+**Les deux derniers sont sans effet rétroactif** — les trente-neuf titres sont lus. Ils
+sont appliqués pour que la liste dise **ce qu'il aurait fallu faire**, et non ce qui a été
+fait : c'est une liste de méthode, pas un journal.
+
+Et ils réduisent le constat de la section précédente : **sur les six dépendances qui
+traversaient les phases, quatre pointaient de la phase 5 vers l'arrière. Il en reste
+deux** — *Why We Sleep* en amont de *Deep Work*, et *The Body Keeps the Score* en
+contrepoids de la phase 1. Celles-là ne se résolvent pas par un déplacement : ces deux
+livres appartiennent bien au Socle, ils y sont simplement **lus trop tard pour ce qu'ils
+conditionnent**.
 
 ---
 
