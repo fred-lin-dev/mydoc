@@ -54,8 +54,8 @@ mieux établie.
 
 ## 🎴 Cartes
 
-Q: **Trauma somatique** — van der Kolk réunit trois affirmations : lesquelles, et laquelle ne suit pas ?
-A: Effets physiologiques durables (soutenu), contribution au maintien des symptômes (plausible), nécessité des thérapies corporelles (inférence, pas résultat).
+Q: **Trauma somatique** — van der Kolk enchaîne trois affirmations : effets physiologiques durables, contribution au maintien des symptômes, nécessité de thérapies corporelles. **Laquelle des trois ne découle pas des autres ?**
+A: **La troisième.** Les effets physiologiques durables sont soutenus, leur contribution au maintien des symptômes est plausible — mais passer de là à « il faut donc traiter par le corps » est une **inférence, pas un résultat**.
 <!--ID: 1790547089798-->
 
 

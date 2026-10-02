@@ -72,7 +72,7 @@ A: Parce que personne n'a besoin d'avoir tort pour que ça se dégrade. Chacun a
 <!--ID: 1790718872203-->
 
 
-Q: **Piège anxieux-évitant** — qu'est-ce qu'*Attached* affirme sans l'étayer ?
-A: Que ces couples sont à la fois particulièrement durables et particulièrement insatisfaits. Deux propositions empiriques distinctes, appuyées sur des cas cliniques choisis.
+Q: **Piège anxieux-évitant** — *Attached* avance que ces couples sont à la fois très **durables** et très **insatisfaits**. Sur quoi repose cette double affirmation ?
+A: **Sur des cas cliniques choisis, et rien d'autre.** Ce sont deux propositions empiriques distinctes, présentées ensemble et jamais mesurées séparément — alors que le motif lui-même, le *demand–withdraw*, est documenté par méta-analyse.
 <!--ID: 1790718872206-->
 

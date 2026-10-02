@@ -57,7 +57,7 @@ A: Un effet réel mais petit — environ 0,10 point de moyenne — concentré su
 <!--ID: 1790533410647-->
 
 
-Q: **État d'esprit de développement** — quel usage de ce cadre reste défendable malgré la faiblesse de l'effet ?
-A: Comme grille d'observation de ses propres évitements. Pas comme promesse de performance.
+Q: **État d'esprit de développement** — deux usages possibles : **grille d'observation de ses propres évitements**, ou **promesse de performance**. Lequel survit à la faiblesse de l'effet mesuré ?
+A: **La grille d'observation.** Elle ne promet rien, donc la taille de l'effet ne la concerne pas. La promesse de performance, non : l'effet mesuré est bien trop petit pour la porter.
 <!--ID: 1790533410650-->
 
