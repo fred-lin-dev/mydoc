@@ -42,7 +42,7 @@ Les quatre niveaux, et ce qu'ils impliquent :
 **nom qu'il devra porter** à l'acquisition. `💾` dit s'il est dans `Extras/Books/`,
 et l'audit recoupe cette colonne avec le disque.
 
-## Fiché — 31 titres, 31 sur le disque
+## Fiché — 32 titres, 32 sur le disque
 
 *Fiche `Source-` + notes `Concept-`. Le garde-fou 11 s'applique : une fiche sans note est signalée, et un livre fiché sans fiche est compté en dette.*
 
@@ -58,6 +58,7 @@ et l'audit recoupe cette colonne avec le disque.
 | How_to_Take_Smart_Notes | ✅ | fiché | esprit/productivité | priorité |
 | How_to_Win_Friends_and_Influence_People | ✅ | fiché | social/influence | priorité |
 | Le_Pouvoir_Rhétorique | ✅ | fiché | social/influence | priorité |
+| Make_It_Stick | ✅ | fiché | esprit/psychologie | priorité |
 | Mans_Search_For_Meaning | ✅ | fiché | esprit/philosophie | priorité |
 | Mate_Become_the_Man_Women_Want | ✅ | fiché | social/séduction | priorité |
 | Mindset | ✅ | fiché | esprit/psychologie | priorité |

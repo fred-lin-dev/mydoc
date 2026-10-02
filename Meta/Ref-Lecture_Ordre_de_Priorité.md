@@ -14,8 +14,8 @@ le **Socle** (ce qui juge tout le reste).
 
 | | |
 |---|---|
-| titres | **38** |
-| sur le disque | **38** — tous |
+| titres | **39** |
+| sur le disque | **39** — tous |
 | à acquérir | **0** |
 | fichés | **0** ← le seul chiffre qui compte |
 
@@ -36,7 +36,8 @@ sans rien perdre.
 
 | Titre | 💾 | ⏳ | Pourquoi celui-là |
 |---|---|---|---|
-| **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-sept suivants capitalisables au lieu d'oubliables. |
+| **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-huit suivants capitalisables au lieu d'oubliables. |
+| **Make It Stick** — Brown, Roediger & McDaniel | ✅ | | **La seule science dans la phase, et elle est de première main** : Roediger est le chercheur de l'effet de test. Acquis le 2026-10-02 pour une raison précise — [[Concept-Active_Recall]] et [[Concept-Répétition_Espacée]] citaient directement une méta-analyse, sans livre derrière. Ce qu'il doit apporter et que le vault n'a pas : les **difficultés désirables** et l'**entrelacement**. |
 | **Deep Work** — Newport | ✅ | | Le prérequis matériel : sans blocs de concentration protégés, aucune note ne s'écrit. Donne les protocoles, pas seulement le constat. |
 | **So Good They Can't Ignore You** — Newport | ✅ | | Répond à la question que *Deep Work* laisse ouverte : la concentration au service de quoi. Tue « suis ta passion » et la remplace par le capital de compétences rares. |
 | **Atomic Habits** — Clear | ✅ | | La mécanique d'installation : la boucle signal → envie → réponse → récompense, et les quatre leviers pour l'exploiter. C'est ce qui rend tenable ce que les deux Newport prescrivent. |
@@ -113,7 +114,7 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 | **Thinking, Fast and Slow** — Kahneman      | ✅   |     | Le catalogue des biais par celui qui les a mesurés. **À remonter en phase 1** : c'est l'outil qui permet de lire tout le reste avec du recul. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
 | **The Black Swan** — Taleb                  | ✅   |     | L'événement rare qui produit l'essentiel du résultat, et pourquoi aucun modèle ne le voit venir. **Prérequis d'*Antifragile* : à lire avant lui.**                                                             |
 | **Antifragile** — Taleb                     | ✅   |     | La catégorie qui manquait : ce qui **gagne** au désordre, pas seulement ce qui y résiste. Et la source du filtre ⏳ utilisé dans ces trois listes.                                                              |
-| **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-sept autres.                                                          |
+| **Skin in the Game** — Taleb                | ✅   |     | Le critère le plus tranchant de la liste : ne crois pas un conseil dont l'auteur ne paie pas le prix s'il a tort. Applicable aux trente-huit autres.                                                          |
 | **Meditations** — Marc Aurèle               | ✅   | ⏳   | Le journal privé d'un homme qui n'écrivait pas pour être lu — d'où sa valeur. La dichotomie du contrôle : ce qui dépend de toi, ce qui n'en dépend pas.                                                        |
 | **Why We Sleep** — Walker                   | ✅   |     | Le sommeil comme variable en amont de la concentration de *Deep Work*. Livre le plus critiqué de la liste sur l'exactitude : garde les mécanismes, jette les chiffres.                                         |
 | **The Body Keeps the Score** — van der Kolk | ✅   |     | Ce que le stress prolongé fait au corps, et pourquoi la volonté n'y suffit pas. Le contrepoids nécessaire à la phase 1, qui suppose un moteur en état de marche.                                               |
@@ -121,7 +122,7 @@ prendra le nom du PDF —* `Source-The_Psychology_of_Persuasion`.
 | **Relations in Public** — Goffman | ✅ | ⏳ | Le prolongement du précédent sur l'espace public : territorialité, échanges réparateurs, ordre de l'interaction. 411 p. nettement plus spécialisées : par chapitres choisis plutôt qu'en entier, et sans fiche. |
 | **Critique of Pure Reason** — Kant | ✅ | ⏳ | **Où s'arrête ce qu'on peut savoir.** La question dont tout le champ `fiabilite` de ce vault est une application pratique. Et le **prérequis de la ligne suivante** : *Beyond Good and Evil* §11 attaque Kant nommément sur ce point — *« How are synthetic judgments a priori possible? » Kant asks himself — and what is really his answer? « By means of a means (faculty) »*. Sans Kant, cette page de Nietzsche est illisible. ⚠️ **1089 pages**, traduction Pluhar : à lire guidé par l'introduction de Kitcher et par sections, jamais d'un bout à l'autre, et sans fiche. |
 | **Beyond Good and Evil** — Nietzsche        | ✅   | ⏳   | Interroge ce que la phase Stratégie prend pour acquis : d'où viennent les valeurs au nom desquelles on juge une manœuvre. Le plus difficile, et le seul qui l'attaque de front.                                |
-| **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-sept autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
+| **Man's Search for Meaning** — Frankl       | ✅   | ⏳   | La réponse à la question que les trente-huit autres évitent : pour quoi. Écrit par quelqu'un qui l'a testée dans les conditions les plus extrêmes possibles.                                                  |
 
 *Les trois Taleb sont désormais dans leur ordre de dépendance, et non dans l'ordre
 de ta liste d'origine.*
@@ -191,6 +192,7 @@ jamais « prouvé » sans la référence à côté.**
 | Titre | Auteur | 💾 | ⏳ |
 |---|---|---|---|
 | How to Take Smart Notes | Sönke Ahrens | ✅ |  |
+| Make It Stick | Brown, Roediger & McDaniel | ✅ |  |
 | Deep Work | Cal Newport | ✅ |  |
 | So Good They Can't Ignore You | Cal Newport | ✅ |  |
 | Atomic Habits | James Clear | ✅ |  |
@@ -229,7 +231,7 @@ jamais « prouvé » sans la référence à côté.**
 | Relations in Public | Erving Goffman | ✅ | ⏳ |
 | Critique of Pure Reason | Emmanuel Kant | ✅ | ⏳ |
 
-**12 titres Lindy sur 38.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
+**12 titres Lindy sur 39.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
 
 ---
 

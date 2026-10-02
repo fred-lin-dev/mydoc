@@ -6,12 +6,12 @@ tags: [meta/moc, esprit/productivité]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir propre,
 > aucune carte. Verdict de fiabilité en préfixe.
 
-**81 notes atomiques · 22 fiches de source · 6 références**
+**84 notes atomiques · 22 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | 12 |
-| 🟠 contesté | 28 |
+| 🟢 solide | 13 |
+| 🟠 contesté | 30 |
 | 🔴 réfuté | 1 |
 | ⬜ non applicable | 38 — traités de stratégie, Taleb, philosophie |
 | ⚪ non évalué | 0 |
@@ -38,6 +38,9 @@ tags: [meta/moc, esprit/productivité]
 * 🟢 [[Concept-Répétition_Espacée]] — *l'intervalle optimal vaut 10 à 20 % de la durée visée.*
 * 🟠 [[Concept-Pratique_Délibérée]] — *moins de 1 % de la variance dans les professions.*
 * 🟠 [[Concept-Tâche_Ouverte_Occupe_L_Attention]] — *noter libérerait l'attention ; la source est fragile.*
+* 🟢 [[Concept-Illusion_De_Fluence]] — *ce qui se lit facilement se croit su ; la relecture est en utilité faible.*
+* 🟠 [[Concept-Difficulté_Désirable]] — *la liste tient, le concept qui la coiffe n'a pas de critère antérieur.*
+* 🟠 [[Concept-Entrelacement]] — *entrelacer ce qu'on risque de confondre, grouper ce qu'on risque de mal exécuter.*
 
 ## Habitudes — `esprit/habitudes`
 
