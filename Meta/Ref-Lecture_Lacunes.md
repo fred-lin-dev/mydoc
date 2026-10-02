@@ -24,6 +24,7 @@ est acquis**, et pas avant. Les porter ici les ferait divarier comme les
 | titres candidats | **11** |
 | dont *Lindy* ⏳ | **4** — Popper, Thucydide, Plutarque, Brooks |
 | lacunes fermées | **2** — les n° 3 et 4, le 2026-10-02 |
+| notes produites par les deux | **20** · 59 cartes |
 
 ---
 
@@ -145,7 +146,7 @@ s'aggraver entre son relevé et sa fermeture.
 
 | Titre | Devenu |
 |---|---|
-| **Williams — *Style*** | acquis le 2026-10-02 · `fiché` · tête de phase 2 · **une dette ouverte** : fiché, pas encore de fiche |
+| **Williams — *Style*** | acquis **et converti en entier** le 2026-10-02 — douze leçons · `fiché` · tête de phase 2 · **11 notes**, toutes `⬜` · [[Ref-Principes_De_Clarté]] |
 | **Pinker — *The Sense of Style*** (2014) | **plus un candidat.** Il donnait le *pourquoi* linguistique des mêmes règles : sur un axe désormais couvert, c'est un second titre du même sujet, donc une décision de rendement — pas une lacune. À reprendre seulement si Williams laisse la question du *pourquoi* ouverte |
 
 > ⚠️ **Strunk & White est Lindy et ne doit pas être pris pour autant.** Le filtre ⏳
@@ -180,7 +181,7 @@ mouvement ni l'alimentation.**
 
 | Titre | Devenu |
 |---|---|
-| **Lieberman — *Exercised*** (2021) | acquis le 2026-10-02 · `fiché` · `corps/santé` · **phase 1** · une dette ouverte, fiché sans fiche |
+| **Lieberman — *Exercised*** (2021) | acquis **et converti en entier** le 2026-10-02 — treize chapitres · `fiché` · `corps/santé` · **phase 1** · **9 notes**, dont 2 `🟢` · [[Ref-Activité_Et_Maladies]] |
 | **Schoenfeld — *Science and Development of Muscle Hypertrophy*** | **plus un candidat de lacune.** C'est une référence : elle s'achète le jour où Lieberman pose une question à laquelle elle répond, pas sur spéculation |
 | **Attia — *Outlive*** (2023) | **plus un candidat.** Il recouvre Lieberman en extrapolant davantage — exactement le défaut reproché à Walker. Sur un axe désormais couvert, c'est un doublon, pas un manque |
 

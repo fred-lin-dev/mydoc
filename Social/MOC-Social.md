@@ -6,22 +6,32 @@ tags: [meta/moc, social/influence]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir
 > propre, aucune carte. Verdict de fiabilité en préfixe.
 
-**50 notes atomiques · 13 fiches de source · 6 références**
+**61 notes atomiques · 14 fiches de source · 7 références**
 
 | Verdict | Notes |
 |---|---|
-| 🟢 solide | 2 sur 50 |
+| 🟢 solide | 2 sur 61 |
 | 🟠 contesté | 29 |
 | 🔴 réfuté | 4 — soit tous ceux du vault |
-| ⬜ non applicable | 13 — définitions et cadres, qui tiennent parce qu'ils n'affirment rien |
+| ⬜ non applicable | 24 — définitions, cadres et **règles de conception**, qui tiennent parce qu'ils n'affirment rien |
 | ⚪ non évalué | 0 |
 | 🔵 invérifiable | 2 — *idem — leur `fiabilite_note` dit ce qu'il faudrait pour les trancher* |
 
 > ⚠️ **Le domaine le plus fragile du vault, et le constat s'est confirmé livre après
-> livre.** Une seule note solide sur trente, et trois des quatre `🔴` du vault. La
+> livre.** Deux notes solides sur cinquante-six, et trois des quatre `🔴` du vault. La
 > raison est structurelle : ce domaine s'appuie sur la psychologie sociale de laboratoire
 > des années 1990-2010, la plus durement touchée par la crise de réplication. **Ce qui
 > tient ici, ce sont les taxonomies** — elles n'affirment rien, donc rien ne les réfute.
+
+> 🆕 **Onze notes de plus le 2026-10-02**, de [[Source-Style_Lessons_in_Clarity_and_Grace]],
+> entré par la lacune n° 3 de [[Ref-Lecture_Lacunes]] et converti en entier — ses douze
+> leçons. Elles portent toutes `⬜` et c'est le bon verdict : ce sont des **règles de
+> conception**, évaluées par contre-exemple et non par mesure — le régime de `tech/`
+> (décision 07), appliqué ici pour la première fois. **C'est aussi le livre le plus
+> productif du vault**, devant les trois Greene.
+> **Et il pose une question de gouvernance :** onze notes sur l'écriture justifient
+> `social/écriture` au sens de la règle des 5, alors qu'elles sont rangées en
+> `social/influence`. La décision n'est pas prise — voir le bas de cet index.
 
 ---
 
@@ -111,6 +121,35 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 
 ---
 
+## Écriture — `social/influence`
+
+*Onze règles de conception de la prose, rangées par **échelle** et non dans l'ordre du
+livre : c'est la structure réelle de Williams. Aucune n'affirme rien d'empirique — elles
+s'évaluent par contre-exemple, et le livre n'en mesure aucune.*
+
+**Le cadre**
+
+* ⬜ [[Concept-Clarté_Comme_Effet_Lecteur]] — *« clair » ne décrit pas le texte, il décrit son effet.*
+* ⬜ [[Concept-Syntaxe_Et_Responsabilité]] — *« Students plagiarize » contre « Plagiarism occurs » : la forme tranche la responsabilité.*
+* ⬜ [[Concept-Éthique_De_La_Clarté]] — *écrire obscur déplace le travail sur le lecteur.*
+
+**La phrase**
+
+* ⬜ [[Concept-Personnages_En_Sujets]] — *les personnages en sujets, les actions en verbes.*
+* ⬜ [[Concept-Topique_Et_Emphase]] — *le début dit de quoi ça parle, la fin ce qui compte, le milieu ne porte rien.*
+* ⬜ [[Concept-Supprimer_L_Inférable]] — *la coupe qui ne se mécanise pas : « inférable » dépend du lecteur.*
+
+**Le passage**
+
+* ⬜ [[Concept-Vieux_Avant_Neuf]] — *commencer par le connu, finir par le neuf — et ça prime sur la phrase.*
+* ⬜ [[Concept-Cohésion_Et_Cohérence]] — *un texte peut s'enchaîner parfaitement et n'avoir aucun sujet.*
+
+**Le document**
+
+* ⬜ [[Concept-Condition_Et_Coût]] — *une condition seule n'est pas un problème ; le test est « So what ? ».*
+* ⬜ [[Concept-Problème_Pratique_Et_Conceptuel]] — *l'un se résout par une action, l'autre par une information.*
+* ⬜ [[Concept-Phrase_Point]] — *la dernière phrase de l'ouverture porte le point et annonce les thèmes.*
+
 ## Les sources
 
 * [[Source-Le_Pouvoir_Rhétorique]] — *Viktorovitch 2021 · le plus technique, explicite sur son éthique.*
@@ -126,6 +165,7 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * [[Source-Propaganda]] — *Bernays 1928 · ⏳ Lindy · l'inventeur des relations publiques, sans gêne.*
 * [[Source-The_Presentation_of_Self_in_Everyday_Life]] — *Goffman 1959 · ⏳ Lindy · **la source primaire des cinq premières**, et la seule qui déclare son cadre non testé.*
 * [[Source-Attached]] — *Levine & Heller 2010 · le résultat est réel, l'emballage ne l'est pas — et la réfutation du tri est dans sa propre bibliographie.*
+* [[Source-Style_Lessons_in_Clarity_and_Grace]] — *Williams & Bizup 2019 · onze règles opérantes, et aucune étude derrière.*
 
 ## Les références
 
@@ -134,6 +174,7 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * [[Ref-Principes_Carnegie]] — *les 30, en liste de contrôle après coup.*
 * [[Ref-Quatre_Styles_De_Charisme]] — *choisir un registre selon la situation.*
 * [[Ref-Habillement_Principes]] — *contraste personnel, échelle des motifs, ordre des dépenses.*
+* [[Ref-Principes_De_Clarté]] — *les principes par priorité, et les sept procédures tirées des douze leçons.*
 
 ---
 
@@ -144,6 +185,24 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 - **Rien sur la propagande à l'échelle collective.** *Propaganda* de Bernays est arrivé
   aussi, et il complète directement [[Source-Le_Pouvoir_Rhétorique]] : l'un donne les
   procédés, l'autre l'échelle industrielle.
-- **Une seule note `🟢 solide` sur 30.** Ce n'est pas un oubli. Les notes solides qui
+- **Deux notes `🟢 solide` sur 56.** Ce n'est pas un oubli. Les notes solides qui
   servent ici viennent surtout de `esprit/` : [[Concept-Autodétermination]],
   [[Concept-Tâches_Verrouillées]], [[Concept-Intention_De_Mise_En_Œuvre]].
+- **`social/écriture` est justifié et non ouvert — décision en attente.** Les onze notes
+  de Williams sont rangées en `social/influence`, qui est le tag le moins faux :
+  `social/style` désigne le **vêtement** dans ce vault (*Dressing the Man*), et la règle
+  des 5 exigeait cinq notes avant d'ouvrir un sous-domaine. Il y en a onze.
+
+  **Mais le déclenchement reste suspect, et c'est pour ça que la décision n'est pas prise
+  ici.** Le seuil de la règle des 5 est connu de celui qui écrit les notes — c'est
+  exactement le vice de l'ancienne règle des 3 cartes, qui *« mesurait sa propre
+  observance »* (décision 01). `corps/` était né de la règle sans que personne ne le
+  veuille.
+
+  **Ce qui a changé le 2026-10-02 au soir, et qui compte :** la seconde moitié du livre a
+  porté le total de six à onze **sans que le seuil y soit pour rien** — les leçons 6 à 12
+  ont été converties parce qu'elles restaient, pas pour atteindre un chiffre. À onze notes
+  sur un seul sous-domaine, l'argument « le rédacteur a visé le seuil » tient moins bien :
+  il expliquait cinq, il explique mal onze. **Ça reste une décision, pas un déclenchement.**
+  Trancherait pour de bon : un second titre sur l'écriture — et
+  [[Ref-Lecture_Lacunes]] a écarté Pinker.

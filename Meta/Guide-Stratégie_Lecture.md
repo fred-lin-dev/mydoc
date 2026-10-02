@@ -77,10 +77,9 @@ que ce soit. C'est le seul point où les trois listes pourraient se contaminer.
 n'illustre rien tant que le concept n'existe pas dans le vault. Lire *Foundation* avant
 *Thinking in Systems*, c'est avoir un exemple sans rien à illustrer.
 
-**Deux titres restent non lus sur la liste 1**, tous deux acquis le 2026-10-02 :
-*Style* (Williams & Bizup) en tête de phase 2, et *Exercised* (Lieberman) en
-phase 1. Les trente-neuf autres sont convertis — les quatre entrés le 2026-09-29
-l'ont été depuis.
+**Les 41 titres de la liste 1 sont convertis.** Les deux derniers — *Style*
+(Williams & Bizup) en tête de phase 2, *Exercised* (Lieberman) en phase 1 — ont été
+acquis et convertis le 2026-10-02.
 
 Et il entre par une porte neuve : c'est le premier titre venu de
 [[Ref-Lecture_Lacunes]], donc d'un **axe constaté absent**, et non d'une liste

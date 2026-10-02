@@ -35,32 +35,31 @@ revérifier** — il a été périmé deux fois, et c'est le seul endroit du vau
 contrôle ne vérifie.*
 
 ```
-209 notes · 143 Concept- · 39 Source- · 17 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 2 infos — Style et Exercised, fichés sans fiche
-407 cartes écrites = 407 notes Anki · 0 orpheline · 0 décalée
+233 notes · 163 Concept- · 41 Source- · 19 Ref- · 5 MOC- · 5 Guide-
+0 erreur · 0 alerte · 0 info — l'audit est entièrement vide
+466 cartes écrites · 407 dans Anki, **59 neuves à scanner**
 87 titres à l'inventaire, 60 sur le disque (394 Mo) — dont 1 EPUB
 ```
 
 | Domaine | `Concept-` | `Source-` | `Ref-` |
 |---|---|---|---|
 | `Esprit/` | 84 | 23 | 6 |
-| `Social/` | 50 | 13 | 6 |
-| `Corps/` | 5 | 1 | 0 |
+| `Social/` | **61** | 14 | 7 |
+| `Corps/` | **14** | 2 | 1 |
 | `Tech/` | **4** — toutes `⬜` | 2 | 0 |
 | `Langues/` | **0** | 0 | 0 |
 
-**Verdicts :** 🟠 61 · ⬜ 55 · 🟢 18 · 🔴 5 · 🔵 4 · **⚪ 0**
-Les **88 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le plus ancien a
+**Verdicts :** 🟠 68 · ⬜ 66 · 🟢 20 · 🔴 5 · 🔵 4 · **⚪ 0**
+Les **97 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le plus ancien a
 0 mois. **La file de vérification est vide** — les 42 dettes de la construction ont toutes
 été examinées, les 4 restantes sont en `🔵 invérifiable`.
 
 **Inventaire :** 34 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors.
 **12 titres du disque ne sont sur aucune liste de lecture** — niveau tranché, conservation
-tranchée. **Deux livres `fiché` sont sans fiche** — *Style* et *Exercised*, acquis tous deux le
-2026-10-02 : ce sont les seules dettes ouvertes du vault, et elles sont normales, les
-livres ne sont pas lus.
+tranchée. **Aucun livre `fiché` n'est sans fiche.** *Style* et *Exercised* ont été acquis et
+convertis le même jour, le 2026-10-02 — les deux dettes ont vécu quelques heures.
 
-**Révision Anki : 27 cartes vues sur 407.** C'est la seule boucle de rétroaction qui trouve
+**Révision Anki : 27 cartes vues sur 466.** C'est la seule boucle de rétroaction qui trouve
 ce que ni l'audit ni Claude ne trouvent — elle a détecté les 92 questions sans contexte et
 trois énoncés incompréhensibles. **Marquer d'un drapeau toute carte qu'on ne comprend pas**,
 et en reparler à cinq ou six.
@@ -76,11 +75,27 @@ pure* (phase 5) — **puis *Make It Stick* le 2026-10-02**, et **tous les cinq s
 convertis depuis**. Plus **7 romans** au niveau `illustration` : les quatre dystopies
 du contrôle, deux tomes de *Fondation*, *I, Robot*.
 
-**Deux livres restent à lire**, acquis tous deux le 2026-10-02 : *Style* (Williams &
-Bizup) en tête de phase 2, et *Exercised* (Lieberman) en phase 1. Et ils n'entrent pas
-comme les trente-neuf autres — ce sont les **deux premiers titres venus de
+**Il ne reste aucun livre à lire**, et aucune file de travail. Les deux derniers
+titres — *Style* (Williams & Bizup, tête de phase 2) et *Exercised* (Lieberman,
+phase 1) — ont été acquis et convertis le 2026-10-02, et ils n'entraient pas comme
+les trente-neuf autres : ce sont les **deux premiers venus de
 [[Ref-Lecture_Lacunes]]**, donc d'un **axe constaté absent** plutôt que d'une liste
-d'envies. La file de vérification, elle, est vide.
+d'envies. Ils ont produit **20 notes et 59 cartes**, les deux convertis en entier — douze
+leçons pour *Style*, treize chapitres pour *Exercised*. *Style* est devenu **le
+livre le plus productif du vault** avec 11 notes atomiques, devant les trois Greene ;
+*Exercised* en a 9.
+
+**Ce qu'ils ont changé de plus que leur contenu :**
+
+| | |
+|---|---|
+| `corps/` **a presque triplé** | 5 → 14 notes, et c'est le domaine au meilleur ratio de `🟢` après `esprit/` |
+| `social/` a reçu **le régime `⬜` de `tech/`** | onze règles de conception de la prose, évaluées par contre-exemple. Première application de la décision 07 hors de `tech/` — et `⬜` est devenu le verdict **majoritaire** du vault, 66 sur 158 |
+| le contrôle d'atomicité **a servi** | les 10 premières notes sont tombées dans le dernier décile, et la relecture a trouvé **une vraie couture** : `Concept-Topique_Et_Emphase` portait aussi la distinction cohésion/cohérence, détachée en [[Concept-Cohésion_Et_Cohérence]]. Les 10 suivantes ont été écrites sous le seuil — le contrôle a changé la façon d'écrire, pas seulement trié |
+| **la règle d'autonomie aussi** | une carte demandait *« quel procédé cette note nomme-t-elle »*, sans référent en révision. Troisième contrôle du vault à trouver quelque chose qu'aucune relecture humaine n'avait vu |
+| **une contradiction entre deux sources** | [[Concept-Norme_Des_Huit_Heures]] (Lieberman) contre [[Source-Why_We_Sleep]] (Walker) sur la dose de sommeil. C'est la **première** du vault, et elle est inscrite en `## Actions` plutôt que lissée |
+| une question de gouvernance **est ouverte** | onze notes sur l'écriture justifient `social/écriture` au sens de la règle des 5 — mais le seuil était connu de celui qui les écrivait. L'argument tient moins bien à onze qu'à cinq, sans tomber. Voir le bas de [[MOC-Social]] |
+| la structure de *Style* **n'est pas celle de son titre** | ce n'est pas « clarté puis grâce » mais une **montée d'échelle** : phrase, passage, section, document, puis ce que la forme engage. Les notes les plus citables hors écriture sont les plus hautes dans cette échelle |
 
 > **Le pli à prendre :** un livre qui vient d'une lacune apporte sa justification avec
 > lui — la preuve de l'absence est déjà écrite, datée, et vérifiable. C'est l'inverse
@@ -181,6 +196,7 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 | **Un instrument mort qui avait l'air vivant** | la règle des 3 cartes devait signaler les notes non atomiques : `grep -c '^Q:' > 3`. Mesure sur 137 notes — **118 en ont exactement 3, 19 en ont 2, aucune n'en a 4**. Le nombre de cartes est un choix du rédacteur, pas une propriété de la note : la règle mesurait sa propre observance | remplacée par la longueur de prose de la seule section `## L'idée`, au 9ᵉ décile, et **présentée comme un échantillon de relecture, pas comme un verdict**. Vérifiée dans les deux sens le jour même : une note gardée, une scindée |
 | **Déplacer une carte entre deux notes** | trois échecs en cascade avant même d'arriver au précédent : le plugin ne supprime pas l'ancienne carte → la nouvelle est refusée comme doublon → l'empreinte du fichier est enregistrée malgré l'échec, donc jamais retentée | **ne jamais déplacer une carte.** Supprimer d'un côté, scanner, supprimer l'orpheline, puis écrire dans la cible une carte **neuve, formulée autrement** — un énoncé neuf ne peut pas être un doublon. **`orphelines.py` compare les ensembles, pas le placement** : il ne voit pas le piège suivant, d'où le contrôle d'alignement de [[Guide-Anki_Workflow]] |
 | **🔴 Un trou dans la suite des identifiants** | **le plugin apparie les identifiants aux cartes par ordre d'apparition, pas par adjacence** : le n-ième id va à la n-ième carte, où que le commentaire soit écrit. Une carte sans id placée ailleurs qu'en dernier **vole l'identifiant de la suivante**, et le scan écrase la note Anki voisine avec le mauvais contenu. Vérifié le 2026-10-02 sur deux notes | **une carte sans identifiant doit toujours être la dernière de son bloc** — donc on ajoute une carte **à la fin, jamais au milieu**. Réparation : tasser les identifiants en tête. **Contrôle ajouté à `audit.py`, hors réseau et en erreur** — un trou est signalé avant qu'un scan puisse faire le dégât. ⚠️ ma première tentative de réparation a échoué pour avoir cru à une insertion « un cran trop bas » |
+| **Une question sans critère de réussite** | « quelle nuance escamote-t-il ? » admet dix réponses défendables : impossible de savoir si la sienne compte. **Trouvé par Yinpi en révision, sur trois cartes** — ni l'audit ni Claude ne pouvaient le voir | nommer les candidats dans la question, le plus souvent un choix binaire. Contrôle ajouté en **info**, exemption par `cartes_relues:`. ⚠️ écrit deux fois : le motif `quelle?` ne couvrait pas « quel », donc il laissait passer la moitié des cas — **8 % du corpus antérieur**, pas 4 % |
 | **Le tableau de bord était aveugle à un domaine entier** | les 5 requêtes Dataview de [[MOC-Audit]] listaient `Esprit Social Tech Langues` et **pas `Corps`**, né après leur rédaction. Cinq notes, dont trois verdicts `🟢`, invisibles depuis la création du domaine | `Corps` réintégré aux cinq, et **contrôle ajouté** : l'audit compare les `FROM` aux dossiers réels. Même angle mort que `FOLDER_DECKS` côté Anki, et il a fallu le chercher pour le voir |
 | **Une dette qui n'était pas du travail** | 6 livres étaient `fiché` — le niveau le plus lourd — sans fiche, alors que [[Ref-Lecture_Ordre_de_Priorité]] les jugeait « doublons » ou « candidats `🔴`/`🟠` » **depuis le premier jour**. Le niveau avait été posé par défaut et jamais relu contre le jugement porté ailleurs | reclassés le 2026-10-01 : 3 en `dehors`, 3 en `lu-sans-fiche`. **Une dette n'est pas toujours du travail à faire, c'est parfois un classement à corriger** — et l'audit ne peut pas distinguer les deux : il voit qu'une fiche manque, pas qu'elle n'aurait jamais dû être attendue |
 | **Une file qui ne pouvait pas se vider** | le signal d'atomicité a un seuil **relatif** — le 9ᵉ décile — donc il renvoie toujours un dixième des notes. Une séance de relecture ne laissait aucune trace, et la suivante aurait relu les mêmes | champ `atomicite_relue`, même motif que `fiabilite_date`. L'audit ne signale qu'une note du décile qui ne le porte pas. **Une file infinie vaut une règle muette** |

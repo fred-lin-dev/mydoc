@@ -62,7 +62,7 @@ A: Sur la **facilité de traitement**, pas sur la rétention. C'est pourquoi l'e
 <!--ID: 1790928945338-->
 
 
-Q: **Illusion de fluence** — quelle nuance *Make It Stick* escamote-t-il sur la relecture ?
-A: Relire est inefficace **comme méthode principale**. Une relecture ciblée après une récupération **échouée** est autre chose, et il ne distingue pas les deux.
+Q: **Illusion de fluence** — relire **comme méthode principale**, et relire **après une récupération échouée** : *Make It Stick* distingue-t-il les deux ?
+A: **Non, et c'est sa nuance manquante.** La première est inefficace ; la seconde est déclenchée par un échec de rappel, donc dirigée vers ce qui manque. Le livre condamne la relecture en bloc.
 <!--ID: 1790928945341-->
 

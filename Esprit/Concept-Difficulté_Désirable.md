@@ -58,8 +58,8 @@ A: Une difficulté qui dégrade la performance immédiate et améliore la réten
 <!--ID: 1790928945322-->
 
 
-Q: **Difficulté désirable** — quelle inversion pratique en découle ?
-A: Une méthode d'étude qui donne l'**impression** de bien marcher est suspecte. Une qui donne l'impression de mal marcher se vérifie à distance avant d'être abandonnée.
+Q: **Difficulté désirable** — une méthode d'étude qui **donne l'impression de bien marcher** : que faut-il en conclure ?
+A: **Qu'elle est suspecte.** Le coût d'une bonne méthode est immédiat et visible, son bénéfice différé et invisible — le ressenti pointe donc à l'envers. Celle qui semble mal marcher se vérifie à distance avant d'être abandonnée.
 <!--ID: 1790928945327-->
 
 

@@ -375,6 +375,36 @@ Le test est une lecture à voix haute de la seule ligne `Q:`, sans rien d'autre
 sous les yeux. L'audit signale les démonstratifs sans référent, mais il ne
 remplace pas ce test — il ne sait pas lire une question.
 
+### La réponse doit être vérifiable — ajouté le 2026-10-02
+
+**Une question qui réclame un item abstrait sans nommer ses candidats n'a pas de critère
+de réussite.** On ne peut pas savoir si ce qu'on a trouvé compte.
+
+```
+✗  quelle nuance le livre escamote-t-il ?          dix réponses défendables
+✓  relire en méthode principale, ou après un       deux candidats nommés,
+   échec de rappel : le livre distingue-t-il ?     la réponse se vérifie
+```
+
+**Le correctif est toujours le même : nommer les candidats dans la question.** Le plus
+souvent ça donne un choix binaire, et c'est une amélioration et non un appauvrissement —
+une carte qu'on ne peut pas corriger ne mesure rien.
+
+L'audit signale ces questions en **info**, parce que le repérage est heuristique et que la
+réécriture est une décision. Une question signalée mais jugée acceptable s'exempte par
+`cartes_relues: AAAA-MM-JJ` dans le frontmatter de la note.
+
+> **D'où vient cette règle.** Yinpi a marqué trois cartes d'un drapeau en révision, avec
+> un diagnostic précis : *« pour le trauma, laquelle ne suit pas ? c'est écrit nulle
+> part »*. La réponse listait trois affirmations avec des étiquettes entre parenthèses et
+> ne désignait jamais celle qu'on demandait. **Ni l'audit ni Claude ne pouvaient trouver
+> ça** — seule la révision le pouvait.
+>
+> ⚠️ Et le contrôle a été écrit **deux fois** : le premier motif employait `quelle?`, qui
+> signifie « quell » ou « quelle » et **jamais « quel »**. Il laissait donc passer la
+> moitié des cas, dont les trois cartes fautives que Claude venait d'écrire lui-même.
+> Mesure corrigée : **8 % du corpus antérieur**, contre 4 % annoncés d'abord.
+
 ### ⚠️ Une carte neuve se met **en dernier**, jamais au milieu
 
 **Le plugin apparie les identifiants aux cartes par ordre d'apparition, pas par

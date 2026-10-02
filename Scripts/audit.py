@@ -62,6 +62,26 @@ CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
 # est heuristique — d'où une alerte et non une erreur : seule la lecture tranche.
 CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
 CARTE_AVEC_ID = re.compile(r"^Q: .+\nA: .+$(?:\n<!--ID: (\d+)-->)?", re.MULTILINE)
+# Décision 08 : une question qui réclame un item **abstrait** sans nommer ses
+# candidats n'a pas de critère de réussite. On ne peut pas savoir si ce qu'on a
+# trouvé compte — « quelle nuance escamote-t-il ? » admet dix réponses défendables.
+# Repéré par Yinpi en révision sur trois cartes, le 2026-10-02 ; mesuré ensuite sur
+# tout le corpus. Heuristique, donc **info** : la réécriture est une décision.
+OUVERTE = re.compile(
+    # ⚠️ `quelle?` ne couvre PAS « quel » — le `?` porte sur le `e`, donc le motif
+    # lisait « quell » ou « quelle ». Bug du 2026-10-02 : toutes les questions en
+    # « quel … » passaient à travers, y compris celles qu'on cherchait.
+    r"\b(quel(?:le)?s?|qu'est-ce qu[ei])\b[^?]{0,40}\b("
+    r"nuances?|inversions?|crit[èe]res?|limites?|faiblesses?|usages?|"
+    r"cons[ée]quences?|port[ée]e|failles?|r[ée]serves?|apports?|"
+    r"enseignements?|le[çc]ons?)\b",
+    re.IGNORECASE,
+)
+# Ce qui nomme les candidats dans la question, et lève donc le signalement.
+CANDIDATS = re.compile(
+    r"\bou\b|\bparmi\b|plut[ôo]t que|«|:|\bentre\b|\bdeux\b|\btrois\b"
+    r"|\blaquelle\b|\blequel\b", re.IGNORECASE)
+CARTES_RELUES = re.compile(r"^cartes_relues: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜🔵]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
 IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
@@ -228,6 +248,15 @@ def main():
                           "le prochain scan écrasera la mauvaise note Anki. "
                           "Une carte neuve va **en dernier** (décision 08)")
                 )
+
+        if not CARTES_RELUES.search(contenu):
+            for question in CARTE_LIGNE.findall(contenu):
+                if OUVERTE.search(question) and not CANDIDATS.search(question):
+                    infos.append(
+                        (rel, f"question ouverte, sans critère de réussite : "
+                              f"`{question[:62]}…` — nommer les candidats, ou "
+                              "`cartes_relues:` si elle est acceptable (décision 08)")
+                    )
 
         for question in CARTE_LIGNE.findall(contenu):
             nu = CITATION.sub("", question)

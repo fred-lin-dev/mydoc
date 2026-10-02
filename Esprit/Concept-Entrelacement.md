@@ -62,7 +62,7 @@ A: De la **similarité entre les catégories** : il aide d'autant plus qu'elles 
 <!--ID: 1790928945315-->
 
 
-Q: **Entrelacement** — quel critère pratique en découle ?
-A: Entrelacer ce qu'on risque de **confondre**, grouper ce qu'on risque seulement de mal exécuter. La condition découle du mécanisme : sans choix difficile, il n'y a rien à apprendre.
+Q: **Entrelacement** — faut-il entrelacer ce qu'on risque de **confondre**, ou ce qu'on risque de **mal exécuter** ?
+A: **Ce qu'on risque de confondre.** Ce qu'on risque de mal exécuter se groupe. La condition découle du mécanisme : sans choix difficile, il n'y a rien à apprendre.
 <!--ID: 1790928945319-->
 
