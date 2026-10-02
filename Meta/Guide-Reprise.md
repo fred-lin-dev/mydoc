@@ -29,29 +29,38 @@ tags: [meta/guide]
 
 ## 2 · L'état, en chiffres
 
+*Recalculé depuis les fichiers le 2026-10-02. **Ne pas faire confiance à ce bloc sans le
+revérifier** — il a été périmé deux fois, et c'est le seul endroit du vault qu'aucun
+contrôle ne vérifie.*
+
 ```
-184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
-**0 erreur · 0 alerte · 0 info** — l'audit est entièrement vide
-350 cartes, toutes synchronisées vers Anki
-57 PDF, tous avec un niveau de périmètre
+208 notes · 143 Concept- · 39 Source- · 16 Ref- · 5 MOC- · 5 Guide-
+0 erreur · 0 alerte · 0 info — l'audit est entièrement vide
+407 cartes écrites = 407 notes Anki · 0 orpheline · 0 décalée
+85 titres à l'inventaire, 58 sur le disque (369 Mo)
 ```
 
 | Domaine | `Concept-` | `Source-` | `Ref-` |
 |---|---|---|---|
-| `Esprit/` | 75 | 22 | 6 |
-| `Social/` | 38 | 11 | 6 |
+| `Esprit/` | 84 | 23 | 6 |
+| `Social/` | 50 | 13 | 6 |
 | `Corps/` | 5 | 1 | 0 |
-| `Tech/` | 4 | 2 | 0 |
+| `Tech/` | **4** — toutes `⬜` | 2 | 0 |
 | `Langues/` | **0** | 0 | 0 |
 
-**Verdicts de fiabilité :** 🟠 59 · ⬜ 55 · 🟢 17 · 🔴 5 · 🔵 4 · ⚪ **0**
-**Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
-pas inventés. Le plus ancien a 0 mois ; horizon 24.
-**Inventaire :** 84 titres, **57 sur le disque** (352 Mo) — 31 fichés · 13 lu-sans-fiche ·
-19 illustration · 21 dehors. Trois PDF supprimés le 2026-10-01 : redondance avec *Deep Work*
-et *Essentialism*, zéro note produite, rien n'en dépendait.
-**15 titres du disque ne sont sur aucune liste de lecture** — en attente de décision,
-garder ou jeter. Et **8 livres sont `fiché` sans avoir de fiche**, sur la liste ou non
+**Verdicts :** 🟠 61 · ⬜ 55 · 🟢 18 · 🔴 5 · 🔵 4 · **⚪ 0**
+Les **88 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le plus ancien a
+0 mois. **La file de vérification est vide** — les 42 dettes de la construction ont toutes
+été examinées, les 4 restantes sont en `🔵 invérifiable`.
+
+**Inventaire :** 32 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors.
+**12 titres du disque ne sont sur aucune liste de lecture** — niveau tranché, conservation
+tranchée. **Aucun livre `fiché` n'est sans fiche.**
+
+**Révision Anki : 27 cartes vues sur 407.** C'est la seule boucle de rétroaction qui trouve
+ce que ni l'audit ni Claude ne trouvent — elle a détecté les 92 questions sans contexte et
+trois énoncés incompréhensibles. **Marquer d'un drapeau toute carte qu'on ne comprend pas**,
+et en reparler à cinq ou six.
 
 ---
 
