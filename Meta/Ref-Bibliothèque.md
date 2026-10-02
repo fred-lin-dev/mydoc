@@ -38,11 +38,20 @@ Les quatre niveaux, et ce qu'ils impliquent :
 > sans base empirique — et le champ `fiabilite` ne veut plus rien dire.
 
 **Colonnes, dans cet ordre — le script les parse. Ne pas les réarranger.**
-`Fichier` est le nom du PDF sans extension ; pour un titre non possédé, c'est le
-**nom qu'il devra porter** à l'acquisition. `💾` dit s'il est dans `Extras/Books/`,
+`Fichier` est le nom du fichier **sans extension** ; pour un titre non possédé, c'est
+le **nom qu'il devra porter** à l'acquisition. `💾` dit s'il est dans `Extras/Books/`,
 et l'audit recoupe cette colonne avec le disque.
 
-## Fiché — 32 titres, 32 sur le disque
+> **Le format n'est pas la règle.** La décision 02 exige que `Source-<titre>` ↔
+> `<titre>.<ext>` reste une transformation mécanique — pas que l'extension soit
+> `.pdf`. `Exercised` est arrivé en **EPUB** le 2026-10-02, et c'est `audit.py` qui
+> a dû apprendre à le voir (`FORMATS_LIVRE`), pas le nommage qui a dû plier.
+> **Conséquence à ne pas oublier : un EPUB n'a pas de pagination stable.** Les
+> citations d'un titre EPUB se font par **chapitre et intertitre**, jamais par page —
+> sinon le champ `fiabilite_note` devient invérifiable, ce que les avertissements
+> d'édition de Goffman et de Williams cherchaient précisément à empêcher.
+
+## Fiché — 34 titres, 34 sur le disque
 
 *Fiche `Source-` + notes `Concept-`. Le garde-fou 11 s'applique : une fiche sans note est signalée, et un livre fiché sans fiche est compté en dette.*
 
@@ -55,6 +64,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Deep_Work | ✅ | fiché | esprit/productivité | priorité |
 | Dressing_the_Man_Mastering_the_Art_of_Permanent_Fashion | ✅ | fiché | social/style | priorité |
 | Essentialism | ✅ | fiché | esprit/productivité | priorité |
+| Exercised | ✅ | fiché | corps/santé | priorité |
 | How_to_Take_Smart_Notes | ✅ | fiché | esprit/productivité | priorité |
 | How_to_Win_Friends_and_Influence_People | ✅ | fiché | social/influence | priorité |
 | Le_Pouvoir_Rhétorique | ✅ | fiché | social/influence | priorité |
@@ -67,6 +77,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Propaganda | ✅ | fiché | social/influence | priorité |
 | Skin_in_the_Game | ✅ | fiché | esprit/stratégie | priorité |
 | So_Good_They_Cant_Ignore_You | ✅ | fiché | esprit/productivité | priorité |
+| Style_Lessons_in_Clarity_and_Grace | ✅ | fiché | social/influence | priorité |
 | The_33_Strategies_of_War | ✅ | fiché | esprit/stratégie | priorité |
 | The_48_Laws_of_Power | ✅ | fiché | esprit/stratégie | priorité |
 | The_Black_Swan | ✅ | fiché | esprit/stratégie | priorité |
@@ -94,7 +105,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Modern_Compiler_Implementation_in_ML | ✅ | lu-sans-fiche | tech/programmation | — |
 | On_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
 | Relations_in_Public | ✅ | lu-sans-fiche | social/influence | priorité |
-| Stage_Academy_Workbook_2024 | ✅ | lu-sans-fiche | social/séduction | — |
+| Stage_Academy_Workbook_2024 | ✅ | lu-sans-fiche | social/charisme | — |
 | Surrounded_by_Idiots | ✅ | lu-sans-fiche | social/influence | — |
 | The_Art_of_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
 | The_Happiness_Advantage | ✅ | lu-sans-fiche | esprit/psychologie | — |

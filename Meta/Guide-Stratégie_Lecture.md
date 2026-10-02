@@ -77,9 +77,15 @@ que ce soit. C'est le seul point où les trois listes pourraient se contaminer.
 n'illustre rien tant que le concept n'existe pas dans le vault. Lire *Foundation* avant
 *Thinking in Systems*, c'est avoir un exemple sans rien à illustrer.
 
-Restent quatre titres non lus sur la liste 1, tous acquis le 2026-09-29 :
-*Attached*, *The Presentation of Self*, *Relations in Public*, *Critique of Pure
-Reason*. Les trente-quatre autres sont convertis.
+**Deux titres restent non lus sur la liste 1**, tous deux acquis le 2026-10-02 :
+*Style* (Williams & Bizup) en tête de phase 2, et *Exercised* (Lieberman) en
+phase 1. Les trente-neuf autres sont convertis — les quatre entrés le 2026-09-29
+l'ont été depuis.
+
+Et il entre par une porte neuve : c'est le premier titre venu de
+[[Ref-Lecture_Lacunes]], donc d'un **axe constaté absent**, et non d'une liste
+d'envies. La procédure ci-dessus ne change pas pour autant — l'inventaire d'abord,
+la phase ensuite.
 
 ## Les instruments passent avant, hors phase
 
@@ -130,3 +136,4 @@ décider de la position d'un instrument.
 ### 🔗 Connexions
 * [[Guide-Conventions]] — *les règles que cette procédure applique.*
 * [[MOC-Audit]] — *l'état réel de la conversion.*
+* [[Ref-Lecture_Lacunes]] — *les axes qu'aucune des trois listes ne couvre, et la preuve de leur absence.*

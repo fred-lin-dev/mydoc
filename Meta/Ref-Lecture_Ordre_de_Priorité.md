@@ -14,8 +14,8 @@ le **Socle** (ce qui juge tout le reste).
 
 | | |
 |---|---|
-| titres | **39** |
-| sur le disque | **39** — tous |
+| titres | **41** |
+| sur le disque | **41** — tous |
 | à acquérir | **0** |
 | fichés | **0** ← le seul chiffre qui compte |
 
@@ -39,6 +39,7 @@ sans rien perdre.
 | **How to Take Smart Notes** — Ahrens | ✅ | | La méthode dont ce vault descend, et la raison pour laquelle il passe en tête : c'est elle qui rend les trente-huit suivants capitalisables au lieu d'oubliables. |
 | **Thinking, Fast and Slow** — Kahneman | ✅ | | **Déplacé de la phase 5 à la phase 1 le 2026-10-02.** Le catalogue des biais par celui qui les a mesurés — c'est l'instrument qui permet de lire tout le reste avec du recul, donc il ne peut pas venir après. Saute le chapitre sur l'amorçage, désavoué par l'auteur en 2017. |
 | **Make It Stick** — Brown, Roediger & McDaniel | ✅ | | **La seule science dans la phase, et elle est de première main** : Roediger est le chercheur de l'effet de test. Acquis le 2026-10-02 pour une raison précise — [[Concept-Active_Recall]] et [[Concept-Répétition_Espacée]] citaient directement une méta-analyse, sans livre derrière. Ce qu'il doit apporter et que le vault n'a pas : les **difficultés désirables** et l'**entrelacement**. |
+| **Exercised** — Lieberman | ✅ | | **Acquis le 2026-10-02 par la lacune n° 4 de [[Ref-Lecture_Lacunes]]** : `corps/` ne contenait qu'un livre, et c'était le plus critiqué de la liste. Le substrat physique de la concentration que *Deep Work* prescrit — cadre évolutionniste et données, pas protocoles. **Placé ici et non au Socle à dessein** : *Why We Sleep* y est, et la liste constate qu'il est « lu trop tard pour ce qu'il conditionne ». Mettre le mouvement à côté du sommeil reproduirait une erreur déjà documentée. ⚠️ **Édition Pantheon 2021 (US), en EPUB — aucune pagination stable : citer par chapitre, jamais par page.** |
 | **Deep Work** — Newport | ✅ | | Le prérequis matériel : sans blocs de concentration protégés, aucune note ne s'écrit. Donne les protocoles, pas seulement le constat. |
 | **So Good They Can't Ignore You** — Newport | ✅ | | Répond à la question que *Deep Work* laisse ouverte : la concentration au service de quoi. Tue « suis ta passion » et la remplace par le capital de compétences rares. |
 | **Atomic Habits** — Clear | ✅ | | La mécanique d'installation : la boucle signal → envie → réponse → récompense, et les quatre leviers pour l'exploiter. C'est ce qui rend tenable ce que les deux Newport prescrivent. |
@@ -54,6 +55,7 @@ sans rien perdre.
 
 | Titre                                    | 💾  | ⏳   | Pourquoi celui-là                                                                                                                                               |
 | ---------------------------------------- | --- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Style: Lessons in Clarity and Grace** — Williams & Bizup | ✅ | | **Acquis le 2026-10-02, et le premier titre entré par [[Ref-Lecture_Lacunes]]** plutôt que par la liste d'origine. Le seul écrit d'une phase qui n'avait que de l'oral — Viktorovitch, Cabane et les deux Carnegie. Placé en tête parce que la prose est le produit de sortie de ce vault : il se rembourse sur chaque note écrite après lui, ce qu'aucun de ses voisins ne fait. ⚠️ **13ᵉ édition, Pearson 2019, Williams & Bizup** — Bizup a révisé le texte après la mort de Williams, et la pagination diffère de celle de *Toward Clarity and Grace* (1990). |
 | **Le Pouvoir Rhétorique** — Viktorovitch | ✅   |     | Le plus technique de la phase et le seul en français : figures, sophismes et procédés de débat nommés un par un. Sert autant à se défendre qu'à convaincre.     |
 | **The Charisma Myth** — Cabane           | ✅   |     | Décompose le charisme en comportements observables — présence, puissance, chaleur — au lieu d'en faire un don. Fragile sur les études, utile sur les exercices. |
 | **How to Win Friends** — Carnegie        | ✅   | ⏳   | Quatre-vingt-dix ans, et presque tout ce qui s'est écrit depuis en est une reformulation. À lire pour être à la source, pas pour la surprise.                   |
@@ -205,6 +207,7 @@ jamais « prouvé » sans la référence à côté.**
 |---|---|---|---|
 | How to Take Smart Notes | Sönke Ahrens | ✅ |  |
 | Make It Stick | Brown, Roediger & McDaniel | ✅ |  |
+| Exercised | Daniel Lieberman | ✅ |  |
 | Deep Work | Cal Newport | ✅ |  |
 | So Good They Can't Ignore You | Cal Newport | ✅ |  |
 | Atomic Habits | James Clear | ✅ |  |
@@ -212,6 +215,7 @@ jamais « prouvé » sans la référence à côté.**
 | The Pragmatic Programmer | Thomas & Hunt | ✅ |  |
 | Thinking in Systems | Donella Meadows | ✅ |  |
 | Essentialism | Greg McKeown | ✅ |  |
+| Style: Lessons in Clarity and Grace | Williams & Bizup | ✅ |  |
 | Le Pouvoir Rhétorique | Clément Viktorovitch | ✅ |  |
 | The Charisma Myth | Olivia Fox Cabane | ✅ |  |
 | How to Win Friends and Influence People | Dale Carnegie | ✅ | ⏳ |
@@ -243,7 +247,7 @@ jamais « prouvé » sans la référence à côté.**
 | Relations in Public | Erving Goffman | ✅ | ⏳ |
 | Critique of Pure Reason | Emmanuel Kant | ✅ | ⏳ |
 
-**12 titres Lindy sur 39.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
+**12 titres Lindy sur 41.** Tous sont sur le disque, et tous ont un niveau dans [[Ref-Bibliothèque]].
 
 ---
 
@@ -286,3 +290,4 @@ et le raisonnement survivent, les octets non. **Même statut que les 24 romans n
 * [[Guide-Stratégie_Lecture]] — *comment les trois listes s'articulent.*
 * [[Ref-Bibliothèque]] — *le niveau de périmètre de chaque PDF.*
 * [[Ref-Lecture_SciFi_Stratégique]] — *la liste qui fournit les exemples.*
+* [[Ref-Lecture_Lacunes]] — *ce que ces 39 titres ne couvrent pas ; une lacune fermée par acquisition entre ici.*

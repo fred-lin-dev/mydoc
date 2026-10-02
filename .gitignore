@@ -4,9 +4,13 @@
 .obsidian/cache
 .trash/
 
-# Les PDF : 267 Mo, immuables, et git ne sait pas les diffuser utilement.
+# Les livres : 394 Mo, immuables, et git ne sait pas les diffuser utilement.
 # Le savoir est dans les notes ; les sources se sauvegardent à part.
+# L'extension n'était pas filtrée au bon niveau : `Exercised.epub`, arrivé le
+# 2026-10-02, échappait à la règle et partait au commit. Voir FORMATS_LIVRE
+# dans Scripts/audit.py — les deux listes doivent rester d'accord.
 Extras/**/*.pdf
+Extras/**/*.epub
 
 # Sous-produit de l'import des scripts pour les tester.
 __pycache__/

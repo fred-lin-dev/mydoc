@@ -20,6 +20,7 @@ tags: [meta/guide]
 | [[Guide-Méthode_Zettelkasten]] | le document d'origine, apporté par Yinpi — le raisonnement derrière chaque décision |
 | cette note | l'état, les constats, les pièges |
 | [[Guide-Stratégie_Lecture]] | comment les trois listes de lecture s'articulent, et le filtre ⏳ |
+| [[Ref-Lecture_Lacunes]] | les six axes absents de la bibliothèque — la seule file de lecture qui reste |
 | [[Guide-Anki_Workflow]] | la synchronisation des cartes, et ses trois pièges |
 | [[MOC-Audit]] | le tableau de bord Dataview · et `python3 Scripts/audit.py` pour le reste |
 
@@ -34,10 +35,10 @@ revérifier** — il a été périmé deux fois, et c'est le seul endroit du vau
 contrôle ne vérifie.*
 
 ```
-208 notes · 143 Concept- · 39 Source- · 16 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 0 info — l'audit est entièrement vide
+209 notes · 143 Concept- · 39 Source- · 17 Ref- · 5 MOC- · 5 Guide-
+0 erreur · 0 alerte · 2 infos — Style et Exercised, fichés sans fiche
 407 cartes écrites = 407 notes Anki · 0 orpheline · 0 décalée
-85 titres à l'inventaire, 58 sur le disque (369 Mo)
+87 titres à l'inventaire, 60 sur le disque (394 Mo) — dont 1 EPUB
 ```
 
 | Domaine | `Concept-` | `Source-` | `Ref-` |
@@ -53,9 +54,11 @@ Les **88 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le pl
 0 mois. **La file de vérification est vide** — les 42 dettes de la construction ont toutes
 été examinées, les 4 restantes sont en `🔵 invérifiable`.
 
-**Inventaire :** 32 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors.
+**Inventaire :** 34 fichés · 13 lu-sans-fiche · 19 illustration · 21 dehors.
 **12 titres du disque ne sont sur aucune liste de lecture** — niveau tranché, conservation
-tranchée. **Aucun livre `fiché` n'est sans fiche.**
+tranchée. **Deux livres `fiché` sont sans fiche** — *Style* et *Exercised*, acquis tous deux le
+2026-10-02 : ce sont les seules dettes ouvertes du vault, et elles sont normales, les
+livres ne sont pas lus.
 
 **Révision Anki : 27 cartes vues sur 407.** C'est la seule boucle de rétroaction qui trouve
 ce que ni l'audit ni Claude ne trouvent — elle a détecté les 92 questions sans contexte et
@@ -66,14 +69,22 @@ et en reparler à cinq ou six.
 
 ## 3 · Ce qui a été fait
 
-**Les 34 titres de [[Ref-Lecture_Ordre_de_Priorité]] étaient traités** ; **quatre s'y sont
-ajoutés le 2026-09-29** et restent à lire — *Attached* (phase 3), *The Presentation of Self*,
-*Relations in Public* et la *Critique de la raison pure* (phase 5). La liste compte donc 38 titres, en cinq phases :
-Moteur, Véhicule, Navigation, Stratégie, Socle. Plus **7 romans** au niveau `illustration` —
-les quatre dystopies du contrôle, deux tomes de *Fondation*, *I, Robot*.
+**La liste 1 compte 41 titres**, en cinq phases : Moteur, Véhicule, Navigation,
+Stratégie, Socle. Elle en comptait 34 à la construction ; **quatre sont entrés le
+2026-09-29** — *Attached* (phase 3), les deux Goffman et la *Critique de la raison
+pure* (phase 5) — **puis *Make It Stick* le 2026-10-02**, et **tous les cinq sont
+convertis depuis**. Plus **7 romans** au niveau `illustration` : les quatre dystopies
+du contrôle, deux tomes de *Fondation*, *I, Robot*.
 
-Il ne reste **aucun livre à lire** dans les listes. La seule file de travail est celle des
-37 dettes de vérification.
+**Deux livres restent à lire**, acquis tous deux le 2026-10-02 : *Style* (Williams &
+Bizup) en tête de phase 2, et *Exercised* (Lieberman) en phase 1. Et ils n'entrent pas
+comme les trente-neuf autres — ce sont les **deux premiers titres venus de
+[[Ref-Lecture_Lacunes]]**, donc d'un **axe constaté absent** plutôt que d'une liste
+d'envies. La file de vérification, elle, est vide.
+
+> **Le pli à prendre :** un livre qui vient d'une lacune apporte sa justification avec
+> lui — la preuve de l'absence est déjà écrite, datée, et vérifiable. C'est l'inverse
+> des six niveaux posés par défaut qu'il a fallu relire en bloc le 2026-10-01.
 
 ### Ce qui a changé par rapport au guide d'origine
 

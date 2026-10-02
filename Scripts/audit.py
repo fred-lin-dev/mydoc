@@ -27,6 +27,10 @@ EXCLUS = {".obsidian", ".git", "Templates", "Scripts", "Extras", ".trash"}
 
 BAREME_PERIMETRE = {"fiché", "lu-sans-fiche", "illustration", "dehors"}
 
+# Formats acceptés pour un livre sur le disque. Voir le commentaire du
+# recoupement 💾 : l'extension varie, le nom reste mécanique.
+FORMATS_LIVRE = {".pdf", ".epub"}
+
 BAREME = {"solide", "contesté", "réfuté", "non évalué", "non applicable", "invérifiable"}
 
 # Ces verdicts exigent une référence **et** une date, et ils se périment.
@@ -416,10 +420,15 @@ def main():
                                 f"ligne {i} : le domaine `{absent}/` est absent du "
                                 f"`FROM` — ses notes sont invisibles au tableau de bord"))
 
-    pdfs = {p.stem for p in RACINE.rglob("*.pdf")}
+    # Le format n'est pas la règle : la décision 02 exige que `Source-<titre>`
+    # ↔ `<titre>.<ext>` reste une transformation mécanique, pas que l'extension
+    # soit `.pdf`. Un EPUB était invisible ici, donc une ligne 💾 ✅ légitime
+    # produisait « marqué ✅ mais absent ». Constaté le 2026-10-02 avec Exercised.
+    pdfs = {p.stem for p in RACINE.rglob("*")
+            if p.suffix.lower() in FORMATS_LIVRE}
     for absent in sorted(pdfs - set(niveaux)):
         alertes.append((Path(NOM_REF),
-                        f"PDF hors inventaire : `{absent}` n'a aucun niveau"))
+                        f"livre hors inventaire : `{absent}` n'a aucun niveau"))
 
     # La colonne 💾 se recoupe avec le disque, sinon elle dérive en silence.
     for titre, dit_possede in sorted(possedes.items()):
@@ -445,7 +454,7 @@ def main():
     erreurs_seules = "--erreurs" in sys.argv
     print("# Rapport d'audit\n")
     print(f"- notes auditées : **{len(fichiers)}**")
-    print(f"- PDF dans `Extras/` : **{len(pdfs)}**")
+    print(f"- livres dans `Extras/` : **{len(pdfs)}**")
     print(f"- fiches `Source-` : **{fiches}**")
     print(f"- fiches ayant produit au moins une note : **{converties}**")
     if ages:
