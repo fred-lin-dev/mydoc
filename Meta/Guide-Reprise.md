@@ -31,8 +31,7 @@ tags: [meta/guide]
 
 ```
 184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 4 infos — **la file de vérification est vidée**
-4 dettes ⚪ restantes, toutes « examinées, invérifiables »
+**0 erreur · 0 alerte · 0 info** — l'audit est entièrement vide
 350 cartes, toutes synchronisées vers Anki
 57 PDF, tous avec un niveau de périmètre
 ```
@@ -45,7 +44,7 @@ tags: [meta/guide]
 | `Tech/` | 4 | 2 | 0 |
 | `Langues/` | **0** | 0 | 0 |
 
-**Verdicts de fiabilité :** 🟠 59 · ⬜ 55 · 🟢 17 · 🔴 5 · ⚪ **4**
+**Verdicts de fiabilité :** 🟠 59 · ⬜ 55 · 🟢 17 · 🔴 5 · 🔵 4 · ⚪ **0**
 **Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
 pas inventés. Le plus ancien a 0 mois ; horizon 24.
 **Inventaire :** 84 titres, **57 sur le disque** (352 Mo) — 31 fichés · 13 lu-sans-fiche ·
@@ -80,6 +79,7 @@ Quatre ajouts au modèle, tous décidés en cours de route et consignés dans le
 | **Règle d'autonomie des cartes** (décision 08) | ajoutée le 2026-09-28 après usage réel : 92 cartes sur 350 étaient irrésolubles en révision. Une question doit nommer son sujet ; préfixe `**Titre** — ` là où elle ne se suffit pas |
 | **Signal d'atomicité** (décision 01) | 2026-09-30 : le signal d'origine ne pouvait pas se déclencher. Le nouveau mesure la section `## L'idée` seule — une longue vérification est un bon signe, une longue idée non — et se présente comme un échantillon, jamais comme un verdict |
 | **`fiabilite_date`** (décision 05) | 2026-09-30 : un verdict empirique dépend d'un état de la littérature, et cet état a une date. Obligatoire sur `🟢🟠🔴`, absent de `⚪⬜` — une définition ne vieillit pas. Horizon **24 mois**, au-delà l'audit rouvre la dette. **Le seul contrôle du vault dont le déclenchement ne dépende de la discipline de personne** |
+| **6ᵉ valeur au barème : `🔵 invérifiable`** (décision 05) | 2026-10-02, après que le trou s'est présenté **quatre fois**. `⚪` disait deux choses incompatibles — « pas encore examiné » et « examiné, rien ne permet de trancher ». La seconde restait dans la file, où quelqu'un refaisait un travail déjà fait. **`🔵` porte une date et se périme** comme un verdict tranché : une littérature peut paraître. C'est ce qui le sépare de `⬜`, qui ne vieillit pas |
 | **Inventaire unique des livres** | 2026-09-29 : `Ref-Périmètre_Bibliothèque` est devenu [[Ref-Bibliothèque]], l'inventaire complet — 84 titres, possédés ou non, avec niveau, domaine et liste d'origine. Les `Ref-Lecture_*` ont perdu leurs colonnes Domaine et Périmètre : un niveau n'est déclaré qu'à un endroit |
 
 ---
@@ -170,26 +170,17 @@ périmètre, [[Concept-Fenêtre_Brisée]] l'existence de l'audit.
 
 ## 6 · Ce qui reste à faire
 
-### ⚠️ Le barème manque d'une sixième valeur — constat du 2026-10-01
+### ✅ Le trou du barème est bouché — `🔵 invérifiable`, 2026-10-02
 
-**`⚪` signifie désormais deux choses incompatibles :** « pas encore examiné » et
-« examiné, et jugé invérifiable ». La seconde est écrite en clair dans
-[[Concept-Structure_Ascendante]] et [[Concept-Réserve_De_Matière]], qui ont été examinées
-sans qu'on puisse trancher — et qui resteront donc dans la file, où quelqu'un les
-réexaminera.
+`⚪` disait deux choses incompatibles : « pas encore examiné » et « examiné, et rien ne
+permet de trancher ». La seconde restait dans la file de dette, où elle aurait été
+réexaminée indéfiniment. Le trou s'est présenté **quatre fois** avant d'être traité, et
+une fois j'ai contourné en reclassant en `⬜` ([[Concept-Rareté_Comme_Valeur]]) — un
+contournement que j'avais signalé comme tel.
 
-Le même trou s'est présenté quatre fois :
-
-| Cas | Ce qui n'a pas de case |
-|---|---|
-| une note tirée de ma pratique | un résultat personnel, n = 1 |
-| `Concept-Rareté_Comme_Valeur` | examiné, le cœur était une définition → reclassé `⬜`, contournement |
-| `Concept-Structure_Ascendante` | examiné, aucune littérature ne compare les deux méthodes |
-| `Concept-Réserve_De_Matière` | examiné, l'affirmation n'a pas d'appui propre |
-
-**Ce serait une valeur du genre `🔵 invérifiable` ou `⚫ examiné sans appui`**, avec sa
-`fiabilite_date` — elle sortirait de la file de dette tout en disant qu'on a cherché. C'est
-une décision de méthode, donc de Yinpi, pas la mienne.
+Les trois valeurs voisines se distinguent maintenant par **ce qu'on a fait et ce qui
+existe** : `⚪` on n'a pas cherché · `🔵` on a cherché, rien n'existe · `⬜` il n'y avait
+rien à chercher. Détail en décision 05.
 
 ### ✅ La file de vérification est vidée — 2026-10-02
 

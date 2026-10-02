@@ -27,12 +27,17 @@ EXCLUS = {".obsidian", ".git", "Templates", "Scripts", "Extras", ".trash"}
 
 BAREME_PERIMETRE = {"fiché", "lu-sans-fiche", "illustration", "dehors"}
 
-BAREME = {"solide", "contesté", "réfuté", "non évalué", "non applicable"}
-VERDICTS_AVEC_REFERENCE = {"solide", "contesté", "réfuté"}
+BAREME = {"solide", "contesté", "réfuté", "non évalué", "non applicable", "invérifiable"}
 
-# Horizon de péremption d'un verdict empirique. Seuls les verdicts tranchés
-# vieillissent : une définition `⬜` ne devient pas fausse avec le temps, et un `⚪`
-# est déjà une dette. Vingt-quatre mois est l'ordre de grandeur auquel une
+# Ces verdicts exigent une référence **et** une date, et ils se périment.
+# `invérifiable` en fait partie : il dit « examiné à cette date, rien ne permettait de
+# trancher », et une littérature peut apparaître ensuite. C'est ce qui le distingue de
+# `non évalué` (jamais regardé) et de `non applicable` (rien à regarder).
+VERDICTS_AVEC_REFERENCE = {"solide", "contesté", "réfuté", "invérifiable"}
+
+# Horizon de péremption. Vieillissent : les trois verdicts tranchés et `🔵
+# invérifiable`. Ne vieillissent pas : `⬜`, une définition ne devient pas fausse avec
+# le temps, et `⚪`, qui est déjà une dette. Vingt-quatre mois est l'ordre de grandeur auquel une
 # méta-analyse ou une réplication large peut renverser une conclusion.
 #
 # ⚠️  Contrairement à l'ancienne règle des 3 cartes, ce contrôle **se déclenchera
@@ -54,7 +59,7 @@ CARTE_Q = re.compile(r"^Q:", re.MULTILINE)
 CARTE_LIGNE = re.compile(r"^Q: (.+)$", re.MULTILINE)
 CARTE_AVEC_ID = re.compile(r"^Q: .+\nA: .+$(?:\n<!--ID: (\d+)-->)?", re.MULTILINE)
 RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
-LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
+LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜🔵]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
 IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
 CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
 CITATION = re.compile(r"«[^»]*»")
@@ -385,7 +390,8 @@ def main():
                             f"l'en-tête annonce {total.group(1)} notes, il y en a "
                             f"{sum(reels.values())}"))
         for emoji, libelle in (("🟢", "solide"), ("🟠", "contesté"), ("🔴", "réfuté"),
-                               ("⬜", "non applicable"), ("⚪", "non évalué")):
+                               ("⬜", "non applicable"), ("⚪", "non évalué"),
+                               ("🔵", "invérifiable")):
             m = re.search(rf"^\| {emoji} {libelle} \| \**(\d+)\**", texte_moc, re.M)
             if m and int(m.group(1)) != reels[emoji]:
                 alertes.append((moc.relative_to(RACINE),

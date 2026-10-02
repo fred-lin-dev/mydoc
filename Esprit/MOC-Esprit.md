@@ -14,7 +14,8 @@ tags: [meta/moc, esprit/productivité]
 | 🟠 contesté | 28 |
 | 🔴 réfuté | 1 |
 | ⬜ non applicable | 38 — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 2 |
+| ⚪ non évalué | 0 |
+| 🔵 invérifiable | 2 — *les deux notes examinées sans qu'aucune littérature permette de trancher* |
 
 ---
 
@@ -26,10 +27,10 @@ tags: [meta/moc, esprit/productivité]
 * ⬜ [[Concept-Zettelkasten]] — *atomicité, liens explicites, aucune hiérarchie.*
 * ⬜ [[Concept-Arbitrage_Inévitable]] — *« quel problème je veux » plutôt que « comment faire les deux ».*
 * 🟠 [[Concept-Écriture_Comme_Medium]] — *écrire n'est pas ce qui suit la pensée, c'en est le support.*
-* ⚪ [[Concept-Structure_Ascendante]] — *les structures émergent du matériau.*
+* 🔵 [[Concept-Structure_Ascendante]] — *les structures émergent du matériau.*
 * 🟠 [[Concept-Productivité_À_Horaire_Fixe]] — *fixer la fin, puis y faire rentrer le travail.*
 * 🟠 [[Concept-Règle_Des_90_Pour_Cent]] — *un seuil explicite, fixé avant d'évaluer.*
-* ⚪ [[Concept-Paradoxe_Du_Succès]] — *le succès produit les options qui détruisent ce qui l'a produit.*
+* 🔵 [[Concept-Paradoxe_Du_Succès]] — *le succès produit les options qui détruisent ce qui l'a produit.*
 
 ## Mémoire et apprentissage — `esprit/psychologie`
 

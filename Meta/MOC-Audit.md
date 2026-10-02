@@ -24,6 +24,10 @@ tags: [meta/moc]
 *La dette de fiabilité est assumée (décision 06). Elle se paie par **ordre
 d'utilité**, jamais par ordre d'arrivée : la note la plus citée d'abord.*
 
+> ✅ **Vide depuis le 2026-10-02.** Les 42 dettes de la construction ont toutes été
+> examinées. Les quatre qui n'ont pas pu être tranchées sont passées en `🔵 invérifiable`
+> et figurent dans la requête suivante, pas ici.
+
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Note",
@@ -32,6 +36,23 @@ TABLE WITHOUT ID
 FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-") AND contains(fiabilite, "non évalué")
 SORT length(file.inlinks) DESC
+```
+
+## 1 bis · Les `🔵 invérifiable` — ce qu'il faudrait mesurer
+
+*Examinées, et rien ne permettait de trancher (décision 05). **Ce n'est pas une file de
+travail de lecture** : chaque `fiabilite_note` dit quelle étude il faudrait, et aucune
+n'existe. À relire quand l'horizon de 24 mois les rouvre — une littérature peut être
+parue.*
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Note",
+  fiabilite_date AS "Examinée le",
+  source AS "Source"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+WHERE startswith(file.name, "Concept-") AND contains(fiabilite, "invérifiable")
+SORT fiabilite_date ASC
 ```
 
 ## 2 · Verdicts sans référence — doit rester vide
@@ -43,7 +64,7 @@ TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict"
 FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
 WHERE startswith(file.name, "Concept-")
   AND (contains(fiabilite, "solide") OR contains(fiabilite, "contesté")
-       OR contains(fiabilite, "réfuté"))
+       OR contains(fiabilite, "réfuté") OR contains(fiabilite, "invérifiable"))
   AND (!fiabilite_note OR fiabilite_note = "")
 ```
 

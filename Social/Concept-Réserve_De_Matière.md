@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, esprit/productivité]
 source: "[[Source-Comment_Parler_En_Public]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "**Examinée le 2026-10-01, laissée en dette.** L'argument de redondance tient logiquement et n'a pas besoin de données. Mais l'affirmation empirique de Carnegie — qu'écrire son texte mot à mot *produit* le trac — je ne lui ai trouvé aucun appui propre. Le voisinage existe (anxiété de prise de parole, effondrement d'une performance surveillée) sans porter sur ce point précis. Ce qu'il faudrait : comparer deux modes de préparation sur une mesure d'anxiété et de fluidité. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]]."
+fiabilite: 🔵 invérifiable
+fiabilite_note: "**Examinée le 2026-10-01, laissée en dette.** L'argument de redondance tient logiquement et n'a pas besoin de données. Mais l'affirmation empirique de Carnegie — qu'écrire son texte mot à mot *produit* le trac — je ne lui ai trouvé aucun appui propre. Le voisinage existe (anxiété de prise de parole, effondrement d'une performance surveillée) sans porter sur ce point précis. Ce qu'il faudrait : comparer deux modes de préparation sur une mesure d'anxiété et de fluidité. Verdict `🔵 invérifiable`, comme [[Concept-Structure_Ascendante]]."
+fiabilite_date: 2026-10-02
 ---
 # Réserve de matière
 

@@ -14,7 +14,8 @@ tags: [meta/moc, social/influence]
 | 🟠 contesté | 29 |
 | 🔴 réfuté | 4 — soit tous ceux du vault |
 | ⬜ non applicable | 13 — définitions et cadres, qui tiennent parce qu'ils n'affirment rien |
-| ⚪ non évalué | 2 |
+| ⚪ non évalué | 0 |
+| 🔵 invérifiable | 2 — *idem — leur `fiabilite_note` dit ce qu'il faudrait pour les trancher* |
 
 > ⚠️ **Le domaine le plus fragile du vault, et le constat s'est confirmé livre après
 > livre.** Une seule note solide sur trente, et trois des quatre `🔴` du vault. La
@@ -38,7 +39,7 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟠 [[Concept-Façade_Choisie_Non_Créée]] — *on prend dans un jeu fini, on n'invente pas.*
 * ⬜ [[Concept-Territoires_Du_Moi]] — *huit réserves situationnelles, et aucune n'est une propriété.*
 * ⬜ [[Concept-Échange_Réparateur]] — *la pire lecture possible, et les trois façons de la désamorcer.*
-* ⚪ [[Concept-Apparences_Normales]] — *la vigilance en tâche secondaire ; une absence peut alarmer.*
+* 🔵 [[Concept-Apparences_Normales]] — *la vigilance en tâche secondaire ; une absence peut alarmer.*
 
 ## Rhétorique et argumentation — `social/influence`
 
@@ -101,7 +102,7 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 ## Prise de parole — `social/influence`
 
 * 🟠 [[Concept-Droit_De_Parler]] — *de quoi ai-je acquis le droit de parler ; le filtre en amont de toute forme.*
-* ⚪ [[Concept-Réserve_De_Matière]] — *savoir dix fois plus que ce qu'on dira ; écrire son texte produit le trac.*
+* 🔵 [[Concept-Réserve_De_Matière]] — *savoir dix fois plus que ce qu'on dira ; écrire son texte produit le trac.*
 * 🟠 [[Concept-Naturel_Contre_Éloquence]] — *une conversation amplifiée, pas un registre à part.*
 
 ## Style — `social/style`

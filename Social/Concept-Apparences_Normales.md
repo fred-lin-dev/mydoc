@@ -1,8 +1,9 @@
 ---
 tags: [social/influence]
 source: "[[Relations_in_Public.pdf]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** Le mécanisme général a été détaché dans [[Concept-Signal_Par_L_Absence]], qui a trouvé son appui — l'effet de positivité des traits. Ce qui reste ici n'en a pas : que les civilités ordinaires fonctionnent comme un **système d'alerte précoce**, et que la vigilance soit tenue en **tâche secondaire**. Je n'ai trouvé aucune mesure de l'un ni de l'autre ; le voisinage existe (décrément de vigilance, réactions aux violations de norme) sans porter sur ces affirmations. Ce qu'il faudrait : mesurer la détection d'une non-exécution de civilité contre celle d'un acte saillant. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]] et [[Concept-Réserve_De_Matière]]."
+fiabilite: 🔵 invérifiable
+fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** Le mécanisme général a été détaché dans [[Concept-Signal_Par_L_Absence]], qui a trouvé son appui — l'effet de positivité des traits. Ce qui reste ici n'en a pas : que les civilités ordinaires fonctionnent comme un **système d'alerte précoce**, et que la vigilance soit tenue en **tâche secondaire**. Je n'ai trouvé aucune mesure de l'un ni de l'autre ; le voisinage existe (décrément de vigilance, réactions aux violations de norme) sans porter sur ces affirmations. Ce qu'il faudrait : mesurer la détection d'une non-exécution de civilité contre celle d'un acte saillant. Verdict `🔵 invérifiable`, comme [[Concept-Structure_Ascendante]] et [[Concept-Réserve_De_Matière]]."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Les apparences normales
@@ -25,8 +26,9 @@ Le mécanisme général qui rend une non-exécution lisible a été détaché en
 
 ## Ce qui la rend vraie, ou fragile
 
-**`⚪` et non `⬜` :** ici Goffman affirme quelque chose sur le fonctionnement réel de
-l'attention, pas seulement un vocabulaire.
+**Ni `⬜` ni `⚪` :** Goffman affirme ici quelque chose sur le fonctionnement réel de
+l'attention, donc ce n'est pas une définition — et la note **a** été examinée, donc ce n'est
+pas une dette. C'est le cas exact de `🔵 invérifiable`.
 
 **Examinée le 2026-10-02, et la dette reste.** Le mécanisme général a été détaché dans
 [[Concept-Signal_Par_L_Absence]], qui a trouvé son appui. Ce qui reste ici n'en a pas : que

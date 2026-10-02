@@ -185,7 +185,7 @@ fiabilite_note: "Lally 2010, Eur J Soc Psychol 40(6), N=96, médiane 66j,
 fiabilite_date: 2026-09-28
 ```
 
-**Le barème — cinq valeurs, écrites exactement comme suit :**
+**Le barème — six valeurs, écrites exactement comme suit :**
 
 | Valeur | Signifie | `fiabilite_note` |
 |---|---|---|
@@ -194,16 +194,42 @@ fiabilite_date: 2026-09-28
 | `🔴 réfuté` | réfuté par réplication ou méta-analyse | **obligatoire** — la réfutation |
 | `⚪ non évalué` | dette assumée, pas encore vérifié | vide |
 | `⬜ non applicable` | la note n'affirme rien d'empirique | la vraie source (doc, définition) |
+| `🔵 invérifiable` | **examinée, et rien ne permet de trancher** | **obligatoire** — ce qui a été cherché, et ce qu'il faudrait |
+
+### La sixième valeur — `🔵 invérifiable`, ajoutée le 2026-10-02
+
+**Elle existe parce que `⚪` en disait deux choses incompatibles :** « pas encore
+examiné » et « examiné, et rien ne permet de trancher ». La seconde restait dans la file
+de dette, où quelqu'un la réexaminait — c'est-à-dire refaisait un travail déjà fait, sans
+le savoir.
+
+Les trois valeurs voisines se distinguent par **ce qu'on a fait et ce qui existe** :
+
+| | On a cherché ? | Y a-t-il quelque chose à trouver ? |
+|---|---|---|
+| `⚪ non évalué` | **non**, c'est une dette | peut-être |
+| `🔵 invérifiable` | **oui** | non, pas en l'état |
+| `⬜ non applicable` | sans objet | **rien** — la note n'affirme rien d'empirique |
+
+**`🔵` vieillit comme un verdict tranché**, et c'est le point de conception qui le
+justifie : il porte une `fiabilite_note` disant **ce qui a été cherché et ce qu'il
+faudrait** pour trancher, plus une `fiabilite_date`. Au-delà de l'horizon, l'audit le
+rouvre — parce qu'une littérature peut être parue entre-temps. Un `⬜`, non : une
+définition ne devient pas fausse avec le temps.
+
+**Les quatre premières, le jour de son introduction :** `Structure_Ascendante`,
+`Réserve_De_Matière`, `Paradoxe_Du_Succès`, `Apparences_Normales` — les quatre dernières
+dettes d'une file de 42, examinées sans qu'aucune littérature ne permette de les
+trancher. Chacune dit dans sa justification quelle étude il faudrait.
 
 ### `fiabilite_date` — un verdict se périme, ajouté le 2026-09-30
 
-**Obligatoire sur les trois verdicts tranchés, absent des deux autres.** L'audit
-refuse un `🟢`, `🟠` ou `🔴` sans date, au même titre qu'il refuse un verdict sans
-référence.
+**Obligatoire sur `🟢`, `🟠`, `🔴` et `🔵`, absent de `⚪` et `⬜`.** L'audit refuse un
+verdict daté sans date, au même titre qu'il refuse un verdict sans référence.
 
-**Pourquoi seulement ces trois :** une définition `⬜` ne devient pas fausse avec le
-temps, et un `⚪` est déjà une dette. **Seul un verdict empirique vieillit** — parce
-qu'il dépend d'un état de la littérature, et que cet état a une date.
+**Pourquoi ces quatre :** chacun dépend d'un **état de la littérature**, et cet état a
+une date — y compris `🔵`, qui dit « rien ne permettait de trancher **à cette date** ».
+Une définition `⬜` ne vieillit pas, et un `⚪` est déjà une dette.
 
 **Horizon : 24 mois.** L'ordre de grandeur auquel une méta-analyse ou une
 réplication large peut renverser une conclusion. Au-delà, l'audit remet le verdict

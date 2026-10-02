@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie, esprit/productivité]
 source: "[[Source-Essentialism]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** La structure est une boucle de renforcement, donc l'argument tient sans données. Mais l'affirmation empirique — que ce schéma soit **fréquent** — je ne lui ai trouvé aucune mesure. Le voisinage existe en stratégie d'entreprise (paradoxe d'Icare de Miller 1990 ; rigidités de compétences, Leonard-Barton 1992) mais reste monographique et porte sur des organisations, pas sur des individus. Ce qu'il faudrait : une cohorte suivie avant et après un succès, avec une mesure du flux de sollicitations acceptées. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]]."
+fiabilite: 🔵 invérifiable
+fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** La structure est une boucle de renforcement, donc l'argument tient sans données. Mais l'affirmation empirique — que ce schéma soit **fréquent** — je ne lui ai trouvé aucune mesure. Le voisinage existe en stratégie d'entreprise (paradoxe d'Icare de Miller 1990 ; rigidités de compétences, Leonard-Barton 1992) mais reste monographique et porte sur des organisations, pas sur des individus. Ce qu'il faudrait : une cohorte suivie avant et après un succès, avec une mesure du flux de sollicitations acceptées. Verdict `🔵 invérifiable`, comme [[Concept-Structure_Ascendante]]."
+fiabilite_date: 2026-10-02
 ---
 # Paradoxe du succès
 

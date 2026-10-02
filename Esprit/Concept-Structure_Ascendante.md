@@ -1,8 +1,9 @@
 ---
 tags: [esprit/productivité, esprit/stratégie]
 source: "[[Source-How_to_Take_Smart_Notes]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "**Examinée le 2026-10-01, laissée en dette faute d'appui.** Je n'ai trouvé aucune littérature comparant une méthode ascendante à un plan préalable sur un résultat mesuré. L'argument reste structurel. Ce qu'il faudrait : une comparaison expérimentale de deux protocoles de prise de notes sur une production ultérieure — coûteuse, et je n'en connais pas. L'exemple de Luhmann est un cas unique, donc sans valeur de preuve. **`⚪` signifie ici « examiné, invérifiable », pas « pas encore regardé » — le barème ne distingue pas les deux.**"
+fiabilite: 🔵 invérifiable
+fiabilite_note: "**Examinée le 2026-10-01, laissée en dette faute d'appui.** Je n'ai trouvé aucune littérature comparant une méthode ascendante à un plan préalable sur un résultat mesuré. L'argument reste structurel. Ce qu'il faudrait : une comparaison expérimentale de deux protocoles de prise de notes sur une production ultérieure — coûteuse, et je n'en connais pas. L'exemple de Luhmann est un cas unique, donc sans valeur de preuve. Verdict `🔵 invérifiable` depuis le 2026-10-02, date à laquelle le barème a reçu sa sixième valeur pour ce cas précis."
+fiabilite_date: 2026-10-02
 ---
 # Structure ascendante
 
@@ -30,8 +31,8 @@ Luhmann et ses 90 000 notes — est un cas unique, donc sans valeur de preuve.
 **Examinée le 2026-10-01, et la dette reste.** Je n'ai trouvé aucune comparaison mesurée
 entre une méthode ascendante et un plan préalable. Ce qu'il faudrait pour trancher : deux
 protocoles de prise de notes, une production ultérieure, une mesure — c'est coûteux et je
-n'en connais pas. Donc `⚪` veut dire ici **« examiné, invérifiable »** et non « pas encore
-regardé », et le barème ne sait pas écrire la différence.
+n'en connais pas. D'où le verdict `🔵 invérifiable` — la sixième valeur du barème, ajoutée le
+2026-10-02 précisément pour ce cas : examiné, et rien ne permet de trancher.
 
 **La limite pratique :** l'ascendant a un coût de démarrage. En dessous d'un
 certain volume de notes, rien n'émerge et il faut trancher à la main. La règle des
