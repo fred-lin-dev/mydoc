@@ -1,8 +1,9 @@
 ---
 tags: [social/négociation, social/influence]
 source: "[[Source-Never_Split_the_Difference]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La distinction exacte de cette note a été testée, et le résultat est net :** Galinsky, Maddux, Gilin & White 2008, Psychological Science 19(4), 378-84 — la **prise de perspective** (cognitive) améliore les résultats de négociation ; l'**empathie** (affective) non, et parfois nuit. Ce que Voss appelle « empathie tactique » est de la prise de perspective : **son vocabulaire est trompeur, sa pratique est la bonne branche.** Réserves : un article de trois expériences, antérieur au pré-enregistrement. Et sa méthode reste des récits de succès sans les échecs."
+fiabilite_date: 2026-10-02
 ---
 # Empathie tactique
 
@@ -26,9 +27,17 @@ refusent le premier de peur de lâcher le second.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué.** Voss procède par récits de négociations réussies, et l'on ne voit jamais
-les échecs — même structure que les portraits de
-[[Source-So_Good_They_Cant_Ignore_You]].
+**La distinction de cette note a été testée, et le résultat tombe exactement dessus.**
+Galinsky, Maddux, Gilin & White (2008) ont comparé en négociation la **prise de
+perspective** — comprendre ce que l'autre pense — à l'**empathie** — ressentir ce qu'il
+ressent. La première améliore les résultats ; la seconde non, et peut nuire.
+
+**Ce que Voss appelle « empathie tactique » est de la prise de perspective.** Son
+vocabulaire désigne la branche qui ne marche pas, sa pratique décrit celle qui marche. Le
+mot est mauvais, la technique est la bonne.
+
+Réserves : un seul article, trois expériences, antérieur au pré-enregistrement. Et la
+méthode du livre reste des récits de succès dont on ne voit jamais les échecs.
 
 **Ce qui tient sans données :** la distinction elle-même. Reconnaître une position et
 l'accepter sont deux actes différents, et confondre les deux est une erreur de

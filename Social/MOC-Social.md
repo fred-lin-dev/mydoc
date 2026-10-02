@@ -11,10 +11,10 @@ tags: [meta/moc, social/influence]
 | Verdict | Notes |
 |---|---|
 | 🟢 solide | 2 sur 50 |
-| 🟠 contesté | 20 |
+| 🟠 contesté | 29 |
 | 🔴 réfuté | 4 — soit tous ceux du vault |
 | ⬜ non applicable | 13 — définitions et cadres, qui tiennent parce qu'ils n'affirment rien |
-| ⚪ non évalué | 11 |
+| ⚪ non évalué | 2 |
 
 > ⚠️ **Le domaine le plus fragile du vault, et le constat s'est confirmé livre après
 > livre.** Une seule note solide sur trente, et trois des quatre `🔴` du vault. La
@@ -35,7 +35,7 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * ⬜ [[Concept-Région_Antérieure_Et_Postérieure]] — *les coulisses sont relatives à une scène, donc jamais « le vrai soi ».*
 * ⬜ [[Concept-Équipe_Comme_Unité]] — *le seul concept du domaine qui ne porte pas sur un individu.*
 * ⬜ [[Concept-Soi_Comme_Effet_Dramatique]] — *le soi comme produit de la scène, pas comme sa cause.*
-* ⚪ [[Concept-Façade_Choisie_Non_Créée]] — *on prend dans un jeu fini, on n'invente pas.*
+* 🟠 [[Concept-Façade_Choisie_Non_Créée]] — *on prend dans un jeu fini, on n'invente pas.*
 * ⬜ [[Concept-Territoires_Du_Moi]] — *huit réserves situationnelles, et aucune n'est une propriété.*
 * ⬜ [[Concept-Échange_Réparateur]] — *la pire lecture possible, et les trois façons de la désamorcer.*
 * ⚪ [[Concept-Apparences_Normales]] — *la vigilance en tâche secondaire ; une absence peut alarmer.*
@@ -53,10 +53,10 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟢 [[Concept-Preuve_Sociale]] — *la norme descriptive agit, la prescriptive non.*
 * 🟠 [[Concept-Contraste_Perceptif]] — *l'ancrage résiste à la connaissance qu'on en a.*
 * 🟠 [[Concept-Engagement_Et_Cohérence]] — *petit engagement, image de soi modifiée ; effet réel et faible.*
-* ⚪ [[Concept-Intérêt_Sincère]] — *déplacer l'effort de se rendre intéressant vers s'intéresser.*
+* 🟠 [[Concept-Intérêt_Sincère]] — *déplacer l'effort de se rendre intéressant vers s'intéresser.*
 * 🟠 [[Concept-Éviter_La_Discussion]] — *gagner l'argument, perdre la personne.*
 * 🟠 [[Concept-Laisser_L_Idée_À_L_Autre]] — *le principe de Carnegie le mieux ancré : il produit de l'autonomie.*
-* ⚪ [[Concept-Créer_La_Circonstance]] — *agencer des faits réels : aucune défense rhétorique n'y mord.*
+* 🟠 [[Concept-Créer_La_Circonstance]] — *agencer des faits réels : aucune défense rhétorique n'y mord.*
 * 🟠 [[Concept-Fabrication_Du_Consentement]] — *l'argument de Bernays n'est pas que c'est bien, c'est que c'est inévitable.*
 * 🟠 [[Concept-Levier_Des_Minorités_Organisées]] — *viser les groupes, pas les individus ; la diversité d'appartenances protège.*
 
@@ -73,9 +73,9 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 *Les quatre notes de Voss. **Cette section manquait entièrement au MOC jusqu'au
 2026-10-01** — quatre notes sur cinquante n'étaient listées nulle part.*
 
-* ⚪ [[Concept-Audit_D_Accusation]] — *nommer l'objection avant qu'elle soit pensée : ça supprime l'asymétrie d'information.*
-* ⚪ [[Concept-Empathie_Tactique]] — *comprendre la position sans la partager ; suppose un jeu à somme non nulle.*
-* ⚪ [[Concept-Question_Calibrée]] — *faire porter le problème à l'autre, et le budget par conversation est petit.*
+* 🟠 [[Concept-Audit_D_Accusation]] — *nommer l'objection avant qu'elle soit pensée : ça supprime l'asymétrie d'information.*
+* 🟠 [[Concept-Empathie_Tactique]] — *comprendre la position sans la partager ; suppose un jeu à somme non nulle.*
+* 🟠 [[Concept-Question_Calibrée]] — *faire porter le problème à l'autre, et le budget par conversation est petit.*
 * 🟠 [[Concept-Étiquetage_Émotionnel]] — *« il semble que… », jamais « je pense que… », puis le silence.*
 
 ## Charisme — `social/charisme`
@@ -93,14 +93,14 @@ reformulations de seconde main qui ne le citent pas. Les trois dernières vienne
 * 🟠 [[Concept-Polarisation]] — *ne repousser personne, c'est n'attirer personne.*
 * 🟠 [[Concept-Vulnérabilité_Comme_Signal]] — *seul ce qui est coûteux informe.*
 * 🟠 [[Concept-Rejet_Comme_Filtre]] — *information de compatibilité, sauf en cas de répétition.*
-* ⚪ [[Concept-Sélection_Mutuelle]] — *les deux côtés filtrent ; encore faut-il avoir des critères.*
+* 🟠 [[Concept-Sélection_Mutuelle]] — *les deux côtés filtrent ; encore faut-il avoir des critères.*
 * 🟢 [[Concept-Paradoxe_De_La_Dépendance]] — *accepter la dépendance rend plus autonome, pas moins.*
 * 🟠 [[Concept-Style_D_Attachement]] — *deux dimensions réelles, trois cases qui ne le sont pas.*
-* ⚪ [[Concept-Piège_Anxieux_Évitant]] — *une boucle de renforcement, pas un malentendu.*
+* 🟠 [[Concept-Piège_Anxieux_Évitant]] — *une boucle de renforcement, pas un malentendu.*
 
 ## Prise de parole — `social/influence`
 
-* ⚪ [[Concept-Droit_De_Parler]] — *de quoi ai-je acquis le droit de parler ; le filtre en amont de toute forme.*
+* 🟠 [[Concept-Droit_De_Parler]] — *de quoi ai-je acquis le droit de parler ; le filtre en amont de toute forme.*
 * ⚪ [[Concept-Réserve_De_Matière]] — *savoir dix fois plus que ce qu'on dira ; écrire son texte produit le trac.*
 * 🟠 [[Concept-Naturel_Contre_Éloquence]] — *une conversation amplifiée, pas un registre à part.*
 

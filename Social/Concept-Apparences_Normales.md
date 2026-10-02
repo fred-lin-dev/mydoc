@@ -2,7 +2,7 @@
 tags: [social/influence]
 source: "[[Relations_in_Public.pdf]]"
 fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** Le mécanisme général a été détaché dans [[Concept-Signal_Par_L_Absence]], qui a trouvé son appui — l'effet de positivité des traits. Ce qui reste ici n'en a pas : que les civilités ordinaires fonctionnent comme un **système d'alerte précoce**, et que la vigilance soit tenue en **tâche secondaire**. Je n'ai trouvé aucune mesure de l'un ni de l'autre ; le voisinage existe (décrément de vigilance, réactions aux violations de norme) sans porter sur ces affirmations. Ce qu'il faudrait : mesurer la détection d'une non-exécution de civilité contre celle d'un acte saillant. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]] et [[Concept-Réserve_De_Matière]]."
 atomicite_relue: 2026-10-01
 ---
 # Les apparences normales
@@ -25,11 +25,14 @@ Le mécanisme général qui rend une non-exécution lisible a été détaché en
 
 ## Ce qui la rend vraie, ou fragile
 
-**`⚪` et non `⬜`, contrairement aux autres notes tirées de ce livre :** ici Goffman
-affirme quelque chose sur le fonctionnement réel de l'attention et de la vigilance, pas
-seulement un vocabulaire. Ce sont des généralisations tirées d'observations et
-d'exemples choisis, sans mesure. Plausibles, et cohérentes avec ce qu'on sait du coût
-attentionnel — mais je ne peux pas les créditer davantage sans appui.
+**`⚪` et non `⬜` :** ici Goffman affirme quelque chose sur le fonctionnement réel de
+l'attention, pas seulement un vocabulaire.
+
+**Examinée le 2026-10-02, et la dette reste.** Le mécanisme général a été détaché dans
+[[Concept-Signal_Par_L_Absence]], qui a trouvé son appui. Ce qui reste ici n'en a pas : que
+les civilités fonctionnent comme un **système d'alerte précoce**, et que la vigilance soit
+tenue en **tâche secondaire**. Ce qu'il faudrait : comparer la détection d'une
+non-exécution de civilité à celle d'un acte saillant.
 
 **Ce que ça règle en amont dans ce vault.** [[Concept-Base_De_Référence]] dit qu'un
 comportement isolé ne s'interprète pas sans référence. Cette note dit **pourquoi**, et

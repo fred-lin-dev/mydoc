@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, esprit/stratégie]
 source: "[[Source-Comment_Parler_En_Public]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La première moitié est établie :** un savoir superficiel paraît suffisant jusqu'au moment où l'on doit l'exposer — c'est l'**illusion de profondeur explicative**, Rozenblit & Keil 2002, Cognitive Science 26(5), 521-62, où la confiance s'effondre à l'épreuve de l'explication. Un propos tiré d'une seule lecture ne résiste donc effectivement pas à la première question précise. **Ce qui n'est pas mesuré :** que l'orateur le sache et que ça alimente le trac. Et la règle prise littéralement est fausse, comme la note le dit : ce n'est pas le vécu qui donne le droit, c'est le travail sérieux."
+fiabilite_date: 2026-10-02
 ---
 # Droit de parler
 
@@ -22,12 +23,14 @@ le faire la veille.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et Carnegie ne mesure rien.
+**La première moitié est mesurée, et pas par Carnegie.** Rozenblit & Keil (2002) ont
+établi l'**illusion de profondeur explicative** : on se croit capable d'expliquer un
+mécanisme jusqu'au moment où l'on doit le faire, et la confiance s'effondre à l'épreuve.
+Un propos tiré d'une seule lecture ne résiste donc effectivement pas à la première
+question précise — c'est démontré, pas déduit.
 
-**Ce qui tient sans données :** la part logique. Un propos tiré d'une seule lecture est
-plus fragile qu'un propos tiré d'une pratique — il ne résiste pas à la première question
-précise, et l'orateur le sait, ce qui alimente le trac. Le lien entre absence de droit
-acquis et inconfort est mécanique.
+**Ce qui reste non mesuré :** que l'orateur le sache à l'avance, et que cette conscience
+alimente le trac. Le lien est plausible, il n'est pas établi.
 
 **Le danger de la règle prise littéralement :** elle interdirait de parler de ce qu'on
 n'a pas vécu, ce qui exclut l'essentiel du savoir transmis. Un professeur d'histoire n'a

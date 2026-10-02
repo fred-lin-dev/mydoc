@@ -2,7 +2,7 @@
 tags: [esprit/stratégie, esprit/productivité]
 source: "[[Source-Essentialism]]"
 fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite_note: "**Examinée le 2026-10-02, laissée en dette.** La structure est une boucle de renforcement, donc l'argument tient sans données. Mais l'affirmation empirique — que ce schéma soit **fréquent** — je ne lui ai trouvé aucune mesure. Le voisinage existe en stratégie d'entreprise (paradoxe d'Icare de Miller 1990 ; rigidités de compétences, Leonard-Barton 1992) mais reste monographique et porte sur des organisations, pas sur des individus. Ce qu'il faudrait : une cohorte suivie avant et après un succès, avec une mesure du flux de sollicitations acceptées. **`⚪` signifie ici « examiné, invérifiable »**, comme [[Concept-Structure_Ascendante]]."
 ---
 # Paradoxe du succès
 
@@ -28,9 +28,14 @@ ironie du sort. C'est une structure, donc c'est **prévisible** — et si c'est
 prévisible, le point d'intervention est identifiable. Il est sur le **flux des
 sollicitations acceptées**, pas sur la motivation ni sur la discipline.
 
-**Ce qui n'est pas mesuré :** que ce schéma soit fréquent. Les exemples du livre sont
-sélectionnés parce qu'ils l'illustrent, et on ne voit jamais ceux qui ont réussi et
-ont continué à se concentrer. C'est la limite habituelle de ce type d'argument.
+**Ce qui n'est pas mesuré :** que ce schéma soit **fréquent**. Les exemples du livre sont
+sélectionnés parce qu'ils l'illustrent, et on ne voit jamais ceux qui ont réussi et ont
+continué à se concentrer.
+
+**Examinée le 2026-10-02, et la dette reste.** Le voisinage existe en stratégie
+d'entreprise — le paradoxe d'Icare, les rigidités de compétences — mais il est
+monographique et porte sur des organisations. Ce qu'il faudrait : une cohorte suivie avant
+et après un succès, avec une mesure du flux de sollicitations acceptées.
 
 **Ce qui rend la note utile malgré ça :** elle prédit **quand** le risque apparaît —
 pas au début, mais juste après que ça a commencé à marcher. C'est le moment où l'on

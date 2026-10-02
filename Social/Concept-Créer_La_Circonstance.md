@@ -1,8 +1,9 @@
 ---
 tags: [social/influence, esprit/stratégie]
 source: "[[Source-Propaganda]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le principe général est de la même famille que l'architecture du choix**, dont l'effet agrégé survit mais a **fortement diminué** après correction du biais de publication — Maier et al. 2022, PNAS 119(31) ; voir [[Concept-Friction_Détermine_Le_Comportement]]. Disposer le contexte change bien le comportement sans argumenter, et c'est mesuré ; l'ampleur que Bernays suppose ne l'est pas, et ses cas sont sélectionnés sur le résultat. **L'affirmation la plus forte de la note — qu'il n'existe aucune défense rhétorique contre un contexte — est un argument, pas une mesure.**"
+fiabilite_date: 2026-10-02
 ---
 # Créer la circonstance
 
@@ -26,8 +27,11 @@ défend pas contre elle-même.**
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et Bernays raconte ses succès professionnels — cas sélectionnés sur le
-résultat, comme partout dans ce corpus.
+**Bernays raconte ses succès professionnels** — cas sélectionnés sur le résultat, comme
+partout dans ce corpus. **Mais le principe général est mesuré ailleurs** : c'est la même
+famille que l'architecture du choix, dont l'effet agrégé survit tout en ayant **fortement
+diminué** après correction du biais de publication. Disposer le contexte change bien le
+comportement sans argumenter ; l'ampleur que Bernays suppose, elle, n'est pas établie.
 
 **Ce qui l'appuie indirectement :** trois notes déjà dans le vault disent la même chose sur
 des registres différents, et cette convergence est la meilleure raison de la prendre au

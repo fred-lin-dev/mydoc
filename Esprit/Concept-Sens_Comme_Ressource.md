@@ -1,8 +1,9 @@
 ---
 tags: [esprit/philosophie, esprit/psychologie]
 source: "[[Source-Mans_Search_For_Meaning]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: "Non mesuré. Et la précision de formulation est essentielle : la citation de Nietzsche que Frankl reprend est « He who has a why to live can bear with almost any how » — SUPPORTER, pas survivre. La version forte, où le sens agirait sur la survie via l'immunité, est le seul point réellement faible du livre. L'inférence est de plus structurellement exposée à [[Concept-Preuve_Silencieuse]] : elle est énoncée depuis la position d'un survivant."
+fiabilite: 🟠 contesté
+fiabilite_note: "**L'association existe et elle est documentée, mais elle est corrélationnelle :** le sentiment d'avoir un but prédit de meilleurs résultats, y compris la mortalité — Hill & Turiano 2014, Psychological Science 25(7), 1482-86. **Ce qui n'est pas soutenable :** la direction causale, le mécanisme immunitaire qu'implique la version forte, et surtout l'inférence depuis la position d'un survivant — [[Concept-Preuve_Silencieuse]] dans sa forme la plus inévitable. La logothérapie elle-même a un appui nettement moindre que les thérapies cognitivo-comportementales. `🟠` : l'association tient, la loi que Frankl en tire non."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Le sens comme ressource
@@ -21,8 +22,13 @@ mauvais instrument — a été détaché le 2026-10-01 : voir [[Concept-Sens_Par
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué.** Le témoignage n'est pas une mesure, et la logothérapie a un appui empirique
-limité, nettement moindre que celui des thérapies cognitivo-comportementales.
+**Le témoignage n'est pas une mesure**, et la logothérapie a un appui empirique limité,
+nettement moindre que celui des thérapies cognitivo-comportementales.
+
+**Mais l'association existe dans les données.** Hill & Turiano (2014) ont montré que le
+sentiment d'avoir un but prédit une mortalité plus basse à l'âge adulte. C'est
+**corrélationnel** — la direction causale reste ouverte, et le sens peut aussi bien être
+une conséquence d'une vie qui va bien qu'une cause.
 
 **La version forte est faible :** que le sens agisse sur la survie par l'immunité. La
 psycho-immunologie existe, ses effets sont petits, et dans les conditions décrites la survie

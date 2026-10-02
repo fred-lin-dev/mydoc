@@ -31,7 +31,8 @@ tags: [meta/guide]
 
 ```
 184 notes · 122 Concept- · 36 Source- · 13 Ref- · 5 MOC- · 5 Guide-
-0 erreur · 0 alerte · 42 infos — 42 dettes ⚪ · file d'atomicité vidée le 2026-10-01
+0 erreur · 0 alerte · 4 infos — **la file de vérification est vidée**
+4 dettes ⚪ restantes, toutes « examinées, invérifiables »
 350 cartes, toutes synchronisées vers Anki
 57 PDF, tous avec un niveau de périmètre
 ```
@@ -44,7 +45,7 @@ tags: [meta/guide]
 | `Tech/` | 4 | 2 | 0 |
 | `Langues/` | **0** | 0 | 0 |
 
-**Verdicts de fiabilité :** ⬜ 52 · ⚪ 41 · 🟠 23 · 🟢 17 · 🔴 5
+**Verdicts de fiabilité :** 🟠 59 · ⬜ 55 · 🟢 17 · 🔴 5 · ⚪ **4**
 **Les 45 verdicts tranchés portent une `fiabilite_date`** — datés depuis l'historique git,
 pas inventés. Le plus ancien a 0 mois ; horizon 24.
 **Inventaire :** 84 titres, **57 sur le disque** (352 Mo) — 31 fichés · 13 lu-sans-fiche ·
@@ -190,7 +191,37 @@ Le même trou s'est présenté quatre fois :
 `fiabilite_date` — elle sortirait de la file de dette tout en disant qu'on a cherché. C'est
 une décision de méthode, donc de Yinpi, pas la mienne.
 
-### La file principale : 24 dettes `⚪ non évalué`
+### ✅ La file de vérification est vidée — 2026-10-02
+
+**Les 42 dettes de départ ont toutes été examinées.** Il en reste quatre, et elles ne
+sont pas en attente d'examen : elles ont été examinées et **rien ne permet de les
+trancher**. Chacune porte dans son `fiabilite_note` ce qu'il faudrait pour le faire.
+
+| Dette restante | Ce qu'il faudrait |
+|---|---|
+| `Structure_Ascendante` | comparer deux protocoles de prise de notes sur une production ultérieure |
+| `Réserve_De_Matière` | comparer deux modes de préparation sur une mesure d'anxiété et de fluidité |
+| `Paradoxe_Du_Succès` | une cohorte suivie avant et après un succès, avec le flux de sollicitations accepté |
+| `Apparences_Normales` | mesurer la détection d'une non-exécution de civilité contre celle d'un acte saillant |
+
+**Le résultat dominant, sur 38 notes vérifiées : 36 fois l'appui existait et l'auteur ne
+le citait pas.** Ce n'est pas que ces livres inventent — c'est qu'ils ne cherchent pas.
+Et quatre fois, la littérature a fait mieux que confirmer :
+
+* elle a **validé un critère que la note avait inventé** — [[Concept-Terrain_De_Mort]], les
+  dispositifs d'engagement agissent précisément sur les problèmes d'exécution
+* elle a **confirmé un doute** qu'une note exprimait contre son propre auteur —
+  [[Concept-Levier_Des_Minorités_Organisées]], Watts & Dodds contre le modèle de Bernays
+* elle a montré que **le vocabulaire d'un auteur désignait la branche qui ne marche pas** —
+  [[Concept-Empathie_Tactique]], où « empathie tactique » est en fait de la prise de
+  perspective, seule branche efficace chez Galinsky et al.
+* elle a donné **un nom et une réplication** à un procédé présenté comme une trouvaille —
+  [[Concept-Audit_D_Accusation]], c'est le *stealing thunder*
+
+**Et trois fois, c'est moi qui avais tort :** surgénéralisation sur
+[[Concept-Menace_Sur_L_Image_De_Soi]], surcorrection *dans le sens modeste* sur
+[[Concept-Rejet_Comme_Filtre]], et un mécanisme inventé de toutes pièces sur la
+réparation des identifiants Anki.
 
 À 20 min – 1 h par concept, c'est **12 à 37 heures**. À payer **par ordre d'utilité**, jamais
 d'arrivée : le premier tableau de [[MOC-Audit]] les trie par nombre de liens entrants.

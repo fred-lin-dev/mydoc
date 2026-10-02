@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction]
 source: "[[Source-Attached]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le motif est documenté indépendamment de la théorie de l'attachement, sous un autre nom : le *demand–withdraw*.** Un partenaire réclame, l'autre se retire, et chacun intensifie en réaction — c'est l'un des schémas d'interaction les mieux établis de la recherche sur le couple. Méta-analyse : Schrodt, Witt & Shimkowski 2014, Communication Monographs 81(1), 28-58 — association négative constante avec la satisfaction conjugale. **Ce que Levine & Heller ajoutent n'est pas mesuré :** que ces couples soient à la fois particulièrement **durables** et insatisfaits."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Le piège anxieux-évitant
@@ -28,10 +29,17 @@ D'où la propriété qui la rend intéressante : **personne n'a besoin d'avoir t
 
 ## Ce qui la rend vraie, ou fragile
 
-**`⚪` : la description est cohérente, l'affirmation n'est pas mesurée ici.** Le livre
-avance que ces couples sont particulièrement durables *et* particulièrement insatisfaits
-— deux propositions empiriques distinctes, présentées ensemble et appuyées sur des cas
-cliniques choisis. Aucune ne sort de ce livre avec un appui chiffré.
+**Le motif est documenté, et sous un autre nom que le leur.** La recherche sur le couple
+l'appelle *demand–withdraw* : l'un réclame, l'autre se retire, et chacun intensifie en
+réaction à l'autre. C'est l'un des schémas d'interaction les mieux établis du domaine, et
+la méta-analyse de Schrodt, Witt & Shimkowski (2014) trouve une association négative
+constante avec la satisfaction conjugale. **Le mécanisme ne dépend donc pas de la théorie
+de l'attachement** — il a été isolé sans elle, ce qui le rend plus robuste que le cadre qui
+l'héberge ici.
+
+**Ce que Levine & Heller ajoutent, en revanche, n'est pas mesuré :** que ces couples soient
+à la fois particulièrement **durables** et particulièrement insatisfaits. Deux propositions
+distinctes, présentées ensemble et appuyées sur des cas cliniques choisis.
 
 **Ce qui est acquis, en revanche,** c'est la prémisse sur laquelle elle repose : des
 besoins d'intimité incongruents vont avec une satisfaction plus basse. C'est banal ; le

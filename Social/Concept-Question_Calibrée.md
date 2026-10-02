@@ -1,8 +1,9 @@
 ---
 tags: [social/négociation, social/influence]
 source: "[[Source-Never_Split_the_Difference]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "Non mesuré chez Voss. **Deux appuis indirects :** le mécanisme invoqué est l'absence de contrainte, et l'effet de la contrainte est établi — réactance, Brehm 1966 et méta-analyse Rains 2013, voir [[Concept-Modalisation]]. Et poser des questions augmente la sympathie qu'on inspire (Huang et al. 2017, JPSP 113(3), 430-52), voir [[Concept-Intérêt_Sincère]]. **Aucun des deux ne teste la question calibrée elle-même**, et le budget d'usage par conversation est de moi."
+fiabilite_date: 2026-10-02
 ---
 # Question calibrée
 
@@ -26,7 +27,7 @@ qu'il n'y a rien à refuser.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué** dans le livre, mais **mieux ancré que la plupart de ses techniques** : le
+**Non mesuré dans le livre, mais mieux ancré que la plupart de ses techniques** : le
 procédé fonctionne parce qu'il ne contraint pas. Or l'effet de la contrainte, lui, est
 établi — c'est la réactance de [[Concept-Modalisation]]. Une question calibrée est
 exactement ce qui obtient sans contraindre, donc ce qui n'active pas la réactance.

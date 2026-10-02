@@ -1,8 +1,9 @@
 ---
 tags: [esprit/psychologie, social/influence]
 source: "[[Source-The_Laws_of_Human_Nature]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Deux littératures convergent, et Greene n'en cite aucune :** la **vérification de soi** de Swann — on recherche et accepte ce qui confirme l'image qu'on a de soi, y compris quand elle est défavorable ; et l'**auto-affirmation** de Steele, dont la méta-analyse d'Epton, Harris, Kane, van Koningsbruggen & Sheeran 2015, Health Psychology 34(3), 187-96, montre qu'affirmer le soi augmente l'acceptation d'un message et le changement de comportement — effets petits mais constants. **Aucune ne teste l'usage qu'en fait Greene**, et sa méthode reste le portrait. La limite éthique — le procédé marche d'autant mieux que l'image confirmée est fausse — est de moi."
+fiabilite_date: 2026-10-02
 ---
 # Confirmer l'image de soi
 
@@ -25,7 +26,12 @@ flatterie fausse est détectée, alors qu'une confirmation juste est simplement 
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué**, et Greene procède par portraits.
+**Greene procède par portraits**, mais deux littératures soutiennent le levier et il n'en
+cite aucune. La **vérification de soi** (Swann) : on recherche et on accepte ce qui confirme
+l'image qu'on a de soi — y compris quand cette image est défavorable, ce qui est le test
+dur de la théorie. Et l'**auto-affirmation** (Steele), dont une méta-analyse de 2015 montre
+qu'affirmer le soi augmente l'acceptation d'un message, avec des effets petits mais
+constants.
 
 **Ce qui l'appuie indirectement, et solidement :** c'est la [[Concept-Modalisation]] vue de
 l'autre côté. La réactance est déclenchée par ce qui menace l'autonomie ou l'image ; une

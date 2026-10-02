@@ -11,10 +11,10 @@ tags: [meta/moc, esprit/productivité]
 | Verdict | Notes |
 |---|---|
 | 🟢 solide | 12 |
-| 🟠 contesté | 24 |
+| 🟠 contesté | 28 |
 | 🔴 réfuté | 1 |
 | ⬜ non applicable | 38 — traités de stratégie, Taleb, philosophie |
-| ⚪ non évalué | 6 |
+| ⚪ non évalué | 2 |
 
 ---
 
@@ -55,7 +55,7 @@ tags: [meta/moc, esprit/productivité]
 * 🟠 [[Concept-Envie]] — *bénigne ou malveillante selon que l'écart paraît mérité.*
 * 🟠 [[Concept-Ombre_Et_Traits_Refoulés]] — *appareil jungien à écarter, réaction disproportionnée à garder.*
 * 🟠 [[Concept-Menace_Sur_L_Image_De_Soi]] — *on évite précisément ce qui ferait progresser.*
-* ⚪ [[Concept-Confirmer_L_Image_De_Soi]] — *la résistance porte sur ce que céder dirait de soi.*
+* 🟠 [[Concept-Confirmer_L_Image_De_Soi]] — *la résistance porte sur ce que céder dirait de soi.*
 
 ## Systèmes — `esprit/stratégie`
 
@@ -83,7 +83,7 @@ de choses vérifiables — et c'est pour ça qu'ils vieillissent bien.*
 * ⬜ [[Concept-Pouvoir_Conféré]] — *ce qui est prêté peut être retiré.* · Greene
 * ⬜ [[Concept-Surface_D_Exposition]] — *toute intention déclarée devient une prise.* · Greene
 * 🟠 [[Concept-Coût_De_La_Supériorité_Visible]] — *paraître meilleur se paie, selon le public.* · Greene
-* ⚪ [[Concept-Stratégie_Du_Faible]] — *gagner en ne perdant pas — si le temps travaille pour soi.* · Greene
+* 🟠 [[Concept-Stratégie_Du_Faible]] — *gagner en ne perdant pas — si le temps travaille pour soi.* · Greene
 * 🟠 [[Concept-Terrain_De_Mort]] — *supprimer ses options ; **contredit** `Surface_D_Exposition`, et le partage est dans la note.* · Greene
 
 ## Carrière et valeur — `esprit/stratégie`
@@ -106,7 +106,7 @@ du vault entier.*
 * ⬜ [[Concept-Système_1_Et_2]] — *« fictions utiles », et Kahneman le dit lui-même.*
 * ⬜ [[Concept-Ce_Que_Je_Vois_Est_Tout]] — *le mécanisme qui engendre presque tous les autres.*
 * ⬜ [[Concept-Erreur_Narrative]] — *une histoire cohérente n'est pas une explication.*
-* ⚪ [[Concept-Signal_Par_L_Absence]] — *un manque non déclaré n'est pas discret, il est imperceptible.*
+* 🟠 [[Concept-Signal_Par_L_Absence]] — *un manque non déclaré n'est pas discret, il est imperceptible.*
 
 ## Incertitude et exposition — `esprit/stratégie`
 
@@ -130,7 +130,7 @@ du vault entier.*
 * ⬜ [[Concept-Perspectivisme]] — *tout jugement est situé, y compris celui qui juge les autres.*
 * ⬜ [[Concept-Généalogie_Des_Valeurs]] — *le seul livre du corpus qui attaque les autres par le bas.*
 * ⬜ [[Concept-Liberté_Résiduelle]] — *ce qui reste possible, jamais ce qui est exigible.*
-* ⚪ [[Concept-Sens_Comme_Ressource]] — *supporter, pas survivre : la distinction que les vulgarisations effacent.*
+* 🟠 [[Concept-Sens_Comme_Ressource]] — *supporter, pas survivre : la distinction que les vulgarisations effacent.*
 * 🟠 [[Concept-Sens_Par_L_Engagement]] — *une question introspective sans réponse accessible de l'intérieur.*
 * ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
 * ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*

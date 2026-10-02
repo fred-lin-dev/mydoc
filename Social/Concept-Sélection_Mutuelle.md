@@ -1,8 +1,9 @@
 ---
 tags: [social/séduction, social/négociation]
 source: "[[Source-Mate_Become_the_Man_Women_Want]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La mutualité est visible dans les données, et Max & Miller ne l'invoquent pas :** l'appariement est **assortatif** sur l'attirance — méta-analyse de Feingold 1988, Psychological Bulletin 104(2), 226-35, corrélation d'environ 0,39 entre partenaires. Un appariement assortatif n'apparaît que si les deux côtés sélectionnent : c'est la trace observable de la symétrie que ce cadre postule. **Ce qui n'est pas testé :** que se **placer** dans ce cadre améliore les résultats. Et le détournement — l'invoquer après un refus — reste la vraie limite."
+fiabilite_date: 2026-10-02
 ---
 # Sélection mutuelle
 
@@ -34,9 +35,14 @@ mesurable : il change la question posée.
 rencontrent s'évaluent toutes les deux ; nier la symétrie revient à nier que l'autre ait
 des préférences. Aucune donnée n'est nécessaire pour ça.
 
-**Ce qui n'est pas établi :** que se placer dans ce cadre améliore les résultats. C'est
-plausible — ne serait-ce que parce qu'il réduit la dépendance au regard — mais personne
-ne l'a testé.
+**La mutualité laisse une trace mesurable, que le livre n'invoque pas :** l'appariement
+est **assortatif**. La méta-analyse de Feingold (1988) trouve une corrélation d'environ
+**0,39** entre partenaires sur l'attirance. Un tel appariement n'apparaît que si les deux
+côtés sélectionnent — c'est la symétrie postulée par ce cadre, observée dans ses effets.
+
+**Ce qui n'est pas testé :** que se **placer** dans ce cadre améliore les résultats. C'est
+plausible — ne serait-ce que parce qu'il réduit la dépendance au regard — mais personne ne
+l'a montré.
 
 **Le détournement possible, et il est courant :** utiliser le vocabulaire de la
 sélection mutuelle pour se protéger d'un refus après coup — « de toute façon, ça ne me

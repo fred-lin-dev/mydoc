@@ -1,8 +1,9 @@
 ---
 tags: [esprit/biais]
 source: "[[Relations_in_Public.pdf]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**L'asymétrie que cette note résout est un effet nommé :** l'**effet de positivité des traits** (*feature-positive effect*) — on apprend bien mieux de la présence d'un indice que de son absence. Newman, Wolff & Hearst 1980, J Exp Psychol HLM 6(5), 630-50, chez l'humain ; Jenkins & Sainsbury 1969 chez l'animal. C'est l'appui direct du point central : une absence n'a de valeur informative que si une attente la rend perceptible. **Ce qui n'est pas mesuré :** les observations de Goffman elles-mêmes, et la règle opératoire — énumérer d'avance — qui est de moi."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Le signal par l'absence
@@ -27,8 +28,14 @@ qui doit apparaître.**
 
 ## Ce qui la rend vraie, ou fragile
 
-`⚪` : une généralisation d'observation, illustrée et non mesurée. Elle hérite ce verdict
-de [[Concept-Apparences_Normales]], dont elle a été détachée le 2026-09-30.
+**L'asymétrie que cette note résout porte un nom en psychologie de l'apprentissage :
+l'*effet de positivité des traits*.** On apprend nettement mieux de la **présence** d'un
+indice que de son **absence** — établi chez l'animal dès 1969, chez l'humain par Newman,
+Wolff & Hearst (1980). C'est l'appui direct du point central : sans attente déclarée, une
+absence n'est pas « peu visible », elle est cognitivement inaccessible.
+
+**Ce qui n'est pas mesuré :** les observations de Goffman elles-mêmes, et la règle
+opératoire — énumérer d'avance ce qui doit apparaître — qui est de moi.
 
 **Ce qui la rend utile malgré ça, c'est qu'elle décrit un dispositif qui existe déjà ici.**
 `Scripts/audit.py` ne voit les manques que parce que les conventions énumèrent le présent

@@ -1,8 +1,9 @@
 ---
 tags: [social/influence]
 source: "[[Source-The_Presentation_of_Self_in_Everyday_Life]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**La même thèse existe au niveau des organisations, et elle est célèbre :** l'**isomorphisme institutionnel** de DiMaggio & Powell 1983, American Sociological Review 48(2), 147-60 — les organisations adoptent des formes disponibles au lieu d'en inventer, et ces formes se **découplent** des tâches qu'elles prétendent servir. C'est mot pour mot « les façades préexistent » et « la façade devient une représentation collective, détachée des tâches ». Deux sociologies indépendantes, le même constat à vingt-cinq ans d'écart. **Ce qui n'est pas mesuré :** la version individuelle de Goffman, et l'exemple des grades militaires, qui reste une illustration."
+fiabilite_date: 2026-10-02
 atomicite_relue: 2026-10-01
 ---
 # Façade choisie, non créée
@@ -25,11 +26,19 @@ et pas assez pour le suivant, parce que les écarts entre grades sont larges.
 
 ## Ce qui la rend vraie, ou fragile
 
-**`⚪` et non `⬜` :** contrairement aux autres notes tirées de ce livre, celle-ci affirme
-quelque chose sur le monde — que les façades sont majoritairement héritées plutôt
-qu'inventées. C'est une généralisation sociologique appuyée sur des exemples choisis,
-jamais mesurée. Elle est plausible et je ne connais rien qui la contredise, ce qui ne
-suffit pas.
+**Cette note affirme quelque chose sur le monde** — que les façades sont majoritairement
+héritées plutôt qu'inventées — et Goffman l'appuie sur des exemples choisis.
+
+**Mais la même thèse a été établie au niveau des organisations, et elle est célèbre.**
+DiMaggio & Powell (1983) ont décrit l'**isomorphisme institutionnel** : les organisations
+adoptent des formes déjà disponibles plutôt que d'en inventer, et ces formes se
+**découplent** des tâches qu'elles prétendent servir. C'est, mot pour mot, « les façades
+préexistent » et « la façade devient une représentation collective, détachée des tâches
+accomplies en son nom ». **Deux sociologies indépendantes, le même constat à vingt-cinq ans
+d'écart.**
+
+Ce qui reste non mesuré est la version **individuelle** — celle de Goffman — et son exemple
+des grades militaires, qui demeure une illustration.
 
 **Ce qui la rend utile même non vérifiée :** elle déplace la question. « Quelle image
 donner de moi ? » suppose un espace ouvert ; « parmi les façades disponibles, laquelle

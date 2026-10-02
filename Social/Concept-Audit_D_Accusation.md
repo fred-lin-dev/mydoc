@@ -1,8 +1,9 @@
 ---
 tags: [social/négociation, social/influence]
 source: "[[Source-Never_Split_the_Difference]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Le procédé a un nom et une littérature que Voss ne cite pas : le *stealing thunder*.** Williams, Bourgeois & Croyle 1993, puis réplication par Dolnik, Case & Williams 2003, Law and Human Behavior 27(3), 267-87 — révéler soi-même une information défavorable réduit son effet par rapport au cas où l'adversaire la révèle. Converge avec la méta-analyse d'Allen 1991 : un message à deux faces **avec réfutation** persuade mieux qu'un message à une face. **Le garde-fou reste de moi :** ces travaux portent sur une information que l'autre allait obtenir, pas sur une objection qu'il n'avait pas."
+fiabilite_date: 2026-10-02
 ---
 # Audit d'accusation
 
@@ -20,7 +21,16 @@ souvent à la minimiser — ce qui est l'effet cherché.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué.** Aucune mesure, chez Voss comme ailleurs.
+**Le procédé a un nom et une littérature, et Voss ne les cite pas :** le *stealing
+thunder*. Williams, Bourgeois & Croyle (1993), répliqué par Dolnik, Case & Williams
+(2003), ont établi que révéler soi-même une information défavorable **réduit son effet**
+par rapport au cas où l'adversaire la révèle. Ça converge avec la méta-analyse d'Allen
+(1991) : un message à deux faces **avec réfutation** persuade mieux qu'un message à une
+face.
+
+**Mais ces travaux portent sur une information que l'autre allait de toute façon
+obtenir** — ce qui est précisément la condition que Voss ne pose pas, et que j'ajoute plus
+bas.
 
 **Ce qui tient logiquement :** l'énoncé désarme parce qu'il **supprime l'asymétrie
 d'information**. Une objection tacite pèse tant qu'elle n'est pas dite, parce que chacun

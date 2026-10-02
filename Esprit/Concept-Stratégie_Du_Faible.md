@@ -1,8 +1,9 @@
 ---
 tags: [esprit/stratégie]
 source: "[[Source-The_33_Strategies_of_War]]"
-fiabilite: ⚪ non évalué
-fiabilite_note: ""
+fiabilite: 🟠 contesté
+fiabilite_note: "**Il existe une étude quantitative que Greene n'invoque pas :** Arreguín-Toft 2001, International Security 26(1), 93-128, « How the Weak Win Wars » — sur les conflits asymétriques de 1800 à 1998, l'acteur faible l'emporte dans près de 30 % des cas, et cette proportion **augmente avec le temps**. Son résultat central soutient l'asymétrie des objectifs : c'est l'**interaction** des approches qui décide — quand le fort attaque directement et le faible indirectement, le faible gagne beaucoup plus souvent. **Ce qui reste de moi :** la condition que le temps travaille pour soi. Et la méthode de Greene reste l'anecdote choisie."
+fiabilite_date: 2026-10-02
 ---
 # Stratégie du faible
 
@@ -28,8 +29,13 @@ défaite est une victoire pour lui et une défaite pour l'autre.
 
 ## Ce qui la rend vraie, ou fragile
 
-**Non évalué.** Greene raisonne par exemples historiques choisis, avec le défaut habituel :
-l'histoire est aussi pleine de faibles qui ont été écrasés en appliquant exactement ça.
+**Greene raisonne par exemples choisis** — l'histoire est aussi pleine de faibles écrasés
+en appliquant exactement ça. **Mais quelqu'un a compté.** Arreguín-Toft (2001) a examiné
+les conflits asymétriques de 1800 à 1998 : l'acteur faible l'emporte dans près de **30 %**
+des cas, et la proportion **augmente** sur la période. Son résultat principal soutient
+directement l'asymétrie des objectifs — ce qui décide n'est pas le rapport de forces mais
+l'**interaction des approches** : face à une attaque directe, une défense indirecte gagne
+beaucoup plus souvent.
 
 **Ce qui tient sans données :** l'asymétrie des objectifs. Si la victoire du fort exige une
 décision et que celle du faible n'exige que la durée, alors les deux ne jouent pas au même
