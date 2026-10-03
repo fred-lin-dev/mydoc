@@ -148,7 +148,7 @@ qui porte l'information qu'un dossier ne peut pas donner.
 | `esprit/` | `psychologie` `biais` `philosophie` `stratégie` `productivité` `habitudes` |
 | `social/` | `influence` `négociation` `séduction` `style` `charisme` |
 | `tech/` | `programmation` `outils` |
-| `langues/` | `anglais` `vocabulaire` |
+| `lexique/` | `français` |
 | `corps/` | `sommeil` `santé` |
 | `meta/` | `source` `moc` `ref` `guide` |
 
@@ -162,31 +162,80 @@ tags: [meta/moc, social/séduction]             # un index
 moment où **cinq notes** le justifient. En dessous, un tag existant plus large
 fait l'affaire.
 
-### Le seul sous-dossier de domaine autorisé — `Langues/`, 2026-10-03
+### `Drills/` — l'entraînement, et pourquoi il est dehors — 2026-10-03
 
-**La règle générale ne change pas : les dossiers de domaine sont plats.** Un
-sous-dossier qui encoderait la taxonomie serait une seconde copie des tags, et le vault
-en a déjà supprimé un pour cette raison — `Extras/Books/Soft/`.
+**Le critère d'entrée du vault est la citabilité (décision 01), et du matériel de drill
+y échoue par construction.** « take after », « go / went / gone » ne se citent depuis
+aucun domaine : ce ne sont pas des idées, ce sont des formes à automatiser.
 
-`Langues/` est l'exception, et elle tient à une raison qu'aucun autre domaine n'a :
-**la langue n'est pas un sous-domaine, c'est une partition.** Une note de `social/` peut
-appartenir à deux sous-domaines ; un mot appartient à une langue et à une seule. Et
-surtout, **la langue doit séparer les decks Anki** — réviser du vocabulaire français et
-anglais dans le même paquet mélange deux exercices différents.
+> **La ligne de partage n'est pas la langue, c'est la nature du contenu.**
+> `hégémonie` nomme un concept et se cite partout → Zettelkasten.
+> `take after` ne nomme rien → entraînement. Et la ligne coupe aussi le français :
+> `chien` n'entrerait pas davantage.
 
-```
-Langues/MOC-Langues.md            l'index, au niveau du domaine
-Langues/Français/                 → deck Zettelkasten::Langues::Français
-```
+**D'où un dossier à côté du savoir, et non un domaine de plus :**
 
-> ⚠️ **Deux conséquences mécaniques, les deux vérifiées le 2026-10-03.**
-> 1. **Le plugin Anki résout le deck sur le chemin exact du dossier, il ne remonte pas
->    au parent.** `Langues/Français` a donc besoin de sa **propre** entrée dans
->    `FOLDER_DECKS`, sans quoi ses cartes tombent dans le deck par défaut.
-> 2. **Les scripts doivent parcourir en `rglob`, pas en `glob`.** Dans
->    `Scripts/orphelines.py` l'oubli n'aurait pas produit un chiffre faux : les
->    identifiants du sous-dossier auraient été absents de l'ensemble du vault, donc
->    **comptés comme orphelins**, et ce script imprime une commande `deleteNotes`.
+| | `Esprit/` `Social/` `Tech/` `Corps/` `Lexique/` | `Drills/` |
+|---|---|---|---|
+| contenu | des **idées** | des **formes** |
+| `Scripts/audit.py` | audité | **exclu** (`EXCLUS`) |
+| `fiabilite` · MOC · citabilité | obligatoires | **sans objet** |
+| préfixes de la décision 02 | obligatoires | **aucun** — nom libre |
+| deck Anki | `Zettelkasten::<Domaine>` | **hors de `Zettelkasten::`** — `Anglais`, etc. |
+| `Scripts/orphelines.py` | parcouru | **parcouru aussi**, voir l'avertissement |
+
+> 🔴 **`Drills/` doit figurer dans `DOMAINES` de `Scripts/orphelines.py`, bien qu'il
+> soit exclu de l'audit.** Les deux scripts n'ont pas le même objet : l'audit juge du
+> savoir, `orphelines` compare des identifiants. Omettre `Drills/` dans le second
+> rendrait ses identifiants absents de l'ensemble du vault, donc **comptés comme
+> orphelins** — et ce script imprime une commande `deleteNotes`. C'est le troisième
+> endroit où ce piège s'est présenté en un jour.
+
+**Les types de note, et le sens des cartes.** Un drill n'a pas toujours deux sens utiles :
+
+| Matériel | Type | Cartes | Pourquoi |
+|---|---|---|---|
+| phrasal verbs | `Vocabulaire_Elite` | 2 | *sens → verbe* fait **produire**, et c'est le manque du B2 |
+| verbes irréguliers | `Basic` (`Q:`/`A:`) | 1 | « went, gone » → « go » **n'apprend rien** : une seule direction |
+| formes en contexte | `Cloze` | 1 par `{{cN::}}` | ⚠️ la regex **exige** un préfixe entre crochets : `[Irréguliers] I have {{c1::gone}}…` |
+
+### Les dossiers de domaine sont plats — aucune exception
+
+**Un sous-dossier qui encode la taxonomie est une seconde copie des tags.** Le vault en
+a supprimé deux pour cette raison : `Extras/Books/Soft/`, puis `Langues/Français/`.
+
+> **`Langues/` a été renommé `Lexique/` le 2026-10-03**, après `Drills/`. Le pluriel
+> nommait un domaine qui par règle n'en contiendrait jamais qu'une, et il invitait à y
+> verser du vocabulaire d'une langue en cours d'acquisition. Le sous-tag `langues/anglais`,
+> déclaré et vide depuis le premier jour, a été supprimé par la même occasion — la règle
+> des 5 l'interdisait depuis le début, et rien ne le contrôlait avant le contrôle de
+> taxonomie ajouté le même jour. **Les mentions de `langues/` dans les textes antérieurs
+> sont au passé et ne sont pas réécrites** : elles décrivent un état réel.
+
+> **L'exception `Langues/Français/` a vécu trois heures, le 2026-10-03, et son
+> démontage vaut mieux que sa création.** Elle avait été ouverte sur deux arguments :
+> *une langue est une partition, il en faudra d'autres* ; et *la langue doit séparer les
+> decks Anki*. **`Drills/`, créé le même jour, a tué les deux** — l'anglais et le chinois
+> sont du drill, ils n'entreront jamais dans `Langues/`, et c'est `Drills/Anglais` qui
+> porte leur deck. Le sous-dossier ne séparait donc plus rien, et ne contiendrait jamais
+> qu'un seul enfant.
+>
+> **La leçon : une exception se justifie par une prévision, et une prévision se
+> vérifie.** Celle-ci était fausse trois heures plus tard, et c'est la trajectoire de
+> l'utilisateur qui l'a dit — pas un contrôle. Avant d'ouvrir une exception de
+> structure, demander *« qu'est-ce qui la rendrait inutile ? »* ; ici la réponse
+> existait déjà.
+
+**Ce qui a été appris et qui survit à l'exception**, les deux vérifiés sur le code :
+
+1. **Le plugin Anki résout le deck sur le chemin exact du dossier, il ne remonte pas au
+   parent.** Tout dossier porteur de cartes a besoin de sa **propre** entrée dans
+   `FOLDER_DECKS` — ce qui vaut aujourd'hui pour `Drills/Anglais`. `Scripts/audit.py`
+   le vérifie désormais pour **tout** dossier porteur, pas seulement le premier niveau.
+2. **Les scripts doivent parcourir en `rglob`.** Dans `Scripts/orphelines.py` l'oubli
+   n'aurait pas produit un chiffre faux : les identifiants d'un sous-dossier auraient
+   été absents de l'ensemble du vault, donc **comptés comme orphelins**, et ce script
+   imprime une commande `deleteNotes`.
 
 > ✅ **La règle a fonctionné une fois, et c'est son premier test réel.** `corps/`
 > était annoncé et vide depuis le premier jour. Il est né à la phase 5, quand
@@ -504,7 +553,7 @@ donc aucun choix à faire à la création :
 esprit/…   → Zettelkasten::Esprit
 social/…   → Zettelkasten::Social
 tech/…     → Zettelkasten::Tech
-langues/…  → Zettelkasten::Langues
+lexique/…  → Zettelkasten::Lexique
 ```
 
 Les sous-sous-decks naîtront avec la même **règle des 5**. Un deck à plat est
@@ -631,8 +680,8 @@ qui crie pour rien cesse d'être lancé.
 cohabitent dans le domaine : le préfixe suffit à les distinguer.
 
 ```
-Esprit/  Social/  Tech/  Corps/  Langues/     le savoir
-         Langues/Français/                    ← le seul sous-dossier de domaine
+Esprit/  Social/  Tech/  Corps/  Lexique/     le savoir — audité, et **à plat**
+Drills/  Drills/Anglais/                      l'entraînement — PAS audité, mais synchronisé
 Meta/        tout ce qui n'est pas du savoir :
              Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki
              MOC-Audit · Ref-Bibliothèque · les 3 Ref-Lecture_*

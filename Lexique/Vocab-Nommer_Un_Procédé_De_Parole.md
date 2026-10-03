@@ -1,11 +1,11 @@
 ---
-tags: [langues/vocabulaire, social/influence]
+tags: [lexique/français, social/influence]
 ---
 # 🎙️ Nommer un procédé de parole — quatorze mots
 
 > **Fiche de vocabulaire — faite pour être mémorisée**, contrairement à une `Ref-`.
 > Deux cartes par mot, dont une dans le sens *définition → mot*. Le pourquoi est dans
-> [[Concept-Mot_Précède_L_Usage]], le critère d'entrée dans [[MOC-Langues]].
+> [[Concept-Mot_Précède_L_Usage]], le critère d'entrée dans [[MOC-Lexique]].
 
 **Famille : comment une chose est dite**, et non ce qu'elle dit. C'est le vocabulaire
 qui manque pour commenter une prise de parole au lieu de la subir — celui que
@@ -71,6 +71,34 @@ qui manque pour commenter une prise de parole au lieu de la subir — celui que
 <!--ID: 1791036058320-->
 
 
+**hyperbole** :: exagération assumée qui ne cherche pas à tromper. *Ex : « des milliers de fois » est une hyperbole, pas un chiffre.*
+<!--ID: 1791050495079-->
+
+
+**concession** :: accorder un point à l'adversaire avant de le retourner. *Ex : la concession désarme avant que l'objection ne tombe.*
+<!--ID: 1791050495083-->
+
+
+**captatio** :: ouverture qui se concilie l'auditoire avant d'entrer dans le sujet. *Ex : trois phrases de captatio, puis l'attaque.*
+<!--ID: 1791050495088-->
+
+
+**anacoluthe** :: rupture de construction qui laisse une phrase inachevée dans sa syntaxe. *Ex : « moi, ma mère, elle disait toujours… ».*
+<!--ID: 1791050495091-->
+
+
+**pléonasme** :: ajout d'un mot dont le sens est déjà dans un autre. *Ex : « monter en haut » est un pléonasme.*
+<!--ID: 1791050495095-->
+
+
+**polysémie** :: propriété d'un mot qui porte plusieurs sens distincts. *Ex : la polysémie de « liberté » rend le débat stérile.*
+<!--ID: 1791050495099-->
+
+
+**équivoque** :: formulation qui laisse exprès deux lectures possibles. *Ex : sa réponse était équivoque, et volontairement.*
+<!--ID: 1791050495102-->
+
+
 ---
 
 ## Les trois paires qui font le travail
@@ -80,6 +108,7 @@ qui manque pour commenter une prise de parole au lieu de la subir — celui que
 | **litote** | **euphémisme** | la direction. La litote **atténue pour amplifier** — l'auditeur doit corriger vers le haut ; l'euphémisme **atténue pour adoucir**, et il voudrait qu'on en reste là |
 | **ellipse** | **redondance** | les deux bords de la même question : ce que l'auditeur peut rétablir seul. Williams en a fait une règle — voir [[Concept-Supprimer_L_Inférable]] |
 | **laconique** | **prolixe** | le même axe, et aucun des deux n'est une qualité en soi : la question est le rapport entre la longueur et l'enjeu |
+| **litote** | **antiphrase** | l'écart au dit. La litote dit **moins** et l'auditeur corrige vers le haut ; l'antiphrase dit **le contraire** et il inverse. Confondre les deux fait passer une ironie pour une modestie |
 
 > ⚠️ **`emphase` n'est pas dans cette fiche, à dessein.** Le mot courant veut dire
 > *insistance appuyée* ; chez Williams il désigne la **position accentuée en fin de
@@ -91,4 +120,4 @@ qui manque pour commenter une prise de parole au lieu de la subir — celui que
 * [[Concept-Mot_Précède_L_Usage]] — *la note qui justifie ces fiches.*
 * [[Concept-Supprimer_L_Inférable]] — *l'ellipse comme règle de rédaction, chez Williams.*
 * [[Concept-Trois_Niveaux_D_Objection]] — *Viktorovitch : ces mots servent à nommer le procédé avant d'y répondre.*
-* [[MOC-Langues]] — *l'index du domaine.*
+* [[MOC-Lexique]] — *l'index du domaine.*

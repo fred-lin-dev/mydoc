@@ -1,10 +1,10 @@
 ---
-tags: [langues/vocabulaire, esprit/stratégie]
+tags: [lexique/français, esprit/stratégie]
 ---
 # ♟️ Nommer un rapport de force — quinze mots
 
 > **Fiche de vocabulaire — faite pour être mémorisée.** Deux cartes par mot, dont une
-> dans le sens *définition → mot*. Critère d'entrée dans [[MOC-Langues]].
+> dans le sens *définition → mot*. Critère d'entrée dans [[MOC-Lexique]].
 
 **Famille : la forme que prend une domination.** C'est le vocabulaire de la phase 4 de
 [[Ref-Lecture_Ordre_de_Priorité]] — neuf livres sur le pouvoir, et presque aucun de ces
@@ -75,6 +75,34 @@ mots nomment les formes du prêt.
 <!--ID: 1791036058205-->
 
 
+**sujétion** :: état de celui qui est soumis, et le lien qui l'y tient. *Ex : une sujétion économique n'a pas besoin de loi.*
+<!--ID: 1791050495020-->
+
+
+**émancipation** :: sortie d'une sujétion, par rupture du lien. *Ex : l'émancipation se prend, elle ne s'accorde pas.*
+<!--ID: 1791050495024-->
+
+
+**arbitrage** :: pouvoir de trancher entre deux parties qui s'y soumettent. *Ex : celui qui garde l'arbitrage garde le dernier mot.*
+<!--ID: 1791050495027-->
+
+
+**entregent** :: habileté à se mouvoir dans un réseau de personnes. *Ex : il doit sa position à son entregent, pas à son dossier.*
+<!--ID: 1791050495030-->
+
+
+**capter** :: détourner à son profit ce qui allait ailleurs. *Ex : capter la rente d'un dispositif qu'on n'a pas créé.*
+<!--ID: 1791050495035-->
+
+
+**verrouiller** :: rendre une position impossible à contester. *Ex : la nomination a verrouillé le poste pour dix ans.*
+<!--ID: 1791050495038-->
+
+
+**instrumentaliser** :: se servir de quelqu'un ou d'une cause comme d'un moyen. *Ex : instrumentaliser un conflit pour en tirer un mandat.*
+<!--ID: 1791050495042-->
+
+
 ---
 
 ## Les quatre paires qui font le travail
@@ -96,4 +124,4 @@ mots nomment les formes du prêt.
 * [[Concept-Pouvoir_Conféré]] — *le pouvoir est prêté : ces mots nomment les formes du prêt.*
 * [[Concept-Levier_Des_Minorités_Organisées]] — *Bernays : la cooptation et l'entrisme en acte.*
 * [[Concept-Vaincre_Sans_Combattre]] — *Sun Tzu, dont « hégémonie » est le nom de l'état atteint.*
-* [[MOC-Langues]] — *l'index du domaine.*
+* [[MOC-Lexique]] — *l'index du domaine.*

@@ -43,14 +43,14 @@ contrôle ne vérifie.*
 
 | Domaine | `Concept-` | `Source-` | `Ref-` |
 |---|---|---|---|
-| `Esprit/` | 84 | 23 | 6 |
+| `Esprit/` | **85** | 23 | 6 |
 | `Social/` | **61** | 14 | 7 |
+| `Tech/` | **4** | 2 | 0 |
 | `Corps/` | **14** | 2 | 1 |
-| `Tech/` | **4** — toutes `⬜` | 2 | 0 |
-| `Langues/` | **0** | 0 | 0 |
+| `Lexique/` | **0** — 6 `Vocab-` | 0 | 0 |
 
-**Verdicts :** 🟠 68 · ⬜ 66 · 🟢 20 · 🔴 5 · 🔵 4 · **⚪ 0**
-Les **97 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le plus ancien a
+**Verdicts :** 🟠 69 · ⬜ 66 · 🟢 20 · 🔴 5 · 🔵 4 · **⚪ 0**
+Les **98 verdicts datés** portent une `fiabilite_date` ; horizon 24 mois, le plus ancien a
 0 mois. **La file de vérification est vide** — les 42 dettes de la construction ont toutes
 été examinées, les 4 restantes sont en `🔵 invérifiable`.
 
@@ -262,10 +262,10 @@ attendu le plus faible.
 
 ### Trous connus
 
-- **`Langues/` est vide.** `English_Phrasal_Verbs` est `lu-sans-fiche`, et la décision 02b a
-  écarté un préfixe `Vocab-`. ⚠️ **À rouvrir avant d'attaquer le vocabulaire :** l'ancien vault
-  avait un type de note Anki `Vocabulaire_Elite` avec un champ *Exemple*, conservé dans la
-  configuration du plugin et inutilisé.
+- ✅ **`Lexique/` — ex-`Langues/`, renommé le 2026-10-03.** Le préfixe `Vocab-` a été créé (sixième),
+  le type Anki `Vocabulaire_Elite` de l'ancien vault est **enfin en service**, et le domaine
+  porte 4 fiches / 56 mots. `English_Phrasal_Verbs` est passé `dehors` : l'anglais
+  s'entraîne dans **`Drills/`**, hors Zettelkasten et hors audit. Voir [[MOC-Lexique]].
 - **Une note manquante que rien ne peut combler par la fiction :** la **spécification
   incomplète**, qu'illustre parfaitement *I, Robot* — mais une fiction ne crée pas de
   `Concept-`. Elle devra venir de littérature technique. Voir [[Source-I_Robot]].

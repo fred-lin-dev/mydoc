@@ -199,7 +199,7 @@ avoir dormi configurée depuis le premier jour.
 > rx=re.compile(r'^(\*\*.*?\*\*) :: (.*?)(?: \*Ex\s?: (.*?)\*)?\$', re.M)
 > t=io.open(sys.argv[1],encoding='utf-8').read()
 > for m in rx.finditer(t): print(m.group(1), '| Ex:', bool(m.group(3)))
-> " Langues/Français/Vocab-Nommer_Un_Raisonnement.md
+> " Lexique/Vocab-Nommer_Un_Raisonnement.md
 > ```
 
 ## La configuration appliquée
@@ -208,8 +208,8 @@ avoir dormi configurée depuis le premier jour.
 |---|---|---|
 | Regex `Basic` | `^Q: ((?:.\|\n)*?)\nA: ((?:.\|\n)*?)$` | le motif `(?:.\|\n)` est nécessaire parce qu'en JavaScript `.` ne franchit pas les retours à la ligne |
 | `Esprit/` → | `Zettelkasten::Esprit` | un sous-deck par domaine de premier niveau (décision 08b) |
-| `Social/` `Tech/` `Langues/` → | `Zettelkasten::Social` `::Tech` `::Langues` | idem |
-| `Langues/Français/` → | `Zettelkasten::Langues::Français` | **le seul sous-dossier**, et il a besoin de sa propre entrée : le plugin résout le deck sur le chemin exact, il ne remonte pas au parent |
+| `Social/` `Tech/` `Lexique/` → | `Zettelkasten::Social` `::Tech` `::Lexique` | idem |
+| `Drills/Anglais/` → | **`Anglais`** | hors de `Zettelkasten::` : du drill, pas du savoir. Il a besoin de sa propre entrée — le plugin résout le deck sur le chemin **exact**, il ne remonte pas au parent |
 | Regex `Vocabulaire_Elite` | `^(\*\*.*?\*\*) :: (.*?)(?: \*Ex\s?: (.*?)\*)?$` | une ligne par mot, deux cartes par ligne — voir plus haut |
 | Deck par défaut | `Zettelkasten` | filet de sécurité : rien ne tombe dans *Default* |
 | Ignorés | `Templates/**` `Scripts/**` `Extras/**` `Meta/**` `Guide-*.md` `Ref-Lecture_*.md` | **`Templates/` est le plus important** : ses `Q:` vides produiraient des cartes vides à chaque scan |
@@ -262,11 +262,15 @@ Ajouter un dossier de domaine ne suffit pas. Il faut, dans cet ordre :
 5. Lancer l'audit : s'il ne dit rien, l'étape 3 a bien été enregistrée.
 
 > ⚠️ **Un sous-dossier compte comme un dossier à part entière** — ajouté le 2026-10-03.
-> `Langues/Français` a sa propre entrée dans `FOLDER_DECKS`, et **l'audit vérifie
+> `Drills/Anglais` a sa propre entrée dans `FOLDER_DECKS`, et **l'audit vérifie
 > désormais tout dossier porteur de cartes, pas seulement ceux de premier niveau.**
 > Avant ce correctif, perdre le mapping d'un sous-dossier n'aurait rien déclenché :
 > exactement l'angle mort qui avait coûté le mapping de `Corps/` le 2026-09-28, mais un
 > cran plus bas et donc invisible au contrôle d'alors.
+>
+> *Le contrôle a été écrit pour `Langues/Français/`, qui a disparu le jour même ; il
+> garde tout son objet pour `Drills/Anglais` — et c'est `Drills/` qui est désormais le
+> seul dossier à deux niveaux porteur de cartes.*
 
 **Si l'étape 3 est oubliée**, les cartes tombent dans le deck par défaut `Zettelkasten` — ce qui
 est un filet volontaire, et non `Default`. Rien n'est perdu, mais rien ne le signale non plus
@@ -402,7 +406,7 @@ def anki(a, **p):
         json.dumps({"action": a, "version": 6, "params": p}).encode(), timeout=60)
     return json.load(r)["result"]
 paires = []
-for d in ("Esprit", "Social", "Tech", "Corps", "Langues"):
+for d in ("Esprit", "Social", "Tech", "Corps", "Lexique"):
     for f in sorted(pathlib.Path(d).glob("Concept-*.md")):
         t = f.read_text(encoding="utf-8")
         if "## 🎴 Cartes" not in t:
@@ -445,10 +449,10 @@ l'air réussi. **Le scan n'avait rien pris du tout.**
 **Les trois preuves qui ont tranché, et aucune ne vient d'Anki :**
 
 ```bash
-grep -c '<!--ID: ' Langues/Français/*.md          # → 0 : rien n'a été écrit en retour
+grep -c '<!--ID: ' Lexique/*.md                   # → 0 : rien n'a été écrit en retour
 python3 -c "import json,io; d=json.load(io.open('.obsidian/plugins/\
 obsidian-to-anki-plugin/data.json')); print([k for k in d['File Hashes'] \
-if 'Langues' in k])"                              # → [] : le plugin n'a jamais lu ces fichiers
+if 'Lexique' in k])"                              # → [] : le plugin n'a jamais lu ces fichiers
 stat -c '%y' .obsidian/plugins/obsidian-to-anki-plugin/data.json
                                                   # → antérieur au scan : le plugin n'a pas sauvegardé
 ```
@@ -468,7 +472,7 @@ quelque chose doit le dire, pas afficher une coche.**
 **Compter les identifiants, pas les questions** — il y a deux syntaxes de carte :
 
 ```bash
-grep -rhc '<!--ID: ' --include='*.md' Esprit Social Tech Corps Langues \
+grep -rhc '<!--ID: ' --include='*.md' Esprit Social Tech Corps Lexique Drills \
   | awk '{s+=$1} END {print s}'
 ```
 

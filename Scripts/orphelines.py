@@ -24,7 +24,11 @@ import urllib.request
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
-DOMAINES = ("Esprit", "Social", "Tech", "Corps", "Langues")
+# `Drills` n'est pas un domaine de savoir — il est exclu de audit.py — mais il
+# porte des cartes, donc il DOIT figurer ici. Omis, ses identifiants seraient
+# absents de l'ensemble du vault et comptés comme orphelins : ce script imprime
+# une commande `deleteNotes`. Même piège que le sous-dossier de `Langues/`.
+DOMAINES = ("Esprit", "Social", "Tech", "Corps", "Lexique", "Drills")
 ANKI = "http://localhost:8765"
 ID = re.compile(r"<!--ID: (\d+)-->")
 CARTE = re.compile(r"^Q: ", re.MULTILINE)
@@ -33,6 +37,10 @@ CARTE = re.compile(r"^Q: ", re.MULTILINE)
 # « écrites » sous-estimerait le vault et le rapport mentirait — la comparaison
 # des identifiants, elle, était déjà correcte.
 VOCAB = re.compile(r"^\*\*.+?\*\* :: .+$", re.MULTILINE)
+# Et les clozes de Drills/ : une LIGNE = une note Anki, quel que soit le nombre de
+# {{cN::}} qu'elle porte. C'est bien la note qu'on compte, puisque la comparaison
+# porte sur des identifiants de notes.
+CLOZE = re.compile(r"^\[.+?\] .*\{\{c\d+::.+\}\}.*$", re.MULTILINE)
 
 
 def ids_du_vault():
@@ -73,6 +81,7 @@ def main():
 
     ecrites = sum(len(CARTE.findall(f.read_text(encoding="utf-8")))
                   + len(VOCAB.findall(f.read_text(encoding="utf-8")))
+                  + len(CLOZE.findall(f.read_text(encoding="utf-8")))
                   for d in DOMAINES for f in (RACINE / d).rglob("*.md"))
     attente = ecrites - len(vault)
     print(f"vault : {ecrites} cartes écrites, dont {len(vault)} synchronisées"

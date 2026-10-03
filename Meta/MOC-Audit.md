@@ -33,7 +33,7 @@ TABLE WITHOUT ID
   file.link AS "Note",
   length(file.inlinks) AS "Cité par",
   source AS "Source"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-") AND contains(fiabilite, "non évalué")
 SORT length(file.inlinks) DESC
 ```
@@ -50,7 +50,7 @@ TABLE WITHOUT ID
   file.link AS "Note",
   fiabilite_date AS "Examinée le",
   source AS "Source"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-") AND contains(fiabilite, "invérifiable")
 SORT fiabilite_date ASC
 ```
@@ -61,7 +61,7 @@ SORT fiabilite_date ASC
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-")
   AND (contains(fiabilite, "solide") OR contains(fiabilite, "contesté")
        OR contains(fiabilite, "réfuté") OR contains(fiabilite, "invérifiable"))
@@ -75,7 +75,7 @@ note sans en tirer de question, c'est faire du surlignage sophistiqué.*
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-") AND !contains(file.content, "## 🎴 Cartes")
 ```
 
@@ -97,7 +97,7 @@ n'a jamais servi — et son idée n'était peut-être pas citable (décision 01)
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", file.folder AS "Domaine"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE length(file.inlinks) = 0
 SORT file.mtime ASC
 ```
@@ -110,7 +110,7 @@ SORT file.mtime ASC
 ```dataview
 TABLE WITHOUT ID file.link AS "Note", fiabilite AS "Verdict",
       fiabilite_date AS "Établi le"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-") AND fiabilite_date
 SORT fiabilite_date ASC
 LIMIT 15
@@ -122,7 +122,7 @@ LIMIT 15
 
 ```dataview
 TABLE WITHOUT ID fiabilite AS "Verdict", length(rows) AS "Notes"
-FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Langues"
+FROM "Esprit" OR "Social" OR "Tech" OR "Corps" OR "Lexique"
 WHERE startswith(file.name, "Concept-")
 GROUP BY fiabilite
 SORT length(rows) DESC

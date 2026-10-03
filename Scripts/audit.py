@@ -23,7 +23,10 @@ from collections import defaultdict
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
-EXCLUS = {".obsidian", ".git", "Templates", "Scripts", "Extras", ".trash"}
+# `Drills` est hors Zettelkasten : du matériel d'entraînement, pas du savoir.
+# Aucun `fiabilite`, aucun MOC, aucun test de citabilité ne s'y applique — et
+# c'est exactement pourquoi il est séparé plutôt que toléré dans un domaine.
+EXCLUS = {".obsidian", ".git", "Templates", "Scripts", "Extras", ".trash", "Drills"}
 
 BAREME_PERIMETRE = {"fiché", "lu-sans-fiche", "illustration", "dehors"}
 

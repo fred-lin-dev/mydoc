@@ -1,10 +1,10 @@
 ---
-tags: [langues/vocabulaire, social/influence]
+tags: [lexique/français, social/influence]
 ---
 # 🎭 Nommer une attitude — quinze mots
 
 > **Fiche de vocabulaire — faite pour être mémorisée.** Deux cartes par mot, dont une
-> dans le sens *définition → mot*. Critère d'entrée dans [[MOC-Langues]].
+> dans le sens *définition → mot*. Critère d'entrée dans [[MOC-Lexique]].
 
 **Famille : la disposition de quelqu'un, pas son acte.** C'est le vocabulaire qui
 permet de décrire un comportement sans le juger moralement — ce que
@@ -75,6 +75,34 @@ font en un.
 <!--ID: 1791036058259-->
 
 
+**inflexible** :: qui ne plie sur rien, y compris quand il le faudrait. *Ex : inflexible là où intransigeant aurait suffi.*
+<!--ID: 1791050494993-->
+
+
+**versatile** :: qui change d'avis au gré des circonstances. *Ex : un soutien versatile ne vaut pas un engagement.*
+<!--ID: 1791050494996-->
+
+
+**outrecuidance** :: assurance excessive de qui se croit au-dessus. *Ex : il a eu l'outrecuidance de corriger son propre jury.*
+<!--ID: 1791050495000-->
+
+
+**componction** :: gravité affichée, souvent empruntée. *Ex : il annonce les mauvaises nouvelles avec componction.*
+<!--ID: 1791050495004-->
+
+
+**suffisance** :: contentement de soi qui se voit et qui pèse. *Ex : la suffisance se trahit dans le ton, pas dans le propos.*
+<!--ID: 1791050495008-->
+
+
+**scrupule** :: hésitation morale avant un acte qu'on pourrait se permettre. *Ex : il l'a fait sans l'ombre d'un scrupule.*
+<!--ID: 1791050495012-->
+
+
+**inconséquent** :: dont les actes ne suivent pas les propres principes. *Ex : inconséquent plutôt que malhonnête.*
+<!--ID: 1791050495016-->
+
+
 ---
 
 ## Les quatre paires qui font le travail
@@ -97,4 +125,4 @@ font en un.
 * [[Concept-Minorité_Intransigeante]] — *l'intransigeance comme mécanisme, chez Taleb.*
 * [[Concept-Savoir_Ne_Fait_Pas_Agir]] — *l'écart que « velléitaire » nomme en un mot.*
 * [[Concept-Façade]] — *Goffman : une attitude tenue devant autrui n'est pas un trait de caractère.*
-* [[MOC-Langues]] — *l'index du domaine.*
+* [[MOC-Lexique]] — *l'index du domaine.*

@@ -95,7 +95,7 @@ plus un espace de noms `meta/` pour ce qui n'est pas du savoir :
 tags: [esprit/psychologie, esprit/productivité]   # une note atomique
 tags: [meta/source, esprit/productivité]          # une fiche de livre
 tags: [meta/moc, corps/santé]                     # un index
-tags: [langues/vocabulaire]                       # une fiche de vocabulaire
+tags: [lexique/français]                          # une fiche de vocabulaire
 ```
 
 **Pourquoi deux niveaux et pas un.** Le premier niveau duplique le dossier

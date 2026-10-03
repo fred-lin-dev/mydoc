@@ -92,7 +92,7 @@ et l'audit recoupe cette colonne avec le disque.
 | What_Every_Body_Is_Saying | ✅ | fiché | social/influence | priorité |
 | Why_We_Sleep | ✅ | fiché | corps/sommeil | priorité |
 
-## Lu sans fiche — 10 titres, 10 sur le disque
+## Lu sans fiche — 9 titres, 9 sur le disque
 
 *Aucune thèse, aucune « action » à en tirer : exiger une fiche produirait du remplissage. Ils alimentent des notes atomiques, dont le champ `source` pointe le PDF directement.*
 
@@ -100,7 +100,6 @@ et l'audit recoupe cette colonne avec le disque.
 |---|---|---|---|---|
 | Beyond_Good_and_Evil | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
 | Critique_of_Pure_Reason | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
-| English_Phrasal_Verbs_in_Use_Advanced | ✅ | lu-sans-fiche | langues/vocabulaire | — |
 | Meditations | ✅ | lu-sans-fiche | esprit/philosophie | priorité |
 | Modern_Compiler_Implementation_in_ML | ✅ | lu-sans-fiche | tech/programmation | — |
 | On_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
@@ -135,7 +134,7 @@ et l'audit recoupe cette colonne avec le disque.
 | The_Traitor_Baru_Cormorant | — | illustration | — | scifi-strat |
 | We | ✅ | illustration | esprit/stratégie | scifi-strat |
 
-## Dehors — 24 titres, 6 sur le disque
+## Dehors — 25 titres, 7 sur le disque
 
 *Rien. Tout livre **explicitement écarté** après examen vient ici : le ficher contredirait la décision de l'écarter.*
 
@@ -145,6 +144,7 @@ et l'audit recoupe cette colonne avec le disque.
 | Consider_Phlebas | — | dehors | — | scifi-plaisir |
 | Digital_Minimalism | — | dehors | esprit/productivité | — |
 | Do_Androids_Dream_of_Electric_Sheep | — | dehors | — | scifi-plaisir |
+| English_Phrasal_Verbs_in_Use_Advanced | ✅ | dehors | — | — |
 | Forward_the_Foundation | ✅ | dehors | — | — |
 | Foundation_and_Earth | ✅ | dehors | — | — |
 | Foundations_Edge | ✅ | dehors | — | — |
@@ -193,6 +193,28 @@ posé par défaut et jamais relu contre le jugement porté ailleurs.
 **Une dette n'est pas toujours du travail à faire : c'est parfois un classement à
 corriger.** Et rien dans l'audit ne peut distinguer les deux — il voit qu'une fiche
 manque, pas qu'elle n'aurait jamais dû être attendue.
+
+### `English_Phrasal_Verbs` passe `dehors` sans quitter le disque — 2026-10-03
+
+**`💾` reste à `✅` : le PDF n'est pas supprimé.** Le niveau ne dit pas si un livre est
+utile, il dit **ce qu'il produit dans le Zettelkasten** — et celui-ci n'y produira rien.
+
+| | |
+|---|---|
+| avant | `lu-sans-fiche` · `langues/vocabulaire` — un niveau qui **promet des notes** |
+| après | `dehors` · domaine `—` — lu pour soi, hors vault. *Le sous-tag `langues/anglais` a été supprimé de la taxonomie avec le renommage en `Lexique/` : un livre hors vault n'appartient à aucun domaine de savoir.* |
+| ce qu'il alimente | **`Drills/Anglais/`**, créé le 2026-10-03 : du matériel d'entraînement, exclu de `Scripts/audit.py` |
+
+**Le motif de conservation du 2026-10-01 a été honoré, puis est devenu caduc.** Ce
+jour-là, le cahier avait été gardé parce qu'il était *« l'unique actif de `langues/`, qui
+est vide — le supprimer fermerait un domaine avant son ouverture »*. Le domaine a été
+ouvert le 2026-10-03, **et son critère d'entrée a exclu ce livre** : un mot n'entre que
+s'il remplace une périphrase déjà employée, et « take after » ne remplace rien.
+
+> **Ce n'est pas un revirement, c'est la conclusion de l'argument.** Le cahier avait été
+> gardé *pour* que le domaine puisse s'ouvrir ; il s'est ouvert, et il s'est ouvert sur
+> autre chose. L'entraînement en anglais existe — dans `Drills/`, avec son propre deck
+> Anki — mais pas dans le Zettelkasten, où la citabilité le refuse.
 
 ### Trois titres `lu-sans-fiche` supprimés — 2026-10-03
 

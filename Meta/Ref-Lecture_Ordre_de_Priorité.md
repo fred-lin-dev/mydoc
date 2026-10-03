@@ -279,7 +279,7 @@ rend ses citations invérifiables ») ne s'appliquait pas ici, contrairement à 
 | | Décision |
 |---|---|
 | `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **supprimés** — 9,3 Mo. *Deep Work* et *Essentialism* couvrent la même thèse et sont fichés |
-| les 3 outils de travail — 95,8 Mo, **80 % du poids** | **gardés.** Un cahier d'exercices ne produit pas de note : « 0 note » ne dit rien contre lui. Et `English_Phrasal_Verbs` est l'unique actif de `langues/`, qui est vide — le supprimer fermerait un domaine avant son ouverture |
+| les 3 outils de travail — 95,8 Mo, **80 % du poids** | **gardés.** Un cahier d'exercices ne produit pas de note : « 0 note » ne dit rien contre lui. *`English_Phrasal_Verbs` était gardé comme « l'unique actif de `langues/`, qui est vide ». Le domaine a été ouvert le 2026-10-03 et son critère d'entrée l'a exclu : passé `dehors`, il alimente `Drills/`. Les trois PDF restent sur le disque.* |
 | les 5 suites de *Fondation* · `To_Kill_A_Mockingbird` | **gardés** — tu as dit vouloir les lire |
 | `The_Power_of_Habit` · `The_Happiness_Advantage` · `Surrounded_by_Idiots` | **supprimés le 2026-10-03** — 9,1 Mo. Ils avaient été gardés *pour* produire une note précise ; lus, leurs apports se sont révélés **doublons de concepts déjà dans le vault**. Le pari était daté, il est tranché |
 

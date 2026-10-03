@@ -139,7 +139,7 @@ du vault entier.*
 * ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
 * ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*
 * 🟠 [[Concept-Synthétique_A_Priori]] — *la question tient, ses réponses-phares sont tombées.*
-* 🟠 [[Concept-Mot_Précède_L_Usage]] — *le mot ne crée pas la distinction, il la rend assez rapide pour servir ; porte aussi `langues/vocabulaire`.*
+* 🟠 [[Concept-Mot_Précède_L_Usage]] — *le mot ne crée pas la distinction, il la rend assez rapide pour servir ; porte aussi `lexique/français`.*
 
 ## Psychologie clinique — `esprit/psychologie`
 

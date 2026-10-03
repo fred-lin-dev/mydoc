@@ -158,7 +158,7 @@ une lacune se comble ou s'aggrave — et aucune ne s'est comblée toute seule.
 | **2** | **Argent et institutions** | toujours **1 seule note** dont l'argent est le sujet — [[Concept-Loi_De_Viabilité_Financière]], et elle vient de Newport en passant. **143 notes** au relevé, **163** aujourd'hui, et toujours une seule | ouverte, **aggravée** |
 | **5** | **L'histoire** | **0 titre**, alors que la phase 4 est bâtie sur l'anecdote historique et le dit : *« zéro donnée »* | **fermée — hors périmètre**, 2026-10-03 : l'axe relève d'`illustration` |
 | **6** | **`tech/`** | **4 notes, toutes `⬜`** — inchangé depuis le relevé, alors que le vault a gagné 0 note technique en une semaine | **à trancher**, voir plus bas |
-| **8** | **`langues/`** | **0 note**, un dossier vide, deux sous-tags déclarés, et **un actif classé `lu-sans-fiche`** — un niveau qui promet des notes | **fermée par ouverture**, 2026-10-03 : [[MOC-Langues]] · 1 note · 1 fiche `Vocab-` |
+| **8** | **`langues/`** | **0 note**, un dossier vide, deux sous-tags déclarés, et **un actif classé `lu-sans-fiche`** — un niveau qui promet des notes | **fermée par ouverture**, 2026-10-03 : [[MOC-Lexique]] · 1 note · 1 fiche `Vocab-` |
 | **3** | **L'écriture** | phase 2, 4 titres, **4 oraux ou interpersonnels** | **fermée** — 2026-10-02 |
 | **4** | **Le corps au-delà du sommeil** | `Corps/` = **5 notes, 1 fiche** — et c'était [[Source-Why_We_Sleep]], le plus critiqué de la liste | **fermée** — 2026-10-02 |
 
@@ -466,6 +466,12 @@ et ses symptômes, c'est ce que [[Concept-Orthogonalité]] et [[Concept-DRY]] po
 
 ## 8 · `langues/` — ✅ fermée le 2026-10-03, par ouverture
 
+> 📌 **Le domaine s'appelle `Lexique/` depuis le 2026-10-03** — voir [[MOC-Lexique]].
+> **Les mentions de `langues/` ci-dessous sont au passé et ne sont pas réécrites** :
+> elles décrivent l'état au moment du relevé, et c'est ce que cette note est faite pour
+> conserver. Le renommage est lui-même une conséquence de la fermeture : le domaine
+> ouvert s'est révélé ne contenir qu'une langue, et le pluriel invitait l'erreur.
+
 > **Relevée et fermée le même jour, et c'est la troisième façon de fermer une lacune.**
 > Les n° 3 et 4 se sont fermées **par acquisition**, la n° 5 **par décision** ; celle-ci
 > se ferme **par ouverture** — en écrivant la première note du domaine, sans rien
@@ -476,8 +482,8 @@ et ses symptômes, c'est ce que [[Concept-Orthogonalité]] et [[Concept-DRY]] po
 > | | |
 > |---|---|
 > | ce qui justifie le domaine | [[Concept-Mot_Précède_L_Usage]] · 🟠 contesté · 2 cartes — **rangée dans `Esprit/`** : une affirmation sur la pensée, dont les preuves portent sur le russe |
-> | les fiches, dans `Langues/Français/` | **4** · **56 mots** · 112 cartes — [[Vocab-Nommer_Un_Raisonnement]], [[Vocab-Nommer_Un_Procédé_De_Parole]], [[Vocab-Nommer_Une_Attitude]], [[Vocab-Nommer_Un_Rapport_De_Force]] |
-> | l'index | [[MOC-Langues]] |
+> | les fiches, dans `Lexique/` | **6** · **115 mots** · 230 cartes — raisonnement, procédé de parole, attitude, rapport de force, degré, changement |
+> | l'index | [[MOC-Lexique]] |
 > | le préfixe | **`Vocab-`**, sixième du vault — une liste **apprise**, là où `Ref-` est consultée |
 > | le type Anki | `Vocabulaire_Elite`, configuré depuis le premier jour et **jamais employé jusqu'ici** |
 >
@@ -488,10 +494,11 @@ et ses symptômes, c'est ce que [[Concept-Orthogonalité]] et [[Concept-DRY]] po
 > vocabulaire brut échoue toujours — mais *sophisme*, *spécieux*, *ad hoc* passent, parce
 > qu'ils raccourcissent ce que les 98 `fiabilite_note` de ce vault disent en huit mots.
 >
-> ⚠️ **Ce qui reste ouvert et n'a pas été tranché :** `English_Phrasal_Verbs_in_Use_Advanced`
-> est toujours `lu-sans-fiche`, c'est-à-dire toujours classé dans un niveau qu'il ne
-> remplit pas. Au critère ci-dessus il devrait passer `dehors`. **La ligne attend une
-> décision dans [[Ref-Bibliothèque]]** — le domaine est ouvert, pas l'inventaire.
+> ✅ **Et l'inventaire a suivi le même jour.** `English_Phrasal_Verbs_in_Use_Advanced`
+> était `lu-sans-fiche`, un niveau qui promet des notes qu'il ne produirait jamais : passé
+> **`dehors`**, `💾 ✅` — le PDF reste sur le disque et alimente `Drills/Anglais/`, hors
+> Zettelkasten. **La lacune se ferme donc sans dette résiduelle**, ce qui n'était vrai
+> d'aucune des trois autres fermetures.
 
 ### Ce qui avait été constaté — gardé tel quel
 

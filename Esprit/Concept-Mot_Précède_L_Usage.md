@@ -1,5 +1,5 @@
 ---
-tags: [esprit/philosophie, langues/vocabulaire]
+tags: [esprit/philosophie, lexique/français]
 source: "Hypothèse de relativité linguistique — Sapir 1929, Whorf 1956 ; version faible étayée par Winawer et al. 2007 et Lupyan 2012"
 fiabilite: 🟠 contesté
 fiabilite_note: "Deux affirmations de force très inégale, et c'est tout l'enjeu de la note. **L'affirmation forte** — la langue détermine ce qu'on peut penser, hypothèse de Sapir-Whorf dans sa version déterministe — est abandonnée : Berlin & Kay 1969 ont montré que les catégories de couleur ne suivent pas les découpages lexicaux, et Pinker 1994 en a fait la critique systématique. **L'affirmation faible** — disposer d'un mot accélère et stabilise une distinction qu'on pouvait déjà percevoir — est étayée : Winawer et al. 2007, PNAS 104(19), 7780-85, montrent que les russophones discriminent plus vite deux bleus que leur langue sépare (*goluboy* / *siniy*) ; Lupyan 2012, Frontiers in Psychology 3:54, documente l'effet d'un label sur la catégorisation. **Ce que la note retient est la version faible, et elle ne dit pas que le concept naît du mot** : elle dit que sans mot, la distinction reste coûteuse à mobiliser et donc rarement mobilisée."

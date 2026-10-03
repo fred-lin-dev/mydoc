@@ -1,5 +1,5 @@
 ---
-tags: [langues/vocabulaire, esprit/philosophie]
+tags: [lexique/français, esprit/philosophie]
 ---
 # 🧩 Nommer un raisonnement — douze mots
 
@@ -68,6 +68,38 @@ vault — le champ `fiabilite` ne fait rien d'autre que ça, soixante-dix fois.
 <!--ID: 1791034994299-->
 
 
+**prémisse** :: proposition de départ d'un raisonnement, et dont sa conclusion dépend. *Ex : l'argument est valide, mais sa prémisse est fausse.*
+<!--ID: 1791050495046-->
+
+
+**postulat** :: prémisse qu'on assume **sans la démontrer**, et qui s'annonce comme telle. *Ex : c'est un postulat, pas une conclusion.*
+<!--ID: 1791050495050-->
+
+
+**inférence** :: passage d'une proposition à une autre qu'on en tire. *Ex : l'inférence est hâtive : rien n'autorise ce saut.*
+<!--ID: 1791050495054-->
+
+
+**subsumer** :: ranger un cas particulier sous une règle générale. *Ex : tu subsumes trois phénomènes distincts sous un seul mot.*
+<!--ID: 1791050495058-->
+
+
+**circulaire** :: dont la conclusion est déjà contenue dans ses prémisses. *Ex : le raisonnement est circulaire, il ne démontre rien.*
+<!--ID: 1791050495061-->
+
+
+**contingent** :: qui pourrait être autrement — opposé à nécessaire. *Ex : c'est contingent, donc ça ne prouve aucune loi.*
+<!--ID: 1791050495065-->
+
+
+**corrélat** :: ce qui varie avec autre chose, sans qu'un lien de cause soit établi. *Ex : un corrélat n'est pas une cause.*
+<!--ID: 1791050495070-->
+
+
+**réfutable** :: dont on peut concevoir ce qui le démentirait. *Ex : une thèse irréfutable n'est pas forte, elle est vide.*
+<!--ID: 1791050495074-->
+
+
 ---
 
 ## Les trois paires qui font tout le travail
@@ -80,9 +112,10 @@ tiennent par deux, et c'est l'écart entre les deux qui est l'information.*
 | **sophisme** | **paralogisme** | l'intention. Le premier accuse, le second excuse — les confondre, c'est prêter une mauvaise foi qu'on n'a pas constatée |
 | **tautologie** | **truisme** | l'un est vrai **par sa forme** et ne peut pas être faux ; l'autre est vrai **par le monde** et n'est seulement pas intéressant |
 | **spécieux** | **ad hoc** | où est le défaut. Le spécieux trompe par sa **forme** ; l'*ad hoc* trompe par son **moment** — il arrive après l'objection, taillé pour elle |
+| **prémisse** | **postulat** | l'aveu. Toute prémisse est un point de départ ; le **postulat dit de lui-même qu'il n'est pas démontré**. C'est un sous-ensemble, pas un synonyme — et la seule collision de gloses trouvée sur les 115 mots du domaine |
 
 ### 🔗 Connexions
 * [[Concept-Mot_Précède_L_Usage]] — *la note qui justifie cette fiche, et qui refuse sa version forte.*
 * [[Concept-Antinomie]] — *le concept dont « aporie » est le nom court.*
 * [[Concept-Trois_Niveaux_D_Objection]] — *Viktorovitch : où porter l'objection ; ces mots servent à la nommer.*
-* [[MOC-Langues]] — *l'index du domaine.*
+* [[MOC-Lexique]] — *l'index du domaine.*
