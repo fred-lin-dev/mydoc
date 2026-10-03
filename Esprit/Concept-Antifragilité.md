@@ -62,7 +62,7 @@ A: « Si quelque chose d'imprévu arrive, est-ce que ça me casse, me laisse int
 <!--ID: 1790547090021-->
 
 
-Q: **Antifragilité** — quelle est la faiblesse du concept ?
+Q: **Antifragilité** — se diagnostique-t-elle avant ou après l'événement, et qu'est-ce que ça coûte au concept ?
 A: Il se diagnostique après coup : ce qui survit est déclaré antifragile, ce qui casse fragile. L'étiquetage est rétrospectif, donc sans valeur prédictive.
 <!--ID: 1790547090024-->
 

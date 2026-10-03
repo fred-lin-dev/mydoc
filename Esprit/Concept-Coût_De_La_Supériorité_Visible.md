@@ -61,8 +61,8 @@ A: Parce qu'elle dégrade la position relative de ceux qui la constatent. Si le 
 <!--ID: 1790547090245-->
 
 
-Q: **Coût de la supériorité visible** — quel critère manque à la règle de Greene ?
-A: Le public. La supériorité visible coûte auprès des pairs et des supérieurs, et rapporte auprès de ceux qui décident de vous sans vous connaître.
+Q: **Coût de la supériorité visible** — la supériorité visible coûte-t-elle autant auprès des pairs que de ceux qui décident de vous sans vous connaître ?
+A: Non, et c'est le critère qui manque à Greene : le **public**. Elle coûte auprès des pairs et des supérieurs, et elle **rapporte** auprès de ceux qui décident de vous sans vous connaître.
 <!--ID: 1790547090247-->
 
 

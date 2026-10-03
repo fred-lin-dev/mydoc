@@ -81,6 +81,8 @@ OUVERTE = re.compile(
 CANDIDATS = re.compile(
     r"\bou\b|\bparmi\b|plut[ôo]t que|«|:|\bentre\b|\bdeux\b|\btrois\b"
     r"|\blaquelle\b|\blequel\b", re.IGNORECASE)
+VOCAB_TAGS = set()
+TAGS = re.compile(r"^tags: \[(.+?)\]", re.MULTILINE)
 CARTES_RELUES = re.compile(r"^cartes_relues: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜🔵]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
@@ -90,6 +92,13 @@ LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜🔵]) \[\[(Concept-[^\]]+)\]\]
 PAGE_NUE = re.compile(r"\((?!\*)\s*p\. ?\d")
 
 CARTE_REPONSE = re.compile(r"^A: (.+)$", re.MULTILINE)
+
+# Les fiches `Vocab-` emploient la syntaxe `mot :: définition`, qui produit deux
+# cartes par ligne. Elle échappait à **tous** les contrôles de carte : 12 cartes
+# non vérifiées le 2026-10-03. Quatrième cas d'un contrôle qui cesse de couvrir le
+# terrain sans le dire — après le garde-fou 11, la règle des 3 cartes et la lecture
+# des seules questions. Le préfixe ne s'y applique pas : le recto *est* le mot.
+CARTE_VOCAB = re.compile(r"^(.+?) :: (.+)$", re.MULTILINE)
 
 # Vocabulaire interne au vault. Une carte parle du monde : lue seule dans Anki,
 # « le verdict », « le corpus » ou un symbole du barème ne désignent rien. Contrôlé
@@ -191,6 +200,25 @@ def notes():
         yield chemin
 
 
+def taxonomie():
+    """L'ensemble des tags autorisés, lu dans la décision 03 de Guide-Conventions.
+
+    Aucun contrôle ne validait les tags contre la taxonomie déclarée. Conséquence
+    trouvée le 2026-10-03 : `Guide-Méthode_Zettelkasten` portait `soft/productivité`,
+    un domaine de l'**ancien** vault, depuis le premier commit — invisible à l'audit,
+    et il a fini par induire en erreur sur l'emplacement d'une note.
+    """
+    guide = RACINE / "Guide-Conventions.md"
+    if not guide.exists():
+        return set()
+    autorises = set()
+    for dom, subs in re.findall(r"^\| `([^`/]+)/` \| (.+?) \|$",
+                               guide.read_text(encoding="utf-8"), re.M):
+        for sub in re.findall(r"`([^`]+)`", subs):
+            autorises.add(f"{dom}/{sub}")
+    return autorises
+
+
 def perimetre():
     """(niveaux, possedes, nom_du_fichier) depuis l'inventaire de la bibliothèque.
 
@@ -209,6 +237,8 @@ def perimetre():
 
 
 def main():
+    global VOCAB_TAGS
+    VOCAB_TAGS = taxonomie()
     erreurs, alertes, infos = [], [], []
     fichiers = list(notes())
     if not fichiers:
@@ -244,6 +274,14 @@ def main():
             entrants[cible].add(nom)
             if cible not in cibles and f"{cible}.md" not in cibles:
                 erreurs.append((rel, f"lien mort : `[[{cible}]]`"))
+
+        for t in TAGS.findall(contenu):
+            for tag in (x.strip() for x in t.split(",")):
+                if tag and not tag.endswith("/") and VOCAB_TAGS and tag not in VOCAB_TAGS:
+                    erreurs.append(
+                        (rel, f"tag hors taxonomie : `{tag}` — la liste autorisée est "
+                              f"la décision 03 de Guide-Conventions")
+                    )
 
         for reste in RESTES_TEMPLATE:
             if reste in contenu:
@@ -285,8 +323,12 @@ def main():
                           f"`{question[:60]}…` (règle d'autonomie, décision 08)")
                 )
 
+        vocab = [(f"{c} d'une carte `::`", x)
+                 for m in CARTE_VOCAB.finditer(contenu)
+                 for c, x in (("recto", m.group(1)), ("verso", m.group(2)))]
         for face, ligne in ([("question", q) for q in CARTE_LIGNE.findall(contenu)]
-                            + [("réponse", a) for a in CARTE_REPONSE.findall(contenu)]):
+                            + [("réponse", a) for a in CARTE_REPONSE.findall(contenu)]
+                            + vocab):
             m = VAULT.search(CITATION.sub("", ligne))
             if m:
                 alertes.append(
@@ -383,15 +425,26 @@ def main():
         except (ValueError, KeyError):
             erreurs.append((Path(conf.name), "configuration du plugin Anki illisible"))
         else:
-            domaines = {d.name for d in RACINE.iterdir()
-                        if d.is_dir() and not d.name.startswith(".")
-                        and d.name not in EXCLUS and any(d.glob("Concept-*.md"))}
-            for d in sorted(domaines - {k for k, v in decks.items() if v}):
-                erreurs.append(
-                    (Path(".obsidian/plugins/obsidian-to-anki-plugin/data.json"),
-                     f"domaine `{d}/` absent de FOLDER_DECKS — ses cartes iront "
-                     f"dans le deck par défaut")
-                )
+            # Tout dossier qui contient des cartes a besoin de son propre mapping,
+            # **y compris un sous-dossier** : le plugin résout le deck sur le chemin
+            # exact du dossier, il ne remonte pas au parent. Vérifié sur main.js le
+            # 2026-10-03, à l'ouverture de `Langues/Français/`. Avant ce jour le
+            # contrôle ne regardait que les domaines de premier niveau, et il aurait
+            # donc laissé passer la perte du mapping d'un sous-dossier — la même
+            # perte qui s'était produite sur `Corps/` le 2026-09-28.
+            porteurs = {d for d in RACINE.rglob("*")
+                        if d.is_dir() and not any(p.startswith(".") for p in
+                                                  d.relative_to(RACINE).parts)
+                        and not set(d.relative_to(RACINE).parts) & EXCLUS
+                        and (any(d.glob("Concept-*.md")) or any(d.glob("Vocab-*.md")))}
+            mappes = {k for k, v in decks.items() if v}
+            for d in sorted(str(x.relative_to(RACINE)) for x in porteurs):
+                if d not in mappes:
+                    erreurs.append(
+                        (Path(".obsidian/plugins/obsidian-to-anki-plugin/data.json"),
+                         f"dossier `{d}/` absent de FOLDER_DECKS — ses cartes iront "
+                         f"dans le deck par défaut")
+                    )
 
     # Échantillon de relecture pour l'atomicité (décision 01). Ce n'est **pas** un
     # verdict : aucun compteur ne sait dire si une note porte deux idées. Le seuil
@@ -432,7 +485,7 @@ def main():
             continue
         listees = {m.group(2): m.group(1) for m in
                    LIGNE_MOC.finditer(moc.read_text(encoding="utf-8"))}
-        for f in sorted((RACINE / domaine).glob("Concept-*.md")):
+        for f in sorted((RACINE / domaine).rglob("Concept-*.md")):
             verdict = frontmatter(f.read_text(encoding="utf-8"))[0].get("fiabilite", "")[:1]
             if f.stem not in listees:
                 alertes.append((moc.relative_to(RACINE),
@@ -445,7 +498,7 @@ def main():
         # Les compteurs de l'en-tête sont des données dérivées, et ils ont dérivé deux
         # fois avant ce contrôle.
         reels = defaultdict(int)
-        for f in (RACINE / domaine).glob("Concept-*.md"):
+        for f in (RACINE / domaine).rglob("Concept-*.md"):
             reels[frontmatter(f.read_text(encoding="utf-8"))[0].get("fiabilite", "")[:1]] += 1
         texte_moc = moc.read_text(encoding="utf-8")
         total = re.search(r"\*\*(\d+) notes atomiques", texte_moc)

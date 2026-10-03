@@ -57,8 +57,8 @@ A: Huit réserves revendiquées en public — espace personnel, stalle, espace d
 <!--ID: 1790718872247-->
 
 
-Q: **Territoires du moi** — quel exemple montre que la réserve est situationnelle et non possédée ?
-A: La salle d'attente. S'asseoir contre un inconnu dans une salle vide est une intrusion ; le même geste dans une salle pleine n'en est pas une.
+Q: **Territoires du moi** — s'asseoir contre un inconnu : le geste est-il une intrusion dans une salle vide, dans une salle pleine, ou dans les deux ?
+A: Dans la salle vide seulement. Le même geste dans une salle pleine n'en est pas une : la réserve se mesure à ce qui reste disponible, pas à une distance fixe.
 <!--ID: 1790718872251-->
 
 

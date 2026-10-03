@@ -65,7 +65,7 @@ A: « Depuis où est-ce dit, et qui a intérêt à ce que ce soit vrai ? » — 
 <!--ID: 1790547089943-->
 
 
-Q: Quel est l'usage paresseux du perspectivisme ?
-A: « Tu dis ça parce que tu es X », qui remplace l'examen de l'argument au lieu de le compléter. C'est un ad personam déguisé.
+Q: « Tu dis ça parce que tu es X » : en quoi est-ce un détournement du perspectivisme ?
+A: Elle **remplace** l'examen de l'argument au lieu de le compléter — un ad personam déguisé. Le perspectivisme ajoute une question, il n'en retire aucune.
 <!--ID: 1790547089945-->
 

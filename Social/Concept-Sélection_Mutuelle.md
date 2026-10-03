@@ -61,8 +61,8 @@ A: Les deux parties évaluent simultanément. Nier la symétrie revient à nier 
 <!--ID: 1790537395594-->
 
 
-Q: Quelle est la conséquence inconfortable du cadre de sélection mutuelle ?
-A: Il faut avoir des critères. Le cadre de la conquête dispense d'en avoir : on veut être choisi, donc on n'a pas à choisir.
+Q: Qu'est-ce que le cadre de la conquête dispense d'avoir, et que la sélection mutuelle oblige à avoir ?
+A: Des **critères**. La conquête en dispense — on veut être choisi, donc on n'a pas à choisir ; la sélection mutuelle oblige à savoir ce qu'on cherche.
 <!--ID: 1790537395597-->
 
 

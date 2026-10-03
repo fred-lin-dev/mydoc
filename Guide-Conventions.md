@@ -111,15 +111,28 @@ MOC-Productivité.md
 Bénéfice : `Source-Atomic_Habits` ↔ `Atomic_Habits.pdf` est une transformation
 mécanique, donc scriptable sans cas particulier.
 
-**Les cinq préfixes de type :**
+**Les six préfixes de type :**
 
-| Préfixe | Contenu | Champ `fiabilite` ? |
-|---|---|---|
-| `Concept-` | note atomique — **une** idée | oui, obligatoire |
-| `Source-` | fiche de livre ou d'article — mince | non |
-| `MOC-` | index de domaine | non |
-| `Ref-` | référence stable : barème, tableau, liste consultée | non |
-| `Guide-` | procédure, workflow | non |
+| Préfixe | Contenu | Champ `fiabilite` ? | Produit des cartes ? |
+|---|---|---|---|
+| `Concept-` | note atomique — **une** idée | oui, obligatoire | oui, `Q:`/`A:` |
+| `Source-` | fiche de livre ou d'article — mince | non | non |
+| `MOC-` | index de domaine | non | **interdit** (décision 04) |
+| `Ref-` | référence stable : barème, tableau, liste **consultée** | non | non |
+| `Guide-` | procédure, workflow | non | non |
+| `Vocab-` | fiche de vocabulaire — liste **apprise** | non | oui, `Vocabulaire_Elite` |
+
+> **Pourquoi un sixième préfixe, ajouté le 2026-10-03.** Une fiche de vocabulaire
+> n'entrait dans aucun des cinq. Ce n'est pas une thèse, donc pas un `Concept-` : un mot
+> ne s'évalue pas au barème, il se définit. Et ce n'est pas une `Ref-`, dont la
+> définition même est *« consultée, pas apprise »* — alors qu'une liste de mots n'a
+> d'intérêt que **mémorisée**. La ligne de partage entre `Ref-` et `Vocab-` est donc
+> exactement celle-là : **produit-elle des cartes ?**
+>
+> **Conséquence sur le type Anki, et c'est le vrai motif :** `Vocab-` n'emploie pas
+> `Q:`/`A:` mais le type `Vocabulaire_Elite`, qui génère **deux cartes par mot** — dont
+> une dans le sens *définition → mot*. C'est le seul sens qui rend plus articulé, et il
+> est impossible à obtenir avec le type `Basic`. Voir [[Guide-Anki]].
 
 ---
 
@@ -148,6 +161,32 @@ tags: [meta/moc, social/séduction]             # un index
 **Gouvernance — la règle des 5.** Un nouveau sous-tag ne se crée qu'à partir du
 moment où **cinq notes** le justifient. En dessous, un tag existant plus large
 fait l'affaire.
+
+### Le seul sous-dossier de domaine autorisé — `Langues/`, 2026-10-03
+
+**La règle générale ne change pas : les dossiers de domaine sont plats.** Un
+sous-dossier qui encoderait la taxonomie serait une seconde copie des tags, et le vault
+en a déjà supprimé un pour cette raison — `Extras/Books/Soft/`.
+
+`Langues/` est l'exception, et elle tient à une raison qu'aucun autre domaine n'a :
+**la langue n'est pas un sous-domaine, c'est une partition.** Une note de `social/` peut
+appartenir à deux sous-domaines ; un mot appartient à une langue et à une seule. Et
+surtout, **la langue doit séparer les decks Anki** — réviser du vocabulaire français et
+anglais dans le même paquet mélange deux exercices différents.
+
+```
+Langues/MOC-Langues.md            l'index, au niveau du domaine
+Langues/Français/                 → deck Zettelkasten::Langues::Français
+```
+
+> ⚠️ **Deux conséquences mécaniques, les deux vérifiées le 2026-10-03.**
+> 1. **Le plugin Anki résout le deck sur le chemin exact du dossier, il ne remonte pas
+>    au parent.** `Langues/Français` a donc besoin de sa **propre** entrée dans
+>    `FOLDER_DECKS`, sans quoi ses cartes tombent dans le deck par défaut.
+> 2. **Les scripts doivent parcourir en `rglob`, pas en `glob`.** Dans
+>    `Scripts/orphelines.py` l'oubli n'aurait pas produit un chiffre faux : les
+>    identifiants du sous-dossier auraient été absents de l'ensemble du vault, donc
+>    **comptés comme orphelins**, et ce script imprime une commande `deleteNotes`.
 
 > ✅ **La règle a fonctionné une fois, et c'est son premier test réel.** `corps/`
 > était annoncé et vide depuis le premier jour. Il est né à la phase 5, quand
@@ -593,8 +632,9 @@ cohabitent dans le domaine : le préfixe suffit à les distinguer.
 
 ```
 Esprit/  Social/  Tech/  Corps/  Langues/     le savoir
+         Langues/Français/                    ← le seul sous-dossier de domaine
 Meta/        tout ce qui n'est pas du savoir :
-             Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki_Workflow
+             Guide-Reprise · Guide-Stratégie_Lecture · Guide-Anki
              MOC-Audit · Ref-Bibliothèque · les 3 Ref-Lecture_*
              ↑ l'inventaire des livres : niveau, domaine, possession — une seule fois
 Templates/   les 5 modèles — exclus de l'audit et du scan Anki

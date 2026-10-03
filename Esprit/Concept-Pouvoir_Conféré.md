@@ -60,7 +60,7 @@ A: « Qu'est-ce qui rend les autres disposés à se conformer ? » — question 
 <!--ID: 1790547090255-->
 
 
-Q: **Pouvoir conféré** — quelle est la limite de cette analyse ?
+Q: **Pouvoir conféré** — l'analyse couvre-t-elle la contrainte physique et les pouvoirs institutionnalisés ?
 A: Elle ne couvre ni la contrainte physique ni les pouvoirs institutionnalisés, qui ne dépendent pas de la disposition de celui qui les subit.
 <!--ID: 1790547090258-->
 

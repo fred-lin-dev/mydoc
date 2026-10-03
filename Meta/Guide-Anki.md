@@ -161,6 +161,47 @@ est écrite par le plugin après création.
 > carte peut rester bloquée des mois sans aucun signal. C'est le piège le plus coûteux
 > du dispositif.
 
+### La seconde syntaxe — `Vocabulaire_Elite`, pour les fiches `Vocab-`
+
+**Une ligne par mot, et elle produit deux cartes.** Mise en service le 2026-10-03, après
+avoir dormi configurée depuis le premier jour.
+
+```markdown
+**sophisme** :: raisonnement faux présenté comme valide, et présenté ainsi à dessein. *Ex : « tout le monde le fait » n'est pas un argument mais un sophisme.*
+```
+
+| Partie | Va dans le champ | Obligatoire |
+|---|---|---|
+| `**mot**` | `Front` | oui — **les astérisques font partie de la capture**, le champ reçoit `<strong>mot</strong>` |
+| ` :: ` | — | oui, **espace de chaque côté** |
+| la définition | `Back` | oui |
+| ` *Ex : …*` | `Exemple` | non |
+| le lien vers la note | `Source` | ajouté par le plugin |
+
+**Les deux cartes générées, et c'est tout l'intérêt du type :**
+
+| Carte | Sens | À quoi elle sert |
+|---|---|---|
+| 1 | mot → définition | reconnaître un mot lu ou entendu |
+| 2 | **définition → mot** | **produire le mot en parlant** — le seul sens qui rend plus articulé, et impossible avec `Basic` |
+
+> ⚠️ **Trois contraintes de rédaction, toutes dues à la regex.**
+> 1. **Une seule ligne.** La regex est ancrée sur `$` sans `(?:.|\n)`, contrairement à
+>    celle de `Basic` : une définition sur deux lignes n'est pas vue du tout.
+> 2. **Pas de ` :: ` dans la définition**, qui couperait au mauvais endroit.
+> 3. **L'exemple se termine par `*` en fin de ligne.** Un astérisque de fermeture oublié
+>    fait avaler l'exemple par le champ `Back`, sans erreur visible.
+>
+> ✅ **Testable sans Anki**, et ça a été fait avant le premier scan :
+> ```bash
+> python3 -c "
+> import re,io,sys
+> rx=re.compile(r'^(\*\*.*?\*\*) :: (.*?)(?: \*Ex\s?: (.*?)\*)?\$', re.M)
+> t=io.open(sys.argv[1],encoding='utf-8').read()
+> for m in rx.finditer(t): print(m.group(1), '| Ex:', bool(m.group(3)))
+> " Langues/Français/Vocab-Nommer_Un_Raisonnement.md
+> ```
+
 ## La configuration appliquée
 
 | Réglage | Valeur | Pourquoi |
@@ -168,6 +209,8 @@ est écrite par le plugin après création.
 | Regex `Basic` | `^Q: ((?:.\|\n)*?)\nA: ((?:.\|\n)*?)$` | le motif `(?:.\|\n)` est nécessaire parce qu'en JavaScript `.` ne franchit pas les retours à la ligne |
 | `Esprit/` → | `Zettelkasten::Esprit` | un sous-deck par domaine de premier niveau (décision 08b) |
 | `Social/` `Tech/` `Langues/` → | `Zettelkasten::Social` `::Tech` `::Langues` | idem |
+| `Langues/Français/` → | `Zettelkasten::Langues::Français` | **le seul sous-dossier**, et il a besoin de sa propre entrée : le plugin résout le deck sur le chemin exact, il ne remonte pas au parent |
+| Regex `Vocabulaire_Elite` | `^(\*\*.*?\*\*) :: (.*?)(?: \*Ex\s?: (.*?)\*)?$` | une ligne par mot, deux cartes par ligne — voir plus haut |
 | Deck par défaut | `Zettelkasten` | filet de sécurité : rien ne tombe dans *Default* |
 | Ignorés | `Templates/**` `Scripts/**` `Extras/**` `Meta/**` `Guide-*.md` `Ref-Lecture_*.md` | **`Templates/` est le plus important** : ses `Q:` vides produiraient des cartes vides à chaque scan |
 | `ID Comments` | activé | les identifiants en commentaire HTML, invisibles à la lecture |
@@ -176,7 +219,14 @@ est écrite par le plugin après création.
 
 **Écarté de l'ancien vault :** les 771 entrées de `File Hashes` — elles décrivaient
 d'autres fichiers. **Conservés :** les types de note `Cloze` et `Vocabulaire_Elite`
-avec leurs regex, inutilisés pour l'instant mais sans conflit possible avec `Q:`/`A:`.
+avec leurs regex, sans conflit possible avec `Q:`/`A:`.
+
+> **Et `Vocabulaire_Elite` a servi, un an après avoir été conservé « au cas où ».**
+> Le type existait dans Anki avec ses deux gabarits, sa regex était dans la config, le
+> deck `Langues` était mappé — **et zéro note l'avait employé.** Mis en service le
+> 2026-10-03 par l'ouverture de `Langues/Français/`. C'est le seul élément repris de
+> l'ancien vault qui se soit révélé utile sans être retouché, et il vaut d'être noté
+> comme tel : **garder un réglage inutilisé a eu un rendement, une fois.**
 
 ## ⚠️ Ne jamais éditer `data.json` pendant qu'Obsidian tourne
 
@@ -207,7 +257,16 @@ Ajouter un dossier de domaine ne suffit pas. Il faut, dans cet ordre :
 2. Déclarer le domaine dans la table des tags de [[Guide-Conventions]].
 3. **Ajouter le mapping dans le panneau de réglages du plugin** : `Corps` → `Zettelkasten::Corps`,
    et le tag de dossier `corps`.
-4. Lancer l'audit : s'il ne dit rien, l'étape 3 a bien été enregistrée.
+4. Créer son index `MOC-<Domaine>` — l'audit compare les notes à son contenu, et une
+   note non listée devient une alerte.
+5. Lancer l'audit : s'il ne dit rien, l'étape 3 a bien été enregistrée.
+
+> ⚠️ **Un sous-dossier compte comme un dossier à part entière** — ajouté le 2026-10-03.
+> `Langues/Français` a sa propre entrée dans `FOLDER_DECKS`, et **l'audit vérifie
+> désormais tout dossier porteur de cartes, pas seulement ceux de premier niveau.**
+> Avant ce correctif, perdre le mapping d'un sous-dossier n'aurait rien déclenché :
+> exactement l'angle mort qui avait coûté le mapping de `Corps/` le 2026-09-28, mais un
+> cran plus bas et donc invisible au contrôle d'alors.
 
 **Si l'étape 3 est oubliée**, les cartes tombent dans le deck par défaut `Zettelkasten` — ce qui
 est un filet volontaire, et non `Default`. Rien n'est perdu, mais rien ne le signale non plus
@@ -372,15 +431,55 @@ trop bas » et remonté l'identifiant sur la carte 1 en laissant la 2 sans. Le s
 a donc donné le 2ᵉ identifiant à la carte 2 — c'est-à-dire **écrasé la carte 3 dans
 Anki**. Le trou au milieu était la cause, pas le symptôme.
 
-## Combien de cartes sont en jeu aujourd'hui
+### ⚠️ Un scan peut ne rien prendre, et les contrôles disaient « ✅ » — 2026-10-03
+
+**Le symptôme.** Deux fichiers neufs, un scan lancé, `audit.py` à 0 · 0 · 0 et
+`orphelines.py` affichant *« les deux ensembles coïncident exactement »*. Tout avait
+l'air réussi. **Le scan n'avait rien pris du tout.**
+
+| Ce qui a trompé | Pourquoi ce n'était pas un mensonge |
+|---|---|
+| `audit.py` 0 · 0 · 0 | il ne contrôle **pas** la synchronisation : il est hors réseau, c'est écrit dans son en-tête |
+| `orphelines.py` ✅ | il compare des **identifiants**. Une carte écrite qui n'en a pas encore est invisible à la comparaison — donc les deux ensembles coïncidaient réellement |
+
+**Les trois preuves qui ont tranché, et aucune ne vient d'Anki :**
 
 ```bash
-grep -rhc '^Q: ' --include='Concept-*.md' Esprit Social Tech Corps Langues \
+grep -c '<!--ID: ' Langues/Français/*.md          # → 0 : rien n'a été écrit en retour
+python3 -c "import json,io; d=json.load(io.open('.obsidian/plugins/\
+obsidian-to-anki-plugin/data.json')); print([k for k in d['File Hashes'] \
+if 'Langues' in k])"                              # → [] : le plugin n'a jamais lu ces fichiers
+stat -c '%y' .obsidian/plugins/obsidian-to-anki-plugin/data.json
+                                                  # → antérieur au scan : le plugin n'a pas sauvegardé
+```
+
+> **`File Hashes` est le meilleur témoin du dispositif.** Le plugin y inscrit une
+> empreinte par fichier **lu**. Un fichier absent de cette table n'a pas été analysé —
+> ce qui distingue *« le scan a échoué sur cette carte »* de *« le scan n'a jamais vu ce
+> fichier »*. Les deux pannes se ressemblent côté Anki et n'ont pas le même remède.
+
+**Le correctif appliqué :** `orphelines.py` ne dit plus `✅` quand des cartes attendent
+un identifiant. Il distingue désormais *« ça coïncide et rien n'attend »* de *« ça
+coïncide, mais 14 cartes n'ont pas d'identifiant »*. **Un contrôle qui ne peut pas voir
+quelque chose doit le dire, pas afficher une coche.**
+
+## Combien de cartes sont en jeu aujourd'hui
+
+**Compter les identifiants, pas les questions** — il y a deux syntaxes de carte :
+
+```bash
+grep -rhc '<!--ID: ' --include='*.md' Esprit Social Tech Corps Langues \
   | awk '{s+=$1} END {print s}'
 ```
 
 Ce nombre doit égaler celui des notes Anki après chaque scan — c'est le contrôle
 d'alignement ci-dessus.
+
+> ⚠️ **Ne pas compter `^Q: `.** Les fiches `Vocab-` emploient la syntaxe
+> `mot :: définition`, qui produit deux cartes par ligne et ne contient aucun `Q:`.
+> Le 2026-10-03, compter les questions sous-estimait de **12 cartes** et aurait fait
+> croire à douze orphelines. L'identifiant, lui, est écrit par le plugin quelle que
+> soit la syntaxe.
 
 > ⚠️ **Ce n'est plus le signal de découpe.** La règle des 3 cartes mesurait la
 > discipline du rédacteur et non l'atomicité de la note : elle ne s'est jamais

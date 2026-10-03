@@ -62,7 +62,7 @@ A: Pour une chose non périssable, l'espérance de vie restante est proportionne
 <!--ID: 1790547090027-->
 
 
-Q: Quelle est la limite décisive de l'effet Lindy ?
+Q: L'effet Lindy prédit-il la durée d'une idée ou sa validité ?
 A: La survie n'est pas la vérité. L'astrologie est très Lindy, la saignée a duré deux mille ans. Il prédit la durée, pas la validité.
 <!--ID: 1790547090029-->
 

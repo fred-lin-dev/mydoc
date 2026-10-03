@@ -63,7 +63,7 @@ A: Tous les conseils de lecture corporelle absolus — bras croisés = fermeture
 <!--ID: 1790537395626-->
 
 
-Q: **Base de référence** — quelle limite pratique est absente du livre de Navarro ?
+Q: **Base de référence** — pour qui en dispose-t-on, et pour qui en aurait-on le plus besoin ?
 A: On n'a presque jamais de base de référence pour les personnes qui comptent — inconnu, recruteur, adversaire. La condition est remplie là où on en a le moins besoin.
 <!--ID: 1790537395629-->
 

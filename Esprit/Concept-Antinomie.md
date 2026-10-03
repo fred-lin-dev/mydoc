@@ -60,12 +60,12 @@ A: Deux démonstrations contradictoires et **également bien fondées**, produit
 <!--ID: 1790718872320-->
 
 
-Q: **Antinomie** — quel critère mécanique en tire-t-on devant une question ?
+Q: **Antinomie** — devant une question qui résiste : chercher d'autres arguments pour, ou tenter la démonstration contraire ?
 A: Essayer de démontrer le contraire avec le même sérieux. Si ça marche aussi bien, la question est hors du domaine où elle a une réponse.
 <!--ID: 1790718872323-->
 
 
-Q: **Antinomie** — quelle limite ce critère a-t-il ?
+Q: **Antinomie** — deux démonstrations opposées également bonnes : la question est-elle forcément hors domaine ?
 A: Deux arguments opposés également bons peuvent l'être parce que la question est hors domaine **ou** parce qu'on manque d'information. Les distinguer demande de savoir si une observation pourrait en principe trancher.
 <!--ID: 1790718872325-->
 

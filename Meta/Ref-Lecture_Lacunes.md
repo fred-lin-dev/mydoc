@@ -32,11 +32,11 @@ est acquis**, et pas avant. Les porter ici les ferait divarier comme les
 
 | | | |
 |---|---|---|
-| lacunes retenues | **8** | 3 ouvertes · 2 à trancher · **3 fermées** |
+| lacunes retenues | **8** | 3 ouvertes · 1 à trancher · **4 fermées** |
 | titres candidats | **7** | 13 avant le tri du 2026-10-03 ; aucun n'est engagé |
 | candidats écartés | **6** | leur concept central est **déjà une note du vault** — voir le filtre 4 |
 | dont *Lindy* ⏳ | **2** | Popper et Brooks — Thucydide et Plutarque sont sortis au filtre 4 |
-| lacunes fermées | **3** | n° 3 et 4 **par acquisition** le 2026-10-02 · n° 5 **par décision** le 2026-10-03 |
+| lacunes fermées | **4** | n° 3 et 4 **par acquisition** · n° 5 **par décision** · n° 8 **par ouverture** — trois façons différentes, et aucune n'était prévue |
 | notes produites par les deux | **20** · 59 cartes | Williams 11 · 32 · Lieberman 9 · 27 |
 | ajoutées le 2026-10-03 | **n° 7 et n° 8** | la première par le test 1 relancé à l'échelle, la seconde par le test 3 |
 
@@ -158,7 +158,7 @@ une lacune se comble ou s'aggrave — et aucune ne s'est comblée toute seule.
 | **2** | **Argent et institutions** | toujours **1 seule note** dont l'argent est le sujet — [[Concept-Loi_De_Viabilité_Financière]], et elle vient de Newport en passant. **143 notes** au relevé, **163** aujourd'hui, et toujours une seule | ouverte, **aggravée** |
 | **5** | **L'histoire** | **0 titre**, alors que la phase 4 est bâtie sur l'anecdote historique et le dit : *« zéro donnée »* | **fermée — hors périmètre**, 2026-10-03 : l'axe relève d'`illustration` |
 | **6** | **`tech/`** | **4 notes, toutes `⬜`** — inchangé depuis le relevé, alors que le vault a gagné 0 note technique en une semaine | **à trancher**, voir plus bas |
-| **8** | **`langues/`** | **0 note**, un dossier vide, deux sous-tags déclarés, et **un actif classé `lu-sans-fiche`** — un niveau qui promet des notes | **à trancher** — *nouvelle, 2026-10-03* |
+| **8** | **`langues/`** | **0 note**, un dossier vide, deux sous-tags déclarés, et **un actif classé `lu-sans-fiche`** — un niveau qui promet des notes | **fermée par ouverture**, 2026-10-03 : [[MOC-Langues]] · 1 note · 1 fiche `Vocab-` |
 | **3** | **L'écriture** | phase 2, 4 titres, **4 oraux ou interpersonnels** | **fermée** — 2026-10-02 |
 | **4** | **Le corps au-delà du sommeil** | `Corps/` = **5 notes, 1 fiche** — et c'était [[Source-Why_We_Sleep]], le plus critiqué de la liste | **fermée** — 2026-10-02 |
 
@@ -464,9 +464,38 @@ il est excellent **en tant que** savoir métier. Et passent :
 et ses symptômes, c'est ce que [[Concept-Orthogonalité]] et [[Concept-DRY]] portent déjà
 — et c'est tout ce que `tech/` sait rendre citable hors du code.
 
-## 8 · `langues/` — déclaré, promis, vide
+## 8 · `langues/` — ✅ fermée le 2026-10-03, par ouverture
 
-> **Nouvelle le 2026-10-03, trouvée par le test 3.** C'est la lacune n° 6 un cran plus
+> **Relevée et fermée le même jour, et c'est la troisième façon de fermer une lacune.**
+> Les n° 3 et 4 se sont fermées **par acquisition**, la n° 5 **par décision** ; celle-ci
+> se ferme **par ouverture** — en écrivant la première note du domaine, sans rien
+> acheter. Les trois issues écrites plus bas prévoyaient ce cas en dernier, avec la
+> réserve *« à ne choisir que si l'anglais devient un chantier, pas pour faire exister
+> un dossier »*. **C'est la réserve qui a été levée, et pas par l'anglais.**
+>
+> | | |
+> |---|---|
+> | ce qui justifie le domaine | [[Concept-Mot_Précède_L_Usage]] · 🟠 contesté · 2 cartes — **rangée dans `Esprit/`** : une affirmation sur la pensée, dont les preuves portent sur le russe |
+> | les fiches, dans `Langues/Français/` | **4** · **56 mots** · 112 cartes — [[Vocab-Nommer_Un_Raisonnement]], [[Vocab-Nommer_Un_Procédé_De_Parole]], [[Vocab-Nommer_Une_Attitude]], [[Vocab-Nommer_Un_Rapport_De_Force]] |
+> | l'index | [[MOC-Langues]] |
+> | le préfixe | **`Vocab-`**, sixième du vault — une liste **apprise**, là où `Ref-` est consultée |
+> | le type Anki | `Vocabulaire_Elite`, configuré depuis le premier jour et **jamais employé jusqu'ici** |
+>
+> **Et c'est le critère d'entrée qui a levé la réserve, pas l'envie d'un dossier plein.**
+> La note du 2026-10-03 opposait la citabilité : « take after » ne se cite depuis aucun
+> domaine. L'objection tenait, et elle a tranché **le contenu** au lieu du domaine : un
+> mot n'entre que s'il **remplace une périphrase déjà employée**. À ce filtre le
+> vocabulaire brut échoue toujours — mais *sophisme*, *spécieux*, *ad hoc* passent, parce
+> qu'ils raccourcissent ce que les 98 `fiabilite_note` de ce vault disent en huit mots.
+>
+> ⚠️ **Ce qui reste ouvert et n'a pas été tranché :** `English_Phrasal_Verbs_in_Use_Advanced`
+> est toujours `lu-sans-fiche`, c'est-à-dire toujours classé dans un niveau qu'il ne
+> remplit pas. Au critère ci-dessus il devrait passer `dehors`. **La ligne attend une
+> décision dans [[Ref-Bibliothèque]]** — le domaine est ouvert, pas l'inventaire.
+
+### Ce qui avait été constaté — gardé tel quel
+
+> **Relevée le 2026-10-03 par le test 3.** C'est la lacune n° 6 un cran plus
 > loin : `tech/` est *quasi* vide et a le mérite d'avoir produit quatre notes utiles.
 > `langues/` n'a jamais rien produit du tout.
 

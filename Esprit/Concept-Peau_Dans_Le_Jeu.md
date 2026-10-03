@@ -63,8 +63,8 @@ A: Qu'est-ce que cette personne perd si je la suis et que ça échoue ? Si elle 
 <!--ID: 1790547089994-->
 
 
-Q: **Peau dans le jeu** — quel est le problème central que ce critère détecte ?
-A: Le transfert de risque : celui qui décide et celui qui paie ne sont pas la même personne, et le système ne le signale pas.
+Q: **Peau dans le jeu** — que détecte le critère quand celui qui décide et celui qui paie ne sont pas la même personne ?
+A: Un **transfert de risque**. Rien dans le système ne signale cette dissociation : c'est pourquoi il faut la chercher au lieu d'attendre qu'elle se manifeste.
 <!--ID: 1790547089996-->
 
 

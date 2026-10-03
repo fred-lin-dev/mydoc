@@ -68,7 +68,7 @@ A: Se tenir debout ne coûte que **8 à 10 %** de calories de plus qu'être assi
 <!--ID: 1790945438586-->
 
 
-Q: **Repos comme adaptation** — quelle conséquence pratique l'idée a-t-elle sur la façon de s'y prendre ?
+Q: **Repos comme adaptation** — attaquer la résistance à l'effort par la volonté, ou la contourner par le dispositif : laquelle suit de l'idée ?
 A: Si la résistance est un réglage ancien et non un vice, il faut la **contourner par le dispositif** plutôt que l'attaquer par la volonté — d'autant que la volonté-ressource est réfutée.
 <!--ID: 1790945438589-->
 

@@ -49,8 +49,8 @@ demande, rendu explicite et interrogeable.
 
 ## 🎴 Cartes
 
-Q: Quel critère détermine si l'on a acquis le droit de parler d'un sujet ?
-A: Pouvoir en parler autrement que par lecture. Si tout vient d'un livre, on rapporte le propos d'un autre — légitime, mais à annoncer comme tel.
+Q: Le droit de parler d'un sujet vient-il de l'avoir vécu, ou d'autre chose ?
+A: Pas du vécu : de pouvoir en parler **autrement que par lecture**. Si tout vient d'un livre, on rapporte le propos d'un autre — légitime, mais à annoncer comme tel.
 <!--ID: 1790537972146-->
 
 

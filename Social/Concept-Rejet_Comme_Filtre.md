@@ -63,7 +63,7 @@ A: On s'interdit l'information. On reste dans l'indéterminé plutôt que dans l
 <!--ID: 1790537395663-->
 
 
-Q: Quel critère distingue un refus de compatibilité d'un refus qui dit quelque chose sur soi ?
-A: La répétition. Un refus isolé informe sur l'ajustement ; le même refus vingt fois informe sur soi.
+Q: Un refus isolé et le même refus vingt fois : lequel renseigne sur soi ?
+A: Le même refus vingt fois. Un refus isolé renseigne sur l'ajustement entre deux personnes ; c'est la **répétition** qui renseigne sur soi.
 <!--ID: 1790537395666-->
 

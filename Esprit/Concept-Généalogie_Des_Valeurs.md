@@ -61,7 +61,7 @@ A: Toute la littérature du pouvoir prend ses critères pour acquis : elle deman
 <!--ID: 1790547089934-->
 
 
-Q: Quelle est la faiblesse structurelle de la méthode généalogique ?
+Q: La généalogie s'applique-t-elle aussi aux valeurs qu'on veut garder, et qu'est-ce que ça lui coûte ?
 A: Rien ne limite sa portée : elle dissout aussi les valeurs qu'on veut garder, y compris l'exigence de preuve. Elle ne laisse aucun endroit où se tenir.
 <!--ID: 1790547089937-->
 

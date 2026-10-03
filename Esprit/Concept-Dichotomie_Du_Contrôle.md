@@ -52,7 +52,7 @@ Trois auteurs, dix-huit siècles, un seul problème — et c'est Taleb qui appor
 
 ## 🎴 Cartes
 
-Q: Que sépare la dichotomie du contrôle, et quelle conséquence en tirer ?
+Q: Que sépare la dichotomie du contrôle, et faut-il en tirer de la résignation ou une réallocation d'attention ?
 A: Ce qui dépend de moi — jugement, décision, effort — de ce qui n'en dépend pas. Conséquence : une réallocation d'attention, pas de la résignation.
 <!--ID: 1790547089975-->
 

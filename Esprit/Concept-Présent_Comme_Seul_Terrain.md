@@ -57,7 +57,7 @@ A: Les intentions de mise en œuvre : « après X, je ferai Y », d ≈ 0,65 sur
 <!--ID: 1790547089961-->
 
 
-Q: **Le présent comme seul terrain** — quelle est la limite de portée de ce précepte ?
+Q: **Le présent comme seul terrain** — le précepte vise-t-il la sérénité ou la performance ?
 A: Il vise la sérénité, pas la performance. Le lire comme un manuel de productivité escamote son objet.
 <!--ID: 1790547089964-->
 

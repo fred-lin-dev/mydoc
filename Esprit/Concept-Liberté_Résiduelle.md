@@ -56,7 +56,7 @@ A: « They may have been few in number ». Frankl établit une possibilité, pas
 <!--ID: 1790547089926-->
 
 
-Q: **Liberté résiduelle** — quel est le mauvais usage sérieux de cette idée ?
-A: Confondre le possible et l'exigible : en faire une injonction adressée à qui subit, ce qui lui impute la responsabilité de son état.
+Q: **Liberté résiduelle** — l'idée énonce-t-elle un possible ou un exigible, et que produit la confusion des deux ?
+A: Un **possible**, jamais un exigible. Les confondre en fait une injonction adressée à qui subit, ce qui lui impute la responsabilité de son état.
 <!--ID: 1790547089928-->
 

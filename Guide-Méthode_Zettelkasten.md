@@ -1,5 +1,5 @@
 ---
-tags: [meta/ref, soft/productivité]
+tags: [meta/guide]
 ---
 # 🗂️ Avant la première note — les douze décisions
 
@@ -92,17 +92,24 @@ La taxonomie retenue ici est **hiérarchique à deux niveaux** — `domaine/sous
 plus un espace de noms `meta/` pour ce qui n'est pas du savoir :
 
 ```yaml
-tags: [soft/psychologie, soft/productivité]   # une note atomique
-tags: [meta/source, soft/productivité]        # une fiche de livre
-tags: [meta/moc, sport/entraînement]          # un index
-tags: [langues/anglais, langues/vocabulaire]  # du vocabulaire
+tags: [esprit/psychologie, esprit/productivité]   # une note atomique
+tags: [meta/source, esprit/productivité]          # une fiche de livre
+tags: [meta/moc, corps/santé]                     # un index
+tags: [langues/vocabulaire]                       # une fiche de vocabulaire
 ```
 
 **Pourquoi deux niveaux et pas un.** Le premier niveau duplique le dossier
-(`soft/…` pour les notes dans `Soft/`), et cette redondance est assumée : c'est le
+(`esprit/…` pour les notes dans `Esprit/`), et cette redondance est assumée : c'est le
 **second** niveau qui porte l'information que le dossier ne peut pas donner.
-`soft/psychologie` et `soft/productivité` vivent dans le même dossier — seul le tag
-les sépare. Et `meta/` traverse tous les dossiers, ce qu'un dossier ne sait pas faire.
+`esprit/psychologie` et `esprit/productivité` vivent dans le même dossier — seul le tag
+les sépare.
+
+> ⚠️ **Corrigé le 2026-10-03 : ces exemples portaient `soft/` et `sport/`**, qui sont les
+> domaines de l'**ancien** vault et n'ont jamais existé ici. La liste réelle est dans
+> [[Guide-Conventions]], décision 03, et elle seule fait foi. **Aucun contrôle ne lit les
+> fichiers `Guide-`** — c'est le troisième artefact rédigé à la main trouvé en décalage
+> avec le vault, après le bloc d'état de [[Guide-Reprise]] et les niveaux de périmètre
+> jamais relus. Et `meta/` traverse tous les dossiers, ce qu'un dossier ne sait pas faire.
 
 **Pourquoi un espace `meta/`.** Le type de note est déjà dans le préfixe du nom.
 Le tag `meta/` le rend *interrogeable en masse* : « toutes les fiches de source

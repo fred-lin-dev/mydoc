@@ -54,7 +54,7 @@ A: « Qu'est-ce que je peux apporter ? » à la place de « qu'est-ce que ça m'
 <!--ID: 1790533410834-->
 
 
-Q: Quelle est la limite de la mentalité d'artisan prise comme règle unique ?
-A: Appliquée à un travail réellement mauvais, elle produit de l'excellence au service de rien — et devient un argument pour ne jamais partir.
+Q: Appliquée à un travail réellement mauvais, que produit la mentalité d'artisan ?
+A: De l'excellence au service de rien — et un argument pour ne jamais partir. Elle règle la façon de travailler, jamais le choix du travail.
 <!--ID: 1790533410837-->
 

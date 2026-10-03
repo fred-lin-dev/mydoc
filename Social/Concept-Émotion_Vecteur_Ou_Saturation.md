@@ -57,7 +57,7 @@ A: Un argument juste mais inerte ne convainc personne et laisse le terrain à qu
 <!--ID: 1790537395769-->
 
 
-Q: Quel test extérieur rend le critère utilisable sur soi-même ?
-A: L'objection reste-t-elle formulable après ? Si non, c'est une saturation — quelle qu'ait été l'intention.
+Q: Après une intervention chargée d'émotion, l'objection reste-t-elle formulable : qu'est-ce que ça permet de trancher ?
+A: Si elle ne l'est plus, c'est une **saturation** — quelle qu'ait été l'intention. Le test porte sur l'effet produit et non sur le motif : c'est ce qui le rend utilisable sur soi-même.
 <!--ID: 1790537395772-->
 

@@ -64,7 +64,7 @@ A: L'absence totale de rejet. Un rejet marqué prouve au moins que la variance e
 <!--ID: 1790537395681-->
 
 
-Q: Quelle est la faille de l'argument de la polarisation ?
+Q: L'argument de la polarisation dit-il sur quoi polariser, et que se passe-t-il sinon ?
 A: Il ne dit pas sur quoi polariser. Une aspérité gratuite produit de la variance sans rien attirer — il ne distingue pas une position assumée d'une posture agressive.
 <!--ID: 1790537395683-->
 

@@ -59,7 +59,7 @@ A: Il se lit comme une accusation et met en demeure de se justifier.
 <!--ID: 1790547089882-->
 
 
-Q: **Question calibrée** — quelle est la limite d'usage de cette technique ?
+Q: **Question calibrée** — qu'arrive-t-il à la technique répétée plusieurs fois dans la même conversation ?
 A: Répétée, elle devient visible et se retourne : l'autre entend qu'on refuse en évitant de le dire. Le budget par conversation est petit.
 <!--ID: 1790547089885-->
 

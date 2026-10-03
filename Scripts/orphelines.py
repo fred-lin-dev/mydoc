@@ -28,13 +28,25 @@ DOMAINES = ("Esprit", "Social", "Tech", "Corps", "Langues")
 ANKI = "http://localhost:8765"
 ID = re.compile(r"<!--ID: (\d+)-->")
 CARTE = re.compile(r"^Q: ", re.MULTILINE)
+# Les fiches Vocab- n'utilisent pas Q:/A: mais le type Vocabulaire_Elite,
+# dont la syntaxe est « **mot** :: définition ». Sans cette ligne, le compte
+# « écrites » sous-estimerait le vault et le rapport mentirait — la comparaison
+# des identifiants, elle, était déjà correcte.
+VOCAB = re.compile(r"^\*\*.+?\*\* :: .+$", re.MULTILINE)
 
 
 def ids_du_vault():
-    """{identifiant: chemin de la note qui le porte}."""
+    """{identifiant: chemin de la note qui le porte}.
+
+    ⚠️  `rglob` et non `glob` : `Langues/Français/` est le premier sous-dossier de
+    domaine du vault (2026-10-03). Avec un parcours à plat, les identifiants qui y
+    vivent seraient absents de cet ensemble, donc **comptés comme orphelins** — et
+    ce script imprime une commande `deleteNotes`. L'oubli n'aurait pas produit un
+    chiffre faux, il aurait proposé de supprimer des cartes saines.
+    """
     trouves = {}
     for domaine in DOMAINES:
-        for f in (RACINE / domaine).glob("*.md"):
+        for f in (RACINE / domaine).rglob("*.md"):
             for i in ID.findall(f.read_text(encoding="utf-8")):
                 trouves[i] = f.relative_to(RACINE)
     return trouves
@@ -60,7 +72,8 @@ def main():
     manquantes = sorted(set(vault) - cotes_anki)
 
     ecrites = sum(len(CARTE.findall(f.read_text(encoding="utf-8")))
-                  for d in DOMAINES for f in (RACINE / d).glob("*.md"))
+                  + len(VOCAB.findall(f.read_text(encoding="utf-8")))
+                  for d in DOMAINES for f in (RACINE / d).rglob("*.md"))
     attente = ecrites - len(vault)
     print(f"vault : {ecrites} cartes écrites, dont {len(vault)} synchronisées"
           + (f" · {attente} en attente de scan" if attente else "")
@@ -90,7 +103,21 @@ def main():
               + json.dumps({"action": "deleteNotes", "version": 6,
                             "params": {"notes": [int(i) for i in orphelines]}}) + "'")
     if not orphelines and not manquantes:
-        print("✅ les deux ensembles coïncident exactement.")
+        # ⚠️  Ce ✅ ne dit QUE ceci : les identifiants des deux côtés coïncident. Il ne
+        # dit rien des cartes écrites qui n'ont pas encore d'identifiant — elles sont
+        # invisibles à la comparaison, par construction. Le 2026-10-03 un scan qui
+        # n'avait rien pris a produit ce ✅, et il a été lu comme une réussite.
+        # Depuis, le verdict distingue les deux cas.
+        if attente:
+            print(f"🟠 les identifiants coïncident, mais {attente} carte(s) écrite(s) "
+                  f"n'en ont pas encore.")
+            print("   Le scan ne les a pas prises. Elles sont absentes d'Anki, et")
+            print("   cette comparaison ne pouvait pas le voir : elle porte sur les")
+            print("   identifiants, et ces cartes n'en ont aucun.")
+            print("   → relancer `Obsidian_to_Anki: Scan Vault`, puis vérifier qu'une")
+            print("     ligne `<!--ID: …-->` est apparue sous chacune.")
+        else:
+            print("✅ les deux ensembles coïncident, et aucune carte n'attend de scan.")
 
 
 if __name__ == "__main__":

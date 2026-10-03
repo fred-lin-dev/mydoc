@@ -6,12 +6,12 @@ tags: [meta/moc, esprit/productivité]
 > **Un index n'explique jamais** (décision 04). Une ligne par note, aucun savoir propre,
 > aucune carte. Verdict de fiabilité en préfixe.
 
-**84 notes atomiques · 22 fiches de source · 6 références**
+**85 notes atomiques · 22 fiches de source · 6 références**
 
 | Verdict | Notes |
 |---|---|
 | 🟢 solide | 13 |
-| 🟠 contesté | 30 |
+| 🟠 contesté | 31 |
 | 🔴 réfuté | 1 |
 | ⬜ non applicable | 38 — traités de stratégie, Taleb, philosophie |
 | ⚪ non évalué | 0 |
@@ -139,6 +139,7 @@ du vault entier.*
 * ⬜ [[Concept-Antinomie]] — *si l'on démontre aussi bien le contraire, la question est hors domaine.*
 * ⬜ [[Concept-Révolution_Copernicienne]] — *inverser le sens d'ajustement quand une question n'avance plus.*
 * 🟠 [[Concept-Synthétique_A_Priori]] — *la question tient, ses réponses-phares sont tombées.*
+* 🟠 [[Concept-Mot_Précède_L_Usage]] — *le mot ne crée pas la distinction, il la rend assez rapide pour servir ; porte aussi `langues/vocabulaire`.*
 
 ## Psychologie clinique — `esprit/psychologie`
 

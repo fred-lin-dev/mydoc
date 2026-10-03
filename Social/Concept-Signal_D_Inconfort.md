@@ -58,7 +58,7 @@ A: De l'inconfort, oui. Sa cause, non. Le signal est réel et non spécifique : 
 <!--ID: 1790537395632-->
 
 
-Q: Quel est le bon usage d'un signal d'inconfort observé ?
+Q: Un signal d'inconfort observé est-il une conclusion ou une invitation à poser une question ?
 A: Une invitation à poser une question — « il y a quelque chose qui te retient ? » — jamais une conclusion.
 <!--ID: 1790537395635-->
 
