@@ -51,12 +51,12 @@ parce qu'il est le seul à ne pas pouvoir le rencontrer pour la première fois.
 ## 🎴 Cartes
 
 Q: Chez Williams, que désigne exactement le mot « clair » — et pourquoi ça change la méthode de révision ?
-A: Pas une propriété du texte mais **un effet chez le lecteur** (p. 58). Donc inspecter la phrase ne suffit pas : il faut modéliser ce que le lecteur sait déjà et vient de lire.
+A: Pas une propriété du texte mais **un effet chez le lecteur** (*Style*, p. 58). Donc inspecter la phrase ne suffit pas : il faut modéliser ce que le lecteur sait déjà et vient de lire.
 <!--ID: 1790945438507-->
 
 
 Q: **Clarté comme effet** — pourquoi un auteur est-il structurellement incapable de juger la clarté de son propre texte ?
-A: Parce qu'après avoir travaillé ses idées, elles lui paraissent toutes familières (p. 61). Il est le seul lecteur qui ne peut pas rencontrer le texte pour la première fois.
+A: Parce qu'après avoir travaillé ses idées, elles lui paraissent toutes familières (*Style*, p. 61). Il est le seul lecteur qui ne peut pas rencontrer le texte pour la première fois.
 <!--ID: 1790945438510-->
 
 

@@ -56,7 +56,7 @@ A: « D'où vient-elle, et à qui profitait-elle ? » — non pour la réfuter, 
 <!--ID: 1790547089932-->
 
 
-Q: **Généalogie des valeurs** — pourquoi *Par-delà le bien et le mal* est-il le seul livre du corpus à attaquer les autres par le bas ?
+Q: **Généalogie des valeurs** — pourquoi *Par-delà le bien et le mal* est-il le seul, parmi les livres de pouvoir et de stratégie, à les attaquer par le bas ?
 A: Toute la littérature du pouvoir prend ses critères pour acquis : elle demande comment obtenir, jamais pourquoi vouloir. La généalogie pose la question d'un cran en dessous.
 <!--ID: 1790547089934-->
 

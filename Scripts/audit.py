@@ -84,6 +84,23 @@ CANDIDATS = re.compile(
 CARTES_RELUES = re.compile(r"^cartes_relues: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 RELUE = re.compile(r"^atomicite_relue: \d{4}-\d{2}-\d{2}", re.MULTILINE)
 LIGNE_MOC = re.compile(r"^\* ([🟢🟠🔴⚪⬜🔵]) \[\[(Concept-[^\]]+)\]\]", re.MULTILINE)
+# Une page citée dans une carte doit porter son ouvrage : lue seule, « (p. 61) »
+# est l'ordre d'aller vérifier quelque chose qu'on ne peut pas localiser. Forme
+# attendue : `(*Titre*, p. N)`. Décidé le 2026-10-03, après relecture des 466 cartes.
+PAGE_NUE = re.compile(r"\((?!\*)\s*p\. ?\d")
+
+CARTE_REPONSE = re.compile(r"^A: (.+)$", re.MULTILINE)
+
+# Vocabulaire interne au vault. Une carte parle du monde : lue seule dans Anki,
+# « le verdict », « le corpus » ou un symbole du barème ne désignent rien. Contrôlé
+# sur les **deux faces** — les trois défauts trouvés le 2026-10-03 étaient répartis
+# entre questions et réponses, et le contrôle ne lisait que les questions.
+VAULT = re.compile(
+    r"\bvault\b|\b(?:ce|du|le) corpus\b|\bles? verdicts?\b"
+    r"|\bles auteurs\b(?! de )|[\U0001F7E2\U0001F7E0\U0001F534\u26AA\u2B1C]",
+    re.IGNORECASE,
+)
+
 IDEE = re.compile(r"^## L'idée[^\n]*\n(.*?)(?=\n## )", re.MULTILINE | re.DOTALL)
 CARTE_PREFIXEE = re.compile(r"^\*\*[^*]+\*\* — ")
 CITATION = re.compile(r"«[^»]*»")
@@ -266,6 +283,20 @@ def main():
                 alertes.append(
                     (rel, f"carte sans contexte — « {motif.group(0)} » sans référent : "
                           f"`{question[:60]}…` (règle d'autonomie, décision 08)")
+                )
+
+        for face, ligne in ([("question", q) for q in CARTE_LIGNE.findall(contenu)]
+                            + [("réponse", a) for a in CARTE_REPONSE.findall(contenu)]):
+            m = VAULT.search(CITATION.sub("", ligne))
+            if m:
+                alertes.append(
+                    (rel, f"carte qui parle du vault — « {m.group(0)} » dans la {face} : "
+                          f"`{ligne[:55]}…` (une carte parle du monde, décision 08)")
+                )
+            if PAGE_NUE.search(ligne):
+                alertes.append(
+                    (rel, f"page sans ouvrage dans la {face} : `{ligne[:55]}…` — "
+                          "forme attendue `(*Titre*, p. N)` (décision 08)")
                 )
 
         if prefixe == "Concept":

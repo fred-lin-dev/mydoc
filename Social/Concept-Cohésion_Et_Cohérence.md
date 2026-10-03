@@ -54,7 +54,7 @@ qu'on saura de quoi ça parle, pas que ça vaille la peine.
 ## 🎴 Cartes
 
 Q: Chez Williams, quelle est la différence entre cohésion et cohérence ?
-A: La **cohésion** se juge au raccord — comment chaque phrase finit et la suivante commence. La **cohérence** se juge aux **débuts cumulés** de toutes les phrases du passage (p. 59).
+A: La **cohésion** se juge au raccord — comment chaque phrase finit et la suivante commence. La **cohérence** se juge aux **débuts cumulés** de toutes les phrases du passage (*Style*, p. 59).
 <!--ID: 1790945438456-->
 
 
@@ -64,6 +64,6 @@ A: Un paragraphe dont chaque transition est fluide et dont on ne peut pas dire l
 
 
 Q: **Chaîne de sujets** — que prescrit-elle, et quel conseil d'écriture courant contredit-elle ?
-A: Que les sujets d'un passage nomment presque tous les mêmes quelques topiques (p. 67). Elle contredit le conseil de varier ses sujets pour éviter la répétition.
+A: Que les sujets d'un passage nomment presque tous les mêmes quelques topiques (*Style*, p. 67). Elle contredit le conseil de varier ses sujets pour éviter la répétition.
 <!--ID: 1790945438465-->
 

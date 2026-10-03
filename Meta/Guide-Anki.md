@@ -1,11 +1,138 @@
 ---
 tags: [meta/guide]
 ---
-# 🎴 Workflow Anki
+# 🎴 Anki — rédiger, puis synchroniser
 
-> **Procédure.** La syntaxe des cartes est fixée par [[Guide-Conventions]] décision 08.
-> Ici : la configuration réelle, comment lancer une synchronisation, et les trois
-> façons de la casser en silence.
+> **Procédure, dans l'ordre réel du travail :** on écrit une carte, puis on la
+> synchronise. Les règles opposables sont la **décision 08** de
+> [[Guide-Conventions]] ; ici la pratique et la mécanique.
+>
+> La partie **Rédiger** vient de la relecture des **466 cartes une par une dans
+> Anki**, le 2026-10-03. La partie **Synchroniser** vient des pannes réelles.
+
+---
+
+# Partie 1 · Rédiger
+
+## Le principe central : une carte porte une limite, pas une définition
+
+C'est le constat de la relecture complète, et il n'était pas prévu. Ce qui distingue
+ce paquet d'un paquet de définitions, c'est que **sur les trois cartes d'une note, il
+y en a typiquement une qui dit ce que l'idée ne permet pas.**
+
+| Note | La carte qui porte la limite |
+|---|---|
+| Effet Lindy | *« La survie n'est pas la vérité. L'astrologie est très Lindy, la saignée a duré deux mille ans. Il prédit la durée, pas la validité. »* |
+| Antifragilité | *« Il se diagnostique après coup : ce qui survit est déclaré antifragile. L'étiquetage est rétrospectif, donc sans valeur prédictive. »* |
+| Boucle de rétroaction | *« Nommer une boucle donne l'impression d'expliquer. Sans le gain ni les délais, rien n'est prédit. »* |
+| Rationalité limitée | *« Il peut excuser n'importe quoi. Certains acteurs choisissent de ne pas s'informer — c'est une décision, pas une contrainte. »* |
+| Dichotomie du contrôle | *« Les cas intermédiaires sont la majorité. Elle vaut comme gradient, pas comme partition nette. »* |
+
+**Pourquoi ça compte pour la révision à long terme : une définition se périme, une
+limite se vérifie.** Dans cinq ans, « qu'est-ce que l'ego depletion » sera une
+question d'archive ; « pourquoi la méthode tient quand même » restera une question
+vivante. La limite est aussi ce qui empêche la carte de devenir un slogan.
+
+> **Le test, avant d'écrire la troisième carte :** *qu'est-ce que cette idée ne me
+> permet pas de conclure ?* Si la réponse ne vient pas, la note n'est peut-être pas
+> vérifiée — voir le champ `fiabilite`, décision 05.
+
+---
+
+## La forme du trio
+
+Trois cartes, et chacune fait un travail différent. C'est une régularité constatée,
+pas une obligation.
+
+| | Ce qu'elle demande | Exemple réel |
+|---|---|---|
+| **1** | l'idée, ou sa définition exacte | *« Qu'est-ce qu'un centre de gravité, et qu'est-ce que ce n'est pas ? »* |
+| **2** | le mécanisme, ou la distinction qui la rend utilisable | *« Quelle est la différence entre friction et brouillard ? »* |
+| **3** | **la limite**, le contresens, ou la partie contestée | *« Quelle est la limite décisive de l'effet Lindy ? »* |
+
+**Deux cartes suffisent souvent.** 19 notes du vault en ont deux et s'en portent
+bien. Écrire la troisième parce que la règle dit trois est le piège décrit plus bas.
+
+---
+
+## Les cinq tests d'autonomie
+
+La carte sera lue **sans la note, sans la carte précédente, des mois plus tard**.
+Chaque test ci-dessous a attrapé de vraies fautes dans ce vault.
+
+| Test | Refusé | Corrigé en |
+|---|---|---|
+| **1 · Le sujet est nommé** | `quelle est la défense contre ce levier ?` | `**Engagement et cohérence** — quelle est la défense contre ce levier ?` |
+| **2 · L'ouvrage est nommé** | `quelles trois affirmations le livre présente-t-il ?` | `van der Kolk réunit trois affirmations : lesquelles…` |
+| **3 · La carte parle du monde** | `pourquoi cette thèse reçoit-elle ⬜ non applicable ?` | `pourquoi cette thèse n'est-elle ni vraie ni fausse ?` |
+| **4 · La page porte son ouvrage** | `…paraissent familières (p. 61)` | `…paraissent familières (*Style*, p. 61)` |
+| **5 · La réponse se tient seule** | une réponse qui renvoie à une autre note du vault | l'information est recopiée, ou la carte est supprimée |
+
+**Le test 3 est le moins intuitif et le plus violé.** Le barème `fiabilite`, « le
+corpus », « le vault », « les auteurs » sont des conventions d'ici : **demander
+pourquoi une note est classée `⬜` n'est pas une question sur le monde.** Cinq cartes
+le faisaient.
+
+**Les tests 2 et 5 portent aussi sur la réponse.** Deux des trois défauts trouvés le
+2026-10-03 étaient dans des réponses, alors que le contrôle ne lisait que les
+questions. Il lit maintenant les deux faces.
+
+---
+
+## Quand ne PAS mettre de préfixe
+
+**Le préfixe `**Titre** — ` se met si et seulement si la question ne se suffit pas.**
+Sur une carte de définition, il souffle la réponse :
+
+```
+✗  **Active recall** — qu'est-ce qui consolide une information :
+   la réexposition ou la récupération ?
+        ↑ le préfixe donne la réponse
+
+✓  Qu'est-ce qui consolide une information : la réexposition
+   ou la récupération ?
+```
+
+Sur 466 cartes, **124 portent un préfixe et 342 n'en ont pas besoin.** Le préfixe est
+une réparation, pas un ornement.
+
+---
+
+## Les pièges de rédaction
+
+| Piège | Pourquoi il est invisible à l'écriture |
+|---|---|
+| **Écrire la note sous les yeux** | le référent de « ce principe » est devant toi et pas devant le réviseur. **92 cartes sur 350 ont dû être reprises pour ça.** C'est le seul défaut qu'aucune relecture de la note ne révèle |
+| **Le quota de trois** | écrire trois cartes parce que la règle en annonce trois. La règle disait « plus de trois → scinder » : elle mesurait sa propre observance et n'a jamais pu se déclencher. Voir décision 01 |
+| **La réponse-étiquette** | une réponse d'un seul terme ne se révise pas : elle se reconnaît. Une bonne réponse tient en une à trois phrases et contient le *pourquoi* |
+| **La réponse dans la question** | `pourquoi la posture de pouvoir est-elle réfutée ?` annonce le verdict. Préférer `quel est le statut de la posture de pouvoir ?` |
+| **La page nue** | `(p. 61)` est l'ordre d'aller vérifier ce qu'on ne peut pas localiser — le pire état pour une méthode fondée sur la citation vérifiable |
+
+---
+
+## Les contrôles mécaniques, et ce qu'ils ne savent pas faire
+
+`python3 Scripts/audit.py` refuse automatiquement :
+
+* un démonstratif accolé à un nom générique dans une question sans préfixe ;
+* `le livre`, `du livre`, `l'auteur`, `les auteurs` non suivis de « de » ;
+* le vocabulaire interne du vault, **sur les deux faces** ;
+* une parenthèse de page qui ne commence pas par un titre en italique.
+
+Les repères canoniques d'une autre nature — `(B 19)` pour Kant, `(A 421 / B 449)` —
+sont épargnés : ils identifient l'édition par eux-mêmes.
+
+> ⚠️ **Aucun de ces contrôles ne lit une carte.** Ils attrapent des motifs. Ils ne
+> savent pas si une réponse est juste, si une question a une seule réponse, ni si la
+> carte apprend quelque chose. **Le seul test qui compte reste la lecture à voix
+> haute de la carte, seule, sans rien sous les yeux** — et c'est ainsi que les 23
+> fautes du 2026-10-03 ont été trouvées, pas par le script.
+
+---
+
+---
+
+# Partie 2 · Synchroniser
 
 ## Prérequis
 
@@ -33,26 +160,6 @@ est écrite par le plugin après création.
 > jour une carte qui n'existe pas, échoue, et **n'enregistre jamais le fichier**. La
 > carte peut rester bloquée des mois sans aucun signal. C'est le piège le plus coûteux
 > du dispositif.
-
-## La question doit nommer son sujet
-
-En révision, Anki tire les cartes dans le désordre : **la note n'est pas là**. Un
-démonstratif sans référent — « ce principe », « cette règle », « cet effet » —
-devient alors impossible à résoudre, et « le livre » ne désigne rien.
-
-Le champ `Source` **ne rattrape pas** ce défaut : il est au dos de la carte.
-
-```markdown
-Q: **Engagement et cohérence** — quelle est la défense contre ce levier ?
-```
-
-Le préfixe reprend le titre H1 de la note, et **seulement là où la question ne se
-suffit pas** : sur une carte de définition, il souffle la réponse. Le test tient
-en une lecture de la seule ligne `Q:`. Règle complète : décision 08 des
-[[Guide-Conventions]].
-
-**92 cartes sur 350 ont été corrigées ainsi le 2026-09-28** — elles avaient été
-rédigées la note sous les yeux, ce qui rend le défaut invisible à l'écriture.
 
 ## La configuration appliquée
 
@@ -267,17 +374,21 @@ Anki**. Le trou au milieu était la cause, pas le symptôme.
 
 ## Combien de cartes sont en jeu aujourd'hui
 
-`grep -c '^Q:'` sur les notes atomiques donne le compte réel, et c'est aussi le
-signal de découpe de la décision 01 :
-
 ```bash
-grep -c '^Q:' Esprit/Concept-*.md Tech/Concept-*.md | awk -F: '{s+=$2} END {print s}'
+grep -rhc '^Q: ' --include='Concept-*.md' Esprit Social Tech Corps Langues \
+  | awk '{s+=$1} END {print s}'
 ```
 
-Plus de trois cartes sur des angles différents dans une même note → elle contient
-plus d'une idée, elle se scinde.
+Ce nombre doit égaler celui des notes Anki après chaque scan — c'est le contrôle
+d'alignement ci-dessus.
+
+> ⚠️ **Ce n'est plus le signal de découpe.** La règle des 3 cartes mesurait la
+> discipline du rédacteur et non l'atomicité de la note : elle ne s'est jamais
+> déclenchée. Corrigée le 2026-09-30 — le signal est la longueur de la section
+> `## L'idée`, et l'audit l'échantillonne. Voir décision 01 de [[Guide-Conventions]].
 
 ### 🔗 Connexions
-* [[Guide-Conventions]] — *décision 08 : la syntaxe et le découpage des decks.*
-* [[Concept-Active_Recall]] · [[Concept-Répétition_Espacée]] — *les deux dispositifs qui justifient tout ce workflow.*
+* [[Guide-Conventions]] — *décision 01 pour l'atomicité, 05 pour le barème, 08 pour les cartes.*
+* [[Guide-Reprise]] — *l'état du vault et les pièges rencontrés.*
+* [[Concept-Active_Recall]] · [[Concept-Répétition_Espacée]] — *les deux dispositifs qui justifient tout ceci.*
 * [[MOC-Audit]] — *les notes sans carte, et le reste des dettes.*

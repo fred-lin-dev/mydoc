@@ -61,7 +61,7 @@ A: Non pas une douleur mais **l'insatisfaction de ne pas comprendre** quelque ch
 <!--ID: 1790945438437-->
 
 
-Q: **Williams** — quelle règle de dimensionnement propose-t-il pour choisir sa question (p. 91) ?
+Q: **Williams** — quelle règle de dimensionnement propose-t-il pour choisir sa question (*Style*, p. 91) ?
 A: Assez **petite** pour qu'on puisse y répondre, et rattachée à une question assez **grande** pour qu'elle intéresse. Les deux échecs sont symétriques.
 <!--ID: 1790945438441-->
 

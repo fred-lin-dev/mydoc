@@ -64,6 +64,6 @@ A: **Qu'elle est suspecte.** Le coût d'une bonne méthode est immédiat et visi
 
 
 Q: **Difficulté désirable** — pourquoi le concept général n'est-il pas utilisable, alors que les techniques le sont ?
-A: Il n'a **aucun critère antérieur** : une difficulté est dite désirable *après* avoir aidé. Les auteurs le concèdent — « for lack of the needed research, we cannot yet be definitive ». C'est la liste qui est utilisable, pas le concept qui la coiffe.
+A: Il n'a **aucun critère antérieur** : une difficulté est dite désirable *après* avoir aidé. *Make It Stick* le concède — « for lack of the needed research, we cannot yet be definitive ». C'est la liste qui est utilisable, pas le concept qui la coiffe.
 <!--ID: 1790928945331-->
 

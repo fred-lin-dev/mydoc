@@ -54,7 +54,7 @@ expositif et argumentatif. En fiction, Williams note que l'incertitude initiale
 ## 🎴 Cartes
 
 Q: Chez Williams, qu'est-ce qu'une phrase-point, et où se place-t-elle ?
-A: La dernière phrase du **segment d'ouverture** d'une section. Elle énonce le point de la section **et** annonce les concepts qui vont l'organiser (p. 102).
+A: La dernière phrase du **segment d'ouverture** d'une section. Elle énonce le point de la section **et** annonce les concepts qui vont l'organiser (*Style*, p. 102).
 <!--ID: 1790945438423-->
 
 

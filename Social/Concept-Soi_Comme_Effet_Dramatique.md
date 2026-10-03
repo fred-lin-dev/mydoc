@@ -59,7 +59,7 @@ A: « Est-il crédité ou discrédité ? » — la seule chose qui se joue réel
 <!--ID: 1790718872260-->
 
 
-Q: **Le soi comme effet dramatique** — pourquoi cette thèse reçoit-elle `⬜ non applicable` ?
+Q: **Le soi comme effet dramatique** — pourquoi cette thèse n'est-elle ni vraie ni fausse ?
 A: Rien ne pourrait la réfuter : elle redécrit ce qu'on observe au lieu de prédire. C'est un cadre, pas une hypothèse — et une thèse irréfutable ne se cite jamais comme une preuve.
 <!--ID: 1790718872263-->
 

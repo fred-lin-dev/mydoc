@@ -24,6 +24,12 @@ atomique sans base empirique, et le champ `fiabilite` cesse de vouloir dire quel
 chose. La fiche `Source-` mince sert uniquement à tracer **quels concepts le roman
 illustre**.
 
+> **Le périmètre de cette liste est un niveau, pas un genre — 2026-10-03.** Elle
+> s'appelle « SciFi » parce que c'est ce qu'elle contient, pas ce qu'elle admet : un
+> **récit historique** lu pour ses exemples entre ici au même régime, et la règle est
+> écrite dans [[Guide-Stratégie_Lecture]]. Un historien qui *argumente* relève en
+> revanche de la liste 1.
+
 | | |
 |---|---|
 | titres | **18** en 6 familles |

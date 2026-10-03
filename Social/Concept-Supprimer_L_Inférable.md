@@ -52,7 +52,7 @@ sûre, la seconde est un pari.
 ## 🎴 Cartes
 
 Q: Parmi les six principes de concision de Williams, lequel est le plus difficile à appliquer et pourquoi ?
-A: *« Supprimer ce que le lecteur peut inférer »* (p. 113). Les cinq autres se mécanisent par listes ; celui-là non, parce que ce qui s'infère **dépend du lecteur**.
+A: *« Supprimer ce que le lecteur peut inférer »* (*Style*, p. 113). Les cinq autres se mécanisent par listes ; celui-là non, parce que ce qui s'infère **dépend du lecteur**.
 <!--ID: 1790945438411-->
 
 

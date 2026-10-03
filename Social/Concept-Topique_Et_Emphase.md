@@ -46,7 +46,7 @@ seul emplacement qui ne porte jamais.
 ## 🎴 Cartes
 
 Q: Chez Williams, quel travail font respectivement le début et la fin d'une phrase ?
-A: Le début donne le **topique** — de quoi la phrase parle. La fin porte l'**emphase** — ce que le lecteur entendra accentué (p. 59, 75).
+A: Le début donne le **topique** — de quoi la phrase parle. La fin porte l'**emphase** — ce que le lecteur entendra accentué (*Style*, p. 59, 75).
 <!--ID: 1790945438481-->
 
 

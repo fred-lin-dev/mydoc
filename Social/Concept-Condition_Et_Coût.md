@@ -54,7 +54,7 @@ en faut un.
 ## 🎴 Cartes
 
 Q: Selon Williams, quelles sont les deux parties sans lesquelles un lecteur ne reconnaît pas un problème ?
-A: La **condition** — l'état de choses — et le **coût**, la conséquence que le lecteur ne veut pas payer. C'est le coût qui motive (p. 89).
+A: La **condition** — l'état de choses — et le **coût**, la conséquence que le lecteur ne veut pas payer. C'est le coût qui motive (*Style*, p. 89).
 <!--ID: 1790945438446-->
 
 
@@ -64,6 +64,6 @@ A: Énoncer la condition, puis imaginer quelqu'un qui demande *« So what ? »*.
 
 
 Q: **Condition et coût** — pourquoi un auteur sous-estime-t-il systématiquement le coût qu'il doit expliciter ?
-A: Parce qu'il connaît son sujet mieux que son lecteur : il voit les coûts que l'autre ne voit pas. Ce qui va de soi pour lui doit être écrit pour l'autre (p. 90).
+A: Parce qu'il connaît son sujet mieux que son lecteur : il voit les coûts que l'autre ne voit pas. Ce qui va de soi pour lui doit être écrit pour l'autre (*Style*, p. 90).
 <!--ID: 1790945438453-->
 

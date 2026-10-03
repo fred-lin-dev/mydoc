@@ -52,12 +52,12 @@ le personnage absent, et se demander à qui son absence profite.
 ## 🎴 Cartes
 
 Q: Chez Williams, quel est le premier principe du style clair, et lequel des deux éléments compte le plus ?
-A: Faire des personnages principaux les sujets de la plupart des verbes, et des actions les verbes. Les **personnages en sujets** comptent davantage que les actions en verbes (p. 41).
+A: Faire des personnages principaux les sujets de la plupart des verbes, et des actions les verbes. Les **personnages en sujets** comptent davantage que les actions en verbes (*Style*, p. 41).
 <!--ID: 1790945438497-->
 
 
 Q: **Personnages en sujets** — quelle opération de diagnostic la règle fournit-elle sur un paragraphe opaque ?
-A: Lister les sujets. S'ils ne nomment pas les personnages, ceux-ci sont dans un complément de nom, un possessif ou un adjectif — ou effacés (p. 42).
+A: Lister les sujets. S'ils ne nomment pas les personnages, ceux-ci sont dans un complément de nom, un possessif ou un adjectif — ou effacés (*Style*, p. 42).
 <!--ID: 1790945438500-->
 
 

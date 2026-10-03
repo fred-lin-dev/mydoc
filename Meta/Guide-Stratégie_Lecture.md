@@ -12,7 +12,7 @@ tags: [meta/guide]
 | Liste | Rôle | Périmètre | Produit |
 |---|---|---|---|
 | [[Ref-Lecture_Ordre_de_Priorité]] | **la pratique** — ce qui change ce que tu fais | `fiché` · `lu-sans-fiche` | fiches + notes atomiques |
-| [[Ref-Lecture_SciFi_Stratégique]] | **les exemples** — modèles de pouvoir et de systèmes | `illustration` | fiche mince, **aucune note** |
+| [[Ref-Lecture_SciFi_Stratégique]] | **les exemples** — modèles de pouvoir et de systèmes. **Fiction *ou* histoire**, voir plus bas | `illustration` | fiche mince, **aucune note** |
 | [[Ref-Lecture_SciFi_plaisir]] | **le plaisir** | `dehors` | rien, volontairement |
 
 Elles sont séparées par **ce qu'elles produisent**, pas par leur qualité. Un roman
@@ -51,6 +51,40 @@ Une fiction n'est pas une affirmation sur le monde. Elle **ne fait naître aucun
 Sans cette règle, « *Dune* m'a appris que le pouvoir est X » devient une note
 atomique sans base empirique, et le champ `fiabilite` cesse de vouloir dire quoi
 que ce soit. C'est le seul point où les trois listes pourraient se contaminer.
+
+### Et l'histoire entre par la même porte — 2026-10-03
+
+**Un récit historique se lit pour ses exemples, donc il relève d'`illustration` et non
+de la bibliothèque de travail.** Thucydide, Plutarque, une biographie, un récit de
+campagne : ils entrent au niveau `illustration`, avec une fiche `Source-` mince, et
+**ils sont cités comme exemples depuis une note existante** — exactement comme un roman.
+
+```markdown
+## Exemples
+* Le dialogue des Méliens (Thucydide, V, 84-116) — les Athéniens énoncent le rapport
+  de force sans l'habiller de justice : ce que la note appelle séparer le moral de
+  l'efficace, dit par les intéressés eux-mêmes.
+```
+
+> **Pourquoi cette phrase existe.** [[Ref-Lecture_Lacunes]] a constaté qu'aucun livre
+> d'histoire n'est dans l'inventaire, alors que la phase 4 est **entièrement bâtie sur
+> l'anecdote historique**. Le tri du 2026-10-03 a retiré ses deux candidats, et la
+> raison était la bonne : **ils n'apportaient aucun concept neuf.** Leur valeur est
+> d'être des **exemples de contrôle** sur les anecdotes que Greene a choisies — et un
+> exemple de contrôle n'a pas besoin de produire une note, il a besoin d'être
+> vérifiable.
+
+**Conséquence sur le nom de la liste 2, et elle est assumée :** son titre dit
+*« SciFi »* parce que c'est ce qu'elle contient aujourd'hui, pas ce qu'elle admet. Son
+périmètre est le niveau `illustration`, et le niveau ne parle pas de genre. **Un titre
+historique y entre sans renommer la liste** ; s'il en arrive plusieurs, c'est la règle
+des 5 qui dira s'il faut une famille à part.
+
+> ⚠️ **La limite à ne pas franchir : un historien qui *argumente* n'est pas une
+> illustration.** Tacite raconte, Scott (*Seeing Like a State*) démontre — le second
+> produit des `Concept-` et appartient à la liste 1. Le test est celui de la
+> décision 01 : **une thèse citable hors de son époque → `fiché` ; un récit qui sert
+> d'exemple → `illustration`.**
 
 ## La procédure, par livre
 

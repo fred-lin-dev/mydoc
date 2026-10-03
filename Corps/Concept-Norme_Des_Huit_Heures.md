@@ -67,7 +67,7 @@ A: Ceux qui dorment 8 h ont une mortalité **12 % supérieure** à ceux qui dorm
 <!--ID: 1790945438575-->
 
 
-Q: **Norme des huit heures** — quel procédé général Lieberman nomme-t-il, et quel autre cas de dose ronde le vault porte-t-il ?
-A: Médicaliser un comportement en le prescrivant en **dose ronde** : 8 heures, 150 minutes, 25 g de fibres. L'autre cas est la dose d'activité physique.
+Q: **Norme des huit heures** — quel procédé général Lieberman nomme-t-il, et par quels exemples l'illustre-t-il ?
+A: Médicaliser un comportement en le prescrivant en **dose ronde** : 8 heures, 150 minutes, 25 g de fibres — un chiffre rond se retient et se prescrit, ce qui n'en fait pas un optimum biologique.
 <!--ID: 1790945438579-->
 

@@ -92,7 +92,7 @@ et l'audit recoupe cette colonne avec le disque.
 | What_Every_Body_Is_Saying | ✅ | fiché | social/influence | priorité |
 | Why_We_Sleep | ✅ | fiché | corps/sommeil | priorité |
 
-## Lu sans fiche — 13 titres, 13 sur le disque
+## Lu sans fiche — 10 titres, 10 sur le disque
 
 *Aucune thèse, aucune « action » à en tirer : exiger une fiche produirait du remplissage. Ils alimentent des notes atomiques, dont le champ `source` pointe le PDF directement.*
 
@@ -106,10 +106,7 @@ et l'audit recoupe cette colonne avec le disque.
 | On_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
 | Relations_in_Public | ✅ | lu-sans-fiche | social/influence | priorité |
 | Stage_Academy_Workbook_2024 | ✅ | lu-sans-fiche | social/charisme | — |
-| Surrounded_by_Idiots | ✅ | lu-sans-fiche | social/influence | — |
 | The_Art_of_War | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
-| The_Happiness_Advantage | ✅ | lu-sans-fiche | esprit/psychologie | — |
-| The_Power_of_Habit | ✅ | lu-sans-fiche | esprit/habitudes | — |
 | The_Prince | ✅ | lu-sans-fiche | esprit/stratégie | priorité |
 
 ## Illustration — 19 titres, 7 sur le disque
@@ -138,7 +135,7 @@ et l'audit recoupe cette colonne avec le disque.
 | The_Traitor_Baru_Cormorant | — | illustration | — | scifi-strat |
 | We | ✅ | illustration | esprit/stratégie | scifi-strat |
 
-## Dehors — 21 titres, 6 sur le disque
+## Dehors — 24 titres, 6 sur le disque
 
 *Rien. Tout livre **explicitement écarté** après examen vient ici : le ficher contredirait la décision de l'écarter.*
 
@@ -156,9 +153,12 @@ et l'audit recoupe cette colonne avec le disque.
 | Old_Man_s_War | — | dehors | — | scifi-plaisir |
 | Rendezvous_with_Rama | — | dehors | — | scifi-plaisir |
 | Second_Foundation | ✅ | dehors | — | — |
+| Surrounded_by_Idiots | — | dehors | social/influence | — |
 | The_Hitchhiker_s_Guide_to_the_Galaxy | — | dehors | — | scifi-plaisir |
+| The_Happiness_Advantage | — | dehors | esprit/psychologie | — |
 | The_Moon_is_a_Harsh_Mistress | — | dehors | — | scifi-plaisir |
 | The_ONE_Thing | — | dehors | esprit/productivité | — |
+| The_Power_of_Habit | — | dehors | esprit/habitudes | — |
 | The_Rest_of_the_Robots | ✅ | dehors | — | — |
 | The_Sirens_of_Titan | — | dehors | — | scifi-plaisir |
 | The_Stars_My_Destination | — | dehors | — | scifi-plaisir |
@@ -183,7 +183,7 @@ indéfiniment. Le contrôle a été ajouté le 2026-09-29, et la dette est sold�
 |---|---|---|
 | `Attached` · `The_Presentation_of_Self_in_Everyday_Life` | une fiche écrite | ils la méritaient |
 | `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **reclassés `dehors`** | redondance pure avec *Deep Work* et *Essentialism*, déjà lus |
-| `The_Power_of_Habit` · `Surrounded_by_Idiots` · `The_Happiness_Advantage` | **reclassés `lu-sans-fiche`** | un apport propre ou une réfutation qui vaut une note, mais pas une fiche |
+| `The_Power_of_Habit` · `Surrounded_by_Idiots` · `The_Happiness_Advantage` | **reclassés `lu-sans-fiche`**, puis **supprimés le 2026-10-03** | le reclassement pariait sur « un apport propre qui vaut une note ». Deux jours plus tard, après lecture : **les apports étaient des doublons de concepts déjà dans le vault**, et les trois sont passés `dehors` avec `💾 —`. Voir plus bas |
 
 **La leçon vaut plus que la dette.** Six de ces huit livres étaient au niveau le plus
 lourd alors que [[Ref-Lecture_Ordre_de_Priorité]] les jugeait *« doublons »*,
@@ -193,6 +193,30 @@ posé par défaut et jamais relu contre le jugement porté ailleurs.
 **Une dette n'est pas toujours du travail à faire : c'est parfois un classement à
 corriger.** Et rien dans l'audit ne peut distinguer les deux — il voit qu'une fiche
 manque, pas qu'elle n'aurait jamais dû être attendue.
+
+### Trois titres `lu-sans-fiche` supprimés — 2026-10-03
+
+**Le niveau `lu-sans-fiche` promet des notes et rien ne le vérifie.** Le garde-fou 11
+ne contrôle que `fiché` : un titre peut rester ici indéfiniment sans produire une seule
+`Concept-`, et l'audit ne dira rien. Un comptage à la main le 2026-10-03 a trouvé
+**6 des 13 à zéro note**. Trois sont des outils de travail — un cahier d'exercices ne
+produit pas de note, c'est normal. Les trois autres étaient des essais :
+
+| Titre | 💾 | Ce qui a tranché |
+|---|---|---|
+| `The_Power_of_Habit` | **—** | doublon d'*Atomic Habits*. Le pari de 2026-10-01 était que les habitudes **organisationnelles** lui seraient propres ; à la lecture, non |
+| `The_Happiness_Advantage` | **—** | doublon de psychologie positive. Le pari était une note sur les tailles d'effet ; le vault en a déjà le motif ailleurs |
+| `Surrounded_by_Idiots` | **—** | modèle DISC, sans soutien psychométrique. Le pari était une réfutation à valeur défensive ; elle n'apporte aucun concept neuf |
+
+> **Ce qui est instructif, c'est que le pari était explicite et daté.** Le 2026-10-01
+> ces trois titres ont été gardés **pour** une note précise, nommée dans
+> [[Ref-Lecture_Ordre_de_Priorité]]. Deux jours plus tard, la lecture a dit non. Un
+> niveau `lu-sans-fiche` posé sur une intention est **une dette déguisée en
+> classement** — et il n'y a aucun moyen de savoir laquelle des deux c'est avant
+> d'avoir lu.
+
+**Les lignes restent avec `💾 —`**, comme les trois PDF supprimés le 2026-10-01 : la
+décision survit, les octets non. Même statut que les 24 romans non acquis.
 
 > **Les cinq suites du cycle Fondation sont lues par curiosité, hors vault** —
 > décision du 2026-09-28. Elles ne produisent ni fiche ni note. `To_Kill_A_Mockingbird`

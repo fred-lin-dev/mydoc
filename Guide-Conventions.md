@@ -371,9 +371,42 @@ a pas besoin, et l'ajouter serait nuisible : sur une carte de définition, le ti
 information : la réexposition ou la récupération ?` donne le résultat avant la
 question. Donc : *préfixe si et seulement si la question ne se suffit pas.*
 
+**La pratique est détaillée dans [[Guide-Anki]], partie 1** — le principe de
+la limite, la forme du trio, et les pièges de rédaction.
+
 Le test est une lecture à voix haute de la seule ligne `Q:`, sans rien d'autre
 sous les yeux. L'audit signale les démonstratifs sans référent, mais il ne
 remplace pas ce test — il ne sait pas lire une question.
+
+### Les deux faces, et le vocabulaire du vault — ajouté le 2026-10-03
+
+Après relecture des **466 cartes une par une** dans Anki, trois défauts sont
+apparus que le contrôle ne pouvait pas voir, et **deux d'entre eux étaient dans
+des réponses** — il ne lisait que les questions. Il lit maintenant les deux faces.
+
+**Une carte parle du monde, jamais du vault.** Le vocabulaire interne est désormais
+refusé des deux côtés :
+
+| Refusé | Pourquoi |
+|---|---|
+| `vault`, `le corpus` | ne désignent rien pour qui révise |
+| `le verdict`, et les cinq symboles 🟢 🟠 🔴 ⚪ ⬜ | le barème de la décision 05 est une convention d'ici |
+| `les auteurs` non suivi de « de » | l'ouvrage se nomme, comme pour « le livre » |
+
+Les cinq cartes fautives disaient par exemple *« sur quoi repose son verdict 🟢 »*
+ou *« quel autre cas de dose ronde le vault porte-t-il »*. Une question sur le
+classement d'une note n'est pas une question sur le monde.
+
+### Une page citée dans une carte porte son ouvrage — ajouté le 2026-10-03
+
+Seize cartes citaient `(p. 61)`, `(p. 113)` sans nommer le livre. Lue seule, une
+page nue est **l'ordre d'aller vérifier ce qu'on ne peut pas localiser** — le pire
+état pour un vault dont la méthode repose sur la citation vérifiable.
+
+**Forme attendue : `(*Titre*, p. N)`.** L'audit refuse toute parenthèse de page qui
+ne commence pas par un titre en italique. Les repères canoniques d'une autre nature
+— `(B 19)` pour Kant, `(A 421 / B 449)` — ne sont pas concernés : ils identifient
+l'édition par eux-mêmes.
 
 ### La réponse doit être vérifiable — ajouté le 2026-10-02
 
@@ -418,7 +451,7 @@ signalé avant qu'un scan puisse faire le dégât.
 
 Si l'ordre logique veut qu'une carte neuve vienne avant les autres : l'écrire en dernier,
 scanner, puis la remonter **avec son identifiant**. Détail et contrôle d'alignement dans
-[[Guide-Anki_Workflow]].
+[[Guide-Anki]].
 
 > ⚠️ **Les identifiants sont écrits par le plugin. Jamais à la main.**
 > Un ID inventé fait échouer la synchronisation **en silence** : le plugin tente
@@ -628,11 +661,11 @@ Accents conservés dans les noms de fichiers.
 Obsidian_to_Anki n'est plus distribué dans le navigateur de plugins : il a été
 copié depuis `~/olddy`, avec sa configuration **réécrite** pour la syntaxe `Q:`/`A:`
 et les decks `Zettelkasten::<Domaine>`. Procédure complète et pièges :
-[[Guide-Anki_Workflow]].
+[[Guide-Anki]].
 
 > ⚠️ **Reste à faire au premier lancement :** activer les deux plugins dans Obsidian
 > (*Paramètres → Modules tiers*), ouvrir Anki, puis `Scan Vault`. La liste de
-> contrôle du premier scan est dans [[Guide-Anki_Workflow]].
+> contrôle du premier scan est dans [[Guide-Anki]].
 
 ---
 

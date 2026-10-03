@@ -68,7 +68,7 @@ A: Ristow et al. 2009 (PNAS) : donner des vitamines C et E pendant l'entraîneme
 <!--ID: 1790945438618-->
 
 
-Q: **Réparation coûteuse** — pourquoi le verdict est-il « contesté » alors que ses composants sont établis ?
+Q: **Réparation coûteuse** — pourquoi l'hypothèse reste-t-elle contestable alors que ses composants sont établis ?
 A: Parce que le cadre unificateur est la proposition de Lieberman — *« what I term »* — et n'a pas été testé comme tel. Unifier des résultats établis n'est pas les mesurer.
 <!--ID: 1790945438622-->
 

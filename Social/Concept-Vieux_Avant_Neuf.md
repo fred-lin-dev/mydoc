@@ -52,16 +52,16 @@ peut conduire nulle part — la cohésion est une propriété locale.
 ## 🎴 Cartes
 
 Q: Que prescrit le principe « vieux avant neuf » de Williams, et sur quelle raison repose-t-il ?
-A: Commencer une phrase par l'information familière au lecteur, la finir par l'inattendue — parce qu'on apprend en reliant le neuf à ce qu'on sait déjà (p. 60).
+A: Commencer une phrase par l'information familière au lecteur, la finir par l'inattendue — parce qu'on apprend en reliant le neuf à ce qu'on sait déjà (*Style*, p. 60).
 <!--ID: 1790945438487-->
 
 
 Q: **Vieux avant neuf** — quand la cohésion du passage et la clarté de la phrase se contredisent, laquelle Williams fait-il primer ?
-A: La cohésion du passage. *« For readers, a passage's overall cohesion is more important than the clarity of individual sentences »* (p. 61).
+A: La cohésion du passage. *« For readers, a passage's overall cohesion is more important than the clarity of individual sentences »* (*Style*, p. 61).
 <!--ID: 1790945438490-->
 
 
 Q: **Vieux avant neuf** — en quoi ce principe réhabilite-t-il la voix passive ?
-A: Le passif permet d'ouvrir une phrase sur les derniers mots de la précédente. Dans l'exemple des trous noirs (p. 59-60), la version passive enchaîne, l'active fait surgir une information venue de nulle part.
+A: Le passif permet d'ouvrir une phrase sur les derniers mots de la précédente. Dans l'exemple des trous noirs (*Style*, p. 59-60), la version passive enchaîne, l'active fait surgir une information venue de nulle part.
 <!--ID: 1790945438494-->
 

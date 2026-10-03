@@ -58,7 +58,7 @@ A: « Sois moins dépendant, travaille ton autonomie. » Si la conduite collante
 <!--ID: 1790718872211-->
 
 
-Q: **Paradoxe de la dépendance** — sur quoi repose son verdict `🟢`, et quelle en est la limite ?
+Q: **Paradoxe de la dépendance** — sur quelles études repose-t-il, et quelle en est la limite ?
 A: Sur le programme de Feeney (JPSP 2004 ; Feeney & Thrush, JPSP 2010), observationnel et expérimental. Limite : un effet **de groupe**, et un travail antérieur au pré-enregistrement.
 <!--ID: 1790718872214-->
 

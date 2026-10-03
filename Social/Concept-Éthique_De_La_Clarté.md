@@ -60,7 +60,7 @@ A: Parce que c'est un **transfert de travail** : ce que l'auteur ne fait pas, le
 
 
 Q: **Éthique de la clarté** — quel test Williams propose-t-il, et sur quoi porte-t-il ?
-A: Sur le **motif** : l'auteur accepterait-il d'être soumis à sa propre prose, d'être influencé ou manipulé par elle comme ses lecteurs le sont (p. 169) ?
+A: Sur le **motif** : l'auteur accepterait-il d'être soumis à sa propre prose, d'être influencé ou manipulé par elle comme ses lecteurs le sont (*Style*, p. 169) ?
 <!--ID: 1790945438472-->
 
 

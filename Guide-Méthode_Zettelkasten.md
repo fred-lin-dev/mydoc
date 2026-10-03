@@ -402,7 +402,7 @@ coût de revirement, décroissant :
 ---
 
 ### 🔗 Connexions
-* [[Guide-Anki_Workflow]] — *le pipeline de synchronisation en pratique.*
+* [[Guide-Anki]] — *le pipeline de synchronisation en pratique.*
 * [[Concept-Zettelkasten]] — *le principe d'origine.*
 * [[Concept-Active_Recall]] · [[Concept-Répétition_Espacée]] — *les deux techniques qui justifient la décision 08.*
 * [[Source-How_to_Take_Smart_Notes]] — *la méthode dont tout ceci descend.*

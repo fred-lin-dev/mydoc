@@ -251,14 +251,14 @@ jamais « prouvé » sans la référence à côté.**
 
 ---
 
-## Les 15 PDF hors liste — 12 conservés, 3 supprimés
+## Les 15 PDF hors liste — 9 conservés, 6 supprimés
 
 | PDF                                                                                                     | Disposition                                                                                                                            |
 | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **doublons de domaine** avec *Deep Work* et *Essentialism* : même thèse, rendements décroissants. À ne lire que si les premiers n'ont pas suffi **Tranché le 2026-10-01** — niveau dans [[Ref-Bibliothèque]]. |
-| `The_Power_of_Habit` | doublon d'*Atomic Habits*, mais la partie sur les habitudes **organisationnelles** lui est propre **Tranché le 2026-10-01.** |
-| `Surrounded_by_Idiots` | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Candidat `🔴 réfuté`, à lire comme objet de curiosité Gardé **pour** cette note : le modèle circule en entreprise, une réfutation a une valeur défensive. **Tranché le 2026-10-01.** |
-| `The_Happiness_Advantage` | psychologie positive, tailles d'effet contestées. Candidat `🟠 contesté` Gardé **pour** cette note : le vault n'a rien sur les tailles d'effet de la psychologie positive. **Tranché le 2026-10-01.** |
+| `The_Power_of_Habit` | doublon d'*Atomic Habits*. On lui créditait la partie sur les habitudes **organisationnelles** — **démenti à la lecture : supprimé le 2026-10-03.** |
+| `Surrounded_by_Idiots` | modèle DISC à quatre couleurs — **aucun soutien psychométrique sérieux**. Gardé le 2026-10-01 **pour** une note de réfutation à valeur défensive ; elle n'apportait aucun concept neuf. **Supprimé le 2026-10-03.** |
+| `The_Happiness_Advantage` | psychologie positive, tailles d'effet contestées. Gardé le 2026-10-01 **pour** une note sur ces tailles d'effet ; le vault en a déjà le motif ailleurs. **Supprimé le 2026-10-03.** |
 | `Modern_Compiler_Implementation_in_ML` · `English_Phrasal_Verbs_in_Use_Advanced` · `Stage_Academy_Workbook_2024` | **outils de travail**, hors stratégie de lecture                                                                               |
 | `To_Kill_A_Mockingbird`                                                                                 | fiction de loisir → même régime que [[Ref-Lecture_SciFi_plaisir]]                                                                           |
 | `Second_Foundation` · `Foundations_Edge` · `Foundation_and_Earth` · `Forward_the_Foundation` · `The_Rest_of_the_Robots` | lues par curiosité, hors vault — décision du 2026-09-28                                                                               |
@@ -280,14 +280,20 @@ rend ses citations invérifiables ») ne s'appliquait pas ici, contrairement à 
 |---|---|
 | `The_ONE_Thing` · `Make_Time_How_to_Focus` · `Digital_Minimalism` | **supprimés** — 9,3 Mo. *Deep Work* et *Essentialism* couvrent la même thèse et sont fichés |
 | les 3 outils de travail — 95,8 Mo, **80 % du poids** | **gardés.** Un cahier d'exercices ne produit pas de note : « 0 note » ne dit rien contre lui. Et `English_Phrasal_Verbs` est l'unique actif de `langues/`, qui est vide — le supprimer fermerait un domaine avant son ouverture |
-| les 5 suites de *Fondation* · `To_Kill_A_Mockingbird` · `Surrounded_by_Idiots` | **gardés** — tu as dit vouloir les lire |
-| `The_Power_of_Habit` · `The_Happiness_Advantage` | **gardés** — classés `lu-sans-fiche` *pour* produire une note précise |
+| les 5 suites de *Fondation* · `To_Kill_A_Mockingbird` | **gardés** — tu as dit vouloir les lire |
+| `The_Power_of_Habit` · `The_Happiness_Advantage` · `Surrounded_by_Idiots` | **supprimés le 2026-10-03** — 9,1 Mo. Ils avaient été gardés *pour* produire une note précise ; lus, leurs apports se sont révélés **doublons de concepts déjà dans le vault**. Le pari était daté, il est tranché |
 
-Les trois supprimés gardent leur ligne dans [[Ref-Bibliothèque]] avec `💾 —` : la décision
+Les six supprimés gardent leur ligne dans [[Ref-Bibliothèque]] avec `💾 —` : la décision
 et le raisonnement survivent, les octets non. **Même statut que les 24 romans non acquis.**
+
+> **Les trois premiers ont été supprimés sur un jugement *avant* lecture — doublons de
+> thèse avec *Deep Work* et *Essentialism*. Les trois derniers l'ont été *après*, et
+> c'est la lecture qui a tranché contre le pari écrit ici le 2026-10-01.** Un « gardé
+> pour produire une note » est une hypothèse, pas un classement : il faut le relire
+> quand la lecture a eu lieu, sinon il devient une dette que l'audit ne voit pas.
 
 ### 🔗 Connexions
 * [[Guide-Stratégie_Lecture]] — *comment les trois listes s'articulent.*
 * [[Ref-Bibliothèque]] — *le niveau de périmètre de chaque PDF.*
 * [[Ref-Lecture_SciFi_Stratégique]] — *la liste qui fournit les exemples.*
-* [[Ref-Lecture_Lacunes]] — *ce que ces 39 titres ne couvrent pas ; une lacune fermée par acquisition entre ici.*
+* [[Ref-Lecture_Lacunes]] — *ce que ces 41 titres ne couvrent pas ; une lacune fermée par acquisition entre ici.*
