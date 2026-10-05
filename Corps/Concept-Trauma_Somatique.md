@@ -59,8 +59,8 @@ A: **La troisième.** Les effets physiologiques durables sont soutenus, leur con
 <!--ID: 1790547089798-->
 
 
-Q: Pourquoi « le corps garde le score » est-elle une thèse faible malgré son intérêt ?
-A: C'est une métaphore : elle n'énonce aucune prédiction réfutable. Rien ne pourrait la contredire — c'est un cadre, à juger sur son utilité.
+Q: **Trauma somatique** — quel statut donner à la formule « le corps garde le score » : thèse testable, ou cadre d'interprétation ?
+A: **Un cadre d'interprétation.** Aucune observation ne pourrait la contredire : elle n'est pas réfutable, donc elle se juge sur son **utilité**, pas sur sa vérité.
 <!--ID: 1790547089807-->
 
 

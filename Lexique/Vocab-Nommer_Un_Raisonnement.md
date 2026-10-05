@@ -28,7 +28,7 @@ vault — le champ `fiabilite` ne fait rien d'autre que ça, soixante-dix fois.
 <!--ID: 1791034994266-->
 
 
-**pétition de principe** :: tenir pour acquis, dans les prémisses, ce qu'il s'agissait précisément de démontrer. *Ex : « c'est efficace parce que ça marche » est une pétition de principe.*
+**pétition de principe** :: poser **parmi ses prémisses** la conclusion qu'on devait démontrer — en un seul pas. *Ex : « il faut l'interdire, puisque c'est inacceptable ».*
 <!--ID: 1791034994269-->
 
 
@@ -84,7 +84,7 @@ vault — le champ `fiabilite` ne fait rien d'autre que ça, soixante-dix fois.
 <!--ID: 1791050495058-->
 
 
-**circulaire** :: dont la conclusion est déjà contenue dans ses prémisses. *Ex : le raisonnement est circulaire, il ne démontre rien.*
+**circulaire** :: dont la justification **revient à son point de départ**, en un pas ou plusieurs. *Ex : « la Bible est vraie car elle est parole de Dieu, et Dieu existe car la Bible le dit ».*
 <!--ID: 1791050495061-->
 
 
@@ -112,7 +112,24 @@ tiennent par deux, et c'est l'écart entre les deux qui est l'information.*
 | **sophisme** | **paralogisme** | l'intention. Le premier accuse, le second excuse — les confondre, c'est prêter une mauvaise foi qu'on n'a pas constatée |
 | **tautologie** | **truisme** | l'un est vrai **par sa forme** et ne peut pas être faux ; l'autre est vrai **par le monde** et n'est seulement pas intéressant |
 | **spécieux** | **ad hoc** | où est le défaut. Le spécieux trompe par sa **forme** ; l'*ad hoc* trompe par son **moment** — il arrive après l'objection, taillé pour elle |
-| **prémisse** | **postulat** | l'aveu. Toute prémisse est un point de départ ; le **postulat dit de lui-même qu'il n'est pas démontré**. C'est un sous-ensemble, pas un synonyme — et la seule collision de gloses trouvée sur les 115 mots du domaine |
+| **prémisse** | **postulat** | l'aveu. Toute prémisse est un point de départ ; le **postulat dit de lui-même qu'il n'est pas démontré**. C'est un sous-ensemble, pas un synonyme |
+| **pétition de principe** | **circulaire** | le **nombre de pas** — et c'est une distinction fine, que beaucoup d'auteurs ignorent en employant l'un pour l'autre. La pétition de principe tient en **un pas** : la conclusion est déjà dans les prémisses. Le circulaire fait **le tour**, par un intermédiaire ou plusieurs. **En cas de doute, « circulaire » est le terme large et toujours défendable** |
+
+> ⚠️ **Collision trouvée à la révision le 2026-10-06, et pas par un script.**
+> `pétition de principe` et `circulaire` disaient **la même chose** — *« tenir pour acquis
+> dans les prémisses ce qu'il s'agissait de démontrer »* contre *« dont la conclusion est
+> déjà contenue dans ses prémisses »*. En sens *définition → mot*, les deux cartes avaient
+> donc deux réponses justes. Et l'exemple de la première — *« c'est efficace parce que ça
+> marche »* — illustrait en fait la seconde.
+>
+> **Les deux gloses ont été refaites sur l'axe du nombre de pas**, et la paire est entrée
+> dans le tableau. Aucun mot supprimé : les deux servent, et la distinction, pour fine
+> qu'elle soit, est celle que la logique emploie.
+>
+> **Le contrôle automatique avait raté cette paire** — il compare des caractères, et les
+> deux formulations ne se ressemblaient pas. **Deuxième fois en trois jours**, après
+> `gloss over` / `brush aside` côté anglais. Les deux fois, c'est un œil humain qui a vu :
+> c'est la limite à retenir, pas le script.
 
 ### 🔗 Connexions
 * [[Concept-Mot_Précède_L_Usage]] — *la note qui justifie cette fiche, et qui refuse sa version forte.*

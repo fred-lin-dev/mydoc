@@ -28,6 +28,22 @@ perd la phrase.
 > ouvertes signalées par drapeau. En reconnaissance, `gloss over` et `brush aside`
 > peuvent se ressembler sans gêner : on lit le verbe, on donne le sens.
 
+> ⚠️ **Dix gloses omettaient le sens le plus courant — corrigé le 2026-10-06.**
+> `take off` ne donnait pas *retirer un vêtement*, `work out` pas *faire de l'exercice*,
+> `pick up` pas *ramasser*, `make up` pas *constituer*, `turn up` pas *monter le volume*.
+>
+> **La cause n'est pas l'étourderie, c'est un critère périmé.** La première version
+> visait le **registre écrit et argumentatif**, et ces sens-là sont des sens de tous les
+> jours — ils étaient donc exclus à dessein. Puis le sens de carte est passé en
+> **reconnaissance**, dont l'objet est de comprendre l'anglais parlé et informel. **J'ai
+> changé la forme des cartes sans rouvrir leur contenu**, et l'ancien critère a survécu
+> dans les gloses.
+>
+> **La leçon dépasse cette fiche : quand le but d'un jeu de cartes change, le critère de
+> sélection change avec lui, et il faut le repasser en revue explicitement.** Ici c'est
+> un drapeau orange posé en révision qui l'a fait apparaître, pas un contrôle — aucun
+> script ne sait qu'un sens manque.
+
 **Le schéma de complément est indiqué quand il n'est pas évident** — *insécable*
 (`put up with somebody`), *séparable* (`figure it out`, jamais *figure out it*), ou à
 deux places (`talk somebody into something`). Même en reconnaissance c'est nécessaire :
@@ -143,7 +159,7 @@ A: confirmer, corroborer. *Séparable.* — *The data bear out his claim.*
 
 
 Q: **back up** — sens ?
-A: étayer par des preuves — ou sauvegarder un fichier. *Séparable.* — *Back up that claim with figures.*
+A: étayer par des preuves — ou sauvegarder un fichier — ou **reculer**, pour un véhicule. *Séparable aux deux premiers sens.* — *Back up that claim with figures.*
 <!--ID: 1791048840301-->
 
 
@@ -155,7 +171,7 @@ A: comprendre après réflexion, arriver à élucider. *Séparable :* figure it 
 
 
 Q: **work out** — sens ?
-A: résoudre, calculer — ou finir par bien se passer. *Séparable.* — *It worked out better than expected.*
+A: **faire de l'exercice physique** — ou résoudre, calculer — ou finir par bien se passer. *Séparable aux deux derniers sens.* — *He works out every morning. · It worked out better than expected.*
 <!--ID: 1791048840306-->
 
 
@@ -165,7 +181,7 @@ A: apprendre une information, découvrir. *Séparable.* — *He found out the ha
 
 
 Q: **make out** — sens ?
-A: distinguer avec peine — ou prétendre. *Séparable.* — *I could barely make out the sign.*
+A: distinguer avec peine — ou prétendre — ou **s'en sortir**, en anglais américain. *Séparable.* — *I could barely make out the sign. · How did you make out?*
 <!--ID: 1791048840311-->
 
 
@@ -195,7 +211,7 @@ A: régler un problème, démêler. *Séparable.* — *Sort it out before Monday
 
 
 Q: **pick up** — sens ?
-A: apprendre sans effort délibéré — ou aller chercher quelqu'un. *Séparable.* — *She picked up Spanish in a year.*
+A: **ramasser, prendre en main** — ou aller chercher quelqu'un — ou apprendre sans effort délibéré. *Séparable.* — *Pick it up. · She picked up Spanish in a year.*
 <!--ID: 1791048840327-->
 
 
@@ -227,7 +243,7 @@ A: partir — ou déclencher. *Séparable au second sens.* — *The remark set o
 
 
 Q: **take off** — sens ?
-A: décoller — ou connaître un succès soudain. *Insécable dans ces sens.* — *Sales took off after the review.*
+A: **retirer un vêtement** — ou décoller — ou connaître un succès soudain. *Séparable au premier sens :* take it off. — *He took off his coat. · Sales took off after the review.*
 <!--ID: 1791048840343-->
 
 
@@ -284,7 +300,7 @@ A: se brouiller avec. *Insécable.* — *He fell out with his brother over money
 
 
 Q: **make up** — sens ?
-A: se réconcilier — ou inventer de toutes pièces. *Séparable au second sens.* — *He made up the whole story.*
+A: **constituer, représenter une part** — ou se réconcilier — ou inventer de toutes pièces. *Séparable au dernier sens.* — *Women make up 40% of the intake. · He made up the whole story.*
 <!--ID: 1791048840372-->
 
 
@@ -554,7 +570,7 @@ A: compter sur une chose comme si elle était acquise. *Insécable.* — *Don't 
 ## Apparaître, surgir, se présenter
 
 Q: **come up** — sens ?
-A: survenir, être soulevé. *Insécable.* — *The question came up twice.*
+A: survenir, être soulevé — ou **s'approcher de quelqu'un**. *Insécable.* — *The question came up twice. · A man came up to me.*
 <!--ID: 1791048840510-->
 
 
@@ -564,7 +580,7 @@ A: surgir à l'improviste. *Insécable.* — *Problems keep cropping up.*
 
 
 Q: **turn up** — sens ?
-A: arriver, se présenter — ou être retrouvé. *Insécable dans ces sens.* — *He turned up an hour late.*
+A: arriver, se présenter — ou **monter le volume** — ou être retrouvé. *Séparable au sens du volume :* turn it up. — *He turned up an hour late. · Turn it up a bit.*
 <!--ID: 1791048840517-->
 
 
@@ -574,7 +590,7 @@ A: se présenter, venir — ou faire honte à quelqu'un. *Insécable au premier 
 
 
 Q: **come out** — sens ?
-A: paraître, être publié — ou se révéler. *Insécable.* — *The report comes out in March.*
+A: paraître, être publié — ou se révéler — ou **révéler publiquement son homosexualité**. *Insécable.* — *The report comes out in March.*
 <!--ID: 1791048840522-->
 
 
@@ -594,7 +610,7 @@ A: trouver, produire une idée ou une solution. *Insécable.* — *She came up w
 
 
 Q: **break out** — sens ?
-A: éclater, se déclencher — guerre, épidémie, incendie. *Insécable.* — *Fighting broke out the same night.*
+A: éclater, se déclencher — guerre, épidémie, incendie — ou **s'échapper d'un lieu fermé**. *Insécable.* — *Fighting broke out the same night. · Two men broke out of the prison.*
 <!--ID: 1791048840534-->
 
 

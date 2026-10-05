@@ -124,23 +124,38 @@ A: wrung / wrung
 *Le préfixe entre crochets est **obligatoire** : la regex `Cloze` du plugin l'exige.
 Vérifié avant d'écrire ce fichier.*
 
-[Irréguliers] The company has {{c1::undergone}} three reorganisations since 2020.
+> ⚠️ **L'infinitif entre `::` est obligatoire aussi, et pour une raison trouvée à la
+> révision — 2026-10-06.** Les cinq phrases avaient d'abord été écrites sans indice, et
+> **les cinq avaient plusieurs réponses justes** : *« The company has ___ three
+> reorganisations »* accepte `had`, `seen`, `experienced` autant que `undergone`. Un
+> cloze qui masque le verbe entier ne teste pas la **morphologie**, il teste le **choix
+> du mot** — ce qui n'est pas l'objet de ce fichier et n'a pas de réponse unique.
+>
+> **La syntaxe `{{c1::forme::infinitif}}`** affiche l'infinitif dans le trou. Le lemme
+> étant donné, c'est la grammaire de la phrase qui fixe la forme — prétérit après un
+> sujet nu, participe après `has` ou `had` — et la réponse redevient unique.
+>
+> **Deux phrases ont aussi été refaites pour une raison distincte :** *« has borne down
+> on us for weeks »* est peu idiomatique et acceptait `weighed` ; *« been forbidden
+> twice »* était faux en usage — on interdit une action, pas une exemption.
+
+[Irréguliers] The company has {{c1::undergone::undergo}} three reorganisations since 2020.
 <!--ID: 1791046919963-->
 
 
-[Irréguliers] He {{c1::swore}} he had never {{c2::sworn}} an oath before.
+[Irréguliers] He {{c1::swore::swear}} he had never {{c2::sworn::swear}} an oath before.
 <!--ID: 1791046919966-->
 
 
-[Irréguliers] The deadline has {{c1::borne}} down on us for weeks.
+[Irréguliers] She has {{c1::borne::bear}} the cost alone since January.
 <!--ID: 1791046919969-->
 
 
-[Irréguliers] They had {{c1::sought}} an exemption and been {{c2::forbidden}} twice.
+[Irréguliers] They had {{c1::sought::seek}} an exemption and were {{c2::forbidden::forbid}} to reapply.
 <!--ID: 1791046919971-->
 
 
-[Irréguliers] Attendance has {{c1::shrunk}} every term since the change.
+[Irréguliers] Attendance has {{c1::shrunk::shrink}} every term since the change.
 <!--ID: 1791046919974-->
 
 
@@ -200,8 +215,8 @@ A: bet / bet
 <!--ID: 1791047776166-->
 
 
-Q: **bid** — prétérit et participe passé ?
-A: bid / bid — *au sens d'enchérir. Au sens d'ordonner :* bade / bidden.
+Q: **bid** *(enchérir)* — prétérit et participe passé ?
+A: bid / bid — *au sens d'ordonner, il fait* bade / bidden.
 <!--ID: 1791047776169-->
 
 
@@ -415,8 +430,8 @@ A: grew / grown
 <!--ID: 1791047776290-->
 
 
-Q: **hang** — prétérit et participe passé ?
-A: hung / hung — *pour un objet. Pour une exécution :* hanged / hanged.
+Q: **hang** *(suspendre un objet)* — prétérit et participe passé ?
+A: hung / hung — *pour une exécution, il fait* hanged / hanged.
 <!--ID: 1791047776293-->
 
 
@@ -460,8 +475,8 @@ A: knelt / knelt — *ou* kneeled / kneeled.
 <!--ID: 1791047776317-->
 
 
-Q: **knit** — prétérit et participe passé ?
-A: knitted / knitted — *ou* knit / knit *au sens figuré :* a closely knit family.
+Q: **knit** *(tricoter)* — prétérit et participe passé ?
+A: knitted / knitted — *au sens figuré, il fait* knit / knit : a closely knit family.
 <!--ID: 1791047776320-->
 
 
@@ -510,8 +525,8 @@ A: let / let
 <!--ID: 1791047776346-->
 
 
-Q: **lie** — prétérit et participe passé ?
-A: lay / lain — *s'allonger. Au sens de mentir, il est régulier :* lied / lied.
+Q: **lie** *(s'allonger)* — prétérit et participe passé ?
+A: lay / lain — *au sens de mentir, il est régulier :* lied / lied.
 <!--ID: 1791047776349-->
 
 
@@ -670,8 +685,8 @@ A: shed / shed
 <!--ID: 1791047776437-->
 
 
-Q: **shine** — prétérit et participe passé ?
-A: shone / shone — *briller. Au sens de faire briller, il est régulier :* shined / shined.
+Q: **shine** *(briller)* — prétérit et participe passé ?
+A: shone / shone — *au sens de faire briller, il est régulier :* shined / shined.
 <!--ID: 1791047776440-->
 
 
@@ -740,8 +755,8 @@ A: spoke / spoken
 <!--ID: 1791047776475-->
 
 
-Q: **speed** — prétérit et participe passé ?
-A: sped / sped — *ou* speeded / speeded *au sens de* speed up.
+Q: **speed** *(aller vite)* — prétérit et participe passé ?
+A: sped / sped — *au sens de* speed up*, il fait* speeded / speeded.
 <!--ID: 1791047776478-->
 
 
@@ -820,8 +835,8 @@ A: strode / stridden — *le participe est rare et souvent évité.*
 <!--ID: 1791047776518-->
 
 
-Q: **strike** — prétérit et participe passé ?
-A: struck / struck — *au sens de frapper d'un mal :* stricken.
+Q: **strike** *(frapper)* — prétérit et participe passé ?
+A: struck / struck — *au sens de frapper d'un mal, le participe est* stricken.
 <!--ID: 1791047776521-->
 
 
