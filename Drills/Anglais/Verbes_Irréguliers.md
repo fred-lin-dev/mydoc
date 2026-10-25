@@ -10,6 +10,34 @@ qu'on reconnaît en lisant et qu'on évite en écrivant.
 inverse — « went, gone » → « go » — n'apprend rien. On veut **produire** les formes
 depuis l'infinitif, jamais l'inverse.
 
+## La variété de production : l'américain — tranché le 2026-10-25
+
+**26 cartes sur 181 avaient deux formes acceptables et ne disaient pas laquelle
+produire.** Signalé en révision par drapeau, sur `dwell` : *« les deux marchent, comment
+savoir lequel est bon ? »* — et la question n'avait pas de réponse, parce qu'elle
+supposait qu'il y en avait un de faux. `dwelt` et `dwelled` sont tous les deux corrects.
+
+> **La règle retenue : on produit l'américain, on reconnaît le britannique.**
+> Raison, et elle n'est pas une préférence : **l'inventaire de lecture est massivement
+> américain** — Newport, Clear, Greene, Taleb, van der Kolk, Lieberman, Roediger,
+> Williams & Bizup, Goffman. On rencontre donc `learned`, `spelled`, `burned` bien plus
+> souvent que leurs variantes. Produire la variété qu'on lit coûte moins d'effort, et
+> **ce qu'un correcteur de C1 sanctionne n'est aucune des deux formes, c'est leur
+> mélange dans un même texte.**
+
+**Et les 26 cas n'étaient pas tous de même nature — c'était le vrai défaut.** Le même
+« ou » recouvrait trois choses, désormais étiquetées séparément :
+
+| Étiquette | Ce qu'elle dit | Verbes |
+|---|---|---|
+| *Britannique : X — à reconnaître, pas à produire* | partage géographique, les deux corrects | burn, dream, dwell, lean, learn, smell, spell, spill, spoil, get, sweat, dive, quit, fit, spit |
+| *Comme adjectif : X* | la forme forte **survit devant le nom**, même en américain | burnt toast · a learned professor · spilt milk · a freshly mown lawn · shorn of · wedded bliss |
+| *vieilli · technique · toléré* | une seule forme est vivante | throve/thriven vieillis · wetted technique · stunk au prétérit toléré |
+
+> ⚠️ **La deuxième ligne est la plus utile, et mes cartes ne la disaient nulle part.**
+> `learned` au sens d'érudit se prononce **/ˈlɜːnɪd/, en deux syllabes** — c'est un mot
+> différent du participe. Savoir ça vaut plus que connaître le partage géographique.
+
 ---
 
 ## Les formes
@@ -256,7 +284,7 @@ A: built / built
 
 
 Q: **burn** — prétérit et participe passé ?
-A: burnt / burnt — *ou* burned / burned, *surtout en anglais américain.*
+A: burned / burned. *Britannique :* burnt / burnt — à reconnaître, pas à produire. *Comme adjectif, burnt reste partout :* burnt toast.
 <!--ID: 1791047776193-->
 
 
@@ -311,7 +339,7 @@ A: dug / dug
 
 
 Q: **dive** — prétérit et participe passé ?
-A: dived / dived — *en anglais américain :* dove / dived.
+A: dove / dived. *Britannique :* dived / dived — à reconnaître, pas à produire.
 <!--ID: 1791047776225-->
 
 
@@ -326,7 +354,7 @@ A: drew / drawn
 
 
 Q: **dream** — prétérit et participe passé ?
-A: dreamt / dreamt — *ou* dreamed / dreamed.
+A: dreamed / dreamed. *Britannique :* dreamt / dreamt — à reconnaître, pas à produire.
 <!--ID: 1791047776233-->
 
 
@@ -341,7 +369,7 @@ A: drove / driven
 
 
 Q: **dwell** — prétérit et participe passé ?
-A: dwelt / dwelt — *ou* dwelled / dwelled.
+A: dwelled / dwelled. *Britannique :* dwelt / dwelt — à reconnaître, pas à produire.
 <!--ID: 1791047776241-->
 
 
@@ -376,7 +404,7 @@ A: found / found
 
 
 Q: **fit** — prétérit et participe passé ?
-A: fit / fit — *en anglais britannique :* fitted / fitted.
+A: fit / fit, au sens d'être à la bonne taille. *Britannique :* fitted / fitted. *En américain, fitted sert pour poser ou ajuster :* a fitted kitchen.
 <!--ID: 1791047776261-->
 
 
@@ -411,7 +439,7 @@ A: froze / frozen
 
 
 Q: **get** — prétérit et participe passé ?
-A: got / got — *en anglais américain :* got / gotten.
+A: got / gotten. *Britannique :* got / got — à reconnaître, pas à produire. *C'est le participe qui change, jamais le prétérit.*
 <!--ID: 1791047776282-->
 
 
@@ -471,7 +499,7 @@ A: kept / kept
 
 
 Q: **kneel** — prétérit et participe passé ?
-A: knelt / knelt — *ou* kneeled / kneeled.
+A: knelt / knelt — dans les deux variétés. *kneeled existe et reste rare : toléré, pas attendu.*
 <!--ID: 1791047776317-->
 
 
@@ -496,17 +524,17 @@ A: led / led
 
 
 Q: **lean** — prétérit et participe passé ?
-A: leant / leant — *ou* leaned / leaned.
+A: leaned / leaned. *Britannique :* leant / leant — à reconnaître, pas à produire.
 <!--ID: 1791047776331-->
 
 
 Q: **leap** — prétérit et participe passé ?
-A: leapt / leapt — *ou* leaped / leaped.
+A: leaped / leaped. *Britannique :* leapt / leapt — mais leapt reste courant en américain aussi, donc les deux se lisent partout.
 <!--ID: 1791047776334-->
 
 
 Q: **learn** — prétérit et participe passé ?
-A: learnt / learnt — *ou* learned / learned.
+A: learned / learned. *Britannique :* learnt / learnt — à reconnaître, pas à produire. ⚠️ *Comme adjectif, learned veut dire érudit et se prononce* /ˈlɜːnɪd/, *en deux syllabes :* a learned professor.
 <!--ID: 1791047776338-->
 
 
@@ -531,7 +559,7 @@ A: lay / lain — *au sens de mentir, il est régulier :* lied / lied.
 
 
 Q: **light** — prétérit et participe passé ?
-A: lit / lit — *ou* lighted / lighted.
+A: lit / lit — dans les deux variétés. *lighted s'emploie surtout devant le nom :* a lighted candle.
 <!--ID: 1791047776352-->
 
 
@@ -566,7 +594,7 @@ A: misunderstood / misunderstood
 
 
 Q: **mow** — prétérit et participe passé ?
-A: mowed / mown — *ou* mowed / mowed.
+A: mowed / mowed. *mown survit comme adjectif :* a freshly mown lawn.
 <!--ID: 1791047776372-->
 
 
@@ -591,7 +619,7 @@ A: paid / paid
 
 
 Q: **prove** — prétérit et participe passé ?
-A: proved / proven — *ou* proved / proved.
+A: proved / proven. *proved comme participe reste correct, mais proven domine, surtout devant le nom :* a proven method.
 <!--ID: 1791047776386-->
 
 
@@ -601,7 +629,7 @@ A: put / put
 
 
 Q: **quit** — prétérit et participe passé ?
-A: quit / quit — *en anglais britannique :* quitted / quitted.
+A: quit / quit. *Britannique :* quitted / quitted — vieilli, à reconnaître seulement.
 <!--ID: 1791047776392-->
 
 
@@ -676,7 +704,7 @@ A: shook / shaken
 
 
 Q: **shear** — prétérit et participe passé ?
-A: sheared / shorn — *ou* sheared / sheared.
+A: sheared / sheared. *shorn survit comme adjectif et au figuré :* shorn of all authority.
 <!--ID: 1791047776435-->
 
 
@@ -746,7 +774,7 @@ A: slit / slit
 
 
 Q: **smell** — prétérit et participe passé ?
-A: smelt / smelt — *ou* smelled / smelled.
+A: smelled / smelled. *Britannique :* smelt / smelt — à reconnaître, pas à produire.
 <!--ID: 1791047776473-->
 
 
@@ -761,7 +789,7 @@ A: sped / sped — *au sens de* speed up*, il fait* speeded / speeded.
 
 
 Q: **spell** — prétérit et participe passé ?
-A: spelt / spelt — *ou* spelled / spelled.
+A: spelled / spelled. *Britannique :* spelt / spelt — à reconnaître, pas à produire.
 <!--ID: 1791047776481-->
 
 
@@ -771,12 +799,12 @@ A: spent / spent
 
 
 Q: **spill** — prétérit et participe passé ?
-A: spilt / spilt — *ou* spilled / spilled.
+A: spilled / spilled. *Britannique :* spilt / spilt — à reconnaître, pas à produire. *L'idiome garde les deux :* no use crying over spilt milk.
 <!--ID: 1791047776486-->
 
 
 Q: **spit** — prétérit et participe passé ?
-A: spat / spat — *en anglais américain :* spit / spit.
+A: spit / spit. *Britannique :* spat / spat — mais spat reste fréquent à l'écrit américain : c'est le cas le moins net des vingt-six.
 <!--ID: 1791047776489-->
 
 
@@ -786,7 +814,7 @@ A: split / split
 
 
 Q: **spoil** — prétérit et participe passé ?
-A: spoilt / spoilt — *ou* spoiled / spoiled.
+A: spoiled / spoiled. *Britannique :* spoilt / spoilt — à reconnaître, pas à produire. *Comme adjectif, les deux se disent :* a spoiled child.
 <!--ID: 1791047776495-->
 
 
@@ -821,12 +849,12 @@ A: stung / stung
 
 
 Q: **stink** — prétérit et participe passé ?
-A: stank / stunk — *ou* stunk / stunk.
+A: stank / stunk. *stunk au prétérit est toléré à l'oral, mais stank est la forme attendue à l'écrit.*
 <!--ID: 1791047776513-->
 
 
 Q: **strew** — prétérit et participe passé ?
-A: strewed / strewn — *ou* strewed / strewed.
+A: strewed / strewn. *strewed comme participe est correct et nettement plus rare.*
 <!--ID: 1791047776516-->
 
 
@@ -886,7 +914,7 @@ A: thought / thought
 
 
 Q: **thrive** — prétérit et participe passé ?
-A: thrived / thrived — *ou* throve / thriven, *vieilli.*
+A: thrived / thrived. *throve / thriven sont vieillis : à reconnaître dans un texte ancien, jamais à produire.*
 <!--ID: 1791047776548-->
 
 
@@ -931,7 +959,7 @@ A: wept / wept
 
 
 Q: **wet** — prétérit et participe passé ?
-A: wet / wet — *ou* wetted / wetted.
+A: wet / wet. *wetted ne s'emploie qu'en contexte technique :* the surface was wetted with acid.
 <!--ID: 1791047776568-->
 
 
@@ -966,12 +994,12 @@ A: wrote / written
 
 
 Q: **sweat** — prétérit et participe passé ?
-A: sweat / sweat — *ou* sweated / sweated, *surtout en anglais britannique.*
+A: sweat / sweat. *Britannique :* sweated / sweated — à reconnaître, pas à produire.
 <!--ID: 1791047776579-->
 
 
 Q: **wed** — prétérit et participe passé ?
-A: wedded / wedded — *ou* wed / wed.
+A: wedded / wedded. *wed / wed s'emploie surtout dans les titres de presse. Comme adjectif :* wedded bliss.
 <!--ID: 1791047776581-->
 
 

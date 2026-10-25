@@ -628,3 +628,35 @@ Q: **run out of** — sens ?
 A: ne plus avoir de, être à court de. *Insécable.* — *We ran out of time.*
 <!--ID: 1791048840542-->
 
+
+---
+
+## Ajoutés le 2026-10-25 — les non devinables qui manquaient
+
+> **Pourquoi ils ne sont pas rangés dans les sections thématiques ci-dessus.** Les 112
+> cartes précédentes portent toutes un identifiant ; celles-ci sont neuves, et la règle
+> dure du vault — *une carte neuve va en dernier, jamais au milieu* — interdit de les
+> intercaler. L'ordre du fichier est chronologique, pas thématique.
+
+**Ce qui les réunit : au moins un de leurs sens est impossible à deviner à partir des
+morceaux**, et c'est le seul critère qui compte en reconnaissance. Ils avaient été
+écartés de la première sélection, qui visait le registre écrit — l'oubli est le même que
+celui des dix gloses incomplètes, et il a la même cause.
+
+Q: **go off** — sens ?
+A: sonner, pour une alarme — ou **s'avarier**, pour un aliment — ou exploser. *Insécable.* — *The alarm went off at six. · The milk has gone off.*
+
+Q: **pass out** — sens ?
+A: **s'évanouir** — ou distribuer à la ronde. *Séparable au second sens :* pass them out. — *He passed out in the heat.*
+
+Q: **look up** — sens ?
+A: **chercher un mot ou une information** dans un ouvrage — ou s'améliorer, pour une situation. *Séparable :* look it up. — *Look it up in the dictionary. · Things are looking up.*
+
+Q: **hold up** — sens ?
+A: retarder, immobiliser — ou **braquer à main armée** — ou tenir à l'examen. *Séparable.* — *The strike held up deliveries. · Does the theory hold up?*
+
+Q: **take out** — sens ?
+A: sortir, retirer — ou **souscrire** un prêt ou une assurance — ou éliminer. *Séparable :* take it out. — *He took out a loan against the house.*
+
+Q: **set up** — sens ?
+A: mettre en place, créer — ou **piéger quelqu'un** en lui faisant porter une faute. *Séparable :* set it up. — *They set up a committee. · I was set up.*
