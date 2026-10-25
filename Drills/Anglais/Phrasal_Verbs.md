@@ -645,18 +645,30 @@ celui des dix gloses incomplètes, et il a la même cause.
 
 Q: **go off** — sens ?
 A: sonner, pour une alarme — ou **s'avarier**, pour un aliment — ou exploser. *Insécable.* — *The alarm went off at six. · The milk has gone off.*
+<!--ID: 1792936373466-->
+
 
 Q: **pass out** — sens ?
 A: **s'évanouir** — ou distribuer à la ronde. *Séparable au second sens :* pass them out. — *He passed out in the heat.*
+<!--ID: 1792936373476-->
+
 
 Q: **look up** — sens ?
 A: **chercher un mot ou une information** dans un ouvrage — ou s'améliorer, pour une situation. *Séparable :* look it up. — *Look it up in the dictionary. · Things are looking up.*
+<!--ID: 1792936373479-->
+
 
 Q: **hold up** — sens ?
 A: retarder, immobiliser — ou **braquer à main armée** — ou tenir à l'examen. *Séparable.* — *The strike held up deliveries. · Does the theory hold up?*
+<!--ID: 1792936373482-->
+
 
 Q: **take out** — sens ?
 A: sortir, retirer — ou **souscrire** un prêt ou une assurance — ou éliminer. *Séparable :* take it out. — *He took out a loan against the house.*
+<!--ID: 1792936373486-->
+
 
 Q: **set up** — sens ?
 A: mettre en place, créer — ou **piéger quelqu'un** en lui faisant porter une faute. *Séparable :* set it up. — *They set up a committee. · I was set up.*
+<!--ID: 1792936373489-->
+
