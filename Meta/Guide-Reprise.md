@@ -35,11 +35,28 @@ revérifier** — il a été périmé deux fois, et c'est le seul endroit du vau
 contrôle ne vérifie.*
 
 ```
-233 notes · 163 Concept- · 41 Source- · 19 Ref- · 5 MOC- · 5 Guide-
+241 notes · 164 Concept- · 41 Source- · 19 Ref- · 6 MOC- · 6 Vocab- · 5 Guide-
 0 erreur · 0 alerte · 0 info — l'audit est entièrement vide
-466 cartes écrites · 407 dans Anki, **59 neuves à scanner**
-87 titres à l'inventaire, 60 sur le disque (394 Mo) — dont 1 EPUB
+887 cartes écrites, **toutes synchronisées** · 1004 cartes dans Anki, 221 vues
+87 titres à l'inventaire, 57 sur le disque (368 Mo) — dont 1 EPUB
 ```
+
+> ⚠️ **`Drills/` n'est pas dans ces chiffres, et c'est voulu.** C'est le seul dossier
+> **hors Zettelkasten** : du matériel d'entraînement, exclu de `Scripts/audit.py`, sans
+> `fiabilite` ni MOC ni test de citabilité, et dans son propre deck Anki hors de
+> `Zettelkasten::`. Il porte pourtant **un tiers des cartes du dispositif** :
+>
+> ```
+> Drills/Anglais/Verbes_Irréguliers.md   181 verbes + 5 phrases en cloze
+> Drills/Anglais/Phrasal_Verbs.md        118 verbes
+>                                        → deck « Anglais », 306 cartes
+> ```
+>
+> **La ligne de partage, et elle gouverne les deux dossiers de mots :** un mot qui
+> **nomme un concept** entre dans `Lexique/`, quelle que soit sa langue ; tout ce qui
+> **s'automatise** va dans `Drills/`. C'est elle qui a fait renommer `Langues/` en
+> `Lexique/` et sortir `English_Phrasal_Verbs` de l'inventaire actif. Détail dans
+> [[Guide-Conventions]], section `Drills/`.
 
 | Domaine | `Concept-` | `Source-` | `Ref-` |
 |---|---|---|---|
@@ -264,7 +281,7 @@ attendu le plus faible.
 
 - ✅ **`Lexique/` — ex-`Langues/`, renommé le 2026-10-03.** Le préfixe `Vocab-` a été créé (sixième),
   le type Anki `Vocabulaire_Elite` de l'ancien vault est **enfin en service**, et le domaine
-  porte 4 fiches / 56 mots. `English_Phrasal_Verbs` est passé `dehors` : l'anglais
+  porte **6 fiches / 115 mots**. `English_Phrasal_Verbs` est passé `dehors` : l'anglais
   s'entraîne dans **`Drills/`**, hors Zettelkasten et hors audit. Voir [[MOC-Lexique]].
 - **Une note manquante que rien ne peut combler par la fiction :** la **spécification
   incomplète**, qu'illustre parfaitement *I, Robot* — mais une fiction ne crée pas de
@@ -290,6 +307,19 @@ avait été tranchée.
 ---
 
 ## 7 · Réflexes à conserver
+
+> **Deux décisions debout qu'une nouvelle séance ne doit pas contredire sans le savoir :**
+>
+> 1. **L'anglais se produit en américain, se reconnaît en britannique.** Tranché le
+>    2026-10-25 sur 26 cartes qui avaient deux formes acceptables sans dire laquelle
+>    produire. La raison n'est pas une préférence : l'inventaire de lecture est
+>    massivement américain. Ce qu'un correcteur sanctionne n'est aucune des deux formes,
+>    c'est leur **mélange**. Détail et étiquettes dans `Drills/Anglais/Verbes_Irréguliers.md`.
+> 2. **Le sens de carte dépend du but, et change avec lui.** `Lexique/` va en
+>    *définition → mot*, parce qu'on veut **produire**. `Drills/Anglais` va en
+>    *verbe → sens*, parce qu'on veut **reconnaître**. Avoir changé la forme sans rouvrir
+>    le contenu a laissé dix gloses incomplètes pendant trois semaines — c'est la seule
+>    erreur de cette période, et elle a été trouvée par un drapeau, pas par un contrôle.
 
 1. **Lancer `python3 Scripts/audit.py` avant et après chaque séance.** Il ne modifie rien.
 2. **Jamais de `mv` ni de `rm` sur un `.md`** — F2 ou glisser-déposer dans Obsidian, décision 10.
